@@ -1,40 +1,15 @@
 [
   {
-    "id": "01",
     "stt_text": "이게 뭐야?",
-    "image_path": "TEST/images/TEST1.png",
+    "image_path": "TEST/siglip2/sig_01_GT.jpg",
+    "mode": 0,
+    "schrodinger_mode": "real_to_illust"
+  },
+  {
+    "stt_text": "핸들 조작 방법 알려줘",
+    "image_path": "TEST/siglip2/sig_02_GT.jpg", 
     "mode": 1,
     "bbox": [400, 110, 846, 571],
-    "schrodinger_mode": "real_to_illust"
-  },
-  {
-    "id": "02",
-    "stt_text": "풍향 조절은 어떻게 해?",
-    "image_path": "TEST/images/TEST2.png", 
-    "mode": 1,
-    "bbox": [417, 253, 797, 473],
-    "schrodinger_mode": "real_to_illust"
-  },
-  {
-    "id": "03",
-    "stt_text": "이걸 누르면 뭘 할 수가 있어?",
-    "image_path": "TEST/images/TEST3.png", 
-    "mode": 0,
-    "schrodinger_mode": "real_to_illust"
-  },
-  {
-    "id": "04",
-    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
-    "image_path": "TEST/images/TEST4.png", 
-    "mode": 0,
-    "schrodinger_mode": "real_to_illust"
-  },
-  {
-    "id": "05",
-    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
-    "image_path": "TEST/images/TEST5.png", 
-    "mode": 1,
-    "bbox": [491, 155, 783, 461],
     "schrodinger_mode": "real_to_illust"
   }
 ]

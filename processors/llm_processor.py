@@ -35,19 +35,17 @@ class LLMProcessor:
         """
         try:
             # 시스템 프롬프트 구성
-            system_prompt = """You are a BMW automotive expert. When a user asks about a specific part or feature of a BMW vehicle, provide an accurate and friendly answer by referencing the provided BMW manual pages.
-
-            Your response should include the following:
-
-            A clear explanation of the queried part/feature.
-
-            Instructions on how to use or operate it (if applicable).
-
-            Precautions or safety information (if applicable).
-
-            Information about the manual pages you referenced.
-
-            Please answer in English."""
+            system_prompt = """당신은 BMW 자동차 전문가입니다. 
+            사용자가 BMW 차량의 특정 부품이나 기능에 대해 질문할 때, 
+            제공된 BMW 매뉴얼 페이지를 참조하여 정확하고 친절한 답변을 제공하세요.
+            
+            답변 시 다음을 포함하세요:
+            1. 질문한 부품/기능에 대한 명확한 설명
+            2. 사용 방법이나 조작법 (해당되는 경우)
+            3. 주의사항이나 안전 정보 (해당되는 경우)
+            4. 참조한 매뉴얼 페이지 정보
+            
+            한국어로 답변하세요."""
             
             # 사용자 메시지 구성
             messages = [

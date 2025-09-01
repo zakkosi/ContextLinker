@@ -6,9 +6,9 @@ from pathlib import Path
 
 class SchrodingerBridgeProcessor:
     def __init__(self, 
-                real_to_illust_model_path: str = "models/checkpoints/335_net_G_A2B.pth",  # A2B = real to illust
-                illust_to_real_model_path: str = "models/checkpoints/225_net_G_B2A.pth",  # B2A = illust to real
-                device: str = "cuda:0"):
+                 real_to_illust_model_path: str = "models/checkpoints/real_to_illust.pth",
+                 illust_to_real_model_path: str = "models/checkpoints/illust_to_real.pth",
+                 device: str = "cuda:0"):
         """슈뢰딩거 브릿지 프로세서 초기화"""
         self.device = device
         self.real_to_illust_model_path = real_to_illust_model_path

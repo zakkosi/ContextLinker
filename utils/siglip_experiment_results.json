@@ -1,0 +1,82 @@
+[
+  {
+    "experiment_name": "GT vs Manual",
+    "total_pairs": 4,
+    "successful_pairs": 4,
+    "failed_pairs": 0,
+    "avg_similarity": 0.5906353145837784,
+    "max_similarity": 0.6015501618385315,
+    "min_similarity": 0.5735762119293213,
+    "total_processing_time": 0.10689187049865723,
+    "results": [
+      {
+        "pair_id": 1,
+        "gt_image": "sig_01_GT.jpg",
+        "compare_image": "sig_01_MN.png",
+        "similarity_score": 0.5960453748703003,
+        "processing_time": 0.027178287506103516
+      },
+      {
+        "pair_id": 2,
+        "gt_image": "sig_02_GT.jpg",
+        "compare_image": "sig_02_MN.png",
+        "similarity_score": 0.5913695096969604,
+        "processing_time": 0.026859760284423828
+      },
+      {
+        "pair_id": 3,
+        "gt_image": "sig_03_GT.jpg",
+        "compare_image": "sig_03_MN.png",
+        "similarity_score": 0.5735762119293213,
+        "processing_time": 0.02697277069091797
+      },
+      {
+        "pair_id": 4,
+        "gt_image": "sig_04_GT.jpg",
+        "compare_image": "sig_04_MN.png",
+        "similarity_score": 0.6015501618385315,
+        "processing_time": 0.025881052017211914
+      }
+    ]
+  },
+  {
+    "experiment_name": "GT vs Schrodinger",
+    "total_pairs": 4,
+    "successful_pairs": 4,
+    "failed_pairs": 0,
+    "avg_similarity": 0.6636757403612137,
+    "max_similarity": 0.6866500377655029,
+    "min_similarity": 0.6238154172897339,
+    "total_processing_time": 0.12227725982666016,
+    "results": [
+      {
+        "pair_id": 1,
+        "gt_image": "sig_01_GT.jpg",
+        "compare_image": "sig_01_SCH.png",
+        "similarity_score": 0.6238154172897339,
+        "processing_time": 0.027823209762573242
+      },
+      {
+        "pair_id": 2,
+        "gt_image": "sig_02_GT.jpg",
+        "compare_image": "sig_02_SCH.png",
+        "similarity_score": 0.676551342010498,
+        "processing_time": 0.04315447807312012
+      },
+      {
+        "pair_id": 3,
+        "gt_image": "sig_03_GT.jpg",
+        "compare_image": "sig_03_SCH.png",
+        "similarity_score": 0.6866500377655029,
+        "processing_time": 0.025150060653686523
+      },
+      {
+        "pair_id": 4,
+        "gt_image": "sig_04_GT.jpg",
+        "compare_image": "sig_04_SCH.png",
+        "similarity_score": 0.6676861643791199,
+        "processing_time": 0.026149511337280273
+      }
+    ]
+  }
+]

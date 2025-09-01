@@ -1,0 +1,232 @@
+[
+  {
+    "success": true,
+    "stt_text": "이게 뭐야?",
+    "segmented_image_path": "temp_segmented_1756715405.png",
+    "processed_image_path": "temp/real_to_illust_1879.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_138.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+        "similarity_score": 488.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_218.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_218.png",
+        "similarity_score": 470.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_140.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+        "similarity_score": 440.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_332.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_332.png",
+        "similarity_score": 408.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 402.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "This is a BMW steering wheel.\n\n### Steering Wheel Features:\n\n1. **Steering Wheel Controls**: \n   - These can include buttons for audio control, cruise control, and other driver assistance systems.\n   \n2. **Steering Wheel Heating**:\n   - This feature can be activated using a button usually located on the steering wheel or nearby. When activated, it warms the steering wheel for enhanced comfort in cold weather.\n   - Reference: Page 94.\n\n3. **Memory Function**:\n   - The steering wheel position can be saved using the memory function, allowing it to return to a preset position when the car is started.\n   - Reference: Page 94.\n\n4. **Adjusting the Steering Wheel**:\n   - There are typically controls to adjust the steering wheel's height and depth to suit the driver’s preference.\n   - Reference: Page 93.\n\n### Safety Precautions:\n- **Memory Function**: Do not use this function while driving as it can cause unexpected movements, leading to safety hazards. Only adjust or recall memory settings when the vehicle is stationary.\n\n### Additional Information:\n- For more detailed instructions on using these features, refer to pages 93 and 94 of the manual.\n\nThese features are designed to enhance comfort and convenience while ensuring a safe driving experience.",
+    "processing_time": 18.209253311157227,
+    "detailed_times": {
+      "sam2_time": 0.14224934577941895,
+      "total_time": 18.209253311157227
+    },
+    "test_case_id": 1
+  },
+  {
+    "success": true,
+    "stt_text": "풍향 조절은 어떻게 해?",
+    "segmented_image_path": "temp_segmented_1756715423.png",
+    "processed_image_path": "temp/real_to_illust_-902.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 420.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 416.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_001.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+        "similarity_score": 394.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 390.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_142.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+        "similarity_score": 366.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "BMW 차량의 풍향 조절에 대해 설명드리겠습니다.\n\n### 풍향 조절 방법\n\n1. **풍향 조절 버튼/레버 사용**: 대시보드 중앙에 있는 공조 장치 패널에서 풍향을 조절할 수 있습니다. 화살표나 아이콘을 통해 원하는 방향으로 공기를 보내도록 설정하세요.\n\n2. **디스플레이 컨트롤**: 최신 모델은 디스플레이 화면에서 터치를 통해 풍향을 선택할 수도 있습니다.\n\n### 참고 사항\n\n- **안전 주의**: 주행 중에는 주의를 기울여 조작하세요.\n- **효율적인 사용**: 시원한 공기를 원할 경우, 에어컨과 함께 사용하세요.\n\n위 내용은 BMW 매뉴얼의 관련 페이지를 참조하였습니다. 도움이 필요하시면 추가로 알려주세요!",
+    "processing_time": 13.375600337982178,
+    "detailed_times": {
+      "sam2_time": 0.41451549530029297,
+      "total_time": 13.375600337982178
+    },
+    "test_case_id": 2
+  },
+  {
+    "success": true,
+    "stt_text": "이걸 누르면 뭘 할 수가 있어?",
+    "segmented_image_path": "temp_segmented_1756715437.png",
+    "processed_image_path": "temp/real_to_illust_-300.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 358.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 356.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 356.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_147.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_147.png",
+        "similarity_score": 354.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_148.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_148.png",
+        "similarity_score": 352.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "The image you pointed to shows the \"Start/Stop Engine\" button in a BMW vehicle. Here's a brief explanation and how to use it:\n\n### Explanation:\n- **Start/Stop Engine Button**: This button is used to start or stop the vehicle's engine. It replaces the traditional ignition key.\n\n### How to Use:\n1. **Starting the Engine**:\n   - Ensure the vehicle is in \"Park\" (for automatic transmission) or \"Neutral\" (for manual transmission).\n   - Press the brake pedal (or the clutch for manual transmission).\n   - Press the \"Start/Stop Engine\" button once to start the engine.\n\n2. **Stopping the Engine**:\n   - Bring the vehicle to a complete stop.\n   - Press the \"Start/Stop Engine\" button once to turn off the engine.\n\n### Precautions:\n- Ensure the vehicle is properly parked before turning off the engine.\n- Avoid repeatedly pressing the button rapidly, as it may cause damage or malfunction.\n\n### References:\n- This information is typically found on pages covering starting/stopping the engine and vehicle controls in the BMW manual, similar to the provided pages (e.g., page 480).\n\nIf you have any more questions or need further assistance, feel free to ask!",
+    "processing_time": 13.591078281402588,
+    "detailed_times": {
+      "sam2_time": 0.31772279739379883,
+      "total_time": 13.591078281402588
+    },
+    "test_case_id": 3
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "segmented_image_path": "temp_segmented_1756715450.png",
+    "processed_image_path": "temp/real_to_illust_-769.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 432.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 414.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_328.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_328.png",
+        "similarity_score": 414.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_287.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_287.png",
+        "similarity_score": 406.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_001.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+        "similarity_score": 400.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "The buttons in the images you provided have the following functions:\n\n1. **Start/Stop Engine Button**:\n   - This button is used to start or stop the engine of your BMW. \n   - To start the engine, press the button while the brake is pressed. To stop the engine, press it again when the vehicle is stationary.\n\n2. **Trunk Release Button**:\n   - This button is used to open the trunk of the vehicle.\n   - Pressing it will release the trunk latch, allowing you to open the trunk.\n\nFor more detailed instructions and safety information, you can refer to the relevant pages in your BMW manual. \n\nIf you have any specific questions about how to use these buttons or related features, feel free to ask!",
+    "processing_time": 13.934608697891235,
+    "detailed_times": {
+      "sam2_time": 0.24181675910949707,
+      "total_time": 13.934608697891235
+    },
+    "test_case_id": 4
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "segmented_image_path": "temp_segmented_1756715464.png",
+    "processed_image_path": "temp/real_to_illust_-313.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_001.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+        "similarity_score": 406.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 396.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 388.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 382.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 364.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "The image shows a BMW key fob with several buttons. Here's a general explanation of their functions based on typical BMW key fobs:\n\n1. **Lock Button**: \n   - This button locks all the doors of the vehicle. Press it once to lock the doors.\n\n2. **Unlock Button**:\n   - This button unlocks the driver's door or all doors, depending on the vehicle's settings. Press it once to unlock the driver's door, and press it twice to unlock all doors.\n\n3. **Trunk Release Button**:\n   - This button opens the trunk. Press and hold it to release the trunk latch.\n\n4. **Panic Button**:\n   - This button activates the car's alarm system. Press and hold it to trigger the alarm, which can be useful in emergency situations to attract attention.\n\nFor detailed functions specific to your model, please refer to your owner's manual.\n\nIf you have more questions about specific features or need further assistance, feel free to ask!",
+    "processing_time": 11.240204334259033,
+    "detailed_times": {
+      "sam2_time": 0.25555419921875,
+      "total_time": 11.240204334259033
+    },
+    "test_case_id": 5
+  }
+]

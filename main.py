@@ -31,7 +31,8 @@ class BMWManualAssistant:
         self.db_embeddings = []
         self.db_image_paths = []
         self._preload_pdf_embeddings()
-        
+        self.schrodinger_mode = "real_to_illust"
+
         print("BMW Manual Assistant 초기화 완료")
     
     def _preload_pdf_embeddings(self):
@@ -125,7 +126,7 @@ class BMWManualAssistant:
             print(f"매뉴얼 페이지 검색 실패: {e}")
             return []
     
-    def process_request(self, request_data: Dict[str, Any]) -> Dict[str, Any]:
+    def process_request(self, request_data: Dict[str, Any], experiment_dir: str = None, test_id: int = 1) -> Dict[str, Any]:
         """
         Unity 요청 처리
         
@@ -134,8 +135,7 @@ class BMWManualAssistant:
                 "stt_text": str,
                 "image_path": str,
                 "mode": int (0 or 1),
-                "bbox": List[float] (optional, if mode=1),
-                "schrodinger_mode": str ("real_to_illust" or "illust_to_real", default="real_to_illust")
+                "bbox": List[float] (optional, if mode=1),                
             }
             
         Returns:
@@ -147,14 +147,14 @@ class BMWManualAssistant:
         image_path = request_data.get("image_path", "")
         mode = request_data.get("mode", 0)
         bbox = request_data.get("bbox", None)
-        schrodinger_mode = request_data.get("schrodinger_mode", "real_to_illust")
+        schrodinger_mode = self.schrodinger_mode
         
         print(f"\n=== BMW Manual Assistant 요청 처리 ===")
         print(f"STT: {stt_text}")
         print(f"이미지: {image_path}")
         print(f"모드: {mode}")
         print(f"BBox: {bbox}")
-        print(f"슈뢰딩거 모드: {schrodinger_mode}")
+        print(f"슈뢰딩거 모드: {schrodinger_mode} (서버 고정값)")
         
         try:
             # 1. SAM2로 세그멘테이션
@@ -218,15 +218,18 @@ class BMWManualAssistant:
                 }
             }
 
-            experiment_folder = self.save_experiment_results(
-                result, 
-                segmented_path, 
-                processed_path, 
-                similar_pages
-            )
-            result['experiment_folder'] = experiment_folder
-
-            print(f"실험 결과 저장: {experiment_folder}")        
+            if experiment_dir and test_id:
+                experiment_folder = self.save_experiment_results(
+                    result, 
+                    segmented_path, 
+                    processed_path, 
+                    similar_pages,
+                    experiment_dir,  
+                    test_id          
+                )
+                print(f"실험 결과 저장: {experiment_folder}")
+            else:
+                print("실험 결과 저장 건너뛰기 (experiment_dir 또는 test_id 없음)")   
             print(f"\n=== 처리 완료 (총 {total_time:.2f}초) ===")
             print(f"최종 답변: {llm_result.get('response', 'No response')[:100]}...")
             
@@ -251,31 +254,27 @@ class BMWManualAssistant:
             except:
                 pass
 
-    def save_experiment_results(self, result, segmented_path, processed_path, similar_pages):
-        """실험 결과를 체계적으로 저장"""
-        from datetime import datetime
-        import shutil
-        
-        # 실험 폴더 생성 (exp_MMDD_HHMM)
-        timestamp = datetime.now().strftime("exp_%m%d_%H%M")
-        experiment_dir = f"output/experiments/{timestamp}"
-        os.makedirs(experiment_dir, exist_ok=True)
-        os.makedirs(f"{experiment_dir}/retrieved_pages", exist_ok=True)
+    def save_experiment_results(self, result, segmented_path, processed_path, similar_pages, experiment_dir, test_id):
+        """실험 결과를 지정된 폴더에 저장"""
+        # 테스트별 서브폴더 생성
+        test_dir = f"{experiment_dir}/test_{test_id:02d}"
+        os.makedirs(test_dir, exist_ok=True)
+        os.makedirs(f"{test_dir}/retrieved_pages", exist_ok=True)
         
         # 이미지 파일들 복사
-        shutil.copy(segmented_path, f"{experiment_dir}/sam2_segmented.png")
-        shutil.copy(processed_path, f"{experiment_dir}/schrodinger_processed.png")
+        shutil.copy(segmented_path, f"{test_dir}/sam2_segmented.png")
+        shutil.copy(processed_path, f"{test_dir}/schrodinger_processed.png")
         
         # 검색된 매뉴얼 페이지들 복사
         for page in similar_pages:
             page_name = page['image_name']
-            shutil.copy(page['image_path'], f"{experiment_dir}/retrieved_pages/{page_name}")
+            shutil.copy(page['image_path'], f"{test_dir}/retrieved_pages/{page_name}")
         
         # JSON 결과 저장
-        with open(f"{experiment_dir}/results.json", 'w', encoding='utf-8') as f:
+        with open(f"{test_dir}/result.json", 'w', encoding='utf-8') as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
         
-        return experiment_dir
+        return test_dir
 
 def load_test_cases(json_file: str = "test_cases.json") -> List[Dict[str, Any]]:
     """테스트 케이스 JSON 파일 로드"""
@@ -297,6 +296,10 @@ def run_test_pipeline():
         return
     
     try:
+        timestamp = datetime.now().strftime("%H%M%S")
+        experiment_dir = f"output/experiments/exp_test_cases_{timestamp}"
+        os.makedirs(experiment_dir, exist_ok=True)
+
         # BMW 어시스턴트 초기화
         assistant = BMWManualAssistant()
         
@@ -307,7 +310,7 @@ def run_test_pipeline():
             print(f"테스트 케이스 {i}/{len(test_cases)}")
             print(f"{'='*60}")
             
-            result = assistant.process_request(test_case)
+            result = assistant.process_request(test_case, experiment_dir, i)
             result['test_case_id'] = i
             results.append(result)
             
@@ -317,10 +320,10 @@ def run_test_pipeline():
                 print(f"\n❌ 테스트 {i} 실패: {result['error']}")
         
         # 결과 저장
-        with open('pipeline_test_results.json', 'w', encoding='utf-8') as f:
+        with open(f'{experiment_dir}/all_results.json', 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False, default=str)
         
-        print(f"\n테스트 결과 저장: pipeline_test_results.json")
+        print(f"\n실험 결과 저장: {experiment_dir}")
         
         # 성공률 계산
         successful_tests = len([r for r in results if r['success']])

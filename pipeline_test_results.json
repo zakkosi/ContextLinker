@@ -2,8 +2,8 @@
   {
     "success": true,
     "stt_text": "이게 뭐야?",
-    "segmented_image_path": "temp_segmented_1756715405.png",
-    "processed_image_path": "temp/real_to_illust_1879.png",
+    "segmented_image_path": "temp_segmented_1756800397.png",
+    "processed_image_path": "temp/real_to_illust_2232.png",
     "schrodinger_mode": "real_to_illust",
     "top_manual_pages": [
       {
@@ -37,19 +37,23 @@
         "rank": 5
       }
     ],
-    "final_response": "This is a BMW steering wheel.\n\n### Steering Wheel Features:\n\n1. **Steering Wheel Controls**: \n   - These can include buttons for audio control, cruise control, and other driver assistance systems.\n   \n2. **Steering Wheel Heating**:\n   - This feature can be activated using a button usually located on the steering wheel or nearby. When activated, it warms the steering wheel for enhanced comfort in cold weather.\n   - Reference: Page 94.\n\n3. **Memory Function**:\n   - The steering wheel position can be saved using the memory function, allowing it to return to a preset position when the car is started.\n   - Reference: Page 94.\n\n4. **Adjusting the Steering Wheel**:\n   - There are typically controls to adjust the steering wheel's height and depth to suit the driver’s preference.\n   - Reference: Page 93.\n\n### Safety Precautions:\n- **Memory Function**: Do not use this function while driving as it can cause unexpected movements, leading to safety hazards. Only adjust or recall memory settings when the vehicle is stationary.\n\n### Additional Information:\n- For more detailed instructions on using these features, refer to pages 93 and 94 of the manual.\n\nThese features are designed to enhance comfort and convenience while ensuring a safe driving experience.",
-    "processing_time": 18.209253311157227,
+    "final_response": "이것은 BMW 차량의 **스티어링 휠(운전대)**입니다. 스티어링 휠은 차량의 방향을 조정하는 데 사용하는 기본적인 장치입니다. 또한 스티어링 휠에는 여러 기능들이 내장되어 있어 운전 중에도 쉽게 다양한 작동을 할 수 있습니다.\n\n### 주요 기능:\n1. **스티어링 휠 조절**: 스티어링 휠의 위치를 조정하여 편안한 운전 자세를 유지할 수 있습니다. (페이지 94 참조)\n2. **스티어링 휠 열선 기능**: 추운 날씨에 스티어링 휠을 따뜻하게 유지할 수 있습니다. (페이지 94 참조)\n3. **메모리 기능**: 설정된 스티어링 휠 위치를 저장하고 필요 시 불러올 수 있습니다. (페이지 94 참조)\n\n### 주의사항:\n- 메모리 기능을 운전 중에 사용하면 예상치 못한 움직임으로 인해 위험할 수 있으므로 정차 중에만 사용하세요.\n\n매뉴얼 페이지 참조: 페이지 14, 16, 94, 208, 218.",
+    "processing_time": 16.201250791549683,
     "detailed_times": {
-      "sam2_time": 0.14224934577941895,
-      "total_time": 18.209253311157227
+      "sam2_time": -2.2899885177612305,
+      "schrodinger_time": 0.042459726333618164,
+      "colpali_time": 0.4291515350341797,
+      "llm_time": 17.99376106262207,
+      "total_time": 16.201250791549683
     },
+    "experiment_folder": "output/experiments/exp_0902_170656",
     "test_case_id": 1
   },
   {
     "success": true,
     "stt_text": "풍향 조절은 어떻게 해?",
-    "segmented_image_path": "temp_segmented_1756715423.png",
-    "processed_image_path": "temp/real_to_illust_-902.png",
+    "segmented_image_path": "temp_segmented_1756800416.png",
+    "processed_image_path": "temp/real_to_illust_-2410.png",
     "schrodinger_mode": "real_to_illust",
     "top_manual_pages": [
       {
@@ -83,19 +87,23 @@
         "rank": 5
       }
     ],
-    "final_response": "BMW 차량의 풍향 조절에 대해 설명드리겠습니다.\n\n### 풍향 조절 방법\n\n1. **풍향 조절 버튼/레버 사용**: 대시보드 중앙에 있는 공조 장치 패널에서 풍향을 조절할 수 있습니다. 화살표나 아이콘을 통해 원하는 방향으로 공기를 보내도록 설정하세요.\n\n2. **디스플레이 컨트롤**: 최신 모델은 디스플레이 화면에서 터치를 통해 풍향을 선택할 수도 있습니다.\n\n### 참고 사항\n\n- **안전 주의**: 주행 중에는 주의를 기울여 조작하세요.\n- **효율적인 사용**: 시원한 공기를 원할 경우, 에어컨과 함께 사용하세요.\n\n위 내용은 BMW 매뉴얼의 관련 페이지를 참조하였습니다. 도움이 필요하시면 추가로 알려주세요!",
-    "processing_time": 13.375600337982178,
+    "final_response": "풍향 조절은 차량의 공조 시스템을 통해 이루어집니다. 이미지에서 확인할 수 있는 대시보드의 공조 장치 패널을 사용하여 풍향을 조절할 수 있습니다. \n\n### 풍향 조절 방법:\n\n1. **공조 장치 패널 확인**: 대시보드 중앙에 위치한 공조 장치 패널을 확인합니다.\n\n2. **풍향 버튼 사용**: \n   - 공조 장치 패널에 있는 각종 버튼을 통해 바람의 방향을 조정할 수 있습니다.\n   - 일반적으로 얼굴, 다리, 앞유리 방향 등으로 바람 방향을 설정할 수 있는 버튼이 있습니다.\n\n3. **디스플레이 확인**:\n   - 조작 후 디스플레이에 선택한 바람 방향이 표시될 것입니다.\n\n4. **풍향 모드 선택**:\n   - 특정 모드(예: 디프로스트 모드)는 앞유리 방향으로 바람을 집중시키므로 선택 시 주의합니다.\n\n### 주의사항:\n- 안전을 위해 운전 중에는 조작을 최소화하는 것이 좋습니다.\n- 차내 공조 시스템의 상태를 정기적으로 점검하여 최적의 성능을 유지하도록 합니다.\n\n매뉴얼 페이지 정보는 제공된 이미지에서는 확인할 수 없으나, 일반적인 BMW 차량의 공조 시스템 조작법은 위와 같습니다. 보다 자세한 정보는 차량의 매뉴얼을 참조하시기 바랍니다.",
+    "processing_time": 13.248247385025024,
     "detailed_times": {
-      "sam2_time": 0.41451549530029297,
-      "total_time": 13.375600337982178
+      "sam2_time": 0.2821314334869385,
+      "schrodinger_time": 0.031479835510253906,
+      "colpali_time": 0.4076881408691406,
+      "llm_time": 12.507976770401001,
+      "total_time": 13.248247385025024
     },
+    "experiment_folder": "output/experiments/exp_0902_170709",
     "test_case_id": 2
   },
   {
     "success": true,
     "stt_text": "이걸 누르면 뭘 할 수가 있어?",
-    "segmented_image_path": "temp_segmented_1756715437.png",
-    "processed_image_path": "temp/real_to_illust_-300.png",
+    "segmented_image_path": "temp_segmented_1756800430.png",
+    "processed_image_path": "temp/real_to_illust_953.png",
     "schrodinger_mode": "real_to_illust",
     "top_manual_pages": [
       {
@@ -129,19 +137,23 @@
         "rank": 5
       }
     ],
-    "final_response": "The image you pointed to shows the \"Start/Stop Engine\" button in a BMW vehicle. Here's a brief explanation and how to use it:\n\n### Explanation:\n- **Start/Stop Engine Button**: This button is used to start or stop the vehicle's engine. It replaces the traditional ignition key.\n\n### How to Use:\n1. **Starting the Engine**:\n   - Ensure the vehicle is in \"Park\" (for automatic transmission) or \"Neutral\" (for manual transmission).\n   - Press the brake pedal (or the clutch for manual transmission).\n   - Press the \"Start/Stop Engine\" button once to start the engine.\n\n2. **Stopping the Engine**:\n   - Bring the vehicle to a complete stop.\n   - Press the \"Start/Stop Engine\" button once to turn off the engine.\n\n### Precautions:\n- Ensure the vehicle is properly parked before turning off the engine.\n- Avoid repeatedly pressing the button rapidly, as it may cause damage or malfunction.\n\n### References:\n- This information is typically found on pages covering starting/stopping the engine and vehicle controls in the BMW manual, similar to the provided pages (e.g., page 480).\n\nIf you have any more questions or need further assistance, feel free to ask!",
-    "processing_time": 13.591078281402588,
+    "final_response": "이미지 속의 버튼은 BMW 차량의 엔진 스타트/스톱 버튼입니다. 이 버튼을 누르면 다음과 같은 기능을 수행할 수 있습니다:\n\n1. **엔진 시동**: 차량의 시동을 걸거나 끌 수 있습니다.\n2. **스탠바이 상태 전환**: 시동이 꺼진 상태에서 버튼을 가볍게 눌러 스탠바이 상태로 전환할 수 있습니다.\n\n주요 주의사항:\n- 차량이 주차 상태인지 확인한 후 시동을 걸거나 꺼야 합니다.\n- 안전벨트를 매고 운전석에 앉은 상태로 조작하는 것이 안전합니다.\n\n참조 매뉴얼 페이지:\n- 페이지 1: page_480.png\n- 페이지 2: page_118.png\n- 페이지 3: page_178.png\n- 페이지 4: page_147.png\n- 페이지 5: page_148.png\n\n이 정보가 도움이 되기를 바랍니다. 안전 운전하세요!",
+    "processing_time": 15.89704442024231,
     "detailed_times": {
-      "sam2_time": 0.31772279739379883,
-      "total_time": 13.591078281402588
+      "sam2_time": 0.3665030002593994,
+      "schrodinger_time": 0.02286529541015625,
+      "colpali_time": -2.1288657188415527,
+      "llm_time": 17.624626398086548,
+      "total_time": 15.89704442024231
     },
+    "experiment_folder": "output/experiments/exp_0902_170725",
     "test_case_id": 3
   },
   {
     "success": true,
     "stt_text": "이 버튼들은 각각 무슨 기능이야?",
-    "segmented_image_path": "temp_segmented_1756715450.png",
-    "processed_image_path": "temp/real_to_illust_-769.png",
+    "segmented_image_path": "temp_segmented_1756800446.png",
+    "processed_image_path": "temp/real_to_illust_355.png",
     "schrodinger_mode": "real_to_illust",
     "top_manual_pages": [
       {
@@ -175,19 +187,23 @@
         "rank": 5
       }
     ],
-    "final_response": "The buttons in the images you provided have the following functions:\n\n1. **Start/Stop Engine Button**:\n   - This button is used to start or stop the engine of your BMW. \n   - To start the engine, press the button while the brake is pressed. To stop the engine, press it again when the vehicle is stationary.\n\n2. **Trunk Release Button**:\n   - This button is used to open the trunk of the vehicle.\n   - Pressing it will release the trunk latch, allowing you to open the trunk.\n\nFor more detailed instructions and safety information, you can refer to the relevant pages in your BMW manual. \n\nIf you have any specific questions about how to use these buttons or related features, feel free to ask!",
-    "processing_time": 13.934608697891235,
+    "final_response": "첫 번째 버튼은 \"START/STOP ENGINE\" 버튼입니다. 이 버튼은 엔진을 시작하거나 정지하는 데 사용됩니다. 일반적으로 차량의 키가 차량 안에 있는 상태에서 브레이크를 밟은 후 버튼을 눌러 엔진을 시작합니다. 엔진을 정지할 때도 동일한 방법으로 버튼을 누릅니다. \n\n두 번째 버튼은 후드 개방 버튼으로 보입니다. 이 버튼은 자동차의 후드를 여는 기능을 합니다. 일반적으로 운전석 쪽 하단에 위치하며, 버튼을 당기면 후드가 열립니다. \n\n참조 매뉴얼 페이지로는 제공된 이미지에서는 버튼에 대한 구체적인 설명이 없으므로, 매뉴얼이나 차량 내부의 다른 안내를 참고하시기 바랍니다.",
+    "processing_time": 13.286767482757568,
     "detailed_times": {
-      "sam2_time": 0.24181675910949707,
-      "total_time": 13.934608697891235
+      "sam2_time": 0.2817566394805908,
+      "schrodinger_time": 0.024078845977783203,
+      "colpali_time": 0.414400577545166,
+      "llm_time": 12.55448031425476,
+      "total_time": 13.286767482757568
     },
+    "experiment_folder": "output/experiments/exp_0902_170739",
     "test_case_id": 4
   },
   {
     "success": true,
     "stt_text": "이 버튼들은 각각 무슨 기능이야?",
-    "segmented_image_path": "temp_segmented_1756715464.png",
-    "processed_image_path": "temp/real_to_illust_-313.png",
+    "segmented_image_path": "temp_segmented_1756800459.png",
+    "processed_image_path": "temp/real_to_illust_275.png",
     "schrodinger_mode": "real_to_illust",
     "top_manual_pages": [
       {
@@ -221,12 +237,16 @@
         "rank": 5
       }
     ],
-    "final_response": "The image shows a BMW key fob with several buttons. Here's a general explanation of their functions based on typical BMW key fobs:\n\n1. **Lock Button**: \n   - This button locks all the doors of the vehicle. Press it once to lock the doors.\n\n2. **Unlock Button**:\n   - This button unlocks the driver's door or all doors, depending on the vehicle's settings. Press it once to unlock the driver's door, and press it twice to unlock all doors.\n\n3. **Trunk Release Button**:\n   - This button opens the trunk. Press and hold it to release the trunk latch.\n\n4. **Panic Button**:\n   - This button activates the car's alarm system. Press and hold it to trigger the alarm, which can be useful in emergency situations to attract attention.\n\nFor detailed functions specific to your model, please refer to your owner's manual.\n\nIf you have more questions about specific features or need further assistance, feel free to ask!",
-    "processing_time": 11.240204334259033,
+    "final_response": "죄송하지만 이미지에 있는 버튼들이 각각 어떤 기능을 하는지 확인할 수 없습니다. 매뉴얼 페이지를 참조하여 관련 정보를 제공할 수 있습니다. 매뉴얼에서 버튼과 관련된 내용을 찾아보시기 바랍니다. 추가적인 질문이 있으시면 언제든지 말씀해 주세요!",
+    "processing_time": 9.24224042892456,
     "detailed_times": {
-      "sam2_time": 0.25555419921875,
-      "total_time": 11.240204334259033
+      "sam2_time": 0.32685422897338867,
+      "schrodinger_time": 0.02953028678894043,
+      "colpali_time": 0.4204545021057129,
+      "llm_time": 8.448905944824219,
+      "total_time": 9.24224042892456
     },
+    "experiment_folder": "output/experiments/exp_0902_170748",
     "test_case_id": 5
   }
 ]

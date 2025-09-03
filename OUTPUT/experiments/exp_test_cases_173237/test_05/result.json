@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "segmented_image_path": "temp_segmented_1756802347.png",
+  "processed_image_path": "temp/real_to_illust_-323.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_001.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+      "similarity_score": 406.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 396.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 388.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_125.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+      "similarity_score": 382.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_118.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+      "similarity_score": 364.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "죄송하지만 이미지만으로는 버튼들의 기능을 식별할 수 없습니다. 관련 BMW 매뉴얼 페이지를 참조하여 자세한 정보를 확인해 드리겠습니다.\n\n매뉴얼 페이지를 통해 확인한 결과, 이 버튼들은 일반적으로 다음과 같은 기능을 수행할 수 있습니다:\n\n1. **페이지 1 (page_001.png)**: 일반적인 내비게이션, 엔터테인먼트 및 통신 기능 설명.\n2. **페이지 2 (page_178.png)**: 차량 시동과 관련된 기능 설명.\n3. **페이지 3 (page_416.png)**: 연료 주입구 관련 설명.\n4. **페이지 4 (page_125.png)**: BMW 5 시리즈 세단에 대한 일반적인 정보.\n5. **페이지 5 (page_118.png)**: BMW의 알파벳 순서로 정렬된 기능 설명.\n\n이 중에서 이미지에 있는 버튼들은 차량 키의 버튼으로 보이며, 일반적으로 다음과 같은 기능을 합니다:\n\n- **잠금 버튼**: 차량의 잠금을 해제하거나 잠글 수 있습니다.\n- **트렁크 열림 버튼**: 트렁크를 원격으로 열 수 있습니다.\n- **경적 버튼**: 차량의 경적을 울릴 수 있습니다.\n\n좀 더 구체적인 정보는 차량의 사용 설명서를 참조하시기 바랍니다. 추가 질문이 있으시면 언제든지 말씀해 주세요.",
+  "processing_time": 16.26072907447815,
+  "detailed_times": {
+    "sam2_time": 0.34637928009033203,
+    "schrodinger_time": 0.03028249740600586,
+    "colpali_time": 0.4046759605407715,
+    "llm_time": 15.462644815444946,
+    "total_time": 16.26072907447815
+  }
+}

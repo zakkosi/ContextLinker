@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "풍향 조절은 어떻게 해?",
+  "segmented_image_path": "temp_segmented_1756802300.png",
+  "processed_image_path": "temp/real_to_illust_2569.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 420.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 416.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_001.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+      "similarity_score": 394.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 390.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_142.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+      "similarity_score": 366.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "BMW 차량의 풍향 조절은 대시보드에 있는 공조 장치 패널을 통해 조작할 수 있습니다. 매뉴얼 페이지를 참고하여 풍향 조절 방법을 안내드리겠습니다.\n\n### 풍향 조절 방법\n1. **풍향 버튼 확인**: 대시보드의 공조 장치 패널에 있는 다양한 풍향 버튼을 확인하세요. 각 버튼은 다른 방향으로 바람을 보내도록 설정되어 있습니다.\n2. **버튼 조작**: 원하는 방향으로 바람을 보내고 싶다면 해당 버튼을 눌러 설정하세요. 예를 들어, 얼굴, 발, 창문 쪽 등으로 바람을 조절할 수 있습니다.\n\n### 주의사항\n- 주행 중에는 운전자의 주의가 흐트러지지 않도록 조작을 최소화하세요.\n- 공조 장치 사용 시 에어컨 필터 상태를 주기적으로 점검하여 쾌적한 실내 공기를 유지하세요.\n\n매뉴얼 페이지를 참고하여 구체적인 버튼 위치와 기능을 확인하시기 바랍니다. 도움이 필요하시면 언제든지 문의하세요.",
+  "processing_time": 15.032063722610474,
+  "detailed_times": {
+    "sam2_time": 0.33242273330688477,
+    "schrodinger_time": 0.0321049690246582,
+    "colpali_time": 0.42403316497802734,
+    "llm_time": 14.224637269973755,
+    "total_time": 15.032063722610474
+  }
+}

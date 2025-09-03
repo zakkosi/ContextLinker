@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "segmented_image_path": "temp_segmented_1756802328.png",
+  "processed_image_path": "temp/real_to_illust_318.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 432.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 414.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_328.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_328.png",
+      "similarity_score": 414.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_287.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_287.png",
+      "similarity_score": 406.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_001.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+      "similarity_score": 400.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지에 있는 버튼들은 다음과 같은 기능을 가지고 있습니다:\n\n1. **START/STOP ENGINE 버튼**:\n   - 기능: 차량의 엔진을 시작하거나 정지시킵니다.\n   - 사용 방법: 브레이크 페달을 밟은 상태에서 버튼을 누르면 엔진이 시작됩니다. 차량이 정지 상태일 때 버튼을 다시 누르면 엔진이 꺼집니다.\n   - 주의사항: 버튼을 누를 때 브레이크 페달을 밟고 있어야 하며, 차량이 주차 모드에 있는지 확인하세요.\n\n2. **트렁크 열림 버튼** (차량 그림이 있는 버튼):\n   - 기능: 차량의 트렁크를 엽니다.\n   - 사용 방법: 버튼을 누르면 트렁크가 열립니다.\n   - 주의사항: 차량이 완전히 정지한 상태에서만 사용하세요.\n\n이 버튼들에 대한 세부 정보는 제공된 매뉴얼 페이지에서는 확인되지 않았습니다. 추가적인 사용법이나 주의사항이 필요하다면, BMW 차량의 전체 매뉴얼을 참조하시기 바랍니다.",
+  "processing_time": 19.155800580978394,
+  "detailed_times": {
+    "sam2_time": 0.3185880184173584,
+    "schrodinger_time": 0.02344202995300293,
+    "colpali_time": 0.39900636672973633,
+    "llm_time": 18.402331352233887,
+    "total_time": 19.155800580978394
+  }
+}

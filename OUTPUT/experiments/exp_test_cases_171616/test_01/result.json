@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이게 뭐야?",
+  "segmented_image_path": "temp_segmented_1756801298.png",
+  "processed_image_path": "temp/real_to_illust_-527.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 488.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_218.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_218.png",
+      "similarity_score": 470.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 440.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_332.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_332.png",
+      "similarity_score": 408.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 402.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지에서 가리킨 부품은 BMW 차량의 **핸들**입니다. \n\n핸들은 차량 조향을 위한 주요 부품으로, 운전자가 차량의 방향을 조절할 수 있도록 돕습니다. \n\n주요 기능:\n- **조향**: 핸들을 돌려 차량의 방향을 조절합니다.\n- **핸들 히팅**: 추운 날씨에 핸들을 따뜻하게 유지하는 기능이 있습니다. (페이지 94 참고)\n- **메모리 기능**: 운전자의 설정에 따라 스티어링 휠 위치를 저장할 수 있습니다. (페이지 94 참고)\n\n안전 주의사항:\n- 주행 중 메모리 기능을 사용하면 핸들이 갑자기 움직일 수 있으므로, 차량이 정지한 상태에서만 이 기능을 사용하십시오.\n\n참조한 매뉴얼 페이지:\n- 페이지 1 (page_138.png)\n- 페이지 2 (page_218.png)\n- 페이지 3 (page_140.png)\n- 페이지 4 (page_332.png)\n- 페이지 5 (page_178.png)",
+  "processing_time": 16.848459482192993,
+  "detailed_times": {
+    "sam2_time": 0.21657562255859375,
+    "schrodinger_time": 0.04549360275268555,
+    "colpali_time": 0.4465799331665039,
+    "llm_time": 16.11260747909546,
+    "total_time": 16.848459482192993
+  }
+}

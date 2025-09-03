@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이게 뭐야?",
+  "segmented_image_path": "temp_segmented_1756881949.png",
+  "processed_image_path": "temp/real_to_illust_1756881949.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 484.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_218.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_218.png",
+      "similarity_score": 468.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 436.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_332.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_332.png",
+      "similarity_score": 406.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 400.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지에 나와 있는 부품은 BMW 차량의 **스티어링 휠**입니다. \n\n스티어링 휠은 차량의 방향을 조정하는 역할을 하며, 다양한 기능이 통합되어 있습니다. 예를 들어, 스티어링 휠에는 오디오 제어 버튼, 크루즈 컨트롤, 핸즈프리 전화 기능 등이 포함될 수 있습니다.\n\n관련 매뉴얼 페이지를 참조하면, 스티어링 휠 조정과 관련된 기능으로는 전자식 조정 기능, 메모리 기능, 스티어링 휠 열선 기능 등이 있습니다.\n\n- **전자식 스티어링 휠 조정**: 스위치를 사용하여 앞뒤, 높이 조정을 할 수 있습니다. (페이지 94)\n- **메모리 기능**: 시트 위치, 외부 미러 위치, 스티어링 휠 위치 등을 저장하고 호출할 수 있습니다. (페이지 94)\n- **스티어링 휠 열선**: 추운 날씨에 열선을 켜서 따뜻하게 사용할 수 있습니다. (페이지 94)\n\n안전 주의사항으로는 운전 중 메모리 기능을 사용하면 예기치 않게 시트나 스티어링 휠이 움직일 수 있으므로, 차량이 정지 상태일 때만 사용해야 한다는 점이 있습니다.\n\n참조한 매뉴얼 페이지: 14, 16, 94, 208\n\n더 궁금한 점이 있으면 말씀해 주세요!",
+  "processing_time": 17.107486486434937,
+  "detailed_times": {
+    "sam2_time": 0.3654654026031494,
+    "schrodinger_time": 0.06317424774169922,
+    "colpali_time": 0.5676383972167969,
+    "llm_time": 16.085131645202637,
+    "total_time": 17.107486486434937
+  }
+}

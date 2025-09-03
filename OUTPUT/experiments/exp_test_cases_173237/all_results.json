@@ -1,0 +1,247 @@
+[
+  {
+    "success": true,
+    "stt_text": "이게 뭐야?",
+    "segmented_image_path": "temp_segmented_1756802283.png",
+    "processed_image_path": "temp/real_to_illust_381.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_138.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+        "similarity_score": 488.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_218.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_218.png",
+        "similarity_score": 470.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_140.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+        "similarity_score": 440.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_332.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_332.png",
+        "similarity_score": 408.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 402.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "이 이미지는 BMW 차량의 스티어링 휠입니다. 스티어링 휠은 차량의 방향을 조종하는데 사용되는 기본적인 제어 장치입니다.\n\n### 주요 기능:\n1. **핸들 조작**: 차량의 방향을 조절합니다.\n2. **기능 버튼**: 스티어링 휠에 부착된 다양한 버튼들은 차량의 다양한 기능(예: 오디오 제어, 크루즈 컨트롤 등)을 제어할 수 있습니다.\n3. **스티어링 휠 조절**: 전동 조절 기능이 있는 경우, 스티어링 휠의 위치를 조절할 수 있습니다.\n\n### 사용 방법:\n- **핸들 돌리기**: 원하는 방향으로 부드럽게 회전시켜 차량의 진행 방향을 조절합니다.\n- **기능 버튼 사용**: 필요한 기능을 활성화하려면 관련 버튼을 누릅니다.\n\n### 주의사항:\n- 주행 중에는 핸들을 두 손으로 잡고 안전하게 운전하세요.\n- 스티어링 휠의 기능 버튼은 주행 중 주의 깊게 사용하세요.\n\n참조 매뉴얼 페이지:\n- 페이지 14, 16 (스티어링 휠 기능 및 주변 장치 설명)\n- 페이지 94 (스티어링 휠 조절 및 관련 기능)",
+    "processing_time": 16.84801483154297,
+    "detailed_times": {
+      "sam2_time": 0.20633745193481445,
+      "schrodinger_time": 0.04257965087890625,
+      "colpali_time": 0.41713571548461914,
+      "llm_time": 16.15591859817505,
+      "total_time": 16.84801483154297
+    },
+    "test_case_id": 1
+  },
+  {
+    "success": true,
+    "stt_text": "풍향 조절은 어떻게 해?",
+    "segmented_image_path": "temp_segmented_1756802300.png",
+    "processed_image_path": "temp/real_to_illust_2569.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 420.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 416.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_001.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+        "similarity_score": 394.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 390.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_142.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+        "similarity_score": 366.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "BMW 차량의 풍향 조절은 대시보드에 있는 공조 장치 패널을 통해 조작할 수 있습니다. 매뉴얼 페이지를 참고하여 풍향 조절 방법을 안내드리겠습니다.\n\n### 풍향 조절 방법\n1. **풍향 버튼 확인**: 대시보드의 공조 장치 패널에 있는 다양한 풍향 버튼을 확인하세요. 각 버튼은 다른 방향으로 바람을 보내도록 설정되어 있습니다.\n2. **버튼 조작**: 원하는 방향으로 바람을 보내고 싶다면 해당 버튼을 눌러 설정하세요. 예를 들어, 얼굴, 발, 창문 쪽 등으로 바람을 조절할 수 있습니다.\n\n### 주의사항\n- 주행 중에는 운전자의 주의가 흐트러지지 않도록 조작을 최소화하세요.\n- 공조 장치 사용 시 에어컨 필터 상태를 주기적으로 점검하여 쾌적한 실내 공기를 유지하세요.\n\n매뉴얼 페이지를 참고하여 구체적인 버튼 위치와 기능을 확인하시기 바랍니다. 도움이 필요하시면 언제든지 문의하세요.",
+    "processing_time": 15.032063722610474,
+    "detailed_times": {
+      "sam2_time": 0.33242273330688477,
+      "schrodinger_time": 0.0321049690246582,
+      "colpali_time": 0.42403316497802734,
+      "llm_time": 14.224637269973755,
+      "total_time": 15.032063722610474
+    },
+    "test_case_id": 2
+  },
+  {
+    "success": true,
+    "stt_text": "이걸 누르면 뭘 할 수가 있어?",
+    "segmented_image_path": "temp_segmented_1756802315.png",
+    "processed_image_path": "temp/real_to_illust_-1535.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 358.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 356.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 356.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_147.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_147.png",
+        "similarity_score": 354.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_148.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_148.png",
+        "similarity_score": 352.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "사용자가 가리킨 버튼은 BMW 차량의 \"Start/Stop Engine\" 버튼입니다. \n\n### 기능 설명\n- 이 버튼은 엔진을 켜거나 끌 때 사용됩니다.\n\n### 사용 방법\n1. **엔진 시동**: \n   - 브레이크 페달을 밟은 상태에서 \"Start/Stop Engine\" 버튼을 눌러 엔진을 켭니다.\n   \n2. **엔진 정지**:\n   - 차량이 완전히 정지한 후, \"Start/Stop Engine\" 버튼을 눌러 엔진을 끕니다.\n\n### 주의사항\n- 차량이 주차 상태인지 확인하고, 필요시 주차 브레이크를 사용하세요.\n- 버튼을 누를 때 브레이크 페달을 반드시 밟고 있어야 합니다.\n- 차량 내 전자 장치들이 꺼지기 전에 엔진을 정지하세요.\n\n매뉴얼 페이지를 참조하여 더 자세한 정보를 얻을 수 있습니다:\n- 페이지 23-24: iDrive와 관련된 버튼 및 메뉴 조작법\n\n위 정보를 기반으로 안전하게 차량을 운전하시기 바랍니다.",
+    "processing_time": 12.589921712875366,
+    "detailed_times": {
+      "sam2_time": 0.3590726852416992,
+      "schrodinger_time": 0.024674654006958008,
+      "colpali_time": 0.40216779708862305,
+      "llm_time": 11.791942358016968,
+      "total_time": 12.589921712875366
+    },
+    "test_case_id": 3
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "segmented_image_path": "temp_segmented_1756802328.png",
+    "processed_image_path": "temp/real_to_illust_318.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 432.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 414.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_328.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_328.png",
+        "similarity_score": 414.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_287.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_287.png",
+        "similarity_score": 406.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_001.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+        "similarity_score": 400.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "이미지에 있는 버튼들은 다음과 같은 기능을 가지고 있습니다:\n\n1. **START/STOP ENGINE 버튼**:\n   - 기능: 차량의 엔진을 시작하거나 정지시킵니다.\n   - 사용 방법: 브레이크 페달을 밟은 상태에서 버튼을 누르면 엔진이 시작됩니다. 차량이 정지 상태일 때 버튼을 다시 누르면 엔진이 꺼집니다.\n   - 주의사항: 버튼을 누를 때 브레이크 페달을 밟고 있어야 하며, 차량이 주차 모드에 있는지 확인하세요.\n\n2. **트렁크 열림 버튼** (차량 그림이 있는 버튼):\n   - 기능: 차량의 트렁크를 엽니다.\n   - 사용 방법: 버튼을 누르면 트렁크가 열립니다.\n   - 주의사항: 차량이 완전히 정지한 상태에서만 사용하세요.\n\n이 버튼들에 대한 세부 정보는 제공된 매뉴얼 페이지에서는 확인되지 않았습니다. 추가적인 사용법이나 주의사항이 필요하다면, BMW 차량의 전체 매뉴얼을 참조하시기 바랍니다.",
+    "processing_time": 19.155800580978394,
+    "detailed_times": {
+      "sam2_time": 0.3185880184173584,
+      "schrodinger_time": 0.02344202995300293,
+      "colpali_time": 0.39900636672973633,
+      "llm_time": 18.402331352233887,
+      "total_time": 19.155800580978394
+    },
+    "test_case_id": 4
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "segmented_image_path": "temp_segmented_1756802347.png",
+    "processed_image_path": "temp/real_to_illust_-323.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_001.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+        "similarity_score": 406.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 396.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 388.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 382.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 364.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "죄송하지만 이미지만으로는 버튼들의 기능을 식별할 수 없습니다. 관련 BMW 매뉴얼 페이지를 참조하여 자세한 정보를 확인해 드리겠습니다.\n\n매뉴얼 페이지를 통해 확인한 결과, 이 버튼들은 일반적으로 다음과 같은 기능을 수행할 수 있습니다:\n\n1. **페이지 1 (page_001.png)**: 일반적인 내비게이션, 엔터테인먼트 및 통신 기능 설명.\n2. **페이지 2 (page_178.png)**: 차량 시동과 관련된 기능 설명.\n3. **페이지 3 (page_416.png)**: 연료 주입구 관련 설명.\n4. **페이지 4 (page_125.png)**: BMW 5 시리즈 세단에 대한 일반적인 정보.\n5. **페이지 5 (page_118.png)**: BMW의 알파벳 순서로 정렬된 기능 설명.\n\n이 중에서 이미지에 있는 버튼들은 차량 키의 버튼으로 보이며, 일반적으로 다음과 같은 기능을 합니다:\n\n- **잠금 버튼**: 차량의 잠금을 해제하거나 잠글 수 있습니다.\n- **트렁크 열림 버튼**: 트렁크를 원격으로 열 수 있습니다.\n- **경적 버튼**: 차량의 경적을 울릴 수 있습니다.\n\n좀 더 구체적인 정보는 차량의 사용 설명서를 참조하시기 바랍니다. 추가 질문이 있으시면 언제든지 말씀해 주세요.",
+    "processing_time": 16.26072907447815,
+    "detailed_times": {
+      "sam2_time": 0.34637928009033203,
+      "schrodinger_time": 0.03028249740600586,
+      "colpali_time": 0.4046759605407715,
+      "llm_time": 15.462644815444946,
+      "total_time": 16.26072907447815
+    },
+    "test_case_id": 5
+  }
+]

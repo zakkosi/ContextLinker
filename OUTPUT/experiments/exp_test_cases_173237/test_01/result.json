@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이게 뭐야?",
+  "segmented_image_path": "temp_segmented_1756802283.png",
+  "processed_image_path": "temp/real_to_illust_381.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 488.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_218.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_218.png",
+      "similarity_score": 470.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 440.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_332.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_332.png",
+      "similarity_score": 408.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 402.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "이 이미지는 BMW 차량의 스티어링 휠입니다. 스티어링 휠은 차량의 방향을 조종하는데 사용되는 기본적인 제어 장치입니다.\n\n### 주요 기능:\n1. **핸들 조작**: 차량의 방향을 조절합니다.\n2. **기능 버튼**: 스티어링 휠에 부착된 다양한 버튼들은 차량의 다양한 기능(예: 오디오 제어, 크루즈 컨트롤 등)을 제어할 수 있습니다.\n3. **스티어링 휠 조절**: 전동 조절 기능이 있는 경우, 스티어링 휠의 위치를 조절할 수 있습니다.\n\n### 사용 방법:\n- **핸들 돌리기**: 원하는 방향으로 부드럽게 회전시켜 차량의 진행 방향을 조절합니다.\n- **기능 버튼 사용**: 필요한 기능을 활성화하려면 관련 버튼을 누릅니다.\n\n### 주의사항:\n- 주행 중에는 핸들을 두 손으로 잡고 안전하게 운전하세요.\n- 스티어링 휠의 기능 버튼은 주행 중 주의 깊게 사용하세요.\n\n참조 매뉴얼 페이지:\n- 페이지 14, 16 (스티어링 휠 기능 및 주변 장치 설명)\n- 페이지 94 (스티어링 휠 조절 및 관련 기능)",
+  "processing_time": 16.84801483154297,
+  "detailed_times": {
+    "sam2_time": 0.20633745193481445,
+    "schrodinger_time": 0.04257965087890625,
+    "colpali_time": 0.41713571548461914,
+    "llm_time": 16.15591859817505,
+    "total_time": 16.84801483154297
+  }
+}

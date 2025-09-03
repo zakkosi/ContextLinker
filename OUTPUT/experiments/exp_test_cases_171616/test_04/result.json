@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "segmented_image_path": "temp_segmented_1756801344.png",
+  "processed_image_path": "temp/real_to_illust_223.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 432.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 414.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_328.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_328.png",
+      "similarity_score": 414.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_287.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_287.png",
+      "similarity_score": 406.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_001.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+      "similarity_score": 400.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "첫 번째 이미지는 엔진 시작/정지 버튼입니다. 이 버튼은 차량의 시동을 켜고 끄는 기능을 합니다. 키가 차량 내에 있는 상태에서 버튼을 눌러 엔진을 시작하거나 정지할 수 있습니다.\n\n두 번째 이미지는 트렁크 열림 버튼입니다. 이 버튼을 누르면 차량의 트렁크가 열립니다.\n\n안전상 주의사항으로는 엔진 시작/정지 버튼을 사용할 때 차량이 주차 브레이크가 설정되어 있는지 확인하는 것이 중요합니다. 또한, 트렁크 버튼을 사용할 때는 주변에 장애물이 없는지 확인하고 조심스럽게 작동해야 합니다.\n\n매뉴얼의 참조 페이지는 제공된 이미지에 없습니다. 사용 설명서의 해당 부분을 참고하시거나 BMW 공식 서비스 센터에 문의하시는 것이 좋습니다.",
+  "processing_time": 14.173161029815674,
+  "detailed_times": {
+    "sam2_time": 0.41522836685180664,
+    "schrodinger_time": 0.024986982345581055,
+    "colpali_time": 0.414262056350708,
+    "llm_time": 13.306391954421997,
+    "total_time": 14.173161029815674
+  }
+}

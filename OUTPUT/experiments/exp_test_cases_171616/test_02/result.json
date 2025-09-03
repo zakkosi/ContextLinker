@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "풍향 조절은 어떻게 해?",
+  "segmented_image_path": "temp_segmented_1756801315.png",
+  "processed_image_path": "temp/real_to_illust_-135.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 420.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 416.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_001.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+      "similarity_score": 394.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 390.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_142.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+      "similarity_score": 366.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "BMW 차량의 풍향 조절 방법은 다음과 같습니다:\n\n1. **다이얼 조작**: 대시보드 중앙에 있는 송풍구에 부착된 다이얼을 사용하여 풍향을 조절할 수 있습니다. 이 다이얼을 회전시켜 바람이 나오는 방향을 변경하세요.\n\n2. **자동 조절**: 일부 모델에서는 자동 공조 시스템이 있어 특정 온도를 설정하면 차량이 스스로 풍향을 조절합니다. 이 경우 온도를 설정하고 시스템이 자동으로 작동하도록 두면 됩니다.\n\n3. **주의사항**: 차량 운전 중에는 풍향 조절을 하면서 시야를 방해받지 않도록 주의하세요.\n\n4. **매뉴얼 참조**: 매뉴얼의 페이지 178과 179를 참고하여 보다 자세한 정보를 확인할 수 있습니다.\n\n풍향 조절은 차량 내 쾌적한 환경을 유지하는 데 중요하니 필요에 따라 적절히 조절하세요.",
+  "processing_time": 16.210766792297363,
+  "detailed_times": {
+    "sam2_time": 0.3810737133026123,
+    "schrodinger_time": 0.03253531455993652,
+    "colpali_time": 0.4067366123199463,
+    "llm_time": 15.371384382247925,
+    "total_time": 16.210766792297363
+  }
+}

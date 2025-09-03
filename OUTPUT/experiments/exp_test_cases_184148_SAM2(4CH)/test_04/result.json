@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "segmented_image_path": "temp_segmented_1756892900.png",
+  "processed_image_path": "temp/real_to_illust_1756892900.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 57.5,
+      "rank": 1
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 53.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_006.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+      "similarity_score": 50.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 49.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_480.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+      "similarity_score": 48.5,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지에 보이는 버튼들은 트렁크 관련 기능 버튼입니다. \n\n1. 왼쪽 버튼: 트렁크 열림 버튼입니다. 이 버튼을 누르면 트렁크가 열립니다.\n2. 오른쪽 버튼: 트렁크 잠금 버튼입니다. 이 버튼을 누르면 트렁크가 잠깁니다.\n\n사용 시 주의사항으로는 트렁크가 닫힐 때 주변에 물건이나 신체 일부가 끼지 않도록 주의하는 것이 중요합니다. \n\n매뉴얼 페이지를 참조한 정보는 없습니다. 추가적인 매뉴얼 정보는 제공된 매뉴얼 페이지에서 확인할 수 있습니다.",
+  "processing_time": 14.365164518356323,
+  "detailed_times": {
+    "sam2_time": 0.2555689811706543,
+    "schrodinger_time": 0.11763930320739746,
+    "colpali_time": 0.17229413986206055,
+    "llm_time": 13.61365818977356,
+    "total_time": 14.365164518356323
+  }
+}

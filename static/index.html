@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Manual Assistant</title>
+    <style>
+        :root {
+            --primary-color: #0088ff;
+            --background-color: #1a1a1a;
+            --surface-color: #2c2c2c;
+            --text-color: #e0e0e0;
+            --border-color: #444;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background-color: var(--surface-color);
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        input[type="file"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: var(--background-color);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            color: var(--text-color);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        #image-preview {
+            max-width: 100%;
+            max-height: 300px;
+            margin-top: 15px;
+            border-radius: 4px;
+            border: 1px dashed var(--border-color);
+            display: none; /* Initially hidden */
+        }
+
+        .mode-selection {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        #coords-container {
+            display: none; /* Initially hidden */
+            margin-top: 15px;
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+        }
+        
+        .coords-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #006edc;
+        }
+
+        #loader {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid var(--primary-color);
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        #results {
+            margin-top: 20px;
+        }
+        
+        .results-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .result-image-card img {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .manual-pages-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .manual-page {
+            text-align: center;
+            font-size: 0.8em;
+        }
+
+        .manual-page img {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+        }
+        
+        h2 {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* --- NEW STYLES FOR JSON TOGGLE --- */
+        details {
+            margin-top: 25px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+        }
+        summary {
+            padding: 12px;
+            cursor: pointer;
+            font-weight: 600;
+            background-color: rgba(0,0,0,0.2);
+        }
+        pre {
+            background-color: var(--background-color);
+            padding: 15px;
+            border-top: 1px solid var(--border-color);
+            color: #b3e5fc; /* Light blue for JSON text */
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        /* --- END OF NEW STYLES --- */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>BMW Manual Assistant</h1>
+
+        <div class="card">
+            <form id="assistant-form">
+                <div class="form-group">
+                    <label for="image-upload">1. 분석할 이미지를 업로드하세요</label>
+                    <input type="file" id="image-upload" name="image" accept="image/*" required>
+                    <img id="image-preview" src="#" alt="Image preview"/>
+                </div>
+                <div class="form-group">
+                    <label>2. 분석 모드를 선택하세요</label>
+                    <div class="mode-selection">
+                        <label><input type="radio" name="mode" value="0" checked> Center Point Detectz(자동 탐지)</label>
+                        <label><input type="radio" name="mode" value="1"> Select Area (좌표 지정)</label>
+                    </div>
+                    <div id="coords-container">
+                        <label>BBox 좌표 (x1, y1, x2, y2)</label>
+                        <div class="coords-grid">
+                            <input type="number" id="x1" placeholder="x1">
+                            <input type="number" id="y1" placeholder="y1">
+                            <input type="number" id="x2" placeholder="x2">
+                            <input type="number" id="y2" placeholder="y2">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="stt-prompt">3. 궁금한 점을 질문하세요</label>
+                    <textarea id="stt-prompt" name="stt_prompt" placeholder="예: 이 버튼의 기능이 뭐야?"></textarea>
+                </div>
+                <button type="submit">질문하기</button>
+            </form>
+        </div>
+        
+        <div id="loader" class="card">
+            <div class="spinner"></div>
+            <p>서버에서 분석 중입니다. 잠시만 기다려 주세요...</p>
+        </div>
+
+        <div id="results" class="card hidden">
+            </div>
+
+    </div>
+
+    <script>
+        // All variables are the same as before...
+        const form = document.getElementById('assistant-form');
+        const imageUpload = document.getElementById('image-upload');
+        const imagePreview = document.getElementById('image-preview');
+        const modeRadios = document.querySelectorAll('input[name="mode"]');
+        const coordsContainer = document.getElementById('coords-container');
+        const loader = document.getElementById('loader');
+        const resultsDiv = document.getElementById('results');
+
+        // All event listeners are the same as before...
+        imageUpload.addEventListener('change', () => {
+            const file = imageUpload.files[0];
+            if (file) {
+                imagePreview.src = URL.createObjectURL(file);
+                imagePreview.style.display = 'block';
+            }
+        });
+
+        modeRadios.forEach(radio => {
+            radio.addEventListener('change', () => {
+                if (radio.value === '1') {
+                    coordsContainer.style.display = 'block';
+                } else {
+                    coordsContainer.style.display = 'none';
+                }
+            });
+        });
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            loader.style.display = 'block';
+            resultsDiv.classList.add('hidden');
+            resultsDiv.innerHTML = '';
+
+            const formData = new FormData();
+            const mode = document.querySelector('input[name="mode"]:checked').value;
+
+            formData.append('image', imageUpload.files[0]);
+            formData.append('stt_prompt', document.getElementById('stt-prompt').value);
+            formData.append('mode', parseInt(mode));
+
+            if (mode === '1') {
+                const x1 = document.getElementById('x1').value;
+                const y1 = document.getElementById('y1').value;
+                const x2 = document.getElementById('x2').value;
+                const y2 = document.getElementById('y2').value;
+
+                if (x1 && y1 && x2 && y2) {
+                    const coords = JSON.stringify([parseFloat(x1), parseFloat(y1), parseFloat(x2), parseFloat(y2)]);
+                    formData.append('coords', coords);
+                } else {
+                    alert('모드 1을 사용하려면 4개의 좌표를 모두 입력해야 합니다.');
+                    loader.style.display = 'none';
+                    return;
+                }
+            }
+
+            try {
+                const response = await fetch('/quest', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.detail || '서버에서 오류가 발생했습니다.');
+                }
+
+                const data = await response.json();
+                displayResults(data);
+
+            } catch (error) {
+                resultsDiv.innerHTML = `<h2>오류 발생</h2><p>${error.message}</p>`;
+                resultsDiv.classList.remove('hidden');
+            } finally {
+                loader.style.display = 'none';
+            }
+        });
+
+        // --- UPDATED displayResults FUNCTION ---
+        function displayResults(data) {
+            let html = `<h2>✅ 분석 결과</h2>`;
+            // The response part is now pre-formatted for newlines
+            const formattedResponse = data.response.replace(/\n/g, '<br>');
+            html += `<p><strong>답변:</strong><br>${formattedResponse}</p>`;
+            
+            html += `<h3>처리 이미지</h3>`;
+            html += `<div class="results-grid">`;
+            if(data.segmented_image_url) {
+                html += `<div class="result-image-card">
+                           <p><strong>세그멘테이션 결과</strong></p>
+                           <img src="${data.segmented_image_url}" alt="Segmented Image">
+                         </div>`;
+            }
+            if(data.processed_image_url) {
+                html += `<div class="result-image-card">
+                           <p><strong>스타일 변환 결과 (${data.schrodinger_mode})</strong></p>
+                           <img src="${data.processed_image_url}" alt="Processed Image">
+                         </div>`;
+            }
+            html += `</div>`;
+            
+            if (data.top_manual_pages && data.top_manual_pages.length > 0) {
+                html += `<h3>관련 매뉴얼 페이지 (Top ${data.top_manual_pages.length})</h3>`;
+                html += `<div class="manual-pages-container">`;
+                data.top_manual_pages.forEach(page => {
+                    const imageName = page.image_path.split(/[\\/]/).pop();
+                    html += `<div class="manual-page">
+                               <img src="/outputs/${imageName}" alt="${imageName}">
+                               <p>유사도: ${page.similarity_score.toFixed(2)}</p>
+                             </div>`;
+                });
+                html += `</div>`;
+            }
+
+            // --- NEW PART: JSON TOGGLE ---
+            html += `<details>
+                        <summary>자세한 JSON 결과 보기</summary>
+                        <pre><code id="json-output"></code></pre>
+                     </details>`;
+            
+            resultsDiv.innerHTML = html;
+            
+            // Populate the JSON output
+            // JSON.stringify(data, null, 2) makes the JSON nicely formatted
+            document.getElementById('json-output').textContent = JSON.stringify(data, null, 2);
+
+            resultsDiv.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>

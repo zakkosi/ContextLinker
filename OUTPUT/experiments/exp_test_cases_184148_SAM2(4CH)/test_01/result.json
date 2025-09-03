@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이게 뭐야?",
+  "segmented_image_path": "temp_segmented_1756892847.png",
+  "processed_image_path": "temp/real_to_illust_1756892848.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 61.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 59.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 57.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 56.75,
+      "rank": 4
+    },
+    {
+      "image_name": "page_237.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_237.png",
+      "similarity_score": 56.25,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지와 관련된 BMW 매뉴얼을 참조하여 설명드리겠습니다.\n\n사용자가 가리킨 부품은 **스티어링 휠**입니다. BMW 차량의 스티어링 휠은 운전자가 차량을 조향하고 다양한 기능을 제어할 수 있도록 도와줍니다. \n\n### 주요 기능:\n1. **조향**: 기본적으로 차량의 방향을 제어하는 역할을 합니다.\n2. **기능 버튼**: 스티어링 휠에는 오디오, 전화, 크루즈 컨트롤 등 다양한 기능을 제어할 수 있는 버튼이 있습니다.\n3. **스티어링 휠 열선**: 일부 모델에서는 스티어링 휠에 열선 기능이 있어 추운 날씨에 따뜻하게 유지할 수 있습니다.\n\n### 주의사항:\n- 항상 안전한 조작을 위해 두 손으로 스티어링 휠을 잡으세요.\n- 주행 중 스티어링 휠을 갑자기 돌리지 않도록 주의하세요.\n\n### 참조 매뉴얼 페이지:\n- 페이지 138-140: 스티어링 휠 및 주변 기능 설명.\n\n추가적인 기능이나 조작법이 필요하시면 말씀해 주세요!",
+  "processing_time": 19.058350324630737,
+  "detailed_times": {
+    "sam2_time": 0.3125126361846924,
+    "schrodinger_time": 0.1675586700439453,
+    "colpali_time": 0.20831656455993652,
+    "llm_time": 18.215439319610596,
+    "total_time": 19.058350324630737
+  }
+}

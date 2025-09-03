@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "segmented_image_path": "temp_segmented_1756892914.png",
+  "processed_image_path": "temp/real_to_illust_1756892915.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 54.75,
+      "rank": 1
+    },
+    {
+      "image_name": "page_072.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "similarity_score": 53.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 52.75,
+      "rank": 3
+    },
+    {
+      "image_name": "page_118.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+      "similarity_score": 51.5,
+      "rank": 4
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 51.5,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지에서 확인 가능한 버튼은 \"START/STOP ENGINE\" 버튼입니다. 이 버튼은 차량의 엔진을 시작하거나 정지시키는 데 사용됩니다. \n\n- **사용 방법**: \n  1. 차량의 브레이크 페달을 밟은 상태에서 이 버튼을 눌러 엔진을 시작합니다.\n  2. 엔진을 정지시킬 때도 동일하게 브레이크 페달을 밟고 이 버튼을 누릅니다.\n\n- **주의사항**:\n  - 엔진을 끄기 전에는 차량이 완전히 정지되어 있는지 확인하세요.\n  - 버튼을 잘못 사용하면 차량이 갑자기 멈출 수 있으므로 주의가 필요합니다.\n\n매뉴얼 페이지에서 관련된 정보를 찾을 수 없었습니다. 추가적인 정보가 필요하시면 매뉴얼을 확인하거나 BMW 서비스 센터에 문의하시기 바랍니다.",
+  "processing_time": 15.687639474868774,
+  "detailed_times": {
+    "sam2_time": 0.41826677322387695,
+    "schrodinger_time": 0.10906577110290527,
+    "colpali_time": 0.16043424606323242,
+    "llm_time": 14.888983249664307,
+    "total_time": 15.687639474868774
+  }
+}

@@ -5,6 +5,8 @@ import time
 from typing import Tuple, Optional, Dict, Any
 import sys
 import os
+import json # json 모듈 추가
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sam2.build_sam import build_sam2
 from sam2.sam2_image_predictor import SAM2ImagePredictor
@@ -49,7 +51,7 @@ class SAM2Segmenter:
     
     def process_image(self, image_path: str, mode: int = 0, bbox: Optional[list] = None) -> Dict[str, Any]:
         """
-        단일 이미지 처리
+        단일 이미지 처리 (투명 배경 지원)
         
         Args:
             image_path: 이미지 파일 경로
@@ -58,7 +60,7 @@ class SAM2Segmenter:
             
         Returns:
             dict: {
-                'segmented_image': np.ndarray,
+                'segmented_image': np.ndarray (RGBA),
                 'mask': np.ndarray, 
                 'score': float,
                 'inference_time': float,
@@ -89,12 +91,15 @@ class SAM2Segmenter:
         best_mask_idx = np.argmax(scores)
         best_mask = masks[best_mask_idx]
         
-        # 세그먼트된 이미지 생성
-        mask_3d = np.stack([best_mask] * 3, axis=-1)
-        segmented_image = image_array * mask_3d
+        # 세그먼트된 이미지 (RGBA) 생성
+        # 원본 이미지에 마스크를 알파 채널로 적용
+        alpha_channel = (best_mask * 255).astype(np.uint8) # 마스크를 0-255 값으로 스케일링
+        
+        # 원본 RGB 이미지와 알파 채널을 결합
+        segmented_image_rgba = np.dstack((image_array, alpha_channel))
         
         return {
-            'segmented_image': segmented_image,
+            'segmented_image': segmented_image_rgba,
             'mask': best_mask,
             'score': scores[best_mask_idx],
             'inference_time': inference_time,
@@ -119,14 +124,14 @@ class SAM2Segmenter:
         return self.process_image(image_path, mode, bbox)
     
     def save_result(self, result: Dict[str, Any], output_path: str) -> str:
-        """결과 이미지 저장"""
-        segmented_pil = Image.fromarray(result['segmented_image'].astype(np.uint8))
+        """결과 이미지 저장 (PNG는 투명도 지원)"""
+        segmented_pil = Image.fromarray(result['segmented_image'].astype(np.uint8), 'RGBA')
         segmented_pil.save(output_path)
         return output_path
 
 def batch_process_with_json(test_dir: str = "TEST", 
-                           output_dir: str = "OUTPUT_FINAL", 
-                           json_file: str = "annotations.json") -> list:
+                            output_dir: str = "OUTPUT_FINAL", 
+                            json_file: str = "annotations.json") -> list:
     """JSON 파일 기반 배치 처리 (기존 함수 유지)"""
     segmenter = SAM2Segmenter()
     
@@ -154,7 +159,8 @@ def batch_process_with_json(test_dir: str = "TEST",
             
             # 결과 저장
             name, ext = os.path.splitext(filename)
-            output_path = os.path.join(output_dir, f"{name}_segmented.png")
+            # PNG 형식으로 저장하여 투명도 유지
+            output_path = os.path.join(output_dir, f"{name}_segmented.png") 
             segmenter.save_result(result, output_path)
             
             total_time += result['inference_time']
@@ -182,7 +188,7 @@ def batch_process_with_json(test_dir: str = "TEST",
 # main.py에서 사용할 수 있는 간단한 인터페이스
 def quick_segment(image_path: str, mode: int = 0, bbox: Optional[list] = None) -> Dict[str, Any]:
     """
-    빠른 세그멘테이션 - main.py용 인터페이스
+    빠른 세그멘테이션 - main.py용 인터페이스 (투명 배경 지원)
     
     Usage:
         # 중앙점 모드
@@ -196,4 +202,25 @@ def quick_segment(image_path: str, mode: int = 0, bbox: Optional[list] = None) -
 
 if __name__ == "__main__":
     # 테스트 실행
-    results = batch_process_with_json()
+    # 이 부분을 실행하려면 'TEST' 폴더에 이미지와 'annotations.json' 파일이 있어야 합니다.
+    # 예시 이미지 파일 생성 (실제 이미지 파일로 대체 필요)
+    if not os.path.exists("TEST"):
+        os.makedirs("TEST")
+    
+    # 예시 이미지 생성 (실제로는 이미지 파일을 준비해야 합니다)
+    try:
+        Image.new('RGB', (600, 400), color = 'red').save('TEST/example.jpg')
+        # annotations.json 파일 생성
+        with open('annotations.json', 'w', encoding='utf-8') as f:
+            json.dump({"example.jpg": {"mode": 0}}, f, indent=4)
+        
+        print("예시 이미지와 annotation.json 파일이 생성되었습니다. SAM2 체크포인트를 확인해주세요.")
+        
+        # batch_process_with_json 실행
+        results = batch_process_with_json()
+        print(results)
+        
+    except FileNotFoundError:
+        print("SAM2 체크포인트 파일이나 설정 파일 경로를 확인해주세요.")
+    except Exception as e:
+        print(f"예상치 못한 오류 발생: {e}")

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "풍향 조절은 어떻게 해?",
+  "segmented_image_path": "temp_segmented_1756892867.png",
+  "processed_image_path": "temp/real_to_illust_1756892867.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 62.25,
+      "rank": 1
+    },
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 61.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 60.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_142.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+      "similarity_score": 60.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 59.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "풍향 조절 방법에 대해 설명드리겠습니다.\n\n1. **풍향 조절 위치**: 대시보드 중앙의 환기구 근처에 위치하며, 조절 다이얼 또는 버튼이 있습니다.\n\n2. **조작 방법**:\n   - **다이얼 조절**: 다이얼을 돌려 원하는 방향으로 공기의 흐름을 조절합니다. 보통 앞 유리, 얼굴, 발 쪽으로 방향을 설정할 수 있습니다.\n   - **버튼 조절**: 버튼을 눌러 각 방향을 선택할 수 있습니다. 필요한 경우 여러 방향을 동시에 선택할 수 있습니다.\n\n3. **주의사항**:\n   - 운전 중에는 시선을 도로에 유지하며 조작을 최소화하세요.\n   - 공기 흐름이 차내의 다른 부분에 영향을 주지 않도록 조심하세요.\n\n참조한 매뉴얼 페이지: 페이지 16 (Ventilation, 245)",
+  "processing_time": 16.00133776664734,
+  "detailed_times": {
+    "sam2_time": 0.453967809677124,
+    "schrodinger_time": 0.18427252769470215,
+    "colpali_time": 0.16947603225708008,
+    "llm_time": 15.024815559387207,
+    "total_time": 16.00133776664734
+  }
+}

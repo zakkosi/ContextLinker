@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이걸 누르면 뭘 할 수가 있어?",
+  "segmented_image_path": "temp_segmented_1756892883.png",
+  "processed_image_path": "temp/real_to_illust_1756892883.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 49.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_383.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_383.png",
+      "similarity_score": 46.25,
+      "rank": 2
+    },
+    {
+      "image_name": "page_142.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+      "similarity_score": 45.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_296.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_296.png",
+      "similarity_score": 45.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_384.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_384.png",
+      "similarity_score": 45.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지에서 가리킨 부품은 차량의 공조 시스템 조작 패널입니다. 이 패널을 통해 다음과 같은 기능을 조작할 수 있습니다:\n\n1. **온도 조절**: 왼쪽과 오른쪽의 다이얼을 돌려 원하는 온도를 설정할 수 있습니다. 패널에 표시된 온도가 변경됩니다.\n\n2. **팬 속도 조절**: 팬 아이콘이 있는 버튼을 눌러 팬의 속도를 조절할 수 있습니다.\n\n3. **좌석 히터**: 좌석 히터 버튼을 눌러 좌석을 따뜻하게 할 수 있습니다.\n\n4. **공기 순환 모드**: 내부 공기 순환 및 외부 공기 유입을 선택할 수 있습니다.\n\n5. **자동 모드**: 'AUTO' 버튼을 눌러 자동으로 실내 온도를 조절할 수 있습니다.\n\n6. **기타 기능**: 다른 버튼을 통해 다양한 공조 관련 기능을 설정할 수 있습니다.\n\n주의사항으로는, 공조 시스템을 사용할 때는 항상 도로 상황에 주의를 기울여 안전 운전을 해야 합니다.\n\n참조된 매뉴얼 페이지는 이미지에 포함되지 않아 구체적인 페이지 정보는 제공할 수 없습니다. 하지만 이 기능들은 일반적인 BMW 차량의 공조 시스템에서 공통적으로 사용되는 기능입니다.",
+  "processing_time": 17.18227195739746,
+  "detailed_times": {
+    "sam2_time": 0.33752918243408203,
+    "schrodinger_time": 0.1622147560119629,
+    "colpali_time": 0.16318678855895996,
+    "llm_time": 16.35906457901001,
+    "total_time": 17.18227195739746
+  }
+}

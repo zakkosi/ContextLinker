@@ -17,7 +17,7 @@ class SchrodingerBridgeProcessor:
     def __init__(self, 
                  device: str = "cuda:0",
                  checkpoints_dir: str = "models/checkpoints",
-                 model_name: str = "335_net_G_A2B",  # 체크포인트 접두어
+                 model_name: str = "225_net_G_B2A",  # 체크포인트 접두어
                  epoch: str = "latest"):  # 에포크 번호
         """슈뢰딩거 브릿지 프로세서 초기화"""
         self.device = device
@@ -51,8 +51,8 @@ class SchrodingerBridgeProcessor:
             opt.dataroot = './dummy'
             opt.load_size = 256
             opt.crop_size = 256
-            opt.direction = 'AtoB'
-            opt.dataset_mode = 'single'
+            opt.direction = 'BtoA'
+            opt.dataset_mode = 'unaligned'
             
             # 모델 생성 및 로드
             self.model = create_model(opt)
@@ -143,15 +143,23 @@ class SchrodingerBridgeProcessor:
                 
                 # 결과 가져오기
                 visuals = self.model.get_current_visuals()
-                if 'fake_B' in visuals:
+                if 'fake_5' in visuals:
+                    output_tensor = visuals['fake_5']  # 최종 변환 결과
+                elif 'fake_B' in visuals:
                     output_tensor = visuals['fake_B']
                 elif 'fake' in visuals:
                     output_tensor = visuals['fake']
                 else:
-                    # 사용 가능한 결과 키들 출력
                     print(f"사용 가능한 결과 키들: {list(visuals.keys())}")
-                    output_tensor = list(visuals.values())[0]  # 첫 번째 결과 사용
-                
+                    # fake_로 시작하는 키 중 가장 큰 번호 선택
+                    fake_keys = [k for k in visuals.keys() if k.startswith('fake_')]
+                    if fake_keys:
+                        # fake_1, fake_2, ... 중 마지막 선택
+                        last_fake = max(fake_keys, key=lambda x: int(x.split('_')[1]))
+                        output_tensor = visuals[last_fake]
+                    else:
+                        output_tensor = list(visuals.values())[0]
+                                
                 # 결과 저장
                 output_image = self._tensor_to_pil(output_tensor)
                 output_image.save(output_path)

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "segmented_image_path": "temp_segmented_1756885990.png",
+  "processed_image_path": "temp/real_to_illust_1756885990.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_118.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+      "similarity_score": 57.5,
+      "rank": 1
+    },
+    {
+      "image_name": "page_480.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+      "similarity_score": 57.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 51.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_006.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+      "similarity_score": 49.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_072.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "similarity_score": 47.25,
+      "rank": 5
+    }
+  ],
+  "final_response": "죄송하지만 어떤 버튼인지 이미지를 통해 확인할 수 없습니다. 관련 매뉴얼 페이지를 참조하여 각 버튼의 기능을 설명드리겠습니다. \n\n1. **페이지 1 (page_118.png)**: 차량의 잠금 및 잠금 해제 버튼에 대한 설명이 있을 수 있습니다. 일반적으로 중앙 잠금 버튼은 차량의 모든 도어를 잠그거나 해제하는 기능을 합니다.\n\n2. **페이지 2 (page_480.png)**: 트렁크 개방 버튼에 대한 설명일 수 있습니다. 이 버튼은 트렁크를 원격으로 여는 기능을 합니다.\n\n3. **페이지 3 (page_416.png)**: 차량 경보 시스템의 작동 버튼 설명이 있을 수 있습니다. 경보 시스템을 활성화하거나 비활성화할 때 사용됩니다.\n\n4. **페이지 4 (page_006.png)**: 차량의 편의 기능, 예를 들어 원격 시동 버튼에 대한 설명이 있을 수 있습니다.\n\n5. **페이지 5 (page_072.png)**: 차량 조명 제어 버튼에 대한 설명일 수 있습니다. 이 버튼은 실내 조명이나 외부 조명을 조절하는 데 사용됩니다.\n\n각 버튼의 정확한 기능은 차량 모델에 따라 다를 수 있으며, 매뉴얼을 직접 참조하여 확인하는 것이 좋습니다. 추가 정보가 필요하시면 매뉴얼을 확인하시거나 BMW 고객 서비스에 문의하시기 바랍니다.",
+  "processing_time": 13.49297547340393,
+  "detailed_times": {
+    "sam2_time": 0.06371617317199707,
+    "schrodinger_time": 0.14609551429748535,
+    "colpali_time": 0.16495943069458008,
+    "llm_time": 13.101364135742188,
+    "total_time": 13.49297547340393
+  }
+}

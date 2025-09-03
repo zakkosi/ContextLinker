@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "segmented_image_path": "temp_segmented_1756884054.png",
+  "processed_image_path": "temp/real_to_illust_1756884054.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 52.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 50.75,
+      "rank": 2
+    },
+    {
+      "image_name": "page_072.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "similarity_score": 48.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 48.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_006.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+      "similarity_score": 47.75,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지의 버튼들은 BMW 차량의 키입니다. 각 버튼의 기능을 설명드리겠습니다.\n\n1. **잠금 버튼**: 차량의 모든 문을 잠급니다. 버튼을 한 번 누르면 잠금이 완료됩니다.\n2. **잠금 해제 버튼**: 차량의 문을 열 수 있습니다. 버튼을 누르면 문이 열립니다.\n3. **트렁크 열림 버튼**: 트렁크를 여는 데 사용됩니다. 버튼을 길게 누르면 트렁크가 열립니다.\n\n각 버튼은 차량의 다른 기능을 제어하며, 사용 시 주의사항은 버튼을 길게 누르지 않도록 하는 것입니다. 버튼이 잘못 눌려서 원치 않는 동작이 발생할 수 있습니다.\n\nBMW 매뉴얼 페이지를 참조하여 보다 정확한 정보나 추가적인 기능을 확인할 수 있습니다. 제공된 매뉴얼 페이지는 다음과 같습니다:\n\n- 페이지 1: page_416.png\n- 페이지 2: page_136.png\n- 페이지 3: page_072.png\n- 페이지 4: page_178.png\n- 페이지 5: page_006.png\n\n이 매뉴얼 페이지들에서 키의 특정 기능에 대한 추가 정보를 찾을 수 있습니다.",
+  "processing_time": 13.735958337783813,
+  "detailed_times": {
+    "sam2_time": 0.43554139137268066,
+    "schrodinger_time": 0.1685645580291748,
+    "colpali_time": 0.15825796127319336,
+    "llm_time": 12.956608533859253,
+    "total_time": 13.735958337783813
+  }
+}

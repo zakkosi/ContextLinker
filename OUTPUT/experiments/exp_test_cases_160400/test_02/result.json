@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "풍향 조절은 어떻게 해?",
+  "segmented_image_path": "temp_segmented_1756883380.png",
+  "processed_image_path": "temp/real_to_illust_1756883380.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 53.25,
+      "rank": 1
+    },
+    {
+      "image_name": "page_480.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+      "similarity_score": 50.75,
+      "rank": 2
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 50.75,
+      "rank": 3
+    },
+    {
+      "image_name": "page_118.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+      "similarity_score": 50.75,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 50.5,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지에서 보이는 것은 BMW 차량의 공조 시스템 패널입니다. 풍향 조절은 이 패널의 버튼을 사용하여 조작할 수 있습니다. \n\n1. **풍향 조절 기능**:\n   - 공조 시스템 패널의 버튼이나 다이얼을 사용하여 바람이 나오는 방향을 조절할 수 있습니다.\n   - 일반적으로 바람은 얼굴, 발, 앞유리 방향으로 조절할 수 있습니다.\n\n2. **사용 방법**:\n   - 버튼을 눌러서 원하는 방향으로 바람을 조절하세요. 각 버튼은 특정 방향으로 바람을 보내도록 설정되어 있습니다.\n\n3. **주의사항**:\n   - 운전 중에 주의를 분산시키지 않도록 조작할 때 주의하세요.\n   - 항상 안전한 주행을 위해 도로 상황을 잘 살피세요.\n\n매뉴얼 페이지를 참조하여 더 구체적인 정보를 제공하지 못해 죄송합니다. 필요시 BMW 공식 매뉴얼을 확인해 주세요.",
+  "processing_time": 13.37903618812561,
+  "detailed_times": {
+    "sam2_time": 0.3216402530670166,
+    "schrodinger_time": 0.10050010681152344,
+    "colpali_time": 0.1589796543121338,
+    "llm_time": 12.779083013534546,
+    "total_time": 13.37903618812561
+  }
+}

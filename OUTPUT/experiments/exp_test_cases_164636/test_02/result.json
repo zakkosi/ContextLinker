@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "풍향 조절은 어떻게 해?",
+  "segmented_image_path": "temp_segmented_1756885941.png",
+  "processed_image_path": "temp/real_to_illust_1756885941.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_118.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+      "similarity_score": 60.5,
+      "rank": 1
+    },
+    {
+      "image_name": "page_480.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+      "similarity_score": 60.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 60.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_006.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+      "similarity_score": 58.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 56.75,
+      "rank": 5
+    }
+  ],
+  "final_response": "풍향 조절은 차량의 공조 시스템을 통해 이루어집니다. 아래는 풍향 조절 방법에 대한 설명입니다.\n\n### 풍향 조절 방법:\n\n1. **공기 송풍구 조절**:\n   - 차량 대시보드에 있는 송풍구의 방향을 손으로 조절하여 원하는 방향으로 바람이 나오도록 설정합니다.\n\n2. **공조 패널 사용**:\n   - 공조 패널에서 버튼이나 노브를 사용하여 풍향을 조절합니다.\n   - 보통 앞유리, 얼굴, 발 쪽으로 바람을 보낼 수 있는 옵션이 있습니다.\n\n### 주의사항:\n- 운전 중에는 주의해서 조작하세요.\n- 차량 모델에 따라 버튼이나 노브의 위치가 다를 수 있으니 차량 매뉴얼을 참조하세요.\n\n### 참고 매뉴얼 페이지:\n- 페이지 118, 480, 416, 006, 136\n\n매뉴얼을 통해 더 자세한 정보를 확인할 수 있으니 필요한 경우 확인하시기 바랍니다.",
+  "processing_time": 15.525284767150879,
+  "detailed_times": {
+    "sam2_time": 0.37041592597961426,
+    "schrodinger_time": 0.11296582221984863,
+    "colpali_time": 0.15962696075439453,
+    "llm_time": 14.863006591796875,
+    "total_time": 15.525284767150879
+  }
+}

@@ -1,0 +1,247 @@
+[
+  {
+    "success": true,
+    "stt_text": "이게 뭐야?",
+    "segmented_image_path": "temp_segmented_1756885929.png",
+    "processed_image_path": "temp/real_to_illust_1756885929.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 53.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 49.75,
+        "rank": 2
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 49.75,
+        "rank": 3
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 47.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 47.25,
+        "rank": 5
+      }
+    ],
+    "final_response": "이 이미지는 BMW 차량의 **핸들**입니다. 핸들은 운전자가 차량의 방향을 조절하는 데 사용되는 중요한 부품입니다. \n\n- **사용 방법**: 핸들을 좌우로 회전시켜 차량의 진행 방향을 조절할 수 있습니다.\n- **주의사항**: 주행 중에는 핸들을 과도하게 조작하지 않도록 주의하고, 안전한 속도로 운전해야 합니다. 또한, 핸들에 부착된 버튼들은 운전 중 다양한 기능을 제어하는 데 유용하니 사용법을 숙지하시기 바랍니다.\n\n참조한 매뉴얼 페이지는 제공되지 않았습니다. 추가적인 정보가 필요하시면 매뉴얼을 확인하시기 바랍니다.",
+    "processing_time": 11.78096079826355,
+    "detailed_times": {
+      "sam2_time": 0.3081836700439453,
+      "schrodinger_time": 0.14022278785705566,
+      "colpali_time": 0.21924114227294922,
+      "llm_time": 11.085687398910522,
+      "total_time": 11.78096079826355
+    },
+    "test_case_id": 1
+  },
+  {
+    "success": true,
+    "stt_text": "풍향 조절은 어떻게 해?",
+    "segmented_image_path": "temp_segmented_1756885941.png",
+    "processed_image_path": "temp/real_to_illust_1756885941.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 60.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 60.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 60.25,
+        "rank": 3
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 58.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_136.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+        "similarity_score": 56.75,
+        "rank": 5
+      }
+    ],
+    "final_response": "풍향 조절은 차량의 공조 시스템을 통해 이루어집니다. 아래는 풍향 조절 방법에 대한 설명입니다.\n\n### 풍향 조절 방법:\n\n1. **공기 송풍구 조절**:\n   - 차량 대시보드에 있는 송풍구의 방향을 손으로 조절하여 원하는 방향으로 바람이 나오도록 설정합니다.\n\n2. **공조 패널 사용**:\n   - 공조 패널에서 버튼이나 노브를 사용하여 풍향을 조절합니다.\n   - 보통 앞유리, 얼굴, 발 쪽으로 바람을 보낼 수 있는 옵션이 있습니다.\n\n### 주의사항:\n- 운전 중에는 주의해서 조작하세요.\n- 차량 모델에 따라 버튼이나 노브의 위치가 다를 수 있으니 차량 매뉴얼을 참조하세요.\n\n### 참고 매뉴얼 페이지:\n- 페이지 118, 480, 416, 006, 136\n\n매뉴얼을 통해 더 자세한 정보를 확인할 수 있으니 필요한 경우 확인하시기 바랍니다.",
+    "processing_time": 15.525284767150879,
+    "detailed_times": {
+      "sam2_time": 0.37041592597961426,
+      "schrodinger_time": 0.11296582221984863,
+      "colpali_time": 0.15962696075439453,
+      "llm_time": 14.863006591796875,
+      "total_time": 15.525284767150879
+    },
+    "test_case_id": 2
+  },
+  {
+    "success": true,
+    "stt_text": "이걸 누르면 뭘 할 수가 있어?",
+    "segmented_image_path": "temp_segmented_1756885956.png",
+    "processed_image_path": "temp/real_to_illust_1756885956.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 55.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 52.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 51.75,
+        "rank": 3
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 50.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_396.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_396.png",
+        "similarity_score": 48.5,
+        "rank": 5
+      }
+    ],
+    "final_response": "이미지에서 사용자가 가리키고 있는 부품은 차량의 메뉴 버튼으로 보입니다. 이 버튼을 누르면 차량의 인포테인먼트 시스템의 주요 메뉴로 접근할 수 있습니다.\n\n### 주요 기능:\n1. **오디오 컨트롤**: 라디오, 음악 재생 장치, Bluetooth 오디오 등을 제어할 수 있습니다.\n2. **내비게이션 시스템**: 경로 설정 및 지도 검색이 가능합니다.\n3. **차량 설정**: 차량의 다양한 설정을 조정할 수 있는 메뉴에 접근합니다.\n4. **전화 기능**: Bluetooth를 통해 휴대전화를 연결하여 통화할 수 있습니다.\n\n### 사용 방법:\n- **누르기**: 버튼을 한 번 눌러 인포테인먼트 시스템의 기본 메뉴로 진입합니다.\n- **스크롤 및 선택**: 다이얼을 돌려 원하는 메뉴를 선택하고, 선택하려면 다시 누릅니다.\n\n### 주의사항:\n- 운전 중에는 주의가 분산되지 않도록 조작에 신경 써야 합니다.\n- 필요한 경우 차량이 정차한 상태에서 설정을 변경하세요.\n\n참조 페이지 정보는 제공되지 않았습니다. 추가적인 세부 사항이나 설명이 필요하면 매뉴얼을 확인해 주세요.",
+    "processing_time": 15.61929702758789,
+    "detailed_times": {
+      "sam2_time": 0.27183055877685547,
+      "schrodinger_time": 0.09827327728271484,
+      "colpali_time": 0.17111420631408691,
+      "llm_time": 15.066356658935547,
+      "total_time": 15.61929702758789
+    },
+    "test_case_id": 3
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "segmented_image_path": "temp_segmented_1756885972.png",
+    "processed_image_path": "temp/real_to_illust_1756885972.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 53.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 49.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 49.5,
+        "rank": 3
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 49.25,
+        "rank": 4
+      },
+      {
+        "image_name": "page_136.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+        "similarity_score": 46.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "이미지에 표시된 버튼은 일반적으로 트렁크를 여는 버튼입니다. 이 버튼을 눌러 차량의 트렁크를 열 수 있습니다. \n\n사용 시 주의사항이나 안전 정보는 다음과 같습니다:\n- 차량이 완전히 정차한 상태에서만 트렁크를 여세요.\n- 트렁크가 완전히 열리기 전까지 물건을 꺼내지 마세요.\n- 트렁크를 닫을 때는 손가락이 끼지 않도록 주의하세요.\n\n관련된 매뉴얼 페이지를 참조하여 보다 구체적인 정보를 확인할 수 있습니다. 아래 페이지를 참고하세요:\n\n1. 페이지 1: page_416.png\n2. 페이지 2: page_118.png\n3. 페이지 3: page_480.png\n4. 페이지 4: page_006.png\n5. 페이지 5: page_136.png\n\n더 궁금한 점이 있으시면 언제든지 문의해 주세요!",
+    "processing_time": 18.2556049823761,
+    "detailed_times": {
+      "sam2_time": 0.2703125476837158,
+      "schrodinger_time": 0.12787818908691406,
+      "colpali_time": 0.17031598091125488,
+      "llm_time": 17.67503786087036,
+      "total_time": 18.2556049823761
+    },
+    "test_case_id": 4
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "segmented_image_path": "temp_segmented_1756885990.png",
+    "processed_image_path": "temp/real_to_illust_1756885990.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 57.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 57.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 51.25,
+        "rank": 3
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 49.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 47.25,
+        "rank": 5
+      }
+    ],
+    "final_response": "죄송하지만 어떤 버튼인지 이미지를 통해 확인할 수 없습니다. 관련 매뉴얼 페이지를 참조하여 각 버튼의 기능을 설명드리겠습니다. \n\n1. **페이지 1 (page_118.png)**: 차량의 잠금 및 잠금 해제 버튼에 대한 설명이 있을 수 있습니다. 일반적으로 중앙 잠금 버튼은 차량의 모든 도어를 잠그거나 해제하는 기능을 합니다.\n\n2. **페이지 2 (page_480.png)**: 트렁크 개방 버튼에 대한 설명일 수 있습니다. 이 버튼은 트렁크를 원격으로 여는 기능을 합니다.\n\n3. **페이지 3 (page_416.png)**: 차량 경보 시스템의 작동 버튼 설명이 있을 수 있습니다. 경보 시스템을 활성화하거나 비활성화할 때 사용됩니다.\n\n4. **페이지 4 (page_006.png)**: 차량의 편의 기능, 예를 들어 원격 시동 버튼에 대한 설명이 있을 수 있습니다.\n\n5. **페이지 5 (page_072.png)**: 차량 조명 제어 버튼에 대한 설명일 수 있습니다. 이 버튼은 실내 조명이나 외부 조명을 조절하는 데 사용됩니다.\n\n각 버튼의 정확한 기능은 차량 모델에 따라 다를 수 있으며, 매뉴얼을 직접 참조하여 확인하는 것이 좋습니다. 추가 정보가 필요하시면 매뉴얼을 확인하시거나 BMW 고객 서비스에 문의하시기 바랍니다.",
+    "processing_time": 13.49297547340393,
+    "detailed_times": {
+      "sam2_time": 0.06371617317199707,
+      "schrodinger_time": 0.14609551429748535,
+      "colpali_time": 0.16495943069458008,
+      "llm_time": 13.101364135742188,
+      "total_time": 13.49297547340393
+    },
+    "test_case_id": 5
+  }
+]

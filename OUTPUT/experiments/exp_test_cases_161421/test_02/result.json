@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "풍향 조절은 어떻게 해?",
+  "segmented_image_path": "temp_segmented_1756884006.png",
+  "processed_image_path": "temp/real_to_illust_1756884006.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 49.25,
+      "rank": 1
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 48.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 46.5,
+      "rank": 3
+    },
+    {
+      "image_name": "page_396.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_396.png",
+      "similarity_score": 44.75,
+      "rank": 4
+    },
+    {
+      "image_name": "page_072.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "similarity_score": 44.75,
+      "rank": 5
+    }
+  ],
+  "final_response": "풍향 조절은 차량의 공조 시스템에서 공기가 나오는 방향을 설정하는 기능입니다. 제공된 이미지를 참고하여 조작 방법을 설명드리겠습니다.\n\n### 풍향 조절 방법:\n\n1. **조작 패널 확인**: \n   - 이미지에서 보이는 패널의 버튼을 확인하세요. 주로 화살표 모양이나 바람기호가 있는 버튼이 풍향 조절 버튼입니다.\n\n2. **버튼 조작**:\n   - 원하는 풍향으로 공기를 보내기 위해 해당 버튼을 눌러주세요. 일반적으로 앞 유리, 얼굴, 발 쪽 방향으로 선택할 수 있는 옵션이 있습니다.\n\n3. **디스플레이 확인**:\n   - 선택한 풍향이 차량의 디스플레이에 표시될 수 있습니다. 이를 통해 현재 설정을 확인할 수 있습니다.\n\n### 주의사항:\n- 운전 중에는 주의 집중을 위해 풍향 조절을 빠르게 조작하는 것이 좋습니다.\n- 에어컨이나 히터 사용 시 적절한 풍향으로 설정해 쾌적한 실내 환경을 유지하세요.\n\n해당 내용은 제공된 매뉴얼 페이지에서는 직접적인 참조가 없어 일반적인 BMW 차량의 공조 시스템 조작법을 안내해 드렸습니다. 안전 운전 하세요!",
+  "processing_time": 18.057082891464233,
+  "detailed_times": {
+    "sam2_time": 0.3563687801361084,
+    "schrodinger_time": 0.11398911476135254,
+    "colpali_time": 0.1605854034423828,
+    "llm_time": 17.407131671905518,
+    "total_time": 18.057082891464233
+  }
+}

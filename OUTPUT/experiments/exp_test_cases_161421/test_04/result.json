@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "segmented_image_path": "temp_segmented_1756884040.png",
+  "processed_image_path": "temp/real_to_illust_1756884040.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 53.5,
+      "rank": 1
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 51.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 49.75,
+      "rank": 3
+    },
+    {
+      "image_name": "page_006.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+      "similarity_score": 49.25,
+      "rank": 4
+    },
+    {
+      "image_name": "page_072.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "similarity_score": 48.5,
+      "rank": 5
+    }
+  ],
+  "final_response": "이미지에 표시된 버튼은 트렁크를 여는 버튼입니다. \n\n이 버튼을 누르면 자동으로 트렁크가 열리게 됩니다. 트렁크를 열 때는 주변에 장애물이 없는지 확인하고, 안전에 주의해야 합니다. 특히 어린이나 동물이 근처에 없는지 체크하세요.\n\n매뉴얼 페이지는 제공되지 않았지만, 일반적으로 트렁크 버튼은 이러한 기능을 수행하니 참고하시기 바랍니다. 추가적인 정보가 필요하다면 BMW 차량 매뉴얼을 확인하세요.",
+  "processing_time": 14.075621843338013,
+  "detailed_times": {
+    "sam2_time": 0.2712414264678955,
+    "schrodinger_time": 0.10806417465209961,
+    "colpali_time": 0.14335966110229492,
+    "llm_time": 13.541714191436768,
+    "total_time": 14.075621843338013
+  }
+}

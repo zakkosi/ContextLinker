@@ -1,0 +1,446 @@
+{
+  "success": true,
+  "total_tests": 10,
+  "correct_retrievals": 9,
+  "accuracy": 0.9,
+  "avg_search_time": 0.29057495594024657,
+  "total_test_time": 2.905749559402466,
+  "database_size": 511,
+  "test_settings": {
+    "pdf_images_folder": "output/PDF_Images",
+    "num_test_images": 10,
+    "random_seed": 42
+  },
+  "detailed_results": [
+    {
+      "test_number": 1,
+      "test_image_name": "page_328.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_328.png",
+      "top1_image_name": "page_328.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_328.png",
+      "top1_similarity": 768.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": 0.45094799995422363,
+      "top5_results": [
+        {
+          "image_name": "page_328.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_328.png",
+          "similarity_score": 768.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_329.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_329.png",
+          "similarity_score": 568.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_323.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_323.png",
+          "similarity_score": 560.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_334.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_334.png",
+          "similarity_score": 548.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_327.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_327.png",
+          "similarity_score": 544.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 2,
+      "test_image_name": "page_058.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_058.png",
+      "top1_image_name": "page_058.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_058.png",
+      "top1_similarity": 768.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": 0.44713330268859863,
+      "top5_results": [
+        {
+          "image_name": "page_058.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_058.png",
+          "similarity_score": 768.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_041.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_041.png",
+          "similarity_score": 544.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_059.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_059.png",
+          "similarity_score": 520.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_063.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_063.png",
+          "similarity_score": 504.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_055.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_055.png",
+          "similarity_score": 500.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 3,
+      "test_image_name": "page_013.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_013.png",
+      "top1_image_name": "page_013.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_013.png",
+      "top1_similarity": 768.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": 0.4390676021575928,
+      "top5_results": [
+        {
+          "image_name": "page_013.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_013.png",
+          "similarity_score": 768.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_010.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_010.png",
+          "similarity_score": 524.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_011.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_011.png",
+          "similarity_score": 520.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_012.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_012.png",
+          "similarity_score": 510.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_120.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_120.png",
+          "similarity_score": 504.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 4,
+      "test_image_name": "page_380.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_380.png",
+      "top1_image_name": "page_380.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_380.png",
+      "top1_similarity": 768.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": 0.44156622886657715,
+      "top5_results": [
+        {
+          "image_name": "page_380.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_380.png",
+          "similarity_score": 768.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_382.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_382.png",
+          "similarity_score": 560.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_381.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_381.png",
+          "similarity_score": 548.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_180.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_180.png",
+          "similarity_score": 520.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_062.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_062.png",
+          "similarity_score": 512.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 5,
+      "test_image_name": "page_141.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_141.png",
+      "top1_image_name": "page_141.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_141.png",
+      "top1_similarity": 768.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": 0.44086122512817383,
+      "top5_results": [
+        {
+          "image_name": "page_141.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_141.png",
+          "similarity_score": 768.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_507.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_507.png",
+          "similarity_score": 540.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_501.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_501.png",
+          "similarity_score": 540.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_499.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_499.png",
+          "similarity_score": 540.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_139.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_139.png",
+          "similarity_score": 536.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 6,
+      "test_image_name": "page_126.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_126.png",
+      "top1_image_name": "page_123.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_123.png",
+      "top1_similarity": 772.0,
+      "is_correct": false,
+      "self_rank": 4,
+      "search_time": 0.44126248359680176,
+      "top5_results": [
+        {
+          "image_name": "page_123.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_123.png",
+          "similarity_score": 772.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_002.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_002.png",
+          "similarity_score": 772.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_510.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_510.png",
+          "similarity_score": 772.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_126.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_126.png",
+          "similarity_score": 772.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_495.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_495.png",
+          "similarity_score": 362.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 7,
+      "test_image_name": "page_115.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_115.png",
+      "top1_image_name": "page_115.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_115.png",
+      "top1_similarity": 768.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": -1.0094983577728271,
+      "top5_results": [
+        {
+          "image_name": "page_115.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_115.png",
+          "similarity_score": 768.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_113.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_113.png",
+          "similarity_score": 540.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_114.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_114.png",
+          "similarity_score": 536.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_165.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_165.png",
+          "similarity_score": 524.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_116.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_116.png",
+          "similarity_score": 520.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 8,
+      "test_image_name": "page_072.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "top1_image_name": "page_072.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "top1_similarity": 764.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": 0.4124596118927002,
+      "top5_results": [
+        {
+          "image_name": "page_072.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+          "similarity_score": 764.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_136.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+          "similarity_score": 486.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_006.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+          "similarity_score": 464.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_178.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+          "similarity_score": 460.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_073.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_073.png",
+          "similarity_score": 446.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 9,
+      "test_image_name": "page_378.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_378.png",
+      "top1_image_name": "page_378.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_378.png",
+      "top1_similarity": 768.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": 0.4135103225708008,
+      "top5_results": [
+        {
+          "image_name": "page_378.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_378.png",
+          "similarity_score": 768.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_377.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_377.png",
+          "similarity_score": 680.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_376.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_376.png",
+          "similarity_score": 668.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_379.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_379.png",
+          "similarity_score": 588.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_375.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_375.png",
+          "similarity_score": 520.0,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "test_number": 10,
+      "test_image_name": "page_053.png",
+      "test_image_path": "output/PDF_Images/Manual_PDF/page_053.png",
+      "top1_image_name": "page_053.png",
+      "top1_image_path": "output/PDF_Images/Manual_PDF/page_053.png",
+      "top1_similarity": 768.0,
+      "is_correct": true,
+      "self_rank": 1,
+      "search_time": 0.4284391403198242,
+      "top5_results": [
+        {
+          "image_name": "page_053.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_053.png",
+          "similarity_score": 768.0,
+          "rank": 1
+        },
+        {
+          "image_name": "page_054.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_054.png",
+          "similarity_score": 612.0,
+          "rank": 2
+        },
+        {
+          "image_name": "page_050.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_050.png",
+          "similarity_score": 556.0,
+          "rank": 3
+        },
+        {
+          "image_name": "page_052.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_052.png",
+          "similarity_score": 540.0,
+          "rank": 4
+        },
+        {
+          "image_name": "page_049.png",
+          "image_path": "output/PDF_Images/Manual_PDF/page_049.png",
+          "similarity_score": 532.0,
+          "rank": 5
+        }
+      ]
+    }
+  ]
+}

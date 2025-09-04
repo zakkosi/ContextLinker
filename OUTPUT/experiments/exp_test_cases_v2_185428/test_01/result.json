@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이게 뭐야?",
+  "schrodinger_full_path": "temp/real_to_illust_1756979993.png",
+  "processed_image_path": "temp_masked_schrodinger_1756979994.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 60.5,
+      "rank": 1
+    },
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 59.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 58.5,
+      "rank": 3
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 58.5,
+      "rank": 4
+    },
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 57.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "다음 부품/기능에 해당합니다.\n\n- 부품/기능 명칭\n  - 센터 콘솔 USB 인터페이스 (USB port in centre console)\n\n- 핵심 설명\n  - 차량의 센터 콘솔 내부에 위치한 USB 포트로 USB 저장장치 연결 및 충전을 지원합니다. iDrive 및 차량 오디오 시스템과 연동되어 미디어 재생이나 파일 전송 등의 기능을 사용할 수 있습니다.\n\n- 사용 방법\n  - 센터 콘솔 뚜껑을 열어 USB 포트를 노출시킵니다.\n  - USB 케이블로 저장장치나 스마트폰 등을 연결합니다.\n  - iDrive/컨트롤 스크린에서 미디어 소스나 연결 상태를 선택하여 재생을 시작합니다.\n  - 필요 시 충전도 함께 이루어집니다.\n\n- 주의사항\n  - 정식 USB 케이블을 사용하고 포트에 과도한 힘을 주지 마세요.\n  - 먼지나 이물질로 인한 접속 불량을 피하기 위해 포트를 깨끗하게 관리하세요.\n  - 소프트웨어 업데이트가 필요한 경우 제조사 권장 절차를 따르세요.\n  - 비허가된 USB 장치 사용 시 오디오 품질 저하나 시스템 이상이 발생할 수 있습니다.\n\n- 참조 정보\n  - BMW 매뉴얼 관련 페이지(참조 페이지들):\n    - page_138.png\n    - page_140.png\n    - page_179.png\n    - page_178.png\n    - page_386.png\n  - 위 페이지들에서 센터 콘솔 및 Around the centre console 영역의 구성과 USB 인터페이스 위치, 사용 방법 설명 부분을 확인하실 수 있습니다.\n  - 또한 가리킨 이미지에 나타난 부품은 “센터 콘솔 USB 인터페이스”임을 매뉴얼의 Around the centre console 섹션과 일치합니다.",
+  "processing_time": 8.051625728607178,
+  "detailed_times": {
+    "schrodinger_time": 0.10351920127868652,
+    "sam2_time": 0.31238698959350586,
+    "mask_time": 0.025755882263183594,
+    "colpali_time": 0.19851422309875488,
+    "llm_time": 7.411206007003784,
+    "total_time": 8.051625728607178
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "풍향 조절은 어떻게 해?",
+  "schrodinger_full_path": "temp/real_to_illust_1756980001.png",
+  "processed_image_path": "temp_masked_schrodinger_1756980002.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 60.75,
+      "rank": 1
+    },
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 60.75,
+      "rank": 2
+    },
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 58.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_142.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+      "similarity_score": 57.75,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 57.5,
+      "rank": 5
+    }
+  ],
+  "final_response": "다음은 풍향 조절(에어벤트 방향 조절)에 대해 BMW 차량에서 일반적으로 사용하는 방법과 주의사항입니다.\n\n- 부품/기능 명칭\n  - 풍향 조절 에어벤트(에어벤트 슬랫)\n  - HVAC 컨트롤 패널(공조 시스템 제어부)\n  - 좌우/상하 방향 조절용 조절 슬랫\n  - 필요 시 에어벤트 닫힘 기능(닫힘 버튼 또는 슬랫 위치)\n\n- 핵심 설명\n  - 풍향 조절은 송풍구의 슬랫 각도를 조절해 바람의 방향을 운전자와 탑승자 쪽으로 또는 발 밑/상부로 향하도록 하는 기능입니다.\n  - 수동으로 조절하는 경우가 일반적이며, 일부 모델은 자동 공조 모드에서도 에어벤트 방향이 자동으로 최적화될 수 있습니다.\n  - 에어벤트의 개별 제어로 운전자 좌석과 뒷좌석의 풍향을 다르게 설정할 수 있는 경우도 있습니다.\n\n- 사용 방법\n  1) 차가 시동된 상태에서 HVAC 컨트롤 패널로 이동합니다.\n  2) 풍향 방향 조절 기능을 선택합니다(에어벤트 방향 다이얼/슬랫 조절). 에어벤트의 슬랫을 손가락으로 잡아 원하는 방향으로 기울이거나 수직으로 향하게 합니다.\n  3) 필요 시 특정 에어벤트를 닫아 바람을 거의 나오지 않게 할 수 있습니다(에어벤트 슬랫을 완전히 닫히도록 위치시키거나 닫힘 버튼을 사용).\n  4) 중앙 컨트롤 노브나 화면에서 총풍량과 온도, 바람의 분배를 함께 설정하면 풍향이 보다 정확히 맞춰집니다.\n  5) 차내 각 위치의 에어벤트(운전자 앞쪽, 중앙 디스플레이 아래, 좌우 도어 근처 등)를 각각 조절해 원하는 공간으로 바람을 분배합니다.\n\n- 주의사항\n  - 에어벤트를 과도하게 비틀거나 강하게 조절하면 슬랫이 손상될 수 있습니다. 부드럽게 조절하십시오.\n  - 고속 주행 시에는 바람의 흐름과 소음이 증가할 수 있으니 필요 시 풍량을 조절해 피로를 줄이십시오.\n  - 어린이 좌석 주변의 에어벤트는 항상 안전한 위치로 조정하고, 천정형/루프형 공조의 방향 변화도 주의 깊게 다루세요.\n  - 얼음이나 이물질로 슬랫이 걸리는 경우 무리하게 힘을 주지 마시고 점검을 받으세요.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 1: page_140.png\n  - BMW 매뉴얼 페이지 2: page_386.png\n  - BMW 매뉴얼 페이지 3: page_138.png\n  - BMW 매뉴얼 페이지 4: page_142.png\n  - BMW 매뉴얼 페이지 5: page_178.png\n\n참고: 사용자가 가리킨 차량 부품 이미지도 함께 확인했습니다. 이미지에 중심 컨솔과 앞좌석 쪽 에어벤트 영역이 보이며, 풍향 조절은 이 에어벤트 슬랫의 각도를 조작하는 방식으로 작동합니다. 필요하시면 해당 이미지에서 구체적인 위치(예: 앞좌석 왼쪽 도어 근처, 중앙 콘솔의 상단 에어벤트 등)별 조작 방법을 더 자세히 설명해 드리겠습니다.",
+  "processing_time": 13.160369157791138,
+  "detailed_times": {
+    "schrodinger_time": 0.45344996452331543,
+    "sam2_time": 0.08269166946411133,
+    "mask_time": 0.025064706802368164,
+    "colpali_time": 0.15869736671447754,
+    "llm_time": 12.440192461013794,
+    "total_time": 13.160369157791138
+  }
+}

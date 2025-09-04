@@ -41,9 +41,65 @@ class BMWManualAssistant:
         self.schrodinger_mode = "real_to_illust"
         print("BMW Manual Assistant 초기화 완료")
     
+    def _apply_mask_to_schrodinger(self, schrodinger_image_path: str, sam2_result: Dict[str, Any]) -> str:
+        """
+        슈뢰딩거 이미지에 SAM2 마스크를 적용하여 마스크된 이미지 생성
+        
+        Args:
+            schrodinger_image_path: 슈뢰딩거 처리된 이미지 경로
+            sam2_result: SAM2 처리 결과 (마스크 포함)
+            
+        Returns:
+            str: 마스크된 슈뢰딩거 이미지 경로
+        """
+        from PIL import Image
+        import numpy as np
+        
+        try:
+            # 슈뢰딩거 이미지 로드
+            schrodinger_img = Image.open(schrodinger_image_path).convert("RGBA")
+            
+            # SAM2 마스크 추출 (sam2_result에서 마스크 정보 가져오기)
+            if 'mask' in sam2_result:
+                mask = sam2_result['mask']
+                if isinstance(mask, np.ndarray):
+                    # numpy 배열을 PIL Image로 변환
+                    mask_img = Image.fromarray((mask * 255).astype(np.uint8), mode='L')
+                else:
+                    # 이미 PIL Image인 경우
+                    mask_img = mask
+            else:
+                # 마스크가 없으면 전체 이미지 사용
+                mask_img = Image.new('L', schrodinger_img.size, 255)
+            
+            # 마스크 크기를 슈뢰딩거 이미지와 맞춤
+            mask_img = mask_img.resize(schrodinger_img.size, Image.Resampling.LANCZOS)
+            
+            # 슈뢰딩거 이미지에 마스크 적용
+            schrodinger_array = np.array(schrodinger_img)
+            mask_array = np.array(mask_img)
+            
+            # 마스크 영역만 유지, 나머지는 투명하게
+            masked_array = schrodinger_array.copy()
+            masked_array[:, :, 3] = mask_array  # 알파 채널에 마스크 적용
+            
+            # 최종 이미지 생성
+            final_img = Image.fromarray(masked_array, 'RGBA')
+            
+            # 결과 저장
+            output_path = f"temp_masked_schrodinger_{int(time.time())}.png"
+            final_img.save(output_path)
+            
+            return output_path
+            
+        except Exception as e:
+            print(f"마스크 적용 실패: {e}")
+            # 실패시 원본 슈뢰딩거 이미지 반환
+            return schrodinger_image_path
+    
     def process_request(self, request_data: Dict[str, Any], experiment_dir: str = None, test_id: int = 1) -> Dict[str, Any]:
         """
-        Unity 요청 처리
+        Unity 요청 처리 - Pipeline v2
         
         Args:
             request_data: {
@@ -64,7 +120,7 @@ class BMWManualAssistant:
         bbox = request_data.get("bbox", None)
         schrodinger_mode = self.schrodinger_mode
         
-        print(f"\n=== BMW Manual Assistant 요청 처리 ===")
+        print(f"\n=== BMW Manual Assistant 요청 처리 (Pipeline v2) ===")
         print(f"STT: {stt_text}")
         print(f"이미지: {image_path}")
         print(f"모드: {mode}")
@@ -72,30 +128,34 @@ class BMWManualAssistant:
         print(f"슈뢰딩거 모드: {schrodinger_mode} (서버 고정값)")
         
         try:
-            # 1. SAM2로 세그멘테이션
-            print("\n1. SAM2 세그멘테이션 수행...")
-            sam2_start = time.time()
-            sam2_result = self.sam2_processor.process_image(image_path, mode, bbox)
-            sam2_time = time.time() - sam2_start
-
-            # 세그먼트된 이미지 저장
-            segmented_path = f"temp_segmented_{int(time.time())}.png"
-            self.sam2_processor.save_result(sam2_result, segmented_path)
-            print(f"세그멘테이션 완료: {segmented_path} (점수: {sam2_result['score']:.3f})")
-            
-            # 2. 슈뢰딩거 브릿지 처리
-            print(f"\n2. 슈뢰딩거 브릿지 ({schrodinger_mode})...")
+            # 1. 슈뢰딩거 브릿지 처리 (원본 이미지 전체)
+            print(f"\n1. 슈뢰딩거 브릿지 ({schrodinger_mode}) - 원본 이미지...")
             schrodinger_start = time.time()
             if schrodinger_mode == "real_to_illust":
-                processed_path = self.schrodinger_processor.real_to_illustration(segmented_path)
+                schrodinger_full_path = self.schrodinger_processor.real_to_illustration(image_path)
             elif schrodinger_mode == "illust_to_real":
-                processed_path = self.schrodinger_processor.illustration_to_real(segmented_path)
+                schrodinger_full_path = self.schrodinger_processor.illustration_to_real(image_path)
             else:
                 raise ValueError(f"잘못된 슈뢰딩거 모드: {schrodinger_mode}")
             schrodinger_time = time.time() - schrodinger_start
-
-            # 3. 이미지-이미지 유사도로 매뉴얼 검색
-            print("\n3. 이미지 유사도로 매뉴얼 검색...")
+            print(f"슈뢰딩거 전체 이미지 완료: {schrodinger_full_path}")
+            
+            # 2. SAM2로 마스크 생성
+            print("\n2. SAM2 마스크 생성...")
+            sam2_start = time.time()
+            sam2_result = self.sam2_processor.process_image(image_path, mode, bbox)
+            sam2_time = time.time() - sam2_start
+            print(f"SAM2 처리 완료 (점수: {sam2_result['score']:.3f})")
+            
+            # 3. 마스크와 슈뢰딩거 이미지 합성
+            print("\n3. 마스크된 슈뢰딩거 이미지 생성...")
+            mask_start = time.time()
+            processed_path = self._apply_mask_to_schrodinger(schrodinger_full_path, sam2_result)
+            mask_time = time.time() - mask_start
+            print(f"마스크된 슈뢰딩거 이미지 완료: {processed_path}")
+            
+            # 4. 이미지-이미지 유사도로 매뉴얼 검색
+            print("\n4. 이미지 유사도로 매뉴얼 검색...")
             colpali_start = time.time()
             similar_pages = self.colpali_processor.search_by_image(processed_path, k=5)
             colpali_time = time.time() - colpali_start
@@ -105,13 +165,13 @@ class BMWManualAssistant:
             for i, result in enumerate(similar_pages, 1):
                 print(f"  {i}. {result['image_name']} (유사도: {result['similarity_score']:.2f})")
             
-            # 4. GPT-4o로 최종 답변 생성
-            print("\n4. GPT-4o 최종 답변 생성...")
+            # 5. GPT-4o로 최종 답변 생성
+            print("\n5. GPT-4o 최종 답변 생성...")
             llm_start = time.time()
             llm_result = self.llm_processor.generate_bmw_manual_response(
                 user_prompt=stt_text,
                 manual_pages=similar_pages,
-                segmented_part=segmented_path
+                segmented_part=processed_path  # 마스크된 슈뢰딩거 이미지 전달
             )
             llm_time = time.time() - llm_start
             total_time = time.time() - start_time
@@ -120,15 +180,16 @@ class BMWManualAssistant:
             result = {
                 'success': True,
                 'stt_text': stt_text,
-                'segmented_image_path': segmented_path,
-                'processed_image_path': processed_path,
+                'schrodinger_full_path': schrodinger_full_path,  # 전체 슈뢰딩거 이미지
+                'processed_image_path': processed_path,          # 마스크된 슈뢰딩거 이미지
                 'schrodinger_mode': schrodinger_mode,
                 'top_manual_pages': similar_pages,
                 'final_response': llm_result.get('response', 'Response generation failed'),
                 'processing_time': total_time,
                 'detailed_times': {
-                    'sam2_time': sam2_time,
                     'schrodinger_time': schrodinger_time,
+                    'sam2_time': sam2_time,
+                    'mask_time': mask_time,
                     'colpali_time': colpali_time,
                     'llm_time': llm_time,
                     'total_time': total_time
@@ -138,8 +199,8 @@ class BMWManualAssistant:
             if experiment_dir and test_id:
                 experiment_folder = self.save_experiment_results(
                     result, 
-                    segmented_path, 
-                    processed_path, 
+                    schrodinger_full_path,  # 전체 슈뢰딩거 이미지
+                    processed_path,         # 마스크된 슈뢰딩거 이미지
                     similar_pages,
                     experiment_dir,  
                     test_id          
@@ -215,7 +276,7 @@ def run_test_pipeline():
     
     try:
         timestamp = datetime.now().strftime("%H%M%S")
-        experiment_dir = f"output/experiments/exp_test_cases_{timestamp}"
+        experiment_dir = f"output/experiments/exp_test_cases_v2_{timestamp}"
         os.makedirs(experiment_dir, exist_ok=True)
 
         # BMW 어시스턴트 초기화
@@ -225,7 +286,7 @@ def run_test_pipeline():
         results = []
         for i, test_case in enumerate(test_cases, 1):
             print(f"\n{'='*60}")
-            print(f"테스트 케이스 {i}/{len(test_cases)}")
+            print(f"테스트 케이스 {i}/{len(test_cases)} - Pipeline v2")
             print(f"{'='*60}")
             
             result = assistant.process_request(test_case, experiment_dir, i)

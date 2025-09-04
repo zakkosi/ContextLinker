@@ -1,0 +1,252 @@
+[
+  {
+    "success": true,
+    "stt_text": "이게 뭐야?",
+    "schrodinger_full_path": "temp/real_to_illust_1756979993.png",
+    "processed_image_path": "temp_masked_schrodinger_1756979994.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_138.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+        "similarity_score": 60.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_140.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+        "similarity_score": 59.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 58.5,
+        "rank": 3
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 58.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_386.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+        "similarity_score": 57.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음 부품/기능에 해당합니다.\n\n- 부품/기능 명칭\n  - 센터 콘솔 USB 인터페이스 (USB port in centre console)\n\n- 핵심 설명\n  - 차량의 센터 콘솔 내부에 위치한 USB 포트로 USB 저장장치 연결 및 충전을 지원합니다. iDrive 및 차량 오디오 시스템과 연동되어 미디어 재생이나 파일 전송 등의 기능을 사용할 수 있습니다.\n\n- 사용 방법\n  - 센터 콘솔 뚜껑을 열어 USB 포트를 노출시킵니다.\n  - USB 케이블로 저장장치나 스마트폰 등을 연결합니다.\n  - iDrive/컨트롤 스크린에서 미디어 소스나 연결 상태를 선택하여 재생을 시작합니다.\n  - 필요 시 충전도 함께 이루어집니다.\n\n- 주의사항\n  - 정식 USB 케이블을 사용하고 포트에 과도한 힘을 주지 마세요.\n  - 먼지나 이물질로 인한 접속 불량을 피하기 위해 포트를 깨끗하게 관리하세요.\n  - 소프트웨어 업데이트가 필요한 경우 제조사 권장 절차를 따르세요.\n  - 비허가된 USB 장치 사용 시 오디오 품질 저하나 시스템 이상이 발생할 수 있습니다.\n\n- 참조 정보\n  - BMW 매뉴얼 관련 페이지(참조 페이지들):\n    - page_138.png\n    - page_140.png\n    - page_179.png\n    - page_178.png\n    - page_386.png\n  - 위 페이지들에서 센터 콘솔 및 Around the centre console 영역의 구성과 USB 인터페이스 위치, 사용 방법 설명 부분을 확인하실 수 있습니다.\n  - 또한 가리킨 이미지에 나타난 부품은 “센터 콘솔 USB 인터페이스”임을 매뉴얼의 Around the centre console 섹션과 일치합니다.",
+    "processing_time": 8.051625728607178,
+    "detailed_times": {
+      "schrodinger_time": 0.10351920127868652,
+      "sam2_time": 0.31238698959350586,
+      "mask_time": 0.025755882263183594,
+      "colpali_time": 0.19851422309875488,
+      "llm_time": 7.411206007003784,
+      "total_time": 8.051625728607178
+    },
+    "test_case_id": 1
+  },
+  {
+    "success": true,
+    "stt_text": "풍향 조절은 어떻게 해?",
+    "schrodinger_full_path": "temp/real_to_illust_1756980001.png",
+    "processed_image_path": "temp_masked_schrodinger_1756980002.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_140.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+        "similarity_score": 60.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_386.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+        "similarity_score": 60.75,
+        "rank": 2
+      },
+      {
+        "image_name": "page_138.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+        "similarity_score": 58.25,
+        "rank": 3
+      },
+      {
+        "image_name": "page_142.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+        "similarity_score": 57.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 57.5,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음은 풍향 조절(에어벤트 방향 조절)에 대해 BMW 차량에서 일반적으로 사용하는 방법과 주의사항입니다.\n\n- 부품/기능 명칭\n  - 풍향 조절 에어벤트(에어벤트 슬랫)\n  - HVAC 컨트롤 패널(공조 시스템 제어부)\n  - 좌우/상하 방향 조절용 조절 슬랫\n  - 필요 시 에어벤트 닫힘 기능(닫힘 버튼 또는 슬랫 위치)\n\n- 핵심 설명\n  - 풍향 조절은 송풍구의 슬랫 각도를 조절해 바람의 방향을 운전자와 탑승자 쪽으로 또는 발 밑/상부로 향하도록 하는 기능입니다.\n  - 수동으로 조절하는 경우가 일반적이며, 일부 모델은 자동 공조 모드에서도 에어벤트 방향이 자동으로 최적화될 수 있습니다.\n  - 에어벤트의 개별 제어로 운전자 좌석과 뒷좌석의 풍향을 다르게 설정할 수 있는 경우도 있습니다.\n\n- 사용 방법\n  1) 차가 시동된 상태에서 HVAC 컨트롤 패널로 이동합니다.\n  2) 풍향 방향 조절 기능을 선택합니다(에어벤트 방향 다이얼/슬랫 조절). 에어벤트의 슬랫을 손가락으로 잡아 원하는 방향으로 기울이거나 수직으로 향하게 합니다.\n  3) 필요 시 특정 에어벤트를 닫아 바람을 거의 나오지 않게 할 수 있습니다(에어벤트 슬랫을 완전히 닫히도록 위치시키거나 닫힘 버튼을 사용).\n  4) 중앙 컨트롤 노브나 화면에서 총풍량과 온도, 바람의 분배를 함께 설정하면 풍향이 보다 정확히 맞춰집니다.\n  5) 차내 각 위치의 에어벤트(운전자 앞쪽, 중앙 디스플레이 아래, 좌우 도어 근처 등)를 각각 조절해 원하는 공간으로 바람을 분배합니다.\n\n- 주의사항\n  - 에어벤트를 과도하게 비틀거나 강하게 조절하면 슬랫이 손상될 수 있습니다. 부드럽게 조절하십시오.\n  - 고속 주행 시에는 바람의 흐름과 소음이 증가할 수 있으니 필요 시 풍량을 조절해 피로를 줄이십시오.\n  - 어린이 좌석 주변의 에어벤트는 항상 안전한 위치로 조정하고, 천정형/루프형 공조의 방향 변화도 주의 깊게 다루세요.\n  - 얼음이나 이물질로 슬랫이 걸리는 경우 무리하게 힘을 주지 마시고 점검을 받으세요.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 1: page_140.png\n  - BMW 매뉴얼 페이지 2: page_386.png\n  - BMW 매뉴얼 페이지 3: page_138.png\n  - BMW 매뉴얼 페이지 4: page_142.png\n  - BMW 매뉴얼 페이지 5: page_178.png\n\n참고: 사용자가 가리킨 차량 부품 이미지도 함께 확인했습니다. 이미지에 중심 컨솔과 앞좌석 쪽 에어벤트 영역이 보이며, 풍향 조절은 이 에어벤트 슬랫의 각도를 조작하는 방식으로 작동합니다. 필요하시면 해당 이미지에서 구체적인 위치(예: 앞좌석 왼쪽 도어 근처, 중앙 콘솔의 상단 에어벤트 등)별 조작 방법을 더 자세히 설명해 드리겠습니다.",
+    "processing_time": 13.160369157791138,
+    "detailed_times": {
+      "schrodinger_time": 0.45344996452331543,
+      "sam2_time": 0.08269166946411133,
+      "mask_time": 0.025064706802368164,
+      "colpali_time": 0.15869736671447754,
+      "llm_time": 12.440192461013794,
+      "total_time": 13.160369157791138
+    },
+    "test_case_id": 2
+  },
+  {
+    "success": true,
+    "stt_text": "이걸 누르면 뭘 할 수가 있어?",
+    "schrodinger_full_path": "temp/real_to_illust_1756980015.png",
+    "processed_image_path": "temp_masked_schrodinger_1756980015.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_386.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+        "similarity_score": 47.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 47.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 45.25,
+        "rank": 3
+      },
+      {
+        "image_name": "page_383.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_383.png",
+        "similarity_score": 44.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_136.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+        "similarity_score": 44.5,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음은 사용자가 가리킨 부품(시동 버튼)에 대한 요약 정보입니다.\n\n- 부품/기능 명칭\n  - 시동/정지 버튼 (Start/Stop Engine)\n\n- 핵심 설명\n  - 엔진의 구동 여부를 제어하는 주요 버튼으로, 브레이크 페달을 밟은 상태에서 누르면 엔진이 시동됩니다. 다시 누르면 엔진이 정지합니다. 일부 BMW 모델은 키 소지 여부나 전자 제어 상태에 따라 추가 인증이 필요할 수 있습니다.\n\n- 사용 방법\n  - 엔진 시동: 브레이크를 밟은 상태에서 시동 버튼을 한 번 누릅니다. 경고 없이 시동이 걸리면 브레이크를 놓고 운전에 들어갑니다.\n  - 엔진 정지: 정차 상태에서 시동 버튼을 한 번 누릅니다. 필요에 따라 다시 한 번 누르는 경우도 있습니다(모델에 따라 다름).\n  - 주의: 주행 중에는 시동 버튼을 누르지 않습니다. 차가 정지 상태가 아닐 때 시동 버튼을 조작하면 예기치 않은 엔진 중단이 발생할 수 있습니다.\n\n- 주의사항\n  - 운전 중 시동 버튼 조작은 피하고, 브레이크를 반드시 밟은 상태에서만 시동/정지를 시도합니다.\n  - 키가 차와 함께 있는지 확인하고, 일부 상태에서는 비상 상황에 대비한 절차를 따라야 할 수 있습니다.\n  - 엔진 시동 중에는 차량이 움직일 수 있으므로 주변 안전에 유의합니다.\n  - 어린이의 손이 닿지 않는 곳에 버튼이 위치해 있습니다. 실수로 누르지 않도록 주의합니다.\n\n- 참조 정보\n  - 페이지: page_416.png (유사도 45.25) — 시동 버튼의 일반 작동 방식과 사용 절차 관련 내용 참고\n  - 페이지: page_383.png (유사도 44.75) — 전면 중앙 콘솔의 기능 구성 예시 및 버튼 위치 확인\n  - 페이지: page_386.png (유사도 47.25) — 컨트롤스 섹션의 일반 설명 및 조작 예시\n  - 페이지: page_178.png (유사도 47.00) — 콘솔 내 다른 제어 요소와의 연계 설명\n  - 페이지: page_136.png (유사도 44.50) — 운전자 인터페이스 요약 및 안전 주의사항\n\n추가 안내\n- 사용자가 가리킨 이미지는 시동 버튼이 화면에 보이는 구성이므로 위 설명으로 바로 적용 가능합니다.\n- 필요하면 같은 차종의 다른 모델에서의 시동 방식 차이(키-리스 또는 버튼-시동 시스템 여부)도 함께 안내해 드리겠습니다.",
+    "processing_time": 12.310929775238037,
+    "detailed_times": {
+      "schrodinger_time": 0.4820120334625244,
+      "sam2_time": 0.06755948066711426,
+      "mask_time": 0.024999380111694336,
+      "colpali_time": 0.16466331481933594,
+      "llm_time": 11.57141661643982,
+      "total_time": 12.310929775238037
+    },
+    "test_case_id": 3
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "schrodinger_full_path": "temp/real_to_illust_1756980027.png",
+    "processed_image_path": "temp_masked_schrodinger_1756980027.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 60.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 50.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 49.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_386.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+        "similarity_score": 48.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 47.5,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음은 사용자가 가리킨 차량 부품 이미지에서 보이는 버튼들의 기능 정리입니다. 제시된 BMW 매뉴얼 페이지를 기반으로 각 부품의 명칭, 핵심 설명, 사용 방법, 주의사항, 참조 정보를 함께 제공합니다.\n\n1) 부품/기능 명칭: Start/Stop Engine 버튼\n- 핵심 설명: 엔진의 시동 및 정지를 위한 버튼. 브레이크를 밟은 상태에서 버튼을 눌러 엔진을 켜고 끕니다.\n- 사용 방법:\n  - 시동 시: 브레이크를 밟은 상태에서 버튼을 한 번 누름(키 없이 시동 가능 모델의 경우).\n  - 시동 정지: 주차 또는 정지 상태에서 버튼을 한 번 누름.\n- 주의사항:\n  - 엔진 시동 중에는 핸들 및 변속기 상태를 확인하고, 차량이 완전히 멈춘 뒤 시동을 끄십시오.\n  - 비상시나 차고지 밖에서 무단으로 시동을 걸지 마십시오.\n- 참조 정보: BMW 매뉴얼의 Start/Stop 시스템 설명 페이지(참조 페이지 예: page_178.png, page_179.png).\n\n2) 부품/기능 명칭: USB 인터페이스 (센터 콘솔 내부)\n- 핵심 설명: USB 저장장치 또는 외부 기기 연결 포트. 차량 Infotainment 시스템과 미디어 데이터를 주고받을 때 사용합니다.\n- 사용 방법:\n  - USB 케이스를 센터 콘솔의 USB 포트에 연결합니다.\n  - 인포테인먼트 메뉴에서 USB를 미디어 소스로 선택하여 재생합니다.\n- 주의사항:\n  - 인증되지 않은 USB 기기나 과도한 용량의 저장장치는 인식 오류를 유발할 수 있습니다.\n  - 운전 중 주의 산만 방지를 위해 정차 상태에서 연결하는 것을 권장합니다.\n- 참조 정보: BMW 매뉴얼의 컨트롤 및 인포테인먼트 섹션(참조 페이지 예: page_006.png, page_416.png).\n\n3) 부품/기능 명칭: 콘솔 커버 슬라이드(수납 공간 커버)\n- 핵심 설명: 센터 콘솔의 수납 커버를 앞 방향으로 밀어 열고 닫는 기능으로, 물건 보관 공간에 접근합니다.\n- 사용 방법:\n  - 커버를 손으로 앞쪽으로 밀어 열고 필요한 물건을 넣거나 꺼냅니다.\n  - 다시 제자리에 밀어 닫아 고정합니다.\n- 주의사항:\n  - 커버를 과도하게 force하게 열지 마세요. 손잡이 부위를 손상시킬 수 있습니다.\n  - USB/시거잭 등의 케이블이 끼어 있지 않도록 주의합니다.\n- 참조 정보: BMW 매뉴얼의 내부 수납 공간 운영 설명(참조 페이지 예: page_179.png).\n\n4) 부품/기능 명칭: 트렁크/리어 도어 전개 버튼(전동 트렁크/도어 개폐 스위치)\n- 핵심 설명: 트렁크(또는 리어 도어)를 전동으로 여닫는 제어 버튼으로, 차량의 도어 열림 제어에 사용됩니다.\n- 사용 방법:\n  - 버튼(일반적으로 도어 손잡이 근처 또는 트렁크 리드)에 있는 스위치를 눌러 트렁크를 열거나 닫습니다.\n- 주의사항:\n  - 반려동물이나 물건이 트렁크 경로에 있는지 확인하고 사용합니다.\n  - 예민한 부품은 충격을 가하지 않도록 부드럽게 조작합니다.\n- 참조 정보: BMW 매뉴얼의 외부/e-트렁크 제어 설명(참조 페이지 예: page_416.png).\n\n5) 부품/기능 명칭: 지도/나침반 같은 보조 컨트롤 도구(스크린 어댑터 또는 아이콘 안내)\n- 핵심 설명: 일부 모델에서 중앙 컨트롤러나 화면에 표시되는 방향/지시 아이콘이나 컨트롤 보조 기능으로, 운전 보조나 메뉴 접근에 관련될 수 있습니다.\n- 사용 방법:\n  - 화면의 지시를 따라 메뉴를 선택하거나 기능을 활성화합니다.\n- 주의사항:\n  - 화면 안내는 차량 모델 및 소프트웨어 버전에 따라 다를 수 있습니다. 매뉴얼의 해당 섹션을 참조하십시오.\n- 참조 정보: BMW 매뉴얼의 컨트롤 섹션 일반 설명(참조 페이지 예: page_178.png, page_386.png).\n\n참조 정보(제시된 매뉴얼 페이지)\n- page_178.png\n- page_179.png\n- page_416.png\n- page_386.png\n- page_006.png\n\n추가 안내\n- 제가 받은 이미지들로 보아 위 다섯 가지 기능이 일반적으로 해당 버튼들에 대응하는 주요 구성 요소입니다. 다만 정확한 모델과 연식에 따라 버튼 위치나 기능이 다를 수 있습니다. 가능하면 차량의 정확한 모델명/연식이나 더 선명한 사진을 알려주시면 각 버튼의 기능을 모델별로 더 구체적으로 매핑해 드리겠습니다.\n- 필요하신 경우, 각 페이지의 구체 텍스트를 바탕으로 더 상세한 단계별 사용 방법과 주의 사항을 요약해 드리겠습니다.",
+    "processing_time": 11.331976652145386,
+    "detailed_times": {
+      "schrodinger_time": 0.2716526985168457,
+      "sam2_time": 0.07019734382629395,
+      "mask_time": 0.027297496795654297,
+      "colpali_time": 0.16277766227722168,
+      "llm_time": 10.799803972244263,
+      "total_time": 11.331976652145386
+    },
+    "test_case_id": 4
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "schrodinger_full_path": "temp/real_to_illust_1756980038.png",
+    "processed_image_path": "temp_masked_schrodinger_1756980039.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 55.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 51.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 50.5,
+        "rank": 3
+      },
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 49.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_386.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+        "similarity_score": 48.75,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음은 사용자가 가리킨 BMW 부품 이미지와 매뉴얼 페이지를 바탕으로 각 버튼/부품의 기능과 사용법을 정리한 내용입니다.\n\n- 부품/기능 명칭 1\n  - 부품/기능 명칭: 엔진 시동/정지 버튼 (Start/Stop Engine)\n  - 핵심 설명: 차의 시동을 걸고 끄는 주요 제어 버튼. 브레이크를 밟은 상태에서 버튼을 눌러 시동을 걸거나 끌 수 있습니다.\n  - 사용 방법: \n    - 시동 걸기: 브레이크를 밟은 상태에서 버튼을 한 번 누름.\n    - 시동 끄기: 차량이 정지 상태이거나 정지 조건에서 버튼을 한 번 누름.\n  - 주의사항: 주행 중 버튼 조작은 피하고, 키/key fob가 차량 내부에 있어야 시동이 걸립니다. 비상상황 외에는 무단으로 시동 버튼을 조작하지 마세요.\n  - 참조 정보: 매뉴얼 페이지 page_178.png\n\n- 부품/기능 명칭 2\n  - 부품/기능 명칭: USB 인터페이스(센터 콘솔의 USB 포트)\n  - 핵심 설명: USB 케이블 연결을 통해 스마트폰/미디어 기기와 차량 시스템 간 데이터 전송 및 충전을 가능하게 하는 인터페이스 영역.\n  - 사용 방법: \n    - USB 케이블로 기기를 연결하고, 차량의 미디어/연결 메뉴에서 해당 기기를 선택하여 음악 재생이나 파일 전송을 이용합니다.\n  - 주의사항: 과전류 방지를 위해 원래 제공된 케이블을 사용하고, 고장 시 매뉴얼에 따른 절차로 점검 받으세요.\n  - 참조 정보: 매뉴얼 페이지 page_179.png\n\n- 부품/기능 명칭 3\n  - 부품/기능 명칭: 전화/블루투스 핸즈프리 버튼\n  - 핵심 설명: 블루투스 전화 기능을 활성화하고 전화를 제어하는 버튼. 손쉽게 수신·발신/음성인식을 사용할 수 있습니다.\n  - 사용 방법: \n    - 수신: 버튼을 눌러 전화 받기.\n    - 발신/음성 명령: 음성 인식 또는 화면상의 메뉴를 통해 발신, 음성 명령 기능 사용.\n  - 주의사항: 운전 중 주의가 산만해지지 않도록 음성명령 위주로 사용하고, 안전운전에 집중합니다.\n  - 참조 정보: 매뉴얼 페이지 page_416.png\n\n- 부품/기능 명칭 4\n  - 부품/기능 명칭: iDrive/Menu 컨트롤러 및 버튼 배열\n  - 핵심 설명: 다이얼 및 물리 버튼으로 메뉴 탐색, 선택, back/확인을 수행하는 인터페이스. 화면의 메뉴를 빠르게 제어합니다.\n  - 사용 방법: \n    - 다이얼을 회전해 항목을 스크롤하고, 눌러 선택합니다. 필요한 경우 상하좌우 방향 버튼으로 이동 후 확정합니다.\n  - 주의사항: 너무 빠르게 조작하면 운전에 방해될 수 있으니 천천히 사용하고, 운전 중에는 최소한의 조작으로 필요한 기능만 사용합니다.\n  - 참조 정보: 매뉴얼 페이지 page_072.png\n\n- 부품/기능 명칭 5\n  - 부품/기능 명칭: 차량 컨트롤 개요(일반 컨트롤 요소에 대한 안내)\n  - 핵심 설명: 운전자의 안전과 편의성을 위한 일반 컨트롤들의 위치와 용도를 설명하는 페이지로, 특정 버튼의 기능을 한 눈에 파악하도록 구성되어 있습니다.\n  - 사용 방법: 각 컨트롤의 위치를 확인하고, 필요 시 매뉴얼의 해당 섹션에 따라 사용합니다.\n  - 주의사항: 매뉴얼의 안내를 준수하고, unfamiliar한 기능은 운전 중 사용을 피합니다.\n  - 참조 정보: 매뉴얼 페이지 page_386.png\n\n참고 및 추가 안내\n- 사용자가 제공한 이미지에서 식별한 버튼/부품은 위 다섯 가지로 매핑했습니다. 실제 차량 트림이나 연식에 따라 버튼 배열이나 명칭이 다를 수 있으니, 가능한 경우 차량의 VIN에 맞춘 구체 매뉴얼 섹션을 확인하는 것을 권장드립니다.\n- 필요하시면 차량의 정확한 모델/연식을 알려주시면 해당 모델에 맞춘 더 구체적인 기능 설명과 각 버튼의 작동 예시를 추가로 정리해 드리겠습니다.",
+    "processing_time": 16.99435257911682,
+    "detailed_times": {
+      "schrodinger_time": 0.31574249267578125,
+      "sam2_time": 0.06535625457763672,
+      "mask_time": 0.025255203247070312,
+      "colpali_time": 0.15787410736083984,
+      "llm_time": 16.42985200881958,
+      "total_time": 16.99435257911682
+    },
+    "test_case_id": 5
+  }
+]

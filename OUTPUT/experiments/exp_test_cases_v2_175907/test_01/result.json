@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이게 뭐야?",
+  "schrodinger_full_path": "temp/real_to_illust_1756976674.png",
+  "processed_image_path": "temp_masked_schrodinger_1756976675.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 60.75,
+      "rank": 1
+    },
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 60.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 58.0,
+      "rank": 3
+    },
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 58.0,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 57.75,
+      "rank": 5
+    }
+  ],
+  "final_response": "죄송합니다. 현재 BMW 매뉴얼 정보를 처리할 수 없습니다.",
+  "processing_time": 5.224146604537964,
+  "detailed_times": {
+    "schrodinger_time": 0.10166740417480469,
+    "sam2_time": 0.31026625633239746,
+    "mask_time": 0.024783611297607422,
+    "colpali_time": 0.19656777381896973,
+    "llm_time": 4.590592384338379,
+    "total_time": 5.224146604537964
+  }
+}

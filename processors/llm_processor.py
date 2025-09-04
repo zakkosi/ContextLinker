@@ -19,99 +19,80 @@ class LLMProcessor:
             return base64.b64encode(image_file.read()).decode('utf-8')
     
     def generate_bmw_manual_response(self, 
-                                   user_prompt: str,
-                                   manual_pages: List[Dict[str, Any]],
-                                   segmented_part: Optional[str] = None) -> Dict[str, Any]:
-        """
-        BMW 매뉴얼 기반 응답 생성
-        
-        Args:
-            user_prompt: 유저의 STT 프롬프트 (예: "이게 뭐야?", "트렁크 닫는 법?")
-            manual_pages: ColPali에서 검색된 관련 매뉴얼 페이지들
-            segmented_part: 세그먼트된 부품 이미지 경로 (optional)
-            
-        Returns:
-            dict: LLM 응답 결과
-        """
+                               user_prompt: str,
+                               manual_pages: List[Dict[str, Any]],
+                               segmented_part: Optional[str] = None) -> Dict[str, Any]:
         try:
-            # 시스템 프롬프트 구성
-            system_prompt = """당신은 고도로 진보된 BMW 차량 전문가 AI 어시스턴트입니다. 
-            당신의 임무는 다음 세 가지 정보를 종합하여 사용자에게 가장 정확하고 유용한 답변을 제공하는 것입니다.
-            
-            1. **사용자의 질문과 차량 부품 이미지**: 사용자가 무엇을 궁금해하는지, 그리고 어떤 특정 부품을 가리키고 있는지 파악하는 핵심 정보입니다.
-            2. **참조용 BMW 매뉴얼 페이지**: 기술적인 설명, 정확한 명칭, 작동법, 주의사항 등 사실 정보를 얻을 수 있는 공식 자료입니다.
+            # 시스템 프롬프트를 사용자 메시지에 포함
+            full_prompt = f"""당신은 고도로 진보된 BMW 차량 전문가 AI 어시스턴트입니다. 
+            다음 정보를 종합하여 사용자에게 가장 정확하고 유용한 답변을 제공하세요.
 
-            이 모든 정보를 종합적으로 분석하여, 다음 구조에 따라 명확하고 친절하게 한국어로 답변을 생성하세요:
+            사용자 질문: {user_prompt}
             
-            - **부품/기능 명칭**: 사용자가 가리킨 부품의 정확한 명칭을 알려주세요.
-            - **핵심 설명**: 해당 부품이나 기능이 무엇인지, 어떤 역할을 하는지 명확하게 설명합니다.
-            - **사용 방법**: 필요시, 조작법이나 사용법을 단계별로 안내합니다.
-            - **주의사항**: 매뉴얼을 바탕으로 안전 관련 정보나 중요한 팁을 포함합니다.
-            - **참조 정보**: 답변의 근거가 된 핵심 매뉴얼 페이지를 언급합니다.
+            답변 구조:
+            - 부품/기능 명칭
+            - 핵심 설명  
+            - 사용 방법
+            - 주의사항
+            - 참조 정보
             """
             
-            # 사용자 메시지 구성
-            messages = [
-                {"role": "system", "content": system_prompt},
-                {
-                    "role": "user", 
-                    "content": [
-                        {"type": "text", "text": f"사용자 질문: {user_prompt}"}
-                    ]
-                }
-            ]
+            # input 데이터 구성
+            content = [{"type": "input_text", "text": full_prompt}]
             
             # 매뉴얼 페이지 이미지들 추가
             if manual_pages:
-                manual_content = f"\n관련 BMW 매뉴얼 페이지 {len(manual_pages)}개를 참조하세요:\n"
+                manual_info = f"\n관련 BMW 매뉴얼 페이지 {len(manual_pages)}개를 참조하세요:\n"
                 
                 for i, page in enumerate(manual_pages, 1):
                     try:
                         image_b64 = self.encode_image_to_base64(page['image_path'])
-                        messages[-1]["content"].append({
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/jpeg;base64,{image_b64}",
-                                "detail": "high"
-                            }
+                        content.append({
+                            "type": "input_image",
+                            "image_url": f"data:image/jpeg;base64,{image_b64}",
+                            "detail": "auto"
                         })
-                        manual_content += f"페이지 {i}: {page['image_name']} (유사도: {page['similarity_score']:.2f})\n"
+                        manual_info += f"페이지 {i}: {page['image_name']} (유사도: {page['similarity_score']:.2f})\n"
                     except Exception as e:
                         print(f"매뉴얼 페이지 로딩 실패 {page['image_path']}: {e}")
                 
-                messages[-1]["content"][0]["text"] += manual_content
+                content[0]["text"] += manual_info
             
-            # 세그먼트된 부품 이미지 추가 (있는 경우)
+            # 세그먼트된 부품 이미지 추가
             if segmented_part and os.path.exists(segmented_part):
                 try:
                     part_b64 = self.encode_image_to_base64(segmented_part)
-                    messages[-1]["content"].append({
-                        "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/jpeg;base64,{part_b64}",
-                            "detail": "high"
-                        }
+                    content.append({
+                        "type": "input_image",
+                        "image_url": f"data:image/jpeg;base64,{part_b64}",
+                        "detail": "auto"
                     })
-                    messages[-1]["content"][0]["text"] += "\n\n사용자가 가리킨 차량 부품 이미지도 함께 확인하세요."
+                    content[0]["text"] += "\n\n사용자가 가리킨 차량 부품 이미지도 함께 확인하세요."
                 except Exception as e:
                     print(f"세그먼트 이미지 로딩 실패: {e}")
             
-            # OpenAI API 호출
-            response = self.client.chat.completions.create(
+            # GPT-5 nano Responses API 호출
+            input_data = [{
+                "role": "user",
+                "content": content
+            }]
+            
+            response = self.client.responses.create(
                 model=self.model,
-                messages=messages,
-                max_tokens=1000,
-                temperature=0.7
+                input=input_data,
+                reasoning={"effort": "low"},
+                text={"verbosity": "medium"}
             )
             
             return {
-                'response': response.choices[0].message.content,
+                'response': response.output[1].content[0].text,
                 'model': self.model,
                 'manual_pages_used': len(manual_pages),
                 'has_segmented_part': segmented_part is not None
             }
             
         except Exception as e:
+            print(f"LLM 처리 중 실제 오류: {e}")
             return {
                 'error': f"LLM 응답 생성 실패: {e}",
                 'response': "죄송합니다. 현재 BMW 매뉴얼 정보를 처리할 수 없습니다."

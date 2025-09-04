@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이걸 누르면 뭘 할 수가 있어?",
+  "schrodinger_full_path": "temp/real_to_illust_1756980015.png",
+  "processed_image_path": "temp_masked_schrodinger_1756980015.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 47.25,
+      "rank": 1
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 47.0,
+      "rank": 2
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 45.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_383.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_383.png",
+      "similarity_score": 44.75,
+      "rank": 4
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 44.5,
+      "rank": 5
+    }
+  ],
+  "final_response": "다음은 사용자가 가리킨 부품(시동 버튼)에 대한 요약 정보입니다.\n\n- 부품/기능 명칭\n  - 시동/정지 버튼 (Start/Stop Engine)\n\n- 핵심 설명\n  - 엔진의 구동 여부를 제어하는 주요 버튼으로, 브레이크 페달을 밟은 상태에서 누르면 엔진이 시동됩니다. 다시 누르면 엔진이 정지합니다. 일부 BMW 모델은 키 소지 여부나 전자 제어 상태에 따라 추가 인증이 필요할 수 있습니다.\n\n- 사용 방법\n  - 엔진 시동: 브레이크를 밟은 상태에서 시동 버튼을 한 번 누릅니다. 경고 없이 시동이 걸리면 브레이크를 놓고 운전에 들어갑니다.\n  - 엔진 정지: 정차 상태에서 시동 버튼을 한 번 누릅니다. 필요에 따라 다시 한 번 누르는 경우도 있습니다(모델에 따라 다름).\n  - 주의: 주행 중에는 시동 버튼을 누르지 않습니다. 차가 정지 상태가 아닐 때 시동 버튼을 조작하면 예기치 않은 엔진 중단이 발생할 수 있습니다.\n\n- 주의사항\n  - 운전 중 시동 버튼 조작은 피하고, 브레이크를 반드시 밟은 상태에서만 시동/정지를 시도합니다.\n  - 키가 차와 함께 있는지 확인하고, 일부 상태에서는 비상 상황에 대비한 절차를 따라야 할 수 있습니다.\n  - 엔진 시동 중에는 차량이 움직일 수 있으므로 주변 안전에 유의합니다.\n  - 어린이의 손이 닿지 않는 곳에 버튼이 위치해 있습니다. 실수로 누르지 않도록 주의합니다.\n\n- 참조 정보\n  - 페이지: page_416.png (유사도 45.25) — 시동 버튼의 일반 작동 방식과 사용 절차 관련 내용 참고\n  - 페이지: page_383.png (유사도 44.75) — 전면 중앙 콘솔의 기능 구성 예시 및 버튼 위치 확인\n  - 페이지: page_386.png (유사도 47.25) — 컨트롤스 섹션의 일반 설명 및 조작 예시\n  - 페이지: page_178.png (유사도 47.00) — 콘솔 내 다른 제어 요소와의 연계 설명\n  - 페이지: page_136.png (유사도 44.50) — 운전자 인터페이스 요약 및 안전 주의사항\n\n추가 안내\n- 사용자가 가리킨 이미지는 시동 버튼이 화면에 보이는 구성이므로 위 설명으로 바로 적용 가능합니다.\n- 필요하면 같은 차종의 다른 모델에서의 시동 방식 차이(키-리스 또는 버튼-시동 시스템 여부)도 함께 안내해 드리겠습니다.",
+  "processing_time": 12.310929775238037,
+  "detailed_times": {
+    "schrodinger_time": 0.4820120334625244,
+    "sam2_time": 0.06755948066711426,
+    "mask_time": 0.024999380111694336,
+    "colpali_time": 0.16466331481933594,
+    "llm_time": 11.57141661643982,
+    "total_time": 12.310929775238037
+  }
+}

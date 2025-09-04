@@ -165,14 +165,14 @@ class BMWManualAssistant:
     def cleanup_temp_files(self):
         """임시 파일들 정리"""
         import glob
-        temp_files = glob.glob("temp_segmented_*.png")
+        temp_files = glob.glob("temp_segmented_*.png") + glob.glob("temp_masked_schrodinger_*.png")
         for file in temp_files:
             try:
                 os.remove(file)
             except:
                 pass
 
-    def save_experiment_results(self, result, segmented_path, processed_path, similar_pages, experiment_dir, test_id):
+    def save_experiment_results(self, result, schrodinger_full_path, processed_path, similar_pages, experiment_dir, test_id):
         """실험 결과를 지정된 폴더에 저장"""
         # 테스트별 서브폴더 생성
         test_dir = f"{experiment_dir}/test_{test_id:02d}"
@@ -180,8 +180,8 @@ class BMWManualAssistant:
         os.makedirs(f"{test_dir}/retrieved_pages", exist_ok=True)
         
         # 이미지 파일들 복사
-        shutil.copy(segmented_path, f"{test_dir}/sam2_segmented.png")
-        shutil.copy(processed_path, f"{test_dir}/schrodinger_processed.png")
+        shutil.copy(schrodinger_full_path, f"{test_dir}/schrodinger_full.png")
+        shutil.copy(processed_path, f"{test_dir}/masked_schrodinger.png")
         
         # 검색된 매뉴얼 페이지들 복사
         for page in similar_pages:

@@ -240,11 +240,21 @@ class BMWManualAssistant:
         os.makedirs(test_dir, exist_ok=True)
         os.makedirs(f"{test_dir}/retrieved_pages", exist_ok=True)
         
-        # 이미지 파일들 복사
-        shutil.copy(schrodinger_full_path, f"{test_dir}/schrodinger_full.png")
-        shutil.copy(processed_path, f"{test_dir}/masked_schrodinger.png")
+        try:
+            shutil.copy(schrodinger_full_path, f"{test_dir}/schrodinger_full.png")
+            os.remove(schrodinger_full_path)  # 복사 후 즉시 삭제
+            print(f"삭제: {schrodinger_full_path}")
+        except Exception as e:
+            print(f"파일 삭제 실패: {schrodinger_full_path}, {e}")
         
-        # 검색된 매뉴얼 페이지들 복사
+        try:
+            shutil.copy(processed_path, f"{test_dir}/masked_schrodinger.png") 
+            os.remove(processed_path)  # 복사 후 즉시 삭제
+            print(f"삭제: {processed_path}")
+        except Exception as e:
+            print(f"파일 삭제 실패: {processed_path}, {e}")
+        
+        # 검색된 매뉴얼 페이지들 복사 (이건 temp 파일이 아니라서 삭제 안함)
         for page in similar_pages:
             page_name = page['image_name']
             shutil.copy(page['image_path'], f"{test_dir}/retrieved_pages/{page_name}")

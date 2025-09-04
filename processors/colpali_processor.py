@@ -242,30 +242,7 @@ class ColPaliProcessor:
             'model_name': self.model_name,
             'device': self.device
         }
-
-# main.py용 간단한 인터페이스 함수들
-def quick_colpali_search(pdf_images_folder: str, query_text: str, k: int = 5) -> List[Dict[str, Any]]:
-    """
-    빠른 ColPali 검색 - main.py용 인터페이스
     
-    Usage:
-        results = quick_colpali_search("./output/PDF_Images", "steering wheel", k=3)
-    """
-    processor = ColPaliProcessor()
-    processor.build_database_from_pdf_images(pdf_images_folder)
-    return processor.search_by_text(query_text, k)
-
-def quick_image_search(pdf_images_folder: str, query_image_path: str, k: int = 5) -> List[Dict[str, Any]]:
-    """
-    빠른 이미지 검색 - main.py용 인터페이스
-    
-    Usage:
-        results = quick_image_search("./output/PDF_Images", "query.jpg", k=3)
-    """
-    processor = ColPaliProcessor()
-    processor.build_database_from_pdf_images(pdf_images_folder)
-    return processor.search_by_image(query_image_path, k)
-
 if __name__ == "__main__":
     # 테스트 실행
     processor = ColPaliProcessor()

@@ -130,7 +130,7 @@ def main():
         """
     )
     
-    default_questions = "Paper_Exp/Questions/questions.json"
+    default_questions = "Paper_Exp/Questions/Image7_Questions.json"
     default_output = "Paper_Exp/output/experiments"
     default_pdf_images = "output/PDF_Images" # 이 경로는 루트 기준이므로 그대로.
     

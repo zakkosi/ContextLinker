@@ -1,9 +1,9 @@
-const allQuestions = {
+{
   "questions": [
     {
       "id": 1,
       "query_text": "{분할 스크린}에서 설정하고 표시할 수 있는 정보의 종류에는 어떤 것들이 있습니까?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "분할 스크린에서는 지도, 교통상황, 교통사건, 경로 개요, 화살표 보기, 위치, 추가 정보, 온보드 컴퓨터 정보 등 다양한 정보를 설정하고 표시할 수 있습니다.",
@@ -12,7 +12,7 @@ const allQuestions = {
     {
       "id": 2,
       "query_text": "{컨트롤 디스플레이}에서 터치 스크린을 이용하여 지도를 어떻게 조작할 수 있습니까?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "터치 스크린에서 지도를 조작하려면 손가락으로 밀어서 이동하고, 두 손가락으로 오므리거나 펼쳐서 확대·축소하며, 한 번 터치로 메뉴를 표시할 수 있습니다.",
@@ -21,7 +21,7 @@ const allQuestions = {
     {
       "id": 3,
       "query_text": "{컨트롤 디스플레이} 사용 시 주의할 점은 무엇인가요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "컨트롤 디스플레이 사용 시에는 직사광선이나 물체로 인한 손상에 주의하고, 주행 중 조작은 교통 안전에 영향을 줄 수 있으므로 차량이 정차된 상태에서 사용하는 것이 좋습니다.",
@@ -30,7 +30,7 @@ const allQuestions = {
     {
       "id": 4,
       "query_text": "컨트롤러로 {디스플레이}를 어떻게 조작하나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "컨트롤러를 돌리거나 누르거나 밀어서 메뉴를 이동·선택하고, 버튼을 한 번 또는 두 번 눌러 다양한 기능을 실행할 수 있습니다.",
@@ -39,7 +39,7 @@ const allQuestions = {
     {
       "id": 5,
       "query_text": "{컨트롤 디스플레이}의 버튼으로 어떤 메뉴를 바로 실행할 수 있나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "컨트롤 디스플레이의 버튼으로 시작 메뉴, 통신 메뉴, 미디어/라디오 메뉴, 내비게이션 목적지 입력 및 지도 불러오기, 마지막으로 사용한 메뉴, 메뉴 옵션 등을 바로 실행할 수 있습니다.",
@@ -48,7 +48,7 @@ const allQuestions = {
     {
       "id": 6,
       "query_text": "{컨트롤 디스플레이}에 글자는 어떻게 입력하나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "컨트롤 디스플레이에 글자는 컨트롤러 또는 터치 스크린을 통해 입력하며, 입력 언어를 선택한 후 컨트롤러를 돌려 문자 또는 음절을 선택하고 누르기하여 입력할 수 있습니다.",
@@ -57,7 +57,7 @@ const allQuestions = {
     {
       "id": 7,
       "query_text": "글자 입력 시 키보드 종류가 바뀌나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "문자나 기호를 입력할 때 입력 언어나 입력 모드에 따라 키보드 디스플레이가 자동으로 변경됩니다.",
@@ -66,7 +66,7 @@ const allQuestions = {
     {
       "id": 8,
       "query_text": "내비게이션 지도를 터치로 움직일 수 있나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "내비게이션 지도를 터치스크린이나 터치패드를 통해 손가락으로 밀거나 당겨서 원하는 방향으로 움직일 수 있습니다.",
@@ -75,7 +75,7 @@ const allQuestions = {
     {
       "id": 9,
       "query_text": "주행 중에도 TV를 볼 수 있나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "주행 중 앞유리 내 TV 화면은 일부 국가 사양에서만 주행 속도 약 3 km/h 이내에서만 나타나며, 일반적으로 주행 중에는 TV 시청이 제한됩니다.",
@@ -84,7 +84,7 @@ const allQuestions = {
     {
       "id": 10,
       "query_text": "음악 저장 공간이 얼마나 남았는지 확인할 수 있나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "음악 하드 디스크의 남은 저장 공간은 \"음악 컬렉션 관리\"에서 \"비어있는 저장공간\" 또는 \"빈 저장 공간 표시\" 기능을 통해 확인할 수 있습니다.",
@@ -93,7 +93,7 @@ const allQuestions = {
     {
       "id": 11,
       "query_text": "오디오 재생 정보가 {디스플레이}에 표시되나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "오디오 재생 정보는 컨트롤 디스플레이에 표시됩니다.",
@@ -102,7 +102,7 @@ const allQuestions = {
     {
       "id": 12,
       "query_text": "현재 차량의 출력과 토크 값을 볼 수 있나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "현재 차량의 출력과 토크 값은 컨트롤 디스플레이의 '스포츠 디스플레이'에서 확인할 수 있습니다.",
@@ -111,7 +111,7 @@ const allQuestions = {
     {
       "id": 13,
       "query_text": "차량의 시스템 상태를 어떻게 확인하나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "차량의 시스템 상태는 iDrive의 \"내 차량\" > \"차량 상태\" 메뉴에서 타이어 공기압, 엔진오일량 등 다양한 정보를 확인할 수 있으며, 헤드업 디스플레이와 컨트롤 디스플레이에서도 주요 시스템 메시지와 상태를 확인할 수 있습니다.",
@@ -120,7 +120,7 @@ const allQuestions = {
     {
       "id": 14,
       "query_text": "체크컨트롤 메시지는 어디에 표시되나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "체크컨트롤 메시지는 계기판과 헤드업 디스플레이, 그리고 경우에 따라 컨트롤 디스플레이에 표시되며, 일부 메시지는 음향 신호와 함께 나타날 수 있습니다.",
@@ -129,7 +129,7 @@ const allQuestions = {
     {
       "id": 15,
       "query_text": "체크컨트롤 메시지의 상세 정보는 어떻게 보나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "체크컨트롤 메시지의 상세 정보는 iDrive에서 \"내 차량\" → \"차량 상태\" → \"체크컨트롤\" 메뉴에서 원하는 메시지를 선택하면 확인할 수 있으며, 추가 정보는 사용자설명서에서도 확인할 수 있습니다.",
@@ -138,7 +138,7 @@ const allQuestions = {
     {
       "id": 16,
       "query_text": "엔진 오일 레벨을 {디스플레이}에서 확인할 수 있나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "iDrive의 \"내 차량\" → \"차량 상태\" → \"엔진오일량\" 메뉴에서 엔진 오일 레벨을 디스플레이로 확인할 수 있습니다.",
@@ -147,7 +147,7 @@ const allQuestions = {
     {
       "id": 17,
       "query_text": "주차 가능한 공간을 {디스플레이}에서 어떻게 보여주나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "디스플레이에는 차량 옆 도로 가장자리에 컬러로 강조된 주차 가능 공간이 표시되며, 주차 어시스트 활성 시 검색 상태와 함께 위치와 크기가 컨트롤 디스플레이에 나타납니다.",
@@ -156,7 +156,7 @@ const allQuestions = {
     {
       "id": 18,
       "query_text": "운전 중 피로할 때 어떤 알림이 표시되나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "운전 중 피로하거나 주의력 감소가 감지되면 디스플레이에 휴식권고 메시지와 컨트롤 메시지가 표시되며, 헤드업 디스플레이에도 주의 알림이 나타날 수 있습니다.",
@@ -165,7 +165,7 @@ const allQuestions = {
     {
       "id": 19,
       "query_text": "공기 정화 기능이 켜졌는지 어떻게 알 수 있나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "공기 정화 기능이 켜졌는지는 iDrive에서 \"내 차량\" → \"차량 설정\" → \"냉/난방 컴포트 기능\" → \"공기의 질\" 메뉴에서 실내 이온화가 활성화되어 있는지 확인하거나, 냉난방 시스템 디스플레이에 이온화 기능 표시로 확인할 수 있습니다.",
@@ -174,11 +174,11 @@ const allQuestions = {
     {
       "id": 20,
       "query_text": "{컨트롤 디스플레이}의 화면 밝기는 어떻게 조절하나요?",
-      "image_path": "../query_images/3.png",
+      "image_path": "Query_images/3.png",
       "sam2_mode": 1,
       "sam2_bbox": [474, 138, 808, 324],
       "expected_answer": "컨트롤 디스플레이의 화면 밝기는 iDrive에서 \"내 차량\" → \"iDrive 설정\" → \"디스플레이\" → \"컨트롤 디스플레이\" → \"야간시 밝기\"에서 컨트롤러를 돌려 원하는 밝기를 조절할 수 있습니다.",
       "source_page": 131
     }
   ]
-};
+}

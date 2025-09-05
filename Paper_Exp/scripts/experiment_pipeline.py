@@ -393,7 +393,7 @@ def main():
     """메인 함수"""
     parser = argparse.ArgumentParser(description="BMW Manual Assistant 실험 파이프라인")
     
-    parser.add_argument("--questions", default="../Questions/questions.json",
+    parser.add_argument("--questions", default="../Questions/Image7_Questions.json",
                        help="질문 JSON 파일 경로")
     parser.add_argument("--input_types", nargs="+", default=["text", "image", "text_image"],
                        choices=["text", "image", "text_image"],

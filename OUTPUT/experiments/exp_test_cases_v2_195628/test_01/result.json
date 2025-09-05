@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이게 뭐야?",
+  "schrodinger_full_path": "temp/real_to_illust_1756983713.png",
+  "processed_image_path": "temp_masked_schrodinger_1756983714.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 61.75,
+      "rank": 1
+    },
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 60.5,
+      "rank": 2
+    },
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 58.5,
+      "rank": 3
+    },
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 58.5,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 58.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "다음은 사용자가 가리킨 부품에 대한 분석과 설명입니다.\n\n- 부품/기능 명칭\n  - Start/Stop Engine 버튼 (시동 버튼)\n\n- 핵심 설명\n  - 엔진 시동/정지 기능을 담당하는 전용 버튼으로, 차량의 파워를 켜거나 끕니다. 일반적으로 브레이크 페달을 밟은 상태에서 버튼을 누르면 시동이 걸리고, 다시 누르면 엔진이 정지합니다. 차량에 따라 파워 트레인 상태 표시와 함께 주의 경고 음성/등이 동반될 수 있습니다.\n\n- 사용 방법\n  - 시동 걸기: 브레이크를 밟은 상태에서 Start/Stop 버튼을 한 번 눌러 엔진 시동. 필요시 파워 버튼(혹은 키리스 엔트리 모드) 상태에 따라 작동 방식이 다를 수 있습니다.\n  - 시동 끄기: 차량이 정차하고 변속기가 P에 위치하거나, 매뉴얼의 지시에 따라 Start/Stop 버튼을 한 번 눌러 엔진을 끕니다.\n  - 주의: 키가 차량 내에 있어야 하며, 브레이크를 반드시 밟은 상태에서 작동해야 합니다. 비정상적인 시동/정지 동작이 보일 경우 제조사 매뉴얼의 정지 절차를 따라 주세요.\n\n- 주의사항\n  - 주행 중 엔진을 강제로 끄지 마십시오.\n  - 엔진 상태 표시등이나 경고등이 있을 때는 즉시 운전 중지 및 점검을 권장합니다.\n  - 비 오는 날이나 미끄러운 도로에서 예기치 않게 작동하지 않도록 청결하게 버튼 주변이 정돈되어 있어야 합니다.\n  - 자동차마다 구동 시스템, 시동 방식(DIG/Keyless 등)이 다를 수 있으니 차량 매뉴얼의 구체 지침을 확인하세요.\n\n- 참조 정보\n  - BMW 매뉴얼 관련 페이지\n    - 페이지 138.png: 차량의 운전 지원 및 주변 컨트롤 구성에 대한 일반 설명\n    - 페이지 140.png: 운전 영역 및 콘솔 구성, 특정 버튼의 위치 설명\n    - 페이지 179.png: 계기 및 컨트롤 인터페이스의 기능 설명\n    - 페이지 386.png: 컨트롤 영역의 기능 설명과 주의사항\n    - 페이지 178.png: 센터 콘솔 및 컨트롤의 배치, Start/Stop 엔진 버튼 위치 해설\n\n참고: 이미지 인식으로 확인된 부품은 Start/Stop Engine 버튼이며, 위 참조 매뉴얼 페이지의 관련 섹션에서 해당 버튼의 위치 및 작동 원리에 대해 더 자세히 확인하실 수 있습니다. 필요하시면 해당 페이지의 구체 문구를 요약해 드리겠습니다.",
+  "processing_time": 9.677763223648071,
+  "detailed_times": {
+    "schrodinger_time": 0.13701105117797852,
+    "sam2_time": 0.3087329864501953,
+    "mask_time": 0.02531719207763672,
+    "colpali_time": 0.19620466232299805,
+    "llm_time": 9.010265827178955,
+    "total_time": 9.677763223648071
+  }
+}

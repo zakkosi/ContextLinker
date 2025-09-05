@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "schrodinger_full_path": "temp/real_to_illust_1757037274.png",
+  "processed_image_path": "temp_masked_schrodinger_1757037275.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 49.75,
+      "rank": 1
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 47.75,
+      "rank": 2
+    },
+    {
+      "image_name": "page_072.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "similarity_score": 46.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 43.75,
+      "rank": 4
+    },
+    {
+      "image_name": "page_118.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+      "similarity_score": 43.75,
+      "rank": 5
+    }
+  ],
+  "final_response": "요청하신 사진과 매뉴얼 페이지를 종합해 분석한 결과를 아래와 같이 정리합니다. 다만 이미지 해상도와 구도상 일부 버튼은 확실히 구분되기 어렵습니다. 확실한 항목부터 먼저 정리하고, 나머지 버튼들은 추가 사진이나 근접 클로즈업이 필요합니다.\n\n- 부품/기능 명칭 1\n  - 핵심 설명\n  - 사용 방법\n  - 주의사항\n  - 참조 정보\n\n1) Start/Stop Engine 버튼\n- 부품/기능 명칭: Start/Stop Engine 버튼\n- 핵심 설명: 엔진 시동 및 시동 해제를 위한 중앙 컨트롤 버튼으로, 브레이크 페달(또는 클러치, 차종에 따라 다름)을 밟은 상태에서 버튼을 눌러 엔진을 시동하거나 시동을 해제합니다.\n- 사용 방법:\n  - 시동 걸기: 브레이크를 밟은 상태에서 Start/Stop 버튼을 한 번 누름. 엔진이 켜집니다.\n  - 시동 끄기: 차량 정차 후 브레이크를 밟고 Start/Stop 버튼을 한 번 누르면 엔진이 꺼집니다.\n- 주의사항:\n  - 주행 중 엔진을 끄지 마세요. 주행 중 시동 해제 시 운전 제어가 불안정해질 수 있습니다.\n  - 비상 상황에서 버튼을 길게 누르면 엔진이 강제 정지될 수 있으므로 사용에 주의.\n  - 차량 매뉴얼에 따라 보안/키 인식 요건(키가 차 안에 있어야 시동 가능 여부)가 다를 수 있습니다.\n- 참조 정보:\n  - 매뉴얼 페이지: page_178.png (유사도 47.75)\n\n참고로 보신 사진에서 이 버튼은 명확히 인식됩니다. 나머지 버튼들에 대해선 이미지가 다소 흐리거나 특정 아이콘이 잘 보이지 않아 정확한 식별이 어렵습니다.\n\n추가로 확인이 필요한 항목\n- 부품 이미지 두께와 상호 위치: 첫 번째 이미지(열쇠 삽입형/전자식 시동 부근의 어떤 부품일 가능성 있음)와 마지막에 보이는 좌석/벨트 관련 그림은 현재 버튼의 일반적인 “제어 버튼”이 아니라 보조 경고등/기능 버튼으로 보이지 않습니다. 이들에 대해선 더 선명한 클로즈업 이미지가 필요합니다.\n- 전화 아이콘/전화 부스 흔적이 보이는 네 번째 이미지: 차량 외부의 부품이 아니라 운전석 쪽 버튼 패널의 가능성도 있으나, 현재 이미지상으로는 확정하기 어렵습니다. 정확한 명칭과 기능을 드리려면 해당 패널의 근접 사진이 필요합니다.\n- 안내 페이지들(page_416.png, page_072.png, page_136.png, page_118.png) 중 실제 매뉴얼의 어느 기능에 해당하는지 확인하려면 각각의 페이지를 특정 키워드로 대조해야 합니다. 현재 제시된 유사도는 대략적 매칭용으로 보시면 됩니다.\n\n다음 단계 제안\n- 추가로 다음 중 하나를 보내주시면 더 정확한 답을 드리겠습니다.\n  1) 가리킨 차량의 정확한 차종/연도 범위 (예: 3시리즈 F30, G20 등)와 기본 운전석 구성 정보.\n  2) 문제의 버튼들 각각에 대한 더 선명한 근접 사진: 각 버튼의 아이콘, 텍스트(있다면) 또는 주변 스위치 레이아웃이 보이도록 촬영.\n  3) 화면에 보이는 버튼의 구체 위치를 알려주기(예: 센터 콘솔 하단, 스티어링 휠 왼쪽 패널 등).\n\n참고로 제공하신 5개의 매뉴얼 페이지를 바탕으로 한 구체적 매핑이 필요하면, 추가로 각 페이지의 사진을 열람해 해당 기능과 버튼의 연관성을 직접 대조해 드리겠습니다.",
+  "processing_time": 13.880368947982788,
+  "detailed_times": {
+    "schrodinger_time": 0.4849433898925781,
+    "sam2_time": 0.06290888786315918,
+    "mask_time": 0.01764392852783203,
+    "colpali_time": 0.1488790512084961,
+    "llm_time": 13.1657395362854,
+    "total_time": 13.880368947982788
+  }
+}

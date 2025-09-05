@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이게 뭐야?",
+  "schrodinger_full_path": "temp/real_to_illust_1757037220.png",
+  "processed_image_path": "temp_masked_schrodinger_1757037221.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 58.75,
+      "rank": 1
+    },
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 56.25,
+      "rank": 2
+    },
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 54.75,
+      "rank": 3
+    },
+    {
+      "image_name": "page_138.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+      "similarity_score": 54.75,
+      "rank": 4
+    },
+    {
+      "image_name": "page_140.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+      "similarity_score": 54.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "다음 부품은 BMW의 엔진 시동 시스템에 해당하는 \"Start/Stop 엔진 버튼\"입니다.\n\n- 부품/기능 명칭\n  - Start/Stop Engine 버튼 (푸시식 시동 스위치)\n\n- 핵심 설명\n  - 엔진 시동 및 정지를 버튼으로 제어합니다. 차량에 키(키링형 차량 키)가 가까이에 있을 때, 버튼을 눌러 엔진을 시동하거나 정지시킬 수 있습니다. 일반적으로 브레이크 페달을 밟은 상태에서 버튼을 눌러 시동하고, 주차(P) 기어 상태에서 버튼을 눌러 엔진을 중지합니다. 일부 모델은 키 없이도 작동하지만, 반드시 차량 내 키 fob의 위치를 확인해야 합니다.\n\n- 사용 방법\n  - 시동 걸기: 브레이크를 밟은 상태에서 Start/Stop 버튼을 한 번 누릅니다.\n  - 시동 끄기: 차가 정지한 상태에서 Start/Stop 버튼을 한 번 누릅니다.\n  - 주의: 주행 중에는 시동을 끄지 않습니다. 키가 차 내에 있어야 하며, 시스템에 따라 Auto Start-Stop 기능이 개입될 수 있습니다.\n\n- 주의사항\n  - 운전 중 시동을 끄지 마세요. 안전 주행에 지장을 줄 수 있습니다.\n  - 키 fob이 차 안에 없으면 시동이 걸리지 않을 수 있습니다.\n  - 비정상적으로 엔진이 꺼지거나 시동이 걸리지 않는 경우 매뉴얼의 진단 절차를 따르거나 서비스 센터에 문의하세요.\n  - 엔진 시동 시스템 관련 경고등이 점등되면 즉시 점검이 필요합니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 참고 이미지:\n    - page_178.png\n    - page_179.png\n    - page_386.png\n    - page_138.png\n    - page_140.png\n  - 위 페이지들에는 운전 공간(컨트롤, 센터 콘솔)과 엔진 시동/시동 해제 관련 설명이 포함되어 있어, Start/Stop 버튼의 위치 및 사용법과 주의사항을 확인할 수 있습니다.\n  - 또한 차량 주변 센터 콘솔 및 운전석 주변의 제어장치 구성도 확인 가능합니다.\n\n참고: 사용자가 가리킨 부품 이미지(Start/Stop 엔진 버튼)는 위의 설명과 일치합니다. 필요하시면 특정 차종/연식에 맞춘 정확한 절차를 해당 모델의 매뉴얼에서 구체적으로 찾아 정리해 드리겠습니다.",
+  "processing_time": 12.79317021369934,
+  "detailed_times": {
+    "schrodinger_time": 0.15836668014526367,
+    "sam2_time": 0.3008723258972168,
+    "mask_time": 0.019447803497314453,
+    "colpali_time": 0.1913776397705078,
+    "llm_time": 12.122865438461304,
+    "total_time": 12.79317021369934
+  }
+}

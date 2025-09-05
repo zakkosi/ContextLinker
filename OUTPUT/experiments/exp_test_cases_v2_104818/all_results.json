@@ -1,0 +1,252 @@
+[
+  {
+    "success": true,
+    "stt_text": "이게 뭐야?",
+    "schrodinger_full_path": "temp/real_to_illust_1757037220.png",
+    "processed_image_path": "temp_masked_schrodinger_1757037221.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 58.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 56.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_386.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+        "similarity_score": 54.75,
+        "rank": 3
+      },
+      {
+        "image_name": "page_138.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+        "similarity_score": 54.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_140.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+        "similarity_score": 54.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음 부품은 BMW의 엔진 시동 시스템에 해당하는 \"Start/Stop 엔진 버튼\"입니다.\n\n- 부품/기능 명칭\n  - Start/Stop Engine 버튼 (푸시식 시동 스위치)\n\n- 핵심 설명\n  - 엔진 시동 및 정지를 버튼으로 제어합니다. 차량에 키(키링형 차량 키)가 가까이에 있을 때, 버튼을 눌러 엔진을 시동하거나 정지시킬 수 있습니다. 일반적으로 브레이크 페달을 밟은 상태에서 버튼을 눌러 시동하고, 주차(P) 기어 상태에서 버튼을 눌러 엔진을 중지합니다. 일부 모델은 키 없이도 작동하지만, 반드시 차량 내 키 fob의 위치를 확인해야 합니다.\n\n- 사용 방법\n  - 시동 걸기: 브레이크를 밟은 상태에서 Start/Stop 버튼을 한 번 누릅니다.\n  - 시동 끄기: 차가 정지한 상태에서 Start/Stop 버튼을 한 번 누릅니다.\n  - 주의: 주행 중에는 시동을 끄지 않습니다. 키가 차 내에 있어야 하며, 시스템에 따라 Auto Start-Stop 기능이 개입될 수 있습니다.\n\n- 주의사항\n  - 운전 중 시동을 끄지 마세요. 안전 주행에 지장을 줄 수 있습니다.\n  - 키 fob이 차 안에 없으면 시동이 걸리지 않을 수 있습니다.\n  - 비정상적으로 엔진이 꺼지거나 시동이 걸리지 않는 경우 매뉴얼의 진단 절차를 따르거나 서비스 센터에 문의하세요.\n  - 엔진 시동 시스템 관련 경고등이 점등되면 즉시 점검이 필요합니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 참고 이미지:\n    - page_178.png\n    - page_179.png\n    - page_386.png\n    - page_138.png\n    - page_140.png\n  - 위 페이지들에는 운전 공간(컨트롤, 센터 콘솔)과 엔진 시동/시동 해제 관련 설명이 포함되어 있어, Start/Stop 버튼의 위치 및 사용법과 주의사항을 확인할 수 있습니다.\n  - 또한 차량 주변 센터 콘솔 및 운전석 주변의 제어장치 구성도 확인 가능합니다.\n\n참고: 사용자가 가리킨 부품 이미지(Start/Stop 엔진 버튼)는 위의 설명과 일치합니다. 필요하시면 특정 차종/연식에 맞춘 정확한 절차를 해당 모델의 매뉴얼에서 구체적으로 찾아 정리해 드리겠습니다.",
+    "processing_time": 12.79317021369934,
+    "detailed_times": {
+      "schrodinger_time": 0.15836668014526367,
+      "sam2_time": 0.3008723258972168,
+      "mask_time": 0.019447803497314453,
+      "colpali_time": 0.1913776397705078,
+      "llm_time": 12.122865438461304,
+      "total_time": 12.79317021369934
+    },
+    "test_case_id": 1
+  },
+  {
+    "success": true,
+    "stt_text": "풍향 조절은 어떻게 해?",
+    "schrodinger_full_path": "temp/real_to_illust_1757037233.png",
+    "processed_image_path": "temp_masked_schrodinger_1757037234.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_140.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_140.png",
+        "similarity_score": 59.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_386.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+        "similarity_score": 58.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 56.75,
+        "rank": 3
+      },
+      {
+        "image_name": "page_142.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_142.png",
+        "similarity_score": 56.25,
+        "rank": 4
+      },
+      {
+        "image_name": "page_138.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_138.png",
+        "similarity_score": 56.25,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음은 풍향 조절에 대한 정확하고 유용한 안내입니다.\n\n- 부품/기능 명칭\n  - 송풍구(에어벤트) 및 조절 레버\n  - 현가식 방향 바(가로/세로 방향을 조절하는 루버)\n  - 클라이밋 컨트롤(온도/풍속/대류 방향 자동 제어)\n  - 중앙 콘솔의 송풍구 배치(전면 대시보드에 위치)\n\n- 핵심 설명\n  - 풍향 조절은 주로 송풍구의 루버를 손으로 움직여 바람의 방향을 직접 조절하는 방식과, 자동차의 클라이밋 컨트롤 AUTO 모드를 통해 시스템이 자동으로 풍향을 배분하는 방식 두 가지가 있습니다.\n  - 수동 조절: 각 송풍구의 루버를 좌우/상하로 움직여 바람이 향하는 방향을 지정합니다. 필요에 따라 특정 구역으로 바람을 집중시키거나 차단할 수 있습니다.\n  - 자동 배분: AUTO 모드를 활성화하면 시스템이 설정된 온도에 맞춰 풍속과 풍향을 자동으로 조절합니다. 이때 대시보드의 중앙 송풍구 및 좌우 송풍구의 작동도 함께 조정됩니다.\n  - 특정 구역으로의 집중: 앞좌석/뒤좌석으로의 풍향 분배를 조정하고 싶다면 팬 속도와 각 송풍구의 방향을 조합해 설정합니다.\n  - 송풍구를 완전히 닫아 두고 싶으면 루버를 중앙으로 모아 바람이 나오지 않도록 할 수 있습니다.\n\n- 사용 방법\n  - 수동 풍향 조절\n    1) 대시보드의 송풍구를 손으로 잡고, 루버를 상하/좌우로 움직여 바람이 향하는 방향을 맞춥니다.\n    2) 필요하면 특정 송풍구의 각도만 조정해 특정 좌석으로 바람을 집중시킵니다.\n  - 자동/클라이밋 컨트롤 사용\n    1) 클라이밋 컨트롤 패널에서 AUTO 모드를 선택합니다.\n    2) 원하는 온도와 팬 속도를 설정하면 차량이 자동으로 풍향 배분을 조정합니다.\n  - 추가 팁\n    - 강한 직사광선으로 인한 열감이 있을 때는 앞 유리 상단의 송풍구를 이용해 차가운 공기를 먼저 차단하는 방향으로 조정합니다.\n    - 안전 운행 중에는 손을 운전대에서 벗고 송풍구를 과도하게 조작하지 않도록 합니다.\n\n- 주의사항\n  - 손이나 물체를 송풍구 사이에 넣지 마십시오. 송풍구가 손상될 수 있습니다.\n  - 고온/저온 상태에서 급격한 방향 조절은의 부품 손상을 야기할 수 있습니다. 필요 시 차분하게 조정하세요.\n  - 아이들이 송풍구를 장난감처럼 다루지 않도록 주의하십시오.\n  - AUTO 모드 사용 시에도 특정 구역으로의 바람 방향을 원한다면 수동으로 미세 조정이 필요할 수 있습니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지에서 풍향/송풍구 관련 내용:\n    - 페이지 140.png (유사도: 59.00)\n    - 페이지 386.png (유사도: 58.00)\n    - 페이지 178.png (유사도: 56.75)\n    - 페이지 142.png (유사도: 56.25)\n    - 페이지 138.png (유사도: 56.25)\n  - 관련 주제의 구체적 설명은 아래 페이지들에서 확인 가능:\n    - Around the centre console (대시보드 중앙 콘솔 구성 및 송풍구 위치)\n    - Controls / Ventilation (환기 시스템 제어 및 풍향 조절)\n    - Driving area 내 Ventilation 섹션\n  - 차량 부품 이미지 확인 결과\n    - 사진에서 중앙 대시보드의 송풍구(에어벤트)와 컨트롤 패널, 중앙 콘솔의 풍향 제어가 풍향 조절의 주요 부품으로 확인됩니다. 필요 시 해당 부품 이미지를 참고해 조작 위치를 확인하시면 됩니다.\n\n참고: 구체적인 위치와 조작 화면은 아래 참조 페이지들에서 그림과 함께 자세히 설명되어 있습니다. 필요하시면 해당 페이지의 구체적인 그림 순서와 각 조작부의 설명도 함께 정리해 드리겠습니다.",
+    "processing_time": 18.922556161880493,
+    "detailed_times": {
+      "schrodinger_time": 0.37369704246520996,
+      "sam2_time": 0.08351874351501465,
+      "mask_time": 0.020098447799682617,
+      "colpali_time": 0.16171669960021973,
+      "llm_time": 18.283281087875366,
+      "total_time": 18.922556161880493
+    },
+    "test_case_id": 2
+  },
+  {
+    "success": true,
+    "stt_text": "이걸 누르면 뭘 할 수가 있어?",
+    "schrodinger_full_path": "temp/real_to_illust_1757037252.png",
+    "processed_image_path": "temp_masked_schrodinger_1757037253.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 49.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 48.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_386.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+        "similarity_score": 46.5,
+        "rank": 3
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 46.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_383.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_383.png",
+        "similarity_score": 44.5,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음 부품/기능에 해당합니다: 엔진 시동/정지 버튼 (Start/Stop Engine)\n\n- 핵심 설명\n  - 엔진 시동 및 정지를 간편하게 제어하는 푸시 버튼입니다. 스마트키 시스템이 있어 키를 꺼내지 않고도 차를 시동하거나 멈출 수 있습니다.\n\n- 사용 방법\n  - 시동 걸 때: 브레이크를 밟은 상태에서 엔진 시동 버튼을 한 번 눌러 엔진을 켭니다.\n  - 시동 끌 때: 정지하고 싶으면 브레이크를 유지한 채 버튼을 한 번 눌러 엔진을 끕니다.\n  - 주행 중에는 필요 시 버튼으로 엔진을 끄지 않는 한 일반적으로 작동 중인 엔진은 계속됩니다.\n  - (환경에 따라 다를 수 있으니 차량 매뉴얼의 구체 지침을 참고하세요.)\n\n- 주의사항\n  - 엔진이 작동 중인 상태에서 차량 내부나 외부의 불필요한 움직임이 없도록 하세요.\n  - 엔진 배기가스가 실내로 유입될 수 있는 밀폐된 공간에서의 사용을 피하고, 특히 차 안에서의 장시간 시동은 금지합니다.\n  - 키가 없거나 스마트키와의 거리에 따라 시동이 정상적으로 되지 않을 수 있으니 위치를 확인하세요.\n  - 아이들이 차량 내부에서 버튼을 만지지 않도록 주의합니다.\n\n- 참조 정보\n  - BMW 매뉴얼 참고 페이지 (유사도 포함): page_178.png, page_386.png, page_072.png, page_416.png, page_383.png\n  - 관련 섹션은 “Controls” 또는 엔진 시동/정지 관련 챕터에 수록되어 있습니다.\n  - 이미지에서 확인된 부품: Start/Stop Engine 버튼 (사진 2의 버튼) 및 인근 대시보드 구성 요소.\n\n참고: 사용자께서 가리킨 차량 부품 이미지를 확인했고, 해당 이미지가 엔진 시동 버튼의 동작 맥락에 속한다는 점을 반영했습니다. 필요하시면 다른 부품(예: USB 인터페이스, 전장 컨트롤 패널)도 동일 구조로 정리해 드리겠습니다.",
+    "processing_time": 11.117580890655518,
+    "detailed_times": {
+      "schrodinger_time": 0.392075777053833,
+      "sam2_time": 0.06694793701171875,
+      "mask_time": 0.01814413070678711,
+      "colpali_time": 0.1560535430908203,
+      "llm_time": 10.48414158821106,
+      "total_time": 11.117580890655518
+    },
+    "test_case_id": 3
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "schrodinger_full_path": "temp/real_to_illust_1757037264.png",
+    "processed_image_path": "temp_masked_schrodinger_1757037264.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 53.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_209.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_209.png",
+        "similarity_score": 46.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_208.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_208.png",
+        "similarity_score": 44.25,
+        "rank": 3
+      },
+      {
+        "image_name": "page_179.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+        "similarity_score": 44.25,
+        "rank": 4
+      },
+      {
+        "image_name": "page_034.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_034.png",
+        "similarity_score": 44.0,
+        "rank": 5
+      }
+    ],
+    "final_response": "다음은 사용자가 가리키는 차량 부품 이미지와 매뉴얼 페이지를 바탕으로, 각 버튼의 기능을 정리한 내용입니다.\n\n- 부품/기능 명칭\n  1) 스타트/스톱 엔진 버튼 (Start/Stop Engine)\n  2) 전동 시트 조절 패널\n     - 시트 앞뒤 이동(Forward/back)\n     - 시트 높이 조절(Height)\n     - 시트 등받이 각도 조절(Seat angle)\n     - 허리 받침 및 좌석의 측면 지지 조절(Backrest angle, Thigh support, Lumbar/Shoulder 등)\n     - 시트 기울임(Seat tilt) 및 시트 포지션 기억(메모리 기능 가능 여부)\n  3) 전동 시트의 피드백형 제어 스위치(메모리/포지션 기억 관련 다이얼 또는 버튼)\n\n- 핵심 설명\n  - 스타트/스톱 엔진: 차량의 엔진을 켜거나 끕니다. 보통 브레이크를 밟고 버튼을 누르면 시동이 걸리고, 다시 눌러 시동을 끕니다. 무단 시동 방지 장치가 있어 키 또는 인증이 필요합니다.\n  - 시트 조절 패널: 운전석을 개별적으로 편안하게 세팅할 수 있도록 설계된 전동 제어부로, 사용자는 시트의 앞뒤 위치, 높이, 시트각(좌우/뒤로) 및 등받이 각도, 허리 받침 등 다양한 부분을 조절해 최적의 자세를 유지합니다. 일부 시스템은 특정 저장 프로파일(메모리 기능)과 연동되어 같은 운전 자세를 빠르게 불러올 수 있습니다.\n  - 메모리 기능(개별 차종): 운전석 위치가 오래전에 저장된 프로파일로 자동으로 복원되거나, 원치 않는 조작 전환을 방지하기 위한 설정이 포함될 수 있습니다.\n\n- 사용 방법\n  - 스타트/스톱 엔진\n    - 브레이크를 밟은 상태에서 스타트/스톱 버튼을 한 번 누름 -> 엔진 시동\n    - 다시 한 번 누르면 엔진이 꺼짐(일부 모델은 시동이 꺼진 후 자동으로 대기 상태로 전환)\n  - 전동 시트 조절\n    - 각 스위치를 위/아래로 눌러 해당 방향으로 시트를 조절\n    - 시트 각도나 허리 받침 등은 스위치의 회전 또는 셀렉터를 이용해 조절\n    - 시트 위치를 특정 포지션으로 저장하려면 메뉴/버튼 조합으로 메모리 기능에 저장하거나, 운전석 메모리 버튼에 포지션을 등록\n  - 주의사항(일반)\n    - 시트를 급격히 움직이지 말고 부드럽게 조절\n    - 엔진 시동 중에는 좌석 조절을 과도하게 하여 안전밸트를 제대로 착용한 상태에서 조절\n    - 메모리 기능은 차량 설정에 따라 다르므로 매뉴얼의 해당 섹션을 참고\n  - 주의사항(공통)\n    - 시트 조절 중 운전석에서 몸의 균형을 잃지 않도록 주의\n    - 좌석 포지션 변경 시 운전 중에는 시트를 조절하지 않는 것이 안전\n    - 전동 시트 모터가 과열될 경우 자동 보호로 일시 정지될 수 있음\n\n- 주의사항\n  - 엔진 시동 시 안전벨트를 반드시 착용하고, 주행 중 무리한 좌석 조절은 피하십시오.\n  - 좌석 메모리 기능은 특정 운전석 프로파일에 한정될 수 있으며, 여러 운전자가 사용할 경우 각자의 프로파일을 저장해 두는 것이 좋습니다.\n  - 매뉴얼에 명시된 조절 범위를 넘지 않도록 하고, 이상 소음이나 진동이 있으면 점검 필요.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지\n    - page_178.png (유사도: 53.75)\n    - page_209.png (유사도: 46.25)\n    - page_208.png (유사도: 44.25)\n    - page_179.png (유사도: 44.25)\n    - page_034.png (유사도: 44.00)\n  - 해당 페이지들에서 전동 시트 조절, 시트 각도/높이/앞뒤 이동, Back/Forward, Seat angle, Thigh support 등 컨트롤 설명 및 그림 예시를 확인할 수 있습니다.\n  - 이미지 참조: 스타트/스톱 버튼 이미지와 시트 컨트롤 패널 이미지가 매뉴얼의 관련 페이지에 매칭됩니다.\n\n참고로, 사용자가 제공한 차량 이미지의 Start/Stop 버튼은 엔진 시동 관여 버튼으로 보이며, 나머지 패널은 전동 시트 조절 및 메모리 기능과 관련된 컨트롤로 판단됩니다. 필요하시면 각 페이지의 구체 그림과 텍스트를 근거로 더 자세한 기능 매핑표를 만들어 드리겠습니다.",
+    "processing_time": 10.421887874603271,
+    "detailed_times": {
+      "schrodinger_time": 0.3360259532928467,
+      "sam2_time": 0.06900382041931152,
+      "mask_time": 0.018503904342651367,
+      "colpali_time": 0.1634218692779541,
+      "llm_time": 9.834712743759155,
+      "total_time": 10.421887874603271
+    },
+    "test_case_id": 4
+  },
+  {
+    "success": true,
+    "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+    "schrodinger_full_path": "temp/real_to_illust_1757037274.png",
+    "processed_image_path": "temp_masked_schrodinger_1757037275.png",
+    "schrodinger_mode": "real_to_illust",
+    "top_manual_pages": [
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 49.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 47.75,
+        "rank": 2
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 46.25,
+        "rank": 3
+      },
+      {
+        "image_name": "page_136.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+        "similarity_score": 43.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 43.75,
+        "rank": 5
+      }
+    ],
+    "final_response": "요청하신 사진과 매뉴얼 페이지를 종합해 분석한 결과를 아래와 같이 정리합니다. 다만 이미지 해상도와 구도상 일부 버튼은 확실히 구분되기 어렵습니다. 확실한 항목부터 먼저 정리하고, 나머지 버튼들은 추가 사진이나 근접 클로즈업이 필요합니다.\n\n- 부품/기능 명칭 1\n  - 핵심 설명\n  - 사용 방법\n  - 주의사항\n  - 참조 정보\n\n1) Start/Stop Engine 버튼\n- 부품/기능 명칭: Start/Stop Engine 버튼\n- 핵심 설명: 엔진 시동 및 시동 해제를 위한 중앙 컨트롤 버튼으로, 브레이크 페달(또는 클러치, 차종에 따라 다름)을 밟은 상태에서 버튼을 눌러 엔진을 시동하거나 시동을 해제합니다.\n- 사용 방법:\n  - 시동 걸기: 브레이크를 밟은 상태에서 Start/Stop 버튼을 한 번 누름. 엔진이 켜집니다.\n  - 시동 끄기: 차량 정차 후 브레이크를 밟고 Start/Stop 버튼을 한 번 누르면 엔진이 꺼집니다.\n- 주의사항:\n  - 주행 중 엔진을 끄지 마세요. 주행 중 시동 해제 시 운전 제어가 불안정해질 수 있습니다.\n  - 비상 상황에서 버튼을 길게 누르면 엔진이 강제 정지될 수 있으므로 사용에 주의.\n  - 차량 매뉴얼에 따라 보안/키 인식 요건(키가 차 안에 있어야 시동 가능 여부)가 다를 수 있습니다.\n- 참조 정보:\n  - 매뉴얼 페이지: page_178.png (유사도 47.75)\n\n참고로 보신 사진에서 이 버튼은 명확히 인식됩니다. 나머지 버튼들에 대해선 이미지가 다소 흐리거나 특정 아이콘이 잘 보이지 않아 정확한 식별이 어렵습니다.\n\n추가로 확인이 필요한 항목\n- 부품 이미지 두께와 상호 위치: 첫 번째 이미지(열쇠 삽입형/전자식 시동 부근의 어떤 부품일 가능성 있음)와 마지막에 보이는 좌석/벨트 관련 그림은 현재 버튼의 일반적인 “제어 버튼”이 아니라 보조 경고등/기능 버튼으로 보이지 않습니다. 이들에 대해선 더 선명한 클로즈업 이미지가 필요합니다.\n- 전화 아이콘/전화 부스 흔적이 보이는 네 번째 이미지: 차량 외부의 부품이 아니라 운전석 쪽 버튼 패널의 가능성도 있으나, 현재 이미지상으로는 확정하기 어렵습니다. 정확한 명칭과 기능을 드리려면 해당 패널의 근접 사진이 필요합니다.\n- 안내 페이지들(page_416.png, page_072.png, page_136.png, page_118.png) 중 실제 매뉴얼의 어느 기능에 해당하는지 확인하려면 각각의 페이지를 특정 키워드로 대조해야 합니다. 현재 제시된 유사도는 대략적 매칭용으로 보시면 됩니다.\n\n다음 단계 제안\n- 추가로 다음 중 하나를 보내주시면 더 정확한 답을 드리겠습니다.\n  1) 가리킨 차량의 정확한 차종/연도 범위 (예: 3시리즈 F30, G20 등)와 기본 운전석 구성 정보.\n  2) 문제의 버튼들 각각에 대한 더 선명한 근접 사진: 각 버튼의 아이콘, 텍스트(있다면) 또는 주변 스위치 레이아웃이 보이도록 촬영.\n  3) 화면에 보이는 버튼의 구체 위치를 알려주기(예: 센터 콘솔 하단, 스티어링 휠 왼쪽 패널 등).\n\n참고로 제공하신 5개의 매뉴얼 페이지를 바탕으로 한 구체적 매핑이 필요하면, 추가로 각 페이지의 사진을 열람해 해당 기능과 버튼의 연관성을 직접 대조해 드리겠습니다.",
+    "processing_time": 13.880368947982788,
+    "detailed_times": {
+      "schrodinger_time": 0.4849433898925781,
+      "sam2_time": 0.06290888786315918,
+      "mask_time": 0.01764392852783203,
+      "colpali_time": 0.1488790512084961,
+      "llm_time": 13.1657395362854,
+      "total_time": 13.880368947982788
+    },
+    "test_case_id": 5
+  }
+]

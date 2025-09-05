@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "schrodinger_full_path": "temp/real_to_illust_1757037264.png",
+  "processed_image_path": "temp_masked_schrodinger_1757037264.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 53.75,
+      "rank": 1
+    },
+    {
+      "image_name": "page_209.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_209.png",
+      "similarity_score": 46.25,
+      "rank": 2
+    },
+    {
+      "image_name": "page_208.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_208.png",
+      "similarity_score": 44.25,
+      "rank": 3
+    },
+    {
+      "image_name": "page_179.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_179.png",
+      "similarity_score": 44.25,
+      "rank": 4
+    },
+    {
+      "image_name": "page_034.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_034.png",
+      "similarity_score": 44.0,
+      "rank": 5
+    }
+  ],
+  "final_response": "다음은 사용자가 가리키는 차량 부품 이미지와 매뉴얼 페이지를 바탕으로, 각 버튼의 기능을 정리한 내용입니다.\n\n- 부품/기능 명칭\n  1) 스타트/스톱 엔진 버튼 (Start/Stop Engine)\n  2) 전동 시트 조절 패널\n     - 시트 앞뒤 이동(Forward/back)\n     - 시트 높이 조절(Height)\n     - 시트 등받이 각도 조절(Seat angle)\n     - 허리 받침 및 좌석의 측면 지지 조절(Backrest angle, Thigh support, Lumbar/Shoulder 등)\n     - 시트 기울임(Seat tilt) 및 시트 포지션 기억(메모리 기능 가능 여부)\n  3) 전동 시트의 피드백형 제어 스위치(메모리/포지션 기억 관련 다이얼 또는 버튼)\n\n- 핵심 설명\n  - 스타트/스톱 엔진: 차량의 엔진을 켜거나 끕니다. 보통 브레이크를 밟고 버튼을 누르면 시동이 걸리고, 다시 눌러 시동을 끕니다. 무단 시동 방지 장치가 있어 키 또는 인증이 필요합니다.\n  - 시트 조절 패널: 운전석을 개별적으로 편안하게 세팅할 수 있도록 설계된 전동 제어부로, 사용자는 시트의 앞뒤 위치, 높이, 시트각(좌우/뒤로) 및 등받이 각도, 허리 받침 등 다양한 부분을 조절해 최적의 자세를 유지합니다. 일부 시스템은 특정 저장 프로파일(메모리 기능)과 연동되어 같은 운전 자세를 빠르게 불러올 수 있습니다.\n  - 메모리 기능(개별 차종): 운전석 위치가 오래전에 저장된 프로파일로 자동으로 복원되거나, 원치 않는 조작 전환을 방지하기 위한 설정이 포함될 수 있습니다.\n\n- 사용 방법\n  - 스타트/스톱 엔진\n    - 브레이크를 밟은 상태에서 스타트/스톱 버튼을 한 번 누름 -> 엔진 시동\n    - 다시 한 번 누르면 엔진이 꺼짐(일부 모델은 시동이 꺼진 후 자동으로 대기 상태로 전환)\n  - 전동 시트 조절\n    - 각 스위치를 위/아래로 눌러 해당 방향으로 시트를 조절\n    - 시트 각도나 허리 받침 등은 스위치의 회전 또는 셀렉터를 이용해 조절\n    - 시트 위치를 특정 포지션으로 저장하려면 메뉴/버튼 조합으로 메모리 기능에 저장하거나, 운전석 메모리 버튼에 포지션을 등록\n  - 주의사항(일반)\n    - 시트를 급격히 움직이지 말고 부드럽게 조절\n    - 엔진 시동 중에는 좌석 조절을 과도하게 하여 안전밸트를 제대로 착용한 상태에서 조절\n    - 메모리 기능은 차량 설정에 따라 다르므로 매뉴얼의 해당 섹션을 참고\n  - 주의사항(공통)\n    - 시트 조절 중 운전석에서 몸의 균형을 잃지 않도록 주의\n    - 좌석 포지션 변경 시 운전 중에는 시트를 조절하지 않는 것이 안전\n    - 전동 시트 모터가 과열될 경우 자동 보호로 일시 정지될 수 있음\n\n- 주의사항\n  - 엔진 시동 시 안전벨트를 반드시 착용하고, 주행 중 무리한 좌석 조절은 피하십시오.\n  - 좌석 메모리 기능은 특정 운전석 프로파일에 한정될 수 있으며, 여러 운전자가 사용할 경우 각자의 프로파일을 저장해 두는 것이 좋습니다.\n  - 매뉴얼에 명시된 조절 범위를 넘지 않도록 하고, 이상 소음이나 진동이 있으면 점검 필요.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지\n    - page_178.png (유사도: 53.75)\n    - page_209.png (유사도: 46.25)\n    - page_208.png (유사도: 44.25)\n    - page_179.png (유사도: 44.25)\n    - page_034.png (유사도: 44.00)\n  - 해당 페이지들에서 전동 시트 조절, 시트 각도/높이/앞뒤 이동, Back/Forward, Seat angle, Thigh support 등 컨트롤 설명 및 그림 예시를 확인할 수 있습니다.\n  - 이미지 참조: 스타트/스톱 버튼 이미지와 시트 컨트롤 패널 이미지가 매뉴얼의 관련 페이지에 매칭됩니다.\n\n참고로, 사용자가 제공한 차량 이미지의 Start/Stop 버튼은 엔진 시동 관여 버튼으로 보이며, 나머지 패널은 전동 시트 조절 및 메모리 기능과 관련된 컨트롤로 판단됩니다. 필요하시면 각 페이지의 구체 그림과 텍스트를 근거로 더 자세한 기능 매핑표를 만들어 드리겠습니다.",
+  "processing_time": 10.421887874603271,
+  "detailed_times": {
+    "schrodinger_time": 0.3360259532928467,
+    "sam2_time": 0.06900382041931152,
+    "mask_time": 0.018503904342651367,
+    "colpali_time": 0.1634218692779541,
+    "llm_time": 9.834712743759155,
+    "total_time": 10.421887874603271
+  }
+}

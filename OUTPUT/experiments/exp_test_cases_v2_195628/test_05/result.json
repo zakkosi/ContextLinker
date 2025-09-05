@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이 버튼들은 각각 무슨 기능이야?",
+  "schrodinger_full_path": "temp/real_to_illust_1756983767.png",
+  "processed_image_path": "temp_masked_schrodinger_1756983767.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 53.25,
+      "rank": 1
+    },
+    {
+      "image_name": "page_072.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "similarity_score": 50.25,
+      "rank": 2
+    },
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 49.75,
+      "rank": 3
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 48.5,
+      "rank": 4
+    },
+    {
+      "image_name": "page_118.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+      "similarity_score": 48.5,
+      "rank": 5
+    }
+  ],
+  "final_response": "다음은 사용자가 가리킨 부품 이미지에서 확인된 버튼에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - 엔진 시동/정지 버튼 (Start/Stop Engine)\n\n- 핵심 설명\n  - 차 안에서 엔진의 시동 및 정지를 전자적으로 제어하는 버튼입니다. 시동 시키면 엔진이 작동하고, 다시 정지시키면 엔진이 꺼집니다. 주로 키를 꽂지 않고도 엔진 작동 여부를 간편하게 제어할 수 있게 해주는 기능입니다.\n\n- 사용 방법\n  - 시동 걸기: 운전석에 앉아 브레이크를 밟은 상태에서 이 버튼을 한 번 눌러 엔진을 시동합니다(모든 안전 조건 충족 시). 초기 시동 경고음/스티어링 열림 등의 피드백을 확인합니다.\n  - 시동 끄기: 주차 상태로 엔진을 끄려면 브레이크를 밟지 않고 단순히 버튼을 눌러 종료하거나, 제조사 설정에 따라 파킹 위치에서 다시 버튼을 눌러 끕니다.\n  - 주의: 엔진이 작동 중일 때는 주변을 확인하고 차량을 안전하게 주차된 상태에서만 끄세요. 무단으로 엔진을 끄면 시스템 전원이 abrupt하게 차단될 수 있습니다. 스마트키가 필요한 차종의 경우 키가 차량 내에 있어야 작동합니다.\n\n- 주의사항\n  - 엔진 시동/정지 버튼은 고온/습기 환경에서 오작동 가능성을 줄이기 위해 정해진 위치에서 사용하십시오.\n  - 엔진이 꺼진 후에도 무선 시스템(예: 리모트 시동, 보조전력 등)의 일부 기능이 남아 있을 수 있습니다. 필요 시 매뉴얼의 절전 가이드에 따라 배터리 관리에 신경 쓰십시오.\n  - 비상 상황에서 버튼이 정상 작동하지 않으면 제조사 안내에 따라 점검 받으시길 권합니다.\n\n- 참조 정보\n  - 이 버튼에 대한 일반적인 설명 및 위치 정보는 BMW 매뉴얼의 관련 섹션에서 확인 가능합니다. 참고 페이지로는 아래 다섯 개의 매뉴얼 페이지를 검토하시면 유사한 구성과 안전 절차를 확인할 수 있습니다:\n    - page_178.png (유사도: 53.25)\n    - page_072.png (유사도: 50.25)\n    - page_416.png (유사도: 49.75)\n    - page_136.png (유사도: 48.50)\n    - page_118.png (유사도: 48.50)\n  - 위 페이지들은 엔진시동 시스템, 무선시동 구성, 안전 주행 관련 지침, 버튼 조작법 등 엔진 시동 버튼과 연관된 일반적인 설명을 포함합니다.\n\n추가 안내\n- 현재 제가 확인한 가리킨 부품 이미지는 엔진 시동/정지 버튼으로 판단됩니다. 담으신 다른 버튼들(예: iDrive 컨트롤, 변속기 레버, 전화/멀티미디어 버튼 등)의 기능까지 정확히 설명하려면 해당 버튼들의 이미지를 추가로 올려주시면 각 버튼별로 같은 포맷으로 정리해 드리겠습니다. 이미지에서 어떤 버튼인지를 더 확실히 식별하기 위해서는 각 버튼 근접 이미지가 필요합니다.",
+  "processing_time": 11.87748384475708,
+  "detailed_times": {
+    "schrodinger_time": 0.37847256660461426,
+    "sam2_time": 0.06428790092468262,
+    "mask_time": 0.024328947067260742,
+    "colpali_time": 0.1627039909362793,
+    "llm_time": 11.247473001480103,
+    "total_time": 11.87748384475708
+  }
+}

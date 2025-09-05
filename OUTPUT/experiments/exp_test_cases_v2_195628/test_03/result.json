@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "stt_text": "이걸 누르면 뭘 할 수가 있어?",
+  "schrodinger_full_path": "temp/real_to_illust_1756983734.png",
+  "processed_image_path": "temp_masked_schrodinger_1756983734.png",
+  "schrodinger_mode": "real_to_illust",
+  "top_manual_pages": [
+    {
+      "image_name": "page_416.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+      "similarity_score": 45.0,
+      "rank": 1
+    },
+    {
+      "image_name": "page_136.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+      "similarity_score": 44.75,
+      "rank": 2
+    },
+    {
+      "image_name": "page_072.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+      "similarity_score": 44.5,
+      "rank": 3
+    },
+    {
+      "image_name": "page_386.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_386.png",
+      "similarity_score": 43.5,
+      "rank": 4
+    },
+    {
+      "image_name": "page_178.png",
+      "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+      "similarity_score": 43.25,
+      "rank": 5
+    }
+  ],
+  "final_response": "다음 버튼(또는 요소)을 누르면 할 수 있는 기능을 정리해 드립니다.\n\n- 부품/기능 명칭\n  - Start/Stop Engine 버튼\n- 핵심 설명\n  - 시동/정지 기능을 제어합니다. 버튼을 누르면 차량의 엔진이 시동되거나 멈춥니다. 일반적으로 브레이크를 밟은 상태에서 작동하며, 차량의 시동 시스템과 연동되어 작동합니다.\n- 사용 방법\n  - 엔진 시동 시: 브레이크를 밟은 상태로 Start/Stop 버튼을 한 번 눌러 엔진을 시동합니다.\n  - 엔진 정지 시: 차량이 정차 상태이거나 필요 시 Start/Stop 버튼을 눌러 엔진을 끕니다.\n  - 주의: 차종에 따라 키리스 엔트리 또는 특정 시퀀스가 필요할 수 있습니다. 매뉴얼의 해당 절을 확인해 주세요.\n- 주의사항\n  - 시동 중에는 문을 열지 말고, 차량이 완전히 정지한 상태에서 시동/정지를 권장합니다.\n  - 엔진이 꺼진 뒤에는 주행 중 재시동 시 안전 운전에 주의하고 필요 시 매뉴얼의 재시동 절차를 따라 주세요.\n  - 비상 상황에서 의도치 않게 엔진이 꺼질 수 있으므로, 운전 중에는 버튼 조작에 주의합니다.\n- 참조 정보\n  - 매뉴얼 페이지 참조:\n    - page_178.png\n    - page_072.png\n    - page_416.png\n    - page_136.png\n    - page_386.png\n\n추가 참고: 사용자가 가리킨 차량 부품 이미지들에 기반해, 센터 콘솔의 USB 인터페이스는 커버를 앞쪽으로 슬라이드해 노출시키면 사용할 수 있습니다(페이지에 설명된 USB 인터페이스 안내 참조). 또한 “Controls” 섹션의 그림들은 콘솔 내 조작 위치와 기능 설명을 함께 제공합니다. \n- USB 인터페이스 접근 방법 관련 참조 정보\n  - page_416.png\n  - page_136.png\n  - page_072.png\n  - page_386.png\n  - page_178.png\n\n원하시면 구체 차종에 맞춘 정확한 절차와 안전 주의사항을 해당 차세대 모델의 세부 매뉴얼에서 찾아 드리겠습니다.",
+  "processing_time": 14.269582033157349,
+  "detailed_times": {
+    "schrodinger_time": 0.3063948154449463,
+    "sam2_time": 0.0673987865447998,
+    "mask_time": 0.024773120880126953,
+    "colpali_time": 0.15402531623840332,
+    "llm_time": 13.716762065887451,
+    "total_time": 14.269582033157349
+  }
+}

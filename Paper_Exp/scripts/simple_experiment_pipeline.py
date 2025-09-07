@@ -9,6 +9,9 @@ from pathlib import Path
 # 루트 디렉토리 경로 설정
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 sys.path.insert(0, root_dir)
+unsb_dir = os.path.join(root_dir, 'UNSB')
+if unsb_dir not in sys.path:
+    sys.path.insert(0, unsb_dir)
 
 # 필요한 프로세서들 import
 from processors.colpali_processor import ColPaliProcessor

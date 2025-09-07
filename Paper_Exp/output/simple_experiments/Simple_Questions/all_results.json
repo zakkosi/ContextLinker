@@ -1,0 +1,2882 @@
+[
+  {
+    "experiment_id": "q1_text",
+    "question_id": "1",
+    "input_type": "text",
+    "original_text": "리모컨으로 {트렁크}를 어떻게 여나요?",
+    "processed_text": "리모컨으로 트렁크를 어떻게 여나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_193.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_193.png",
+        "similarity_score": 17.375,
+        "rank": 1
+      },
+      {
+        "image_name": "page_194.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_194.png",
+        "similarity_score": 16.375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_191.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_191.png",
+        "similarity_score": 16.125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 16.125,
+        "rank": 4
+      },
+      {
+        "image_name": "page_182.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_182.png",
+        "similarity_score": 15.9375,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 리모컨으로 트렁크를 여는 방법에 대한 요약 정리입니다.\n\n- 부품/기능 명칭\n  - 트렁크 리모컨 버튼(원격 제어 버튼)\n  - Comfort Access(편의 접근) 핸들/버튼\n  - 운전자 실내 루트의 트렁크 버튼(도어 저장 칸 내 버튼)\n  - 트렁크 개폐 작동 경고 및 안전 표기\n\n- 핵심 설명\n  - 리모컨으로 트렁크를 여는 방법은 외부 버튼 클릭, 내부 버튼 클릭, 그리고 Comfort Access 기능의 작동 방식으로 나뉩니다.\n  - 외부에서 버튼 누르기: 트렁크 리모컨의 외부 트렁크 버튼을 눌러 개방합니다. 일부 버전은 버튼 누르기를 길게 하거나 약간의 대기 시간이 필요할 수 있습니다.\n  - 내부에서 버튼 누르기: 운전자 도어 저장 칸에 있는 트렁크 버튼을 눌러 트렁크를 열 수 있습니다.\n  - Comfort Access가 있을 경우: 트렁크 리드(트렁크 뚜껑) 안쪽의 버튼을 누르면 간편하게 열리거나 닫히는 기능이 작동합니다. 핸들 인근의 버튼도 사용할 수 있습니다.\n  - 닫히는 동작은 리모컨의 동일한 방식으로 제어하거나, 트렁크 리드의 내부/외부 버튼으로 제어합니다. 상황에 따라 손짓 제스처나 센서 기반 동작이 작동할 수 있습니다.\n\n- 사용 방법\n  - 외부에서 여는 방법\n    - 트렁크 뚜껑 외부의 버튼을 누릅니다(대부분의 경우 1회 누름 또는 짧은 길이의 누름). 경우에 따라 버튼을 일정 시간 누르고 있어야 할 수도 있습니다.\n    - 트렁크가 열리면 안전 거리에 물러나 주세요.\n  - 내부에서 여는 방법\n    - 운전자 좌석 옆의 저장 칸(도어 수납)에 있는 트렁크 버튼을 누릅니다. 버튼 누름으로 개방이 시작됩니다.\n  - Comfort Access가 있을 때\n    - 트렁크 뚜껑 안쪽의 버튼을 누르면 트렁크가 열리거나 닫힙니다.\n    - 맥락에 따라 외부/내부에서의 직접 개폐와 함께, 자동 개폐가 동작할 수 있습니다.\n  - 닫히는 방법\n    - 트렁크를 닫을 때도 동일한 방식으로 버튼을 누르거나, 트렁크 리드의 내부/외부 버튼으로 제어합니다. 필요 시 센서 동작으로 차량이 계속 제어합니다.\n\n- 주의사항\n  - 설치 및 작동 중에는 부품 주변이 안전한지 확인하고, 트렁크가 완전히 열리지 않도록 주의합니다. 몸이나 손가락이 끼이지 않도록 주의합니다.\n  - 트렁크가 열리거나 닫히는 동안 주변 물체나 사람의 움직임을 피하고, 트렁크가 완전히 고정될 때까지 손대지 마세요.\n  - Comfort Access 기능은 설정 및 국가사양에 따라 다릅니다. 비정상 동작 시에는 점검 매뉴얼의 안내를 따르세요.\n  - 트렁크 자동 개폐(연결된 시스템)가 고장나면, 비상 수동 개폐 방법도 숙지해 두는 것이 좋습니다.\n  - 배터리 소모나 시스템 장애가 있을 수 있으니, 원격 제어가 잘 작동하지 않을 경우 백업 수단으로 내장 버튼을 사용하세요.\n\n- 참조 정보\n  - 관련 BMW 매뉴얼의 화면 페이지들:\n    - page_193.png\n    - page_194.png\n    - page_191.png\n    - page_192.png\n    - page_182.png\n  - 이 문서는 Online Edition for Part no. 01402984836 - X/17에 기반합니다.\n  - 참고 페이지에서 설명하는 컨트롤 구성, \"With Comfort Access: locking\", \"Opening from outside/inside\", \"Closing\", \"Contactless opening and closing of the boot lid\" 등의 내용은 위의 다섯 페이지에서 확인할 수 있습니다. \n  - 페이지 범위 예: 트렁크 컨트롤(외부 버튼, 내부 버튼, Comfort Access) 및 안전 주의사항에 대한 상세 설명이 각 페이지에 분산되어 있습니다. 페이지 넘버 예시로 58, 67–70대의 관련 섹션도 확인 가능합니다.\n\n필요하시면 사용 중인 차의 구체적인 연식/사양을 알려 주세요. 해당 차종에 맞춘 정확한 버튼 위치, 작동 시간(예: 외부 버튼 길게 누르기 필요 여부) 및 Comfort Access 설정 방법을 더 상세히 안내해 드리겠습니다.",
+    "expected_answer": "리모컨의 트렁크 버튼을 약 1초 동안 누르고 있으면 트렁크가 열립니다.",
+    "source_page": 160,
+    "processing_time": 13.446900129318237,
+    "success": true
+  },
+  {
+    "experiment_id": "q2_text",
+    "question_id": "2",
+    "input_type": "text",
+    "original_text": "리모컨으로 {트렁크}를 닫는 방법은 무엇인가요?",
+    "processed_text": "리모컨으로 트렁크를 닫는 방법은 무엇인가요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_193.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_193.png",
+        "similarity_score": 21.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_182.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_182.png",
+        "similarity_score": 21.375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_194.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_194.png",
+        "similarity_score": 20.875,
+        "rank": 3
+      },
+      {
+        "image_name": "page_191.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_191.png",
+        "similarity_score": 20.875,
+        "rank": 4
+      },
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 20.75,
+        "rank": 5
+      }
+    ],
+    "llm_response": "아래 내용은 리모컨으로 트렁크(보일러이트/부트 리드)를 닫는 방법에 대해 BMW 매뉴얼을 바탕으로 정리한 가이드입니다.\n\n1) 부품/기능 명칭\n- 트렁크 리드(boot lid)\n- 리모트 컨트롤(리모컨) 버튼\n- Comfort Access(원격 접근) 시스템 여부에 따른 기능\n- 트렁크 리드 리드면(내부 손잡이 영역/ 외부 페어링 표기)\n\n2) 핵심 설명\n- 트렁크 닫힘 작동은 리모컨의 버튼을 이용한 원격 제어, 또는 Comfort Access(무선 인식) 방식에 따라 다르게 작동합니다.\n- 원격 제어로 닫힐 때도 리모컨의 버튼을 누르는 동작으로 닫히며, 일부 차종/설정에 따라서는 외부에서 열고 닫히는 방식이 가능하고, 내부에서 닫히는 경우도 있습니다.\n- 안전 주의사항: 트렁크 리드가 닫히는 동안 차체 부품에 끼임 위험이 있으며, 주변 이동 공간의 이탈 방지 등 안전 확인이 필요합니다.\n- 자동 텔레게이트(높은 편의 기능)가 있을 경우, 리모컨 조작이나 센서에 의해 후진 및 자동 개폐/폐쇄가 가능하며, 동작 중 중단 또는 재개도 안내됩니다.\n\n3) 사용 방법\n- 일반 원격 제어로 닫기\n  - 리모컨의 트렁크 닫힘 버튼을 약 1초간 눌러서 닫습니다. (가능한 경우 도어가 잠금 해제되어 있는 상태에서 작동)\n  - 주의: Comfort Access가 활성화된 경우에는 차량의 내부 상태나 도어 상태에 따라 동작이 달라질 수 있습니다.\n  - 참고: 외부에서 버튼을 눌러 닫는 동작은 페이지 58의 “Opening from outside/With Comfort Access: closing” 지침에 따라 다릅니다.\n- Comfort Access(무선 인식) 사용 시\n  - 차량에서 Comfort Access가 활성화되어 있으면, 트렁크 리드 내/외부 버튼 조작으로 닫히며 도어가 잠금 해제된 상태에서 동작합니다.\n  - 닫힘 완료 후에는 차량이 일부 설정에 따라 자동으로 잠길 수 있습니다.\n  - 참고: 페이지 69-70의 “With Comfort Access” 및 “Closing” 섹션 참조.\n- 내부에서 닫기\n  - 내부 저장소와 트렁크 리드의 버튼(또는 내부 손잡이 위치의 버튼)을 눌러 닫을 수 있습니다.\n  - 닫힘은 보통 내부에서의 버튼 누름으로도 작동하며, 외부에서의 리모컨 조작과 유사한 절차로 뒤따릅니다.\n  - 참고: 내부에서의 작동은 페이지 70의 Opening 섹션과 From inside of the boot lid 설명 참조.\n- 자동 텔레게이트/타일게이트(자동 폐쇄) 사용 시\n  - “With automatic tailgate operation: closing” 섹션에 따라 버튼 누름 후 자동으로 닫히며, 필요 시 보안 경고음이 포함될 수 있습니다.\n  - 닫힘 도중 재개/정지 여부는 제시된 절차에 따릅니다.\n  - 참고: 페이지 67-68의 Closing 및 Opening 섹션.\n\n4) 주의사항\n- 부트 리드가 닫히는 동안 주변에 사람이나 물건이 없는지 확인하십시오. 부품이 끼임 위험이 있습니다.\n- 트렁크 리드가 열려 있을 때 주변 밝기/환경에 따라 시야 확보를 충분히 한 뒤 사용하십시오.\n- Safe/Warning: 트렁크가 자동으로 닫힐 때 주변에서의 이동에 주의하고, 도어/잠금 상태를 확인하십시오.\n- Comfort Access 설정 여부에 따라 동작이 다를 수 있으므로 차량의 설정 페이지(매뉴얼의 해당 섹션)에서 상태를 확인하십시오.\n- 비정상적으로 작동하거나 소음이 나면 사용 중지하고 매뉴얼의 Troubleshooting 또는 서비스 센터에 문의하십시오.\n- 보안 및 도어 상태: 닫힘 완료 후 차량의 잠금 상태를 확인하십시오.\n\n5) 참조 정보\n- 페이지 58: From outside/With Comfort Access: closing 및 Opening 절차와 일반 동작 요약\n- 페이지 67: Contactless opening and closing of the boot lid, Opening/Closing 절차, 일반적 작동 원리\n- 페이지 68–70: Closing, Opening, Safety notes, Malfunction/Correct foot movement, Opening/Closing with/without Comfort Access의 구체 절차\n- 페이지 69: With Comfort Access: Closing 및 내부/외부 제어 동작 예시\n- 페이지 70: From inside of the boot lid / Opening, Switching on the interior/exterior lights, Cancelling opening operation 등 세부 내용\n참조 매뉴얼:\n- page_182.png: 58\n- page_191.png: 68\n- page_192.png: 67\n- page_193.png: 69\n- page_194.png: 70\n\n주의: 위 내용은 주어진 매뉴얼 이미지의 특징에 근거해 정리한 일반 가이드입니다. 실제 차량의 모델/연식/소프트웨어 버전에 따라 다를 수 있습니다. 정확한 동작은 차주 메뉴얼의 해당 페이지를 확인하거나 딜러 서비스센터에 문의하시기 바랍니다.",
+    "expected_answer": "리모컨의 버튼을 누르고 계시면 트렁크가 자동으로 닫히며, 버튼에서 손을 떼면 닫힘이 중단됩니다.",
+    "source_page": 160,
+    "processing_time": 19.14283776283264,
+    "success": true
+  },
+  {
+    "experiment_id": "q3_text",
+    "question_id": "3",
+    "input_type": "text",
+    "original_text": "손을 대지 않고 {트렁크}를 여는 기능이 있나요?",
+    "processed_text": "손을 대지 않고 트렁크를 여는 기능이 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_191.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_191.png",
+        "similarity_score": 13.6875,
+        "rank": 1
+      },
+      {
+        "image_name": "page_387.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_387.png",
+        "similarity_score": 13.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 12.8125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_390.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_390.png",
+        "similarity_score": 12.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_388.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_388.png",
+        "similarity_score": 12.6875,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 손을 대지 않고 트렁크를 여는 기능에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - 손대지 않는 트렁크 개폐 기능(무선키를 포함한 Comfort Access 시스템의 센서 기반 트렁크 리드 개폐)\n\n- 핵심 설명\n  - 부위: 트렁크 리드(boot lid) 개폐는 커맨드 없이도 센서 동작으로 가능하며, 차 안/밖에서 일정 거리의 발 움직임으로 트렁크를 열 수 있습니다. 센서가 발의 움직임을 인지하면 트렁크 리드가 자동으로 열립니다. 또한 닫히는 동작 역시 센서 및 차의 전자 제어로 제어됩니다.\n  - 추가로, 원격 제어 버튼이나 Comfort Access가 필요할 수도 있습니다. 주행 중 안전 및 보안상의 이유로 특정 상황에서는 비활성화될 수 있습니다.\n\n- 사용 방법\n  - 준비: Comfort Access 또는 원격 제어가 작동하는 상태여야 합니다.\n  - 열기: 차의 후면 중앙 하단 부근 또는 중앙 후방 구역에서 발을 앞뒤로 움직입니다(센서 영역에 발이 들어오게). 센서가 인식하면 트렁크 리드가 손대지 않고 열립니다.\n  - 닫기: 트렁크 리드가 열린 상태에서 다시 발 움직임을 이용하거나 트렁크를 닫는 일반 절차를 따릅니다. 특정 모델의 설정에 따라 다를 수 있습니다.\n  - 참고로 페이지 191/192/387/388/390의 매뉴얼 섹션에서 이 기능의 원리와 사용 방법, 안전 주의가 함께 설명되어 있습니다.\n\n- 주의사항\n  - 주변에 사람이나 물건이 없는지 확인하고 사용하십시오. 센서 동작 중 의도치 않은 개폐로 부상이나 물건 훼손 위험이 있습니다.\n  - 트렁크 리드가 완전히 열리지 않도록 장애물이 있으면 개폐가 제한됩니다.\n  - 센서 범위 안에서의 비정상적인 움직임이나 악용 시 작동이 불가하거나 안전 경보가 작동할 수 있습니다.\n  - 핸들링 중에는 발 움직임이 과도하지 않도록 주의하고, 아이나 반려동물이 센서 영역에 들어가지 않도록 주의하십시오.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지: page_191.png\n  - BMW 매뉴얼 페이지: page_192.png\n  - BMW 매뉴얼 페이지: page_387.png\n  - BMW 매뉴얼 페이지: page_388.png\n  - BMW 매뉴얼 페이지: page_390.png\n\n추가 팁\n- 트렁크 리드를 완전히 열고 닫는 동작의 안정성을 원하시면 Comfort Access 설정에서 \"손대지 않고 열기/닫기\" 기능 활성화를 확인하고, 필요 시 차량 설정 메뉴에서 트렁크 개폐 동작의 민감도나 동작 영역을 조정해 보세요. (자세한 내용은 위의 매뉴얼 페이지에서 해당 절을 참고하십시오.)",
+    "expected_answer": "센서가 차량 후방 중앙에서 발동작을 감지하면 손을 대지 않고 트렁크를 열 수 있는 기능이 있습니다.",
+    "source_page": 158,
+    "processing_time": 7.084253549575806,
+    "success": true
+  },
+  {
+    "experiment_id": "q4_text",
+    "question_id": "4",
+    "input_type": "text",
+    "original_text": "트렁크를 열 때 주변을 살펴야 하는 이유는 무엇인가요?",
+    "processed_text": "트렁크를 열 때 주변을 살펴야 하는 이유는 무엇인가요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_182.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_182.png",
+        "similarity_score": 16.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_387.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_387.png",
+        "similarity_score": 16.125,
+        "rank": 2
+      },
+      {
+        "image_name": "page_461.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_461.png",
+        "similarity_score": 16.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_451.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_451.png",
+        "similarity_score": 16.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 16.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 트렁크를 열 때 주변을 살펴야 하는 이유에 대한 고급 BMW 차량 전문가 관점의 정리입니다.\n\n- 부품/기능 명칭\n  - 트렁크 보닛/부스루(boot lid)와 열림 제어 시스템\n  - 원격 제어 버튼(또는 리모컨)\n  - 보닛 내부의 움직임 보호 영역(안전 영역)\n  - 보닛 주변 경고 표지 및 안전 노트\n\n- 핵심 설명\n  - 트렁크를 열 때 보닛이 위로 움직이므로, 주변에 움직임으로 인해 핀치나 충격이 발생할 수 있습니다. 외부 물체나 사람, 특히 팔이나 손이 보닛 경로에 들어가면 중대한 부상을 입을 수 있습니다.\n  - 보닛이 열리면 내부 구성품이나 배선, 도구 등 이물질이 갑자기 떨어지거나 튀어 다칠 수 있습니다. 또한 바닥에 놓인 물건이 보닛 작동으로 인해 이동할 수 있습니다.\n  - 트렁크를 여는 동작은 환경 조건(날씨, 바람, 바닥 상태)에 따라 예기치 않은 움직임을 유발할 수 있습니다. 항상 주변 영역이 깨끗하고 이물이 없도록 확인해야 합니다.\n  - 보닛이 자동으로 닫힐 때도 주의가 필요합니다. 닫힘 과정에서 손이나 물체가 경로에 있으면 사고가 발생할 수 있습니다.\n\n- 사용 방법\n  - 트렁크 열림 버튼(리모컨의 보닛 열림 기능)을 길게 누르거나 특정 동작으로 트렁크를 열어줍니다.\n  - 트렁크가 열릴 때 주변에 사람이 없고, 물건이 이 경로에 간섭하지 않는지 확인합니다.\n  - 트렁크를 다 사용한 후에는 보닛이 완전히 닫히는지 확인하고, 필요 시 주변에 물건을 고정합니다.\n  - 트렁크를 닫을 때도 주변 확인이 필요하며, 자동 닫힘 기능이 있는 경우 경로에 아무도 없고 안전하게 닫히는지 확인합니다.\n\n- 주의사항\n  - 경고: 보닛이 작동하는 동안 몸이 경로 안에 들어가면 심각한 상해가 발생할 수 있습니다. 보닛이 열리거나 닫힐 때 주변이 전부 자유로운지 확인하십시오.\n  - 물체 이탈 위험: 내부나 주변에 loose objects가 있다면 이동 중에 튀거나 떨어질 수 있습니다. 반드시 고정하거나 제거하십시오.\n  - 상태 주의: 보닛 주변의 표면이나 장애물이 있으면 작동 중 충돌 가능성이 있습니다. 날씨나 바람이 강한 경우에도 주의하십시오.\n  - 비상 상황 시 대처: 보닛에 손이나 팔이 끼였을 경우 즉시 작동 중지 후 안전하게 제거하고 재시작 여부를 확인합니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지: page_182.png (유사도: 16.25)\n  - BMW 매뉴얼 페이지: page_387.png (유사도: 16.12)\n  - BMW 매뉴얼 페이지: page_461.png (유사도: 16.00)\n  - BMW 매뉴얼 페이지: page_451.png (유사도: 16.00)\n  - BMW 매뉴얼 페이지: page_192.png (유사도: 16.00)\n\n추가 설명 및 연관 내용(참고용)\n- 트렁크 개방 및 안전 주의사항은 “Opening and closing” 섹션의 안전 노트에서 강조됩니다. 트렁크 열림/닫힘 시 주변 영역이 자유로운지 확인하고, 로드된 물건이 보닛 작동에 간섭하지 않도록 주의합니다.\n- 트렁크 보닛의 경고와 노트는 보닛 작동 중 발생할 수 있는 위험 요소를 구체적으로 안내합니다(느슨한 물체, 사람, 프로젝팅 부품 등).\n- 개방/폐쇄 시의 올바른 동작 방법과, 주변 물체를 치우는 요령은 각 매뉴얼의 해당 섹션에서 자세히 다루고 있습니다.\n\n필요하시면 위 5개 페이지의 구체 문구를 항목별로 직접 발췌해 드리겠습니다.",
+    "expected_answer": "트렁크를 열 때 주변을 살펴야 하는 이유는 트렁크 리드가 열릴 때 뒤쪽이나 위쪽으로 젖혀지면서 신체가 끼이거나 물질적 피해가 발생할 수 있기 때문입니다.",
+    "source_page": 158,
+    "processing_time": 14.146629333496094,
+    "success": true
+  },
+  {
+    "experiment_id": "q5_text",
+    "question_id": "5",
+    "input_type": "text",
+    "original_text": "트렁크가 열리다가 멈추는 경우는 어떤 때인가요?",
+    "processed_text": "트렁크가 열리다가 멈추는 경우는 어떤 때인가요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 16.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_182.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_182.png",
+        "similarity_score": 16.125,
+        "rank": 2
+      },
+      {
+        "image_name": "page_194.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_194.png",
+        "similarity_score": 15.875,
+        "rank": 3
+      },
+      {
+        "image_name": "page_202.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_202.png",
+        "similarity_score": 15.625,
+        "rank": 4
+      },
+      {
+        "image_name": "page_205.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_205.png",
+        "similarity_score": 15.25,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 트렁크가 열리다 멈추는 경우에 대한 고급 BMW 차량 전문가의 요약 가이드입니다.\n\n- 부품/기능 명칭\n  - 트렁크 리드/보일드(boot lid) 및 자동 테일게이트 시스템\n  - 안티-트랩 메커니즘(anti-trap mechanism)\n  - 리모컨 제어 및 내부/외부 개폐 스위치\n  - 안전 경고등 및 음향 신호\n  - 내부 조명 및 상태 표시(컨트롤 디스플레이)\n\n- 핵심 설명\n  - 트렁크가 열리다 멈추는 주된 원인은 안전 기능(안티-트랩 메커니즘) 작동, 외부 장애물 인식, 배터리/전원 이슈, 제어 신호 문제, 또는 글래스 루프/도어 시스템의 일시적 오류 등입니다.\n  - 안티-트랩 메커니즘은 열릴 때 트렁크가 장애물을 감지하면 자동으로 멈추고 사용자가 재개/중지 제어를 할 수 있도록 합니다.\n  - 원치 않는 멈춤은 외부의 강한 저항이나 먼지/물리적 장애물, 전기계통 이상, 또는 외부 환경에 따른 잠금 해제/잠금 신호 문제로 자주 발생합니다.\n  - 일부 버전은 Comfort Access(스마트키) 상태에 따라 개폐가 다르게 작동하며, 내부 스위치/외부 버튼의 작동도 상태에 따라 달라질 수 있습니다.\n  - 문제 해결 시, 안전상태를 먼저 확인하고 필요 시 도움을 요청하는 것이 중요합니다.\n\n- 사용 방법\n  - 정상 개폐를 재개하려면:\n    - 트렁크 리드가 멈춘 위치에서 계속 버튼을 누르거나 재다시 작동시키면 반응이 재가동될 수 있습니다.\n    - 외부/내부 버튼으로 다시 시도하거나, 리모컨으로 길게 누르기 등 제조사 매뉴얼의 안내에 따라 재개합니다.\n  - 안티-트랩이 작동하는 경우:\n    - 트렁크가 장애물을 감지하면 멈추고, 일정 시간(약 4초 내외) 후 다시 시도하면 됩니다. 이때 주변에 손이나 물체가 없는지 확인합니다.\n  - 수동 개폐가 필요한 경우:\n    - 안전상태에서 수동으로 열려면 차량 도어 내부/외부 스위치를 이용해 작동합니다. 매뉴얼의 “From outside/From inside” 절차를 따라 주세요.\n  - 점검 및 초기화 시도:\n    - 배터리 상태를 확인하고 재시도합니다. 리모컨 배터리 교체나 시스템 재설정이 필요할 수 있습니다.\n    - Comfort Access 설정이나 파라미터가 초기화되었는지 확인합니다.\n\n- 주의사항\n  - 트렁크 개폐 중에는 발, 손, 도구 등 신체 일부를 리드 경로에서 멀리 떨어뜨리십시오. 부상 및 손상 위험이 있습니다.\n  - 안티-트랩이 작동 중일 때 강한 저항으로 강제하려고 하지 마십시오. 시스템이 손상을 입을 수 있습니다.\n  - 외부 환경(비, 눈, 얼음)에서 작동 속도와 반응이 느려질 수 있으며, 이로 인해 오작동이 발생할 수 있습니다. 습기와 얼룩에 의한 센서 오작동에 주의합니다.\n  - 트렁크 리드의 광범위한 조작 실패가 지속되면 전문가 점검이 필요합니다. 배터리, 제어 모듈, 센서의 장애를 점검합니다.\n  - 안전 경고등/음향 신호가 반복되면 즉시 차량 매뉴얼의 안내를 따르고 필요 시 서비스 센터에 문의합니다.\n\n- 참조 정보\n  - BMW 온라인 매뉴얼의 관련 페이지\n    - page_192.png (유사도: 16.50)\n    - page_182.png (유사도: 16.12)\n    - page_194.png (유사도: 15.88)\n    - page_202.png (유사도: 15.62)\n    - page_205.png (유사도: 15.25)\n  - 매뉴얼에서 다루는 주요 절/주제:\n    - Opening and closing: 트렁크의 열림/닫힘 동작, 안전 주의, 경고 신호\n    - Safety notes 및 Malfunctions: 고장 시 대처, 원인 점검\n    - Anti-trap mechanism: 안티-트랩 원리와 일반/비일반 조작 방법\n    - With automatic tailgate operation: 자동 테일게이트의 작동/정지 조건\n    - Closing without anti-trap mechanism, 초기화 및 파손 시 대처 방법\n  - 페이지 예시(참조 표기 예시로 이해):\n    - 페이지 68, 58, 70, 78, 81 등: 매뉴얼의 열림/닫힘, 안전 경고, 고장 시 조치, Anti-trap 메커니즘의 동작 원리 등 구체적 설명이 수록되어 있습니다.\n\n추가 안내\n- 트렁크가 멈추는 구체적인 원인을 더 정확히 파악하려면, 다음 정보를 확인하면 도움이 됩니다:\n  - 현재 차량 모델/연식, 트렁크 개폐 방식(수동/자동/Comfort Access 여부)\n  - 최근의 전장품 배터리 상태 및 리모컨 배터리 상태\n  - 외부 환경(날씨, 먼지/눈 여부)과 트렁크 주변 상태\n  - 계기판에 나타나는 경고등이나 메시지 유무\n\n필요하시면 귀하의 차종과 연식에 맞춘 구체적 절차를 매뉴얼의 해당 페이지 번호와 함께 단계별로 정리해 드리겠습니다.",
+    "expected_answer": "트렁크가 열리다가 멈추는 경우는 차량이 움직이거나, 트렁크 바깥쪽/내부 버튼 또는 리모컨 버튼을 다시 누르거나, 전기 고장 등 기능 장애가 있을 때입니다.",
+    "source_page": 161,
+    "processing_time": 14.031655073165894,
+    "success": true
+  },
+  {
+    "experiment_id": "q6_text",
+    "question_id": "6",
+    "input_type": "text",
+    "original_text": "운전석 도어 버튼으로 트렁크 열림을 멈출 수 있나요?",
+    "processed_text": "운전석 도어 버튼으로 트렁크 열림을 멈출 수 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_194.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_194.png",
+        "similarity_score": 22.125,
+        "rank": 1
+      },
+      {
+        "image_name": "page_195.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_195.png",
+        "similarity_score": 21.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 20.875,
+        "rank": 3
+      },
+      {
+        "image_name": "page_198.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_198.png",
+        "similarity_score": 20.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_191.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_191.png",
+        "similarity_score": 20.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음과 같이 정리해 드립니다.\n\n- 부품/기능 명칭\n  - 트렁크/테일게이트 제어 시스템(Opening and closing tailgate control)\n  - 운전석 도어 버튼은 트렁크 열림 제어 신호의 일부 제어 경로 중 하나로 작동될 수 있음\n  - 트렁크 외부 버튼, 트렁크 내부의 버튼, 원격 제어 버튼 등 트렁크 열림 취소/중지 수단\n\n- 핵심 설명\n  - 운전석 도어의 버튼으로 바로 “트렁크 열림을 멈춘다”는 기능은 매뉴얼에 명시되어 있지 않습니다. 트렁크 열림 중단(취소)은 특정 다른 경로를 통해 이루어집니다.\n  - 열림 중단(취소) 절차는 다음과 같습니다.\n    - 트렁크 외부의 버튼을 다시 누르거나 외부 핸들/버튼으로 중지 후 다시 누르면 열림이 재개될 수 있습니다.\n    - 트렁크 내부의 버튼을 누르면 열림 동작을 중지하고 필요 시 재개될 수 있습니다.\n    - 원격 제어의 버튼을 사용해 중지/재개하는 방식도 매뉴얼에 서술되어 있습니다.\n  - 차종에 따라 Comfort Access(무선 인식) 상태에서의 동작이나 트렁크 리모트 제어의 해제/재개 방식이 적용될 수 있습니다.\n\n- 사용 방법\n  - 열림 중인 상태에서 멈추려면:\n    - 트렁크 외부 버튼을 한 번 누르면 멈춤/재개 시도로 연동될 수 있습니다.\n    - 트렁크 내부의 버튼을 누르면 열림 동작이 중지되거나 재개될 수 있습니다.\n    - 원격 제어 버튼을 길게(또는 특정 방식으로) 누르면 열림 취소 및 재개 동작이 가능할 수 있습니다.\n  - 운전석 도어 버튼만으로 직접 “멈춤” 신호를 주는 방법은 매뉴얼에 명시적으로 제시되지 않으니, 위의 트렁크 직접 제어 경로를 이용하는 것이 권장됩니다.\n  - 열림/닫힘 취소와 관련된 구체적 절차는 각 페이지의 설명 및 그림에 따라 사용 상황에 맞춰 적용합니다.\n\n- 주의사항\n  - 트렁크를 열거나 닫을 때 주변에 사람이나 물건이 없는지 확인해야 합니다.\n  - 열림 중 취소 시 의도치 않은 동작이 발생할 수 있으므로 정확한 방법으로 제어해야 합니다.\n  - 안전 주의 문구를 숙지하고, 불확실한 경우 수동으로 점검하거나 서비스 센터에 문의하십시오.\n\n- 참조 정보\n  - BMW 매뉴얼의 관련 내용 참조 페이지:\n    - page_194.png\n    - page_195.png\n    - page_192.png\n    - page_198.png\n    - page_191.png\n  - 해당 페이지들에는 “Opening and closing” 및 “Controls” 섹션에서 트렁크 열림의 취소/중지 방법과 여러 제어 방법에 대한 상세 설명이 있습니다. 실사용 시 페이지 67–71, 68–74 구간의 내용을 확인하시길 권합니다.",
+    "expected_answer": "운전석 도어 버튼을 다시 누르면 트렁크 열림이 중단되고, 다시 누르면 열림이 재개됩니다.",
+    "source_page": 160,
+    "processing_time": 10.908398151397705,
+    "success": true
+  },
+  {
+    "experiment_id": "q7_text",
+    "question_id": "7",
+    "input_type": "text",
+    "original_text": "트렁크가 닫히는 도중에 멈추는 경우는 어떤 때인가요?",
+    "processed_text": "트렁크가 닫히는 도중에 멈추는 경우는 어떤 때인가요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_195.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_195.png",
+        "similarity_score": 18.625,
+        "rank": 1
+      },
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 18.375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_194.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_194.png",
+        "similarity_score": 18.25,
+        "rank": 3
+      },
+      {
+        "image_name": "page_205.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_205.png",
+        "similarity_score": 18.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_202.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_202.png",
+        "similarity_score": 18.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 트렁크(뒷문)가 닫히는 도중 멈추는 경우에 대한 고급 요약입니다.\n\n- 부품/기능 명칭\n  - 소프트 클로즈 자동(Soft Close Automatic)\n  - 트렁크 리드의 폐쇄 제어 로직(Closing)\n  - Anti-trap 메커니즘, Anti-trap 센서/스위치\n  - 경고 등: 경고 아이콘 및 경고 음향 신호\n  - 올바른 발동 위치를 위한 Correct foot movement 가이드\n\n- 핵심 설명\n  - 소프트 클로즈 자동은 도어가 가까워질 때 자동으로 닫히지만, 트렁크 리드가 장애물이나 인체를 감지하면 멈추거나 중단됩니다.\n  - 트렁크가 닫히는 동안 어떤 원인으로도 영역이 차단되면 닫힘 작동이 일시 중단되거나 재개되지요.\n  - Anti-trap 메커니즘은 외부에서 걸리는 장애물이나 손가락 등으로 인해 닫힘이 계속 진행되지 않도록 방지합니다. 필요 시 반대 방향으로 다시 이동합니다.\n  - 사용자가 안전 거리에서 발을 움직이거나 핸들을 이용할 때 작동되는 보조 절차가 있습니다.\n  - 불완전한 닫힘 상황은 단계별 경고, 안내 문구 및 그림으로 안내합니다.\n\n- 사용 방법\n  - 트렁크를 닫을 때: 문을 살살 밀어 닫히도록 합니다. 닫히는 도중 멈추면 차의 경고를 확인하고, 경고 표시를 해제한 후 다시 시도합니다.\n  - 안전 가이드: 문 닫힘 영역이 자유로운지 확인하고, 발을 들고 있지 않은지 확인합니다.\n  - 필요 시 외부 버튼 또는 트렁크 리드 내부 버튼으로 재개/정지 가능하며, 리드가 재개되도록 한 후 정상 작동 여부를 확인합니다.\n  - 위기 상황에서 Anti-trap 경고가 나오면 원인을 제거한 후 재 시도합니다.\n\n- 주의사항\n  - 문이 닫히는 동안 사람이나 물건이 영역에 들어가면 안 됩니다. 특히 손가락, 얼굴, 의류 등은 위험합니다.\n  - 외부에서 수동으로 forcefully 밀거나 당기지 마십시오. 자동 제어를 방해하지 마세요.\n  - 배터리나 전원 문제, 센서 오작동 시 닫힘 작동이 비정상적으로 보일 수 있습니다. 필요 시 점검을 권장합니다.\n  - 악천후나 이물질로 인해 Anti-trap 센서가 오작동할 수 있으므로 건조하고 이물질을 제거한 상태에서 작동을 확인하십시오.\n  - 명시된 절차 이외의 방법으로 트렁크를 강제로 고정하거나 비활성화하지 마세요.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 1: page_195.png (유사도: 18.62) – Soft Close 자동 및 취급 지침, 경고 및 일반 흐름\n  - BMW 매뉴얼 페이지 2: page_192.png (유사도: 18.38) – Opening/Closing 제어 흐름, Correct foot movement 및 안내\n  - BMW 매뉴얼 페이지 3: page_194.png (유사도: 18.25) – Closing 절차, 경고, Malfunctions 및 Anti-trap 일반 정보\n  - BMW 매뉴얼 페이지 4: page_205.png (유사도: 18.00) – With automatic tailgate operation 및 Closing without anti-trap 메커니즘 관련 내용\n  - BMW 매뉴얼 페이지 5: page_202.png (유사도: 18.00) – Anti-trap, 초기화/비상 상황, Safety switch 등 고급 제어 흐름\n\n참고: 위 내용은 사용자가 트렁크 닫힘 도중 멈추는 상황에서 일반적으로 적용되는 원리와 운용 방법을 요약한 것으로, 실차의 구체 모델(예: X 모델)의 세부 동작은 매뉴얼의 해당 페이지들에 기재된 절차와 경고를 따릅니다. 필요 시 해당 페이지의 그림과 문구를 확인하여 정확한 절차를 준수하시길 권합니다.",
+    "expected_answer": "트렁크가 닫히는 도중 멈추는 경우는 차량이 갑자기 출발하거나, 트렁크 바깥측 또는 내부 버튼을 누르거나, 리모컨 버튼에서 손을 뗄 때, 운전자 도어 버튼에서 손을 뗄 때, 또는 전기 고장 등 기능 장애가 있을 때입니다.",
+    "source_page": 161,
+    "processing_time": 10.664451360702515,
+    "success": true
+  },
+  {
+    "experiment_id": "q8_text",
+    "question_id": "8",
+    "input_type": "text",
+    "original_text": "트렁크 외부 버튼으로 닫힘을 중단시킬 수 있나요?",
+    "processed_text": "트렁크 외부 버튼으로 닫힘을 중단시킬 수 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_194.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_194.png",
+        "similarity_score": 18.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_195.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_195.png",
+        "similarity_score": 17.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_182.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_182.png",
+        "similarity_score": 17.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_202.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_202.png",
+        "similarity_score": 16.875,
+        "rank": 4
+      },
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 16.625,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음과 같이 정리해 드립니다.\n\n- 부품/기능 명칭\n  - 트렁크 외부 버튼(boot lid exterior button) 및 트렁크 닫힘 제어 기능\n  - 외부 버튼 취소/중단 동작(Closing cancellation via exterior boot lid button)\n\n- 핵심 설명\n  - 트렁크가 자동으로 닫히는 도중 외부 버튼을 이용해 닫힘 작동을 중단할 수 있습니다. 중단 후에는 원하는 상태에 따라 다시 열리거나 닫힘이 재개될 수 있습니다.\n  - 외부 버튼으로 닫힘을 중단하는 동작은 “Cancellation of the closing operation”에 해당하며, 상황에 따라 버튼을 한 번 누른 뒤 다시 누르면 반대 동작이 실행됩니다. 구체적으로는 외부 트렁크 덮개 버튼을 누르면 닫힘이 중단되고, 다시 누르면 보통 반대로 열리거나 닫힘이 재개됩니다.\n  - 이 기능은 안전 트랩(anti-trap) 기능과 함께 동작하므로, 외부 버튼으로 중단 시 트렁크가 즉시 멈추고 안전하게 작동합니다.\n\n- 사용 방법\n  - 외부 트렁크 버튼으로 닫힘 중단:\n    - 트렁크가 닫히는 도중 외부 버튼(boot lid exterior button)을 한 번 누릅니다.\n    - 닫힘이 중단되고 열림/재개 여부는 상황에 따라 달라질 수 있습니다.\n  - 중단 재개/재추가 제어:\n    - 필요에 따라 버튼을 다시 누르면 닫힘이 재개되거나 트렁크가 다시 열릴 수 있습니다.\n  - 만약 도중에 트렁크가 완전히 닫히지 않도록 보조 제어가 필요하다면, 같은 위치의 버튼을 이용해 추가로 제어할 수 있습니다.\n\n- 주의사항\n  - 닫힘 중단 시 원치 않는 부상이나 손상을 방지하기 위해, 버튼 작동 시 주변에 물리적 장애물이 없도록 주의하십시오.\n  - 트렁크 닫힘은 안전 트랩 및 경고 시스템과 함께 작동하므로, 단순히 버튼으로 중단하더라도 주변 공간은 항상 확보되어 있어야 합니다.\n  - 외부 버튼으로 중단한 뒤에는 필요한 경우 재개/종료를 신중히 확인하십시오. 장비 설정이나 시동 상태에 따라 동작이 달라질 수 있습니다.\n  - 비정상 동작이나 고장 의심 시 전문 서비스센터에 점검을 받으십시오.\n\n- 참조 정보\n  - BMW 매뉴얼의 관련 섹션에서 닫힘 취소/중단 및 안전 기능에 대해 다루고 있습니다.\n  - 참고 페이지:\n    - 페이지 70: Opening and closing > With automatic tailgate operation – Cancelation of the closing operation, 외부 버튼으로 중단 관련 설명\n    - 페이지 71: Closing/Soft Close Automatic, 외부 버튼 및 내부 트렁크 버튼으로의 제어 및 안전 주의\n    - 페이지 58: Anti-trap mechanism 및 일반 닫힘 동작 안전 주의\n    - 페이지 68: Closing without anti-trap mechanism 및 경고/안전 노트\n    - 페이지 78: Opening과 관련된 추가 안내 및 동작 예시\n\n추가 설명 필요하시면 차량 모델/연식 정보를 알려 주시면 해당 모델의 정확한 조작 경로로 다시 정리해 드리겠습니다.",
+    "expected_answer": "트렁크 외부 버튼을 누르면 닫힘을 중단시킬 수 있으며, 다시 누르면 트렁크가 다시 열립니다.",
+    "source_page": 160,
+    "processing_time": 10.034607887268066,
+    "success": true
+  },
+  {
+    "experiment_id": "q9_text",
+    "question_id": "9",
+    "input_type": "text",
+    "original_text": "전기 고장 시 트렁크를 수동으로 조작할 수 있나요?",
+    "processed_text": "전기 고장 시 트렁크를 수동으로 조작할 수 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_195.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_195.png",
+        "similarity_score": 17.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_419.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_419.png",
+        "similarity_score": 15.8125,
+        "rank": 2
+      },
+      {
+        "image_name": "page_216.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_216.png",
+        "similarity_score": 15.125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_185.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_185.png",
+        "similarity_score": 14.375,
+        "rank": 4
+      },
+      {
+        "image_name": "page_194.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_194.png",
+        "similarity_score": 14.0625,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 전기 고장 시 트렁크를 수동으로 조작할 수 있는지에 대한 요약 안내입니다.\n\n- 부품/기능 명칭\n  - 부트 리드(트렁크 뚜껑) 수동 개방 핸들/리베스트\n  - 부트 리드 내부 비상 해제 수단\n  - 외부 리모컨(Comfort Access 포함) 및 내부 트렁크 버튼\n\n- 핵심 설명\n  - 전기 고장으로 인해 트렁크 자동 개폐가 작동하지 않을 때도, 비상 해제 수단을 통해 수동으로 트렁크를 열 수 있습니다. 이는 운전석 외부나 트렁크 내부에서의 비상 해제 절차를 포함합니다.\n  - 특정 상황에서 외부 버튼/리모컨으로 개방이 불가하면, 트렁크 뚜껑에 있는 수동 해제 수단을 사용해야 합니다.\n  - 멀티-리모컨 설정이나 Comfort Access가 비정상일 때도 수동 해제가 가능하도록 고안되어 있습니다.\n\n- 사용 방법\n  - 부트 리드 수동 해제(비상 해제):\n    - 트렁크 내부의 비상 해제 핸들을 당깁니다. 이 동작은 트렁크 뚜껑의 자물쇠를 해제해 수동으로 열 수 있게 합니다. \n    - (참고: 핸들을 당겼을 때 부트 리드를 강제로 열 수 있으며, 전기 시스템이 정상으로 돌아오지 않더라도 개방이 가능합니다.)\n  - 외부/내부 버튼으로 열기 실패 시:\n    - 트렁크 뚜껑 외부의 버튼이나 내부 무선/무전원 버튼으로 열 수 없을 경우, 트렁크 내부의 수동 해제 지점을 이용합니다.\n  - 주의: 수동 해제 시 트렁크를 열고 나오는 동안 주변 안전에 유의하고, 차량이 움직이지 않는 상태에서 시도해야 합니다.\n\n- 주의사항\n  - 비상 해제는 안전이 최우선이므로, 트렁크가 갑자기 열려 사람이나 물체가 다치지 않도록 주의합니다.\n  - 전기 계통에 이상이 있는 경우, 수동 해제 후에도 트렁크가 완전히 정상 작동하지 않으면 정비소에서 체크가 필요합니다.\n  - 차량이 잠긴 상태에서 수동 해제를 시도하면, 재차 전기 시스템의 정상 작동 여부를 확인해야 합니다.\n  - 트렁크를 열고 난 뒤에는 구조물 손상 여부를 점검하고 필요 시 정비를 받으십시오.\n\n- 참조 정보\n  - \"Boot lid emergency release\" 관련 설명 및 절차: 페이지_195.png\n  - \"Closing\" 및 운전자의 안전 주의사항 및 일반 운용 절차: 페이지_419.png\n  - \"Mirrors\" 및 수동/전기 제어에 대한 일반 개요: 페이지_216.png\n  - \"With automatic tailgate operation\" 및 비상 해제 절차: 페이지_185.png\n  - \"Opening and closing\" 개요 및 정보 요약: 페이지_194.png\n\n추가 안내\n- 필요 시 매뉴얼의 해당 섹션을 참고하여, 상황에 맞는 정확한 수동 해제 방법(외부 버튼/내부 버튼 위치 및 해제 순서)을 확인하시길 권장드립니다.\n- 전기 고장으로 인한 트렁크 작동 문제는 제조사 서비스 파트너와 상담하는 것이 안전합니다.\n\n참고: 위 내용은 BMW 매뉴얼의 관련 페이지를 참조하여 정리했습니다. 각 페이지의 구체 섹션은 아래 파일에서 확인할 수 있습니다.\n- page_195.png\n- page_419.png\n- page_216.png\n- page_185.png\n- page_194.png",
+    "expected_answer": "전기 고장 시에는 트렁크 손잡이를 당겨 수동으로 잠금 해제하고 천천히 수동으로 조작할 수 있습니다.",
+    "source_page": 161,
+    "processing_time": 12.342352390289307,
+    "success": true
+  },
+  {
+    "experiment_id": "q10_text",
+    "question_id": "10",
+    "input_type": "text",
+    "original_text": "트렁크 비상 잠금해제는 어떻게 하나요?",
+    "processed_text": "트렁크 비상 잠금해제는 어떻게 하나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_500.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_500.png",
+        "similarity_score": 15.375,
+        "rank": 1
+      },
+      {
+        "image_name": "page_181.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_181.png",
+        "similarity_score": 15.1875,
+        "rank": 2
+      },
+      {
+        "image_name": "page_101.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_101.png",
+        "similarity_score": 15.125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_198.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_198.png",
+        "similarity_score": 14.9375,
+        "rank": 4
+      },
+      {
+        "image_name": "page_189.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_189.png",
+        "similarity_score": 14.9375,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 트렁크 비상 잠금해제에 대한 고급 BMW 차량 전문가의 요약 정보입니다.\n\n- 부품/기능 명칭\n  - 트렁크 비상 잠금해제 핸들(Trunk emergency release handle)\n\n- 핵심 설명\n  - 트렁크 내부에 위치한 비상 해제 수단으로, 비상 상황에서 트렁크를 내부에서 열 수 있도록 설계된 안전장치입니다. 일반적으로 야간에도 식별이 용이하도록 표식되며, 외부 도난 방지 기능과 별개로 작동합니다.\n\n- 사용 방법\n  - 트렁크 뒷면 또는 트렁크 내부 공간의 왼쪽/측면에 위치한 비상 해제 핸들을 찾습니다.\n  - 손을 이용해 핸들을 부드럽게 당겨 트렁크를 열도록 해제합니다.\n  - 트렁크가 열리면 즉시 외부 출입이 가능하도록 내부를 통해 안전하게 나와야 합니다.\n  - 주의: 비상 해제는 긴급 상황에서만 사용하고, 평상시에는 일반 잠금 해제가 우선입니다.\n\n- 주의사항\n  - 비상 해제 기능은 안전을 위한 예비 수단이므로, 정기적으로 작동 여부를 점검하고 손쉽게 접근 가능한 위치에 있어야 합니다.\n  - 사용 시 손상이나 파손 여부를 확인하고 필요 시 dealer를 통해 점검받으십시오.\n  - 아이나 반려동물이 핸들에 손이 닿지 않도록 주의하십시오.\n  - 비상 해제 후에는 차량의 일반 잠금/잠금해제 시스템이 정상 작동하는지 다시 확인하십시오.\n\n- 참조 정보\n  - BMW 매뉴얼의 관련 페이지를 참조하면 비상/일반 잠금해제 절차를 더 자세히 확인할 수 있습니다.\n    - page_500.png (유사도 15.38)\n    - page_181.png (유사도 15.19)\n    - page_101.png (유사도 15.12)\n    - page_198.png (유사도 14.94)\n    - page_189.png (유사도 14.94)\n\n참고로 이 내용은 매뉴얼의 트렁크 개방 및 잠금 절차와 중앙잠금 버튼 관련 설명을 종합해 구성했습니다. 필요 시 각 페이지의 구체 텍스트를 직접 확인해 보시길 권합니다.",
+    "expected_answer": "트렁크 비상 잠금해제는 트렁크의 손잡이를 당기면 됩니다.",
+    "source_page": 161,
+    "processing_time": 9.900234460830688,
+    "success": true
+  },
+  {
+    "experiment_id": "q11_text",
+    "question_id": "11",
+    "input_type": "text",
+    "original_text": "트렁크에 리모컨을 보관할 때 주의할 점은 무엇인가요?",
+    "processed_text": "트렁크에 리모컨을 보관할 때 주의할 점은 무엇인가요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_193.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_193.png",
+        "similarity_score": 19.375,
+        "rank": 1
+      },
+      {
+        "image_name": "page_183.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_183.png",
+        "similarity_score": 18.125,
+        "rank": 2
+      },
+      {
+        "image_name": "page_182.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_182.png",
+        "similarity_score": 18.125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_191.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_191.png",
+        "similarity_score": 17.625,
+        "rank": 4
+      },
+      {
+        "image_name": "page_192.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_192.png",
+        "similarity_score": 17.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 트렁크에 리모컨(원격 제어)을 보관할 때의 주의점과 사용 팁을 BMW 매뉴얼 내용을 기반으로 정리한 가이드입니다.\n\n- 부품/기능 명칭\n  - 부품: 원격 제어 키(리모트 컨트롤), 내장 배터리(CR 2032 포함), 부트 리드-락 시스템(Comfort Access 포함 시)\n  - 기능: 부트 리드(트렁크 뚜껑) 열림/닫힘 제어, 내부 도어락 해제, 차량과의 무선 신호 교환으로 보조 작동(컨포트 어싸스 등)\n  - 핵심 포인트: 원격 제어는 배터리 상태에 따라 동작이 달라질 수 있으며, 트렁크 뚜껑의 도어 핸들부와 리모컨 간의 간섭 가능성에 유의\n\n- 핵심 설명\n  - 보관 위치의 원칙: 트렁크 내부에 리모컨을 항상 보관하되, 트렁크 도어가 작동 중일 때 리모컨이 차단되거나 손상되지 않도록 주의해야 함. 리모컨은 배터리 만료나 파손 시 기능 저하가 발생할 수 있음.\n  - 배터리 관리: CR 2032 계열의 배터리가 필요하며, 교체 시에는 제조사 권장 방향으로 교체하고 재조립 시 핸들링을 주의.\n  - 안전 주의: 트렁크 리드가 작동 중일 때 리모컨과 금속 물체를 함께 운반하면 전자기 간섭이나 손상 위험이 있다. 트렁크 리드가 닫히는 동안 리모컨이 핀치되거나 포개지지 않도록 하여 부상 위험을 줄여야 함.\n  - Comfort Access(무접촉 열림/닫힘) 사용 시: 차에 탑재된 리모컨으로 무접촉 열림 기능이 활성화되면 트렁크 뚜껑이 자동으로 열리거나 닫힐 수 있음. 트렁크를 보관할 때는 해당 기능의 작동 범위를 확인하고 필요 시 비활성화하는 것이 좋음.\n\n- 사용 방법\n  - 일반 Opening/Closing:\n    - 트렁크 뚜껑 열기: 트렁크 뚜껑 밖에서 버튼 누르기(외부 리모트 컨트롤). 내부 운전자 쪽에서도 컨트롤 가능.\n    - 열림/닫힘 시 안전 거리 확보: 뚜껑이 움직일 때 리모컨을 가까이에 두지 말고, 손가락이나 몸이 핫스팟에 닿지 않도록 주의.\n  - Comfort Access가 있는 경우:\n    - 트렁크 도어에 손대지 않고도 열 수 있으며, 리모컨이 가까우면 자동으로 동작.\n  - 보관 위치 및 잡다한 용도:\n    - 리모컨은 차량 내부에서 안전하게 보관하고, 배터리 분리 혹은 교체 시에는 매뉴얼의 지침에 따라 처리.\n    - 교체 시 폐기 방법은 지역 규정에 따라 적절히 처리.\n\n- 주의사항\n  - 부품 손상 위험: 트렁크 뚜껑이 작동하는 동안 리모컨을 차단 없이 보관하면 부상이나 기계적 충격으로 손상될 수 있음. 뚜껑이 열리거나 닫히는 경로에서 리모컨이 움직이지 않도록 확보.\n  - 배터리 관리: 배터리 잔량이 낮아지면 원격 제어의 반응 속도가 느려지거나 동작 불가 상황이 발생할 수 있음. CR 2032 계열 배터리 교체 주기를 준수.\n  - 안전 경고: 트렁크 뚜껑이 열리거나 닫히는 동안 리모컨의 금속 객체와의 접촉은 피하도록 하고, 리모컨이 손에 있는 상태에서 손가락이나 피부를 뚜껑 경로에 두지 않도록 주의.\n  - 무접촉 열림 상태 주의: Comfort Access 방식은 배터리 상태나 센서 주변 환경에 따라 오작동 가능성이 있음. 필요 시 설정 메뉴에서 무접촉 기능을 비활성화하는 것을 고려.\n\n- 참조 정보\n  - 관련 BMW 매뉴얼 페이지를 참조하였습니다:\n    - 페이지_193.png(유사도 19.38): Boot lid 일반 규정, Safety notes, Without automatic tailgate operation 섹션 등\n    - 페이지_183.png(유사도 18.12): Closing/Opening 동작 및 안전 주의, 추가 원격 제어 관련 안내\n    - 페이지_182.png(유사도 18.12): Closing 및 Opening의 구체적 절차, 주의사항\n    - 페이지_191.png(유사도 17.62): Malfunction/General 안내, 배터리 관련 주의\n    - 페이지_192.png(유사도 17.00): Opening과 Closing의 상세 절차, Comfort Access 관련 안내\n  - 위 페이지들에는 다음과 같은 내용이 포함되어 있습니다:\n    - 원격 제어의 작동 원리, 배터리 관리, 무접촉 열림/닫힘의 원리와 주의, 트렁크 뚜껑의 안전한 작동 시 주의사항\n    - \"With Comfort Access: locking\" 및 \"Closing\" 절차, \"Opening\" 절차, \"Safety notes\"의 경고\n    - 배터리 교체 및 폐기 방법, 추가 remote controls, 악용 및 고장 시 대처 방법\n\n참고: 상기 내용은 BMW 매뉴얼의 관련 섹션에서 도출한 일반 원칙이며, 차량 모델 및 생산 연도에 따라 세부 조작 방법이나 경고 문구가 다를 수 있습니다. 필요 시 사용자의 차량 모델, 연식 및 지역 버전에 맞춘 정확한 페이지를 확인하시길 권장드립니다.",
+    "expected_answer": "트렁크에 리모컨을 보관할 때는 유폐되지 않도록 주의하고, 센서 영역에 두면 실수로 트렁크가 열리거나 닫힐 수 있으니 주의해야 합니다.",
+    "source_page": 158,
+    "processing_time": 9.538212537765503,
+    "success": true
+  },
+  {
+    "experiment_id": "q12_text",
+    "question_id": "12",
+    "input_type": "text",
+    "original_text": "트렁크에 액체를 보관할 때 무엇을 주의해야 하나요?",
+    "processed_text": "트렁크에 액체를 보관할 때 무엇을 주의해야 하나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_431.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_431.png",
+        "similarity_score": 14.3125,
+        "rank": 1
+      },
+      {
+        "image_name": "page_391.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_391.png",
+        "similarity_score": 14.1875,
+        "rank": 2
+      },
+      {
+        "image_name": "page_243.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_243.png",
+        "similarity_score": 13.1875,
+        "rank": 3
+      },
+      {
+        "image_name": "page_456.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_456.png",
+        "similarity_score": 13.125,
+        "rank": 4
+      },
+      {
+        "image_name": "page_424.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_424.png",
+        "similarity_score": 13.0625,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 트렁크에 액체를 보관할 때 참고할 수 있는 고급 가이드입니다. BMW 매뉴얼의 관련 내용과 함께 정리했습니다.\n\n- 부품/기능 명칭\n  - Sealant container (실란트 용기)\n  - Filling/Pouring hose (충전 및 주입 호스)\n  - Storage compartment / 왼쪽 트렁크 저장 칸 (또는 트렁크 하단 저장 공간)\n  - Washer fluid reservoir (워셔액 탱크) — 내부 저장 구역과 별도 구획\n  - Coolant level indicators ( coolant level 표지 및 측정 지점)\n  핵심 포인트: 트렁크 내에는 특정 용기의 보관 칸이나 고정용 홀더가 있어 액체를 안전하게 고정할 수 있도록 설계되어 있습니다. 매뉴얼의 각 페이지는 이러한 저장 공간과 주입/배출 포인트를 강조합니다.\n\n- 핵심 설명\n  - 트렁크에는 특정 용액용 보관 공간이 있으며, 내용물의 누출 위험을 최소화하기 위해 밀폐용기 사용을 권장합니다.\n  - 워셔액, 냉각수 등 엔진 계통용 액체는 서로 다른 저장 위치와 표준 용기를 사용해야 하며, 탱크나 저장칸에 직접 보관 시 흐름 및 누수 방지 대책이 필요합니다.\n  - 차체 하부 및 엔진룸으로의 누출은 차량 성능 저하 및 안전 상의 위험을 야기할 수 있습니다. 따라서 밀폐 및 고정이 필수입니다.\n\n- 사용 방법\n  - 올바른 용기 선택: 매뉴얼에 명시된 밀폐 가능한 용기 또는 제조사가 제공하는 정식 용기를 사용합니다.\n  - 밀폐 및 고정: 트렁크의 전용 저장 칸이나 고정용 홀더에 액체 용기를 수평 및 수직으로 안정적으로 고정합니다. 누출 방지를 위해 뚜껑을 단단히 닫고, 이물질이 들어가지 않도록 점검합니다.\n  - 표준 용량 준수: 과도하게 많은 용량을 한꺼번에 보관하지 말고, 제조사 권장 용량을 준수합니다.\n  - 주변 환경 관리: 트렁크를 거친 도로 주행 시에도 액체가 흔들려 누출될 수 있으므로, 받침대나 매트 등 흡수성 재질로 바닥을 보호합니다.\n  - 구분 보관: 엔진계 액체(예: 냉각수, 워셔액 등)와 다른 액체를 혼합하지 않도록 서로 다른 구획에 보관합니다.\n\n- 주의사항\n  - 위험 물질 취급: 연료류(가솔린, 디젤) 등 인화성 액체는 트렁크에 보관하지 말고, 가능하면 차체 외부의 적절한 용기에 보관 및 운반합니다. 매뉴얼의 안전 수칙에 따라 특히 화기 근처 보관을 피합니다.\n  - 누출 방지: 뚜껑이 느슨해지지 않도록 점검하고, 손상된 용기나 뚜껑은 사용하지 않습니다. 누출 의심 시 즉시 제거하고 점검합니다.\n  - 플라스틱/고무 재질 반응 주의: 일부additives나 시너지는 용기 재질과 반응할 수 있으므로, 제조사 권장 용기 외의 재질을 사용하지 말고, 용기의 적합성 표기를 확인합니다.\n  - 어린이 및 차량 동승자 안전: 보관 중인 액체가 노출될 경우를 대비해 밀폐 상태를 유지하고, 트렁크를 열 때 내용물이 떨어지지 않도록 주의합니다.\n  - 밀폐된 공간 주의: 트렁크가 완전히 밀폐되어 있어도 누수나 증기가 발생할 수 있습니다. 필요한 경우 통풍 여부를 확인하고 위험 물질은 멀리 보관합니다.\n\n- 참조 정보\n  - 페이지 1: page_431.png — 유사도 14.31\n    트렁크 저장 공간 및 Sealant container의 배치, 저장용기의 사용법\n  - 페이지 2: page_391.png — 유사도 14.19\n    차량 장비 내의 경고 및 안전 조치, 저장 공간의 일반 안내\n  - 페이지 3: page_243.png — 유사도 13.19\n    워셔액/세정계 관련 일반 정보 및 안전 주의사항\n  - 페이지 4: page_456.png — 유사도 13.12\n    쿨런트(냉각수) 계통의 저장 위치 및 레벨 체크, 관련 주의사항\n  - 페이지 5: page_424.png — 유사도 13.06\n    냉각수/쿨런트 레벨 확인, 누출 방지 및 적정 수위 관리\n\n참고로, 위의 5개 페이지는 트렁크 내 액체 보관 시 참조 가능한 매뉴얼의 관련 섹션을 시각적으로 보여주는 페이지들입니다. 필요한 경우 각 페이지의 내용을 직접 확인해 저장 공간의 구체 위치, 고정 방식, 안전 표기 등을 자세히 확인하시길 권합니다.\n\n필요하시면 사용 중인 구체 액체 종류(예: 워셔액, 냉각수, 샤워 용액 등)와 차량 모델/연식 정보를 알려주시면, 해당 용기에 맞춘 구체적인 보관 방법과 안전 주의사항을 더 자세히 맞춤 제공해 드리겠습니다.",
+    "expected_answer": "트렁크에 액체를 보관할 때는 유출되지 않도록 주의하고, 물질적 피해를 방지하기 위해 액체가 새지 않게 안전하게 고정해야 합니다.",
+    "source_page": 332,
+    "processing_time": 17.036665439605713,
+    "success": true
+  },
+  {
+    "experiment_id": "q13_text",
+    "question_id": "13",
+    "input_type": "text",
+    "original_text": "트렁크에 있는 고정 고리의 용도는 무엇인가요?",
+    "processed_text": "트렁크에 있는 고정 고리의 용도는 무엇인가요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_392.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_392.png",
+        "similarity_score": 16.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_407.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_407.png",
+        "similarity_score": 14.6875,
+        "rank": 2
+      },
+      {
+        "image_name": "page_231.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_231.png",
+        "similarity_score": 14.4375,
+        "rank": 3
+      },
+      {
+        "image_name": "page_227.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_227.png",
+        "similarity_score": 14.3125,
+        "rank": 4
+      },
+      {
+        "image_name": "page_419.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_419.png",
+        "similarity_score": 14.25,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 항목으로 정리해 드립니다.\n\n- 부품/기능 명칭\n  트렁크 고정 고리(트렁크/적재 공간의 고정 고리 및 고정 매듭 포인트)\n\n- 핵심 설명\n  트렁크 내에 위치한 고정 고리는 적재물의 흔들림을 방지하고 안정적으로 고정하기 위한 고정 포인트입니다. 일반적으로 스트랩, 운송 네트, 가방 고리 등의 부착에 사용되며, 대형 짐이나 쇼핑백 등을 움직임 없이 운반하도록 돕습니다. 좌측/우측의 보관 공간이나 네트 등에 위치해 있으며, 올바르게 사용하지 않으면 부상 위험이나 손상이 발생할 수 있습니다.\n\n- 사용 방법\n  - 고정 고리 근처에 제공된 스트랩이나 네트를 준비합니다.\n  - 스트랩의 한쪽 끝을 고정 고리에 걸고 반대쪽 끝을 적재물에 단단히 고정합니다.\n  - 네트나 숨겨진 수납 공간이 있다면 필요한 경우 그 네트에 물건을 걸어 고정합니다.\n  - 적재물이 움직이지 않도록 여러 포인트에 걸어 균형 있게 고정합니다.\n  - 운전 중 짐이 흔들리거나 바닥에 닿지 않는지 주기적으로 확인합니다.\n\n- 주의사항\n  - 과도한 하중이나 불안정한 짐은 고정 고리에 과도한 하중을 주어 손상될 수 있습니다. 적재 한계치를 준수하고, 위험 물품은 별도 고정 방식으로 다루십시오.\n  - 고정 스트랩이 날카로운 모서리나 예리한 물체에 닿지 않도록 보호대나 쿠션을 사용하십시오.\n  - 고정 고리에 걸린 물건이 운전 시 시야나 작동에 지장을 주지 않는지 확인하고 필요 시 재배치하십시오.\n  - 트렁크 바닥이나 보관 구역의 다른 구성 요소와 충돌하지 않도록 주의하십시오.\n\n- 참조 정보\n  - BMW 트렁크 내 보관 및 고정 관련 안내: page_392.png\n  - 트렁크 및 보관 공간의 고정 요소 및 위치 설명: page_407.png\n  - 트렁크 보관/고정 관련 일반 안내 및 주의사항: page_231.png\n  - ISOFIX 고정점 및 트렁크 내 정렬 포인트 관련 정보: page_227.png\n  - 트렁크 저장 공간 및 운송 시 주의사항 종합: page_419.png\n\n참고: 위 페이지들은 트렁크 내 고정 포인트, 보관 공간, 네트 사용 방법 등에 대한 관련 설명을 제공합니다. 필요 시 각 페이지에서 구체적인 그림 위치와 설명을 확인해 보시길 권합니다.",
+    "expected_answer": "트렁크에 있는 고정 고리는 적재물을 고정하기 위한 용도로 사용됩니다.",
+    "source_page": 332,
+    "processing_time": 11.090356588363647,
+    "success": true
+  },
+  {
+    "experiment_id": "q14_text",
+    "question_id": "14",
+    "input_type": "text",
+    "original_text": "트렁크 왼쪽에 있는 가방 홀더는 어디에 있나요?",
+    "processed_text": "트렁크 왼쪽에 있는 가방 홀더는 어디에 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_392.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_392.png",
+        "similarity_score": 21.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_395.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_395.png",
+        "similarity_score": 17.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_390.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_390.png",
+        "similarity_score": 17.125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_387.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_387.png",
+        "similarity_score": 17.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_497.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_497.png",
+        "similarity_score": 16.75,
+        "rank": 5
+      }
+    ],
+    "llm_response": "- 부품/기능 명칭\n  - Bag holders (가방 홀더)\n\n- 핵심 설명\n  - 트렁크 왼쪽 측면에 가방을 고정해 두는 보관 장치입니다. 트렁크 공간 내 물건이 움직이지 않도록 가방을 홀더에 고정하는 역할을 합니다.\n\n- 사용 방법\n  - 트렁크를 열고 좌측 측면의 가방 홀더를 찾습니다.\n  - 가방이나 소형 소지품을 홀더에 올려 놓고 고정합니다.\n  - 필요시 홀더의 고리나 스트랩으로 가방을 추가로 고정해 흔들림을 최소화합니다.\n  - 물건이 너무 무거워도 안전에 지장을 주지 않도록 과도한 중량은 피합니다.\n  - 보관 중 안전 주의: 가방 홀더에 걸린 물건은 운전 시 흔들림으로 인해 해가 되지 않도록 가볍고 부피가 작은 물건부터 우선 고정합니다. 과중한 물건은 다른 수납 공간으로 분배합니다.\n\n- 주의사항\n  - 무거운 물건이나 예기치 않은 충격을 유발할 수 있는 물건은 가방 홀더에만 의존하지 말고 다른 적재 방식으로 보강합니다.\n  - 홀더 사용 시 고정이 확실한지 재확인 후 출발합니다.\n  - 홀더가 손상되었거나 느슨해졌다면 사용하지 말고 점검/교체하십시오.\n\n- 참조 정보\n  - 매뉴얼: Storage compartments (왼쪽 트렁크의 가방 홀더 위치에 대한 일반 설명 포함) [참조 페이지: page_392.png]\n  - 추가 설명 및 안전 주의: 좌측 보관 공간 및 부품 간 연계 내용, 안전 주의 문구 확인 가능 [참조 페이지: page_390.png, page_387.png, page_395.png, page_497.png]\n  - 온라인 에디션 표기 및 부품 명칭 맥락: 해당 파트의 위치와 사용법 맥락은 위의 페이지들에서 확인 가능 [참조 페이지: page_392.png, page_395.png, page_390.png, page_387.png, page_497.png]",
+    "expected_answer": "트렁크 왼쪽에 가방 홀더가 있으며, 주머니 홀더 위를 눌러서 돌리면 사용할 수 있습니다.",
+    "source_page": 333,
+    "processing_time": 7.819852113723755,
+    "success": true
+  },
+  {
+    "experiment_id": "q15_text",
+    "question_id": "15",
+    "input_type": "text",
+    "original_text": "트렁크 오른쪽에 수납함이 있나요?",
+    "processed_text": "트렁크 오른쪽에 수납함이 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_392.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_392.png",
+        "similarity_score": 15.8125,
+        "rank": 1
+      },
+      {
+        "image_name": "page_387.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_387.png",
+        "similarity_score": 15.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_388.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_388.png",
+        "similarity_score": 15.1875,
+        "rank": 3
+      },
+      {
+        "image_name": "page_390.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_390.png",
+        "similarity_score": 14.6875,
+        "rank": 4
+      },
+      {
+        "image_name": "page_389.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_389.png",
+        "similarity_score": 14.6875,
+        "rank": 5
+      }
+    ],
+    "llm_response": "답변 구조에 따라 정리드립니다.\n\n- 부품/기능 명칭\n  - Side storage compartment, right (트렁크 오른쪽 수납 칸)\n\n- 핵심 설명\n  - 트렁크(뒷좌석 뒤 공간)의 오른쪽 벽면에 작은 물품을 보관할 수 있는 수납 칸이 있습니다. 이는 트렁크 공간을 효율적으로 활용하도록 설계된 저장 공간입니다.\n\n- 사용 방법\n  - 일반: 트렁크 바닥에서 오른쪽 벽면의 수납 구획 커버를 찾아 열어 물건을 넣거나 꺼냅니다. 커버를 위로 들어 올려 열 수 있으며, 사용 후에는 커버를 다시 닫아 고정합니다.\n  - 정리 팁: 물건을 구획에 분류해 두면 운전 중 흔들림을 줄일 수 있습니다. 무거운 물건은 가능한 한 중앙에 고정하고, 작은 물건은 네트나 칸 안에 담아 분실을 방지합니다.\n\n- 주의사항\n  - 수납 칸 안의 물건이 운전 시 방해가 되거나 시야를 가리지 않도록 주의하십시오.\n  - 너무 무거운 물건이나 파손될 수 있는 물건은 다른 용도 저장 칸으로 옮기거나 차량 안전에 맞게 고정하세요.\n  - 커버를 열고 닫을 때 손가락 등을 다치지 않도록 천천히 조작합니다.\n\n- 참조 정보\n  - BMW 매뉴얼 관련 페이지\n    - Storage compartments, right side: Side storage compartment, right\n    - General: Storage compartments 설명 및 구조 개요\n    - Opening/Closing 방법 및 주의사항\n    - 관련 그림/설명 위치: page_392.png, page_387.png, page_388.png, page_390.png, page_389.png\n  - 페이지 조합 요지\n    - 트렁크 오른쪽의 수납 칸 존재 및 일반 사용 방법은 위 페이지들에서 “Storage compartments” 및 “Side storage compartment, right” 섹션에 상세히 설명되어 있습니다.\n\n참고: 요청하신 다섯 매뉴얼 페이지를 참조해 확인하면 트렁크 내부 측면의 오른쪽 수납 칸 위치와 사용 방법을 정확히 확인할 수 있습니다. 필요하시면 해당 페이지의 구체 텍스트를 요약해 드리겠습니다.",
+    "expected_answer": "트렁크 오른쪽에 수납함이 있습니다.",
+    "source_page": 333,
+    "processing_time": 14.1593759059906,
+    "success": true
+  },
+  {
+    "experiment_id": "q16_text",
+    "question_id": "16",
+    "input_type": "text",
+    "original_text": "트렁크 왼쪽에 수납함이 있나요?",
+    "processed_text": "트렁크 왼쪽에 수납함이 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_392.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_392.png",
+        "similarity_score": 15.9375,
+        "rank": 1
+      },
+      {
+        "image_name": "page_387.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_387.png",
+        "similarity_score": 15.3125,
+        "rank": 2
+      },
+      {
+        "image_name": "page_388.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_388.png",
+        "similarity_score": 15.125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_389.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_389.png",
+        "similarity_score": 15.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_390.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_390.png",
+        "similarity_score": 14.625,
+        "rank": 5
+      }
+    ],
+    "llm_response": "- 부품/기능 명칭\n  - 트렁크 좌측 수납칸(Left-hand storage compartment in the boot)\n\n- 핵심 설명\n  - 트렁크 왼쪽에는 수납칸이 있으며, 작은 물품 보관에 활용할 수 있습니다. 수납칸은 트렁크 공간의 좌측에 위치하고 있으며, 물건을 정리하고 고정하기에 적합합니다.\n\n- 사용 방법\n  - 수납칸 열기: 필요 시 좌측 수납칸 뚜껑을 열어 물품을 넣습니다.\n  - 물품 정리: 무거운 물품은 중앙에 두지 말고 수납칸 안에 잘 고정합니다.\n  - 닫기/잠금: 물건을 넣은 후 뚜껑을 단단히 닫아 고정합니다.\n\n- 주의사항\n  - 수납칸에 흔들리거나 날아다닐 만한 물건은 넣지 마세요. 도구나 예리한 물체는 안전에 해로울 수 있습니다.\n  - 너무 무겁거나 부피가 큰 물건은 다른 공간에 배치해 차량의 균형과 안전에 유의합니다.\n  - 필요 시 운전 중 물건이 이동하지 않도록 고정합니다.\n\n- 참조 정보\n  - BMW 매뉴얼 관련 내용:\n    - Storage compartments (boot) 및 좌측 수납칸 관련 설명 — page_392.png\n    - 좌측 및 우측 저장/수납 구성 개요 — page_387.png, page_388.png\n    - 수납 칸의 오프닝/접근 방법 및 주의사항 — page_389.png, page_390.png\n\n추가 메모:\n- 제시된 페이지들은 “Storage compartments” 섹션과 관련 부품 설명에서 트렁크 좌측 수납칸의 존재와 위치를 확인할 수 있습니다. 필요 시 해당 페이지들의 구체 그림 및 텍스트를 확인해 보세요.",
+    "expected_answer": "트렁크 왼쪽에는 수납함이 있습니다.",
+    "source_page": 333,
+    "processing_time": 6.511655569076538,
+    "success": true
+  },
+  {
+    "experiment_id": "q17_text",
+    "question_id": "17",
+    "input_type": "text",
+    "original_text": "비상 휠은 어디에 보관되어 있나요?",
+    "processed_text": "비상 휠은 어디에 보관되어 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_449.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_449.png",
+        "similarity_score": 16.625,
+        "rank": 1
+      },
+      {
+        "image_name": "page_448.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_448.png",
+        "similarity_score": 15.125,
+        "rank": 2
+      },
+      {
+        "image_name": "page_395.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_395.png",
+        "similarity_score": 14.8125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_507.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_507.png",
+        "similarity_score": 14.3125,
+        "rank": 4
+      },
+      {
+        "image_name": "page_392.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_392.png",
+        "similarity_score": 14.125,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 비상 휠의 보관 위치 및 사용 방법에 대한 요약입니다.\n\n- 부품/기능 명칭\n  - 비상 휠(Emergency wheel) 및 휠 교체 도구 세트\n  - 보관 트레이/저장 트레이(boot storage tray)\n  - 고정 스트랩(lashing strap)\n  - 잭(jack) 및 잭 스터드 등uje\n  - 도구 홀더(tool holder)\n\n- 핵심 설명\n  - 비상 휠과 휠 교체 도구는 차량의 트렁크(부트) 바닥 아래의 저장 공간에 위치합니다. 정리된 상태로 트렁크 바닥 아래에 보관되어 있습니다.\n  - 비상 휠은 보통 “저장 트레이” 안에 있으며, 툴 홀더에 도구가 함께 수납되어 있습니다. 필요 시 바닥 트레이를 들어 올려 비상 휠과 도구를 꺼낼 수 있습니다.\n\n- 사용 방법\n  1) 트렁크 바닥의 저장 트레이를 열고 비상 휠과 도구를 확인합니다.\n  2) 필요 시 부품들을 꺼낸 뒤, 잭과 스트랩을 준비합니다.\n  3) 비상 휠 삽입 전 트렁크 바닥의 지시대로 고정 포인트를 확인합니다.\n  4) 비상 휠을 저장 트레이에서 꺼내고, 도구 홀더에 도구를 고정합니다.\n  5) 잭 크랭크를 시계방향 반대 방향으로 조정해 차량의 잭 포인트를 고정하고, 필요 시 차량의 주행 중 안전 표준에 맞춰 단단히 고정합니다.\n  6) 교체 작업 후 잭 스터드를 다시 제 위치에 고정하고, 모든 도구를 정리한 뒤 트렁크 바닥을 다시 덮습니다.\n  7) 도로 주행 후 비상 휠의 상태 및 타이어 공기압 등 점검 및 재정비를 수행합니다.\n\n- 주의사항\n  - 비상 휠은 특정 용도(짧은 거리에 한정된 임시 운용용)로만 사용해야 하며, 일반 타이어를 대체할 수 없습니다.\n  - 바닥 트레이를 열 때 날카로운 모서리에 손가락을 다치지 않도록 주의합니다.\n  - 비상 휠과 도구를 사용할 때는 차량 정지 상태에서만 작업하고, 움직이는 도로 위에서 작업하지 않습니다.\n  - 비상 휠을 설치할 때는 휠 스터드가 고정되었는지, 잭이 바닥에 완전히 접촉했는지 재확인합니다.\n  - 모든 작업이 끝난 뒤 잭과 모든 도구를 원래 위치에 재정리하고 트렁크 바닥을 다시 덮습니다.\n\n- 참조 정보\n  - 핵심 안내 및 절차: 페이지 참조 — page_449.png, page_448.png, page_395.png, page_507.png, page_392.png\n  - 관련 내용: 비상 휠의 위치, 저장 공간 구성, 설치/교체 절차 및 주의사항이 수록된 BMW 매뉴얼의 해당 섹션들\n\n참고: 위 내용은 BMW 매뉴얼의 “Mobility” 및 “Controls” 섹션에 수록된 비상 휠 보관 위치와 교체 방법에 기반합니다. 필요 시 해당 페이지들의 이미지를 확인해 구체적인 그림 설명과 그림 순서를 확인하실 수 있습니다.",
+    "expected_answer": "비상 휠은 트렁크 바닥 아래 스토리지 팬에 보관되어 있으며, 트렁크 바닥을 들어내고 조임벨트를 푼 후 꺼낼 수 있습니다.",
+    "source_page": 336,
+    "processing_time": 9.958645343780518,
+    "success": true
+  },
+  {
+    "experiment_id": "q18_text",
+    "question_id": "18",
+    "input_type": "text",
+    "original_text": "스키나 스노보드 가방은 어디에 보관하나요?",
+    "processed_text": "스키나 스노보드 가방은 어디에 보관하나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_395.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_395.png",
+        "similarity_score": 21.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_506.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_506.png",
+        "similarity_score": 17.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_507.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_507.png",
+        "similarity_score": 13.4375,
+        "rank": 3
+      },
+      {
+        "image_name": "page_434.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_434.png",
+        "similarity_score": 13.1875,
+        "rank": 4
+      },
+      {
+        "image_name": "page_429.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_429.png",
+        "similarity_score": 12.0625,
+        "rank": 5
+      }
+    ],
+    "llm_response": "부품/기능 명칭\n- Ski and snowboard bag 및 보호 슬리브 (부트 트렁크 내 위치)\n- 필요 시 악세서리: 도구 홀더, 긴급 바퀴(에어리): 설치/제거 관련 구성 아이템\n\n핵심 설명\n- 스키/스노우보드 가방은 부트 보관 공간의 보호 슬리브에 위치합니다. 가방 보관은 설치 및 작동 지침에 따라 수행합니다.\n- 에어리 바퀴 버전이 있는 경우, 가방 설치를 위해 먼저 차량의 에어리 바퀴를 제거해야 할 수 있습니다.\n- 보관 절차는 매뉴얼의 설치 및 사용 지침(여러 단계)을 따라 진행합니다.\n\n사용 방법\n- 1) 도구 홀더 제거 후, 트렁크 바닥의 저장용 트레이를 제거합니다. (참조: 페이지의 단계 3~6)\n- 2) 래싱 스트랩(고정끈)을 해제합니다.\n- 3) 저장 칸(스토리지 컴파트먼트)을 제거합니다.\n- 4) 저장 트레이를 다시 제거하고 부트 바닥을 재장착합니다.\n- 5) 보호 슬리브 안에 ski/snowboard bag를 삽입합니다.\n- 6) 가방이 튼튼하게 고정되도록 필요한 경우 고정 고리를 사용해 고정합니다.\n- 7) 부트 바닥을 원래 위치에 삽입합니다. 필요 시 에어리 바퀴가 있는 차종은 바퀴를 원위치로 복구합니다.\n- 8) 필요 시 도구 홀더/저장 요소를 원래 위치에 재조립합니다.\n\n주요 주의사항\n- 가방은 부트의 보호 슬리브에 맞도록 규격에 맞게 배치해야 하며, 과도한 압력이나 비좁은 공간으로 인한 손상을 피하십시오.\n- 에어리 바퀴가 장착된 차량의 경우, 가방 설치 전 바퀴를 제거해야 할 수 있습니다.\n- 가방 및 고정끈은 운전 중 흔들림을 최소화하도록 확실히 고정하십시오.\n- 비상 도구나 다른 물건과의 간섭을 피하기 위해 가방이 다른 구성품과 부딪치지 않도록 정렬하십시오.\n- 계기판이나 보닛 쪽으로 돌출되지 않도록 공간을 확보하고, 겨울용 장비의 무게 분포를 고려하십시오.\n\n참조 정보\n- Ski and snowboard bag 위치 및 설치 절차: 보호 슬리브 내부, 부트 트렁크 영역 참조\n  - 관련 매뉴얼 페이지: page_395.png (유사도: 21.75)\n  - 설명 예시: “The ski and snowboard bag is located in a protective sleeve in the boot. Follow installation and operating instructions enclosed in the protective sleeve. For equipment versions with emergency wheel: remove the emergency wheel from the vehicle to install the ski and snowboard bag.”\n- 추가 설치/정리 순서 예시(도구 홀더 제거, 저장 트레이 제거, 래싱 스트랩 해제, 저장 칸 제거, 부트 바닥 재삽입): 페이지 내 단계 3~8 참조\n  - 페이지: page_395.png\n- 참조용 정보(정리 및 안전 관련 다른 항목 예시): 페이지 429-434-507-506 등의 매뉴얼 항목은 차종의 안전 시스템 및 저장 공간 일반 지침 참고\n  - page_506.png, page_507.png, page_434.png, page_429.png\n- 전체 매뉴얼 식별 및 위치\n  - Online Edition for Part no. 01402984836 - X/17\n  - 페이지 번호 예시: Ski and snowboard bag 관련 섹션은 271쪽에 해당(본 발췌의 맥락상 참조용)\n\n필요 시, 정확한 차종과 트렁크 구성(에어리 바퀴 여부, 저장 박스 유무)에 따라 설치 절차가 달라질 수 있습니다. 원하시면 차량 모델과 연식에 맞춰 구체적인 단계별 체크리스트로 정리해 드리겠습니다.",
+    "expected_answer": "스키 및 스노보드 가방은 트렁크 내 보호 커버 안에 보관합니다.",
+    "source_page": 336,
+    "processing_time": 9.364293813705444,
+    "success": true
+  },
+  {
+    "experiment_id": "q19_text",
+    "question_id": "19",
+    "input_type": "text",
+    "original_text": "트렁크 공간을 어떻게 더 넓게 사용할 수 있나요?",
+    "processed_text": "트렁크 공간을 어떻게 더 넓게 사용할 수 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_394.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_394.png",
+        "similarity_score": 20.875,
+        "rank": 1
+      },
+      {
+        "image_name": "page_393.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_393.png",
+        "similarity_score": 19.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_390.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_390.png",
+        "similarity_score": 14.4375,
+        "rank": 3
+      },
+      {
+        "image_name": "page_392.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_392.png",
+        "similarity_score": 13.3125,
+        "rank": 4
+      },
+      {
+        "image_name": "page_403.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_403.png",
+        "similarity_score": 13.125,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 트렁크 공간을 넓게 활용하는 방법을 BMW 매뉴얼의 관련 내용을 바탕으로 정리한 가이드입니다.\n\n- 부품/기능 명칭\n  - Through-loading system (적재 공간 확장 시스템)\n  - Rear backrest 및 middle part (뒷좌석 등받이 및 중간 부분)\n  - Boot floor / 저장 공간 바닥 (보조 바닥)\n  - Storage compartments in the boot (트렁크 내 수납 공간)\n  - Coat hooks 및 Bag holders (코트 훅 및 가방 고정대)\n  - Net (네트/망)\n  - Side storage compartments (좌/우 측 저장 공간)\n  - Emergency wheel (비상용 바퀴) 및 관련 공간/구성 요소\n  - 3점 등 안전 벨트 및 고정 부품(적재물 고정 관련)\n  \n- 핵심 설명\n  - Through-loading system: 뒷좌석 등받서를 접어 트렁크로 이어지게 하여 긴 물건도 적재 가능. 뒷좌석 등받시는 부분적으로 접거나 완전히 접을 수 있으며, 바닥을 제거하거나 별도 금속 요소를 이용해 적재 공간을 확장할 수 있음.\n  - Rear backrest folding: 뒀던 등받이를 접어 바닥과 연결해 길이를 늘리거나 분할 접이로 좌석별로 공간을 확장 가능.\n  - Boot floor: 바닥을 들여다보면 보관 공간이 있고 필요 시 보닥 바닥을 들어 올려 더 큰 공간으로 사용할 수 있음. 바닥 아래 숨겨진 수납 공간도 활용 가능.\n  - Storage compartments: 트렁크의 양옆 및 좌측/우측 측면에 수납 공간이 있어 작은 물건을 분류 저장 가능.\n  - Coat hooks 및 Net: 의류나 작은 물건을 걸거나 망으로 고정해 흔들림 없이 운반 가능.\n  - Side storage compartments: 보관할 위치를 좌/우로 분리해 정리 가능.\n  - Emergency wheel: 비상용 휠 혹은 긴급용 구성품을 제거/배치해 더 넓은 트렁크 공간 확보 가능. 필요 시 해당 구성품은 부품 위치에 따라 제거 및 재배치 가능.\n  \n- 사용 방법\n  - Through-loading system\n    1) 뒷좌석 등받이를 앞 좌석 쪽으로 접기 시작합니다.\n    2) 중간 파트를 앞으로 당겨 분리/해체합니다.\n    3) 뒷좌석 등받이와 바닥이 평평하게 연결되도록 정렬합니다.\n  - Rear backrest folding\n    1) 뒷좌석 등받이를 완전히 접어 시트 포지션으로 맞춥니다.\n    2) 필요 시 시트 벨트를 제거하거나 잠금 해제 후 등받이를 상부로 접습니다.\n  - Boot floor / 저장 공간\n    1) 필요 시 보조 바닥을 제거하거나 들어 올려 더 큰 평평 바닥을 만듭니다.\n    2) 바닥 아래 공간에 보관 물품을 정리합니다.\n  - 저장 공간 및 고정\n    1) 좌/우 측 저장 공간과 네트를 활용해 작은 물건을 분리 저장합니다.\n    2) 코트 훅과 가방 고정대에 의류나 짐을 걸고, 망으로 물건을 고정합니다.\n  - 비상용 휠 제거/확장\n    1) 비상용 휠과 관련 구성품을 필요한 공간에서 제거하거나 재배치합니다.\n    2) 트렁크 바닥을 재설치해 공간을 확장합니다.\n  \n- 주의사항\n  - 등받이 및 바닥을 접거나 해체할 때에는 안전벨트 및 고정 장치를 반드시 확인하고 제대로 고정합니다.\n  - 바닥을 제거하거나 분해하는 경우, 트렁크 내부의 움직임 공간이 좁아지지 않도록 주의합니다. 무거운 물건은 고정하여 운전 중 이탈하지 않도록 해야 합니다.\n  - 코트 훅/망/가방 고정대 등을 사용할 때는 물건이 운전 중 흔들려 파손되거나 다른 부품과 충돌하지 않도록 단단히 고정합니다.\n  - 비상용 휠과 같은 구성품은 정해진 위치에만 보관하고, 필요 시에만 제거합니다. 무분별한 제거는 차량의 안정성에 영향을 줄 수 있습니다.\n  - 어린이 탑승 시 뒤좌석 등받이 및 저장 공간의 고정장치를 잘 점검하고, 의도치 않게 물건이 충돌하지 않도록 주의합니다.\n  \n- 참조 정보\n  - Through-loading system 및 적재 공간 확장: 페이지 page_393.png\n  - Rear backrest folding 및 분할 접이: 페이지 page_394.png\n  - Boot floor 및 저장 공간 구성: 페이지 page_390.png\n  - Storage compartments / 코트 훅, 측면 수납: 페이지 page_392.png\n  - Safety notes 및 전반적 트렁크 구성: 페이지 page_403.png\n\n참고로 해당 내용은 5개의 BMW 매뉴얼 페이지를 기반으로 요약했습니다:\n- page_394.png (유사도: 20.88) — 뒷좌석 등받이 및 뒤/backrest 관련\n- page_393.png (유사도: 19.25) — Through-loading system 및 보조 공간\n- page_390.png (유사도: 14.44) — Boot floor 및 확장 방법\n- page_392.png (유사도: 13.31) — Storage compartments, 코트 훅, 고정대\n- page_403.png (유사도: 13.12) — 안전 주의사항 및 일반 정보\n\n필요하신 경우, 차량 모델 및 연식에 맞춰 구체적인 접이 각도와 동작 순서를 더 자세히 안내해 드리겠습니다.",
+    "expected_answer": "트렁크 바닥을 빼내거나 트렁크 내 수납함을 이용하고, 뒷좌석 등받이를 앞으로 접거나 젖혀서 트렁크 공간을 더 넓게 사용할 수 있습니다.",
+    "source_page": 335,
+    "processing_time": 16.293473958969116,
+    "success": true
+  },
+  {
+    "experiment_id": "q20_text",
+    "question_id": "20",
+    "input_type": "text",
+    "original_text": "비상 휠을 제거하여 트렁크 공간을 확장할 수 있나요?",
+    "processed_text": "비상 휠을 제거하여 트렁크 공간을 확장할 수 있나요?",
+    "query_image_path": null,
+    "search_results": [
+      {
+        "image_name": "page_394.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_394.png",
+        "similarity_score": 24.125,
+        "rank": 1
+      },
+      {
+        "image_name": "page_449.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_449.png",
+        "similarity_score": 19.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_393.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_393.png",
+        "similarity_score": 18.375,
+        "rank": 3
+      },
+      {
+        "image_name": "page_395.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_395.png",
+        "similarity_score": 17.625,
+        "rank": 4
+      },
+      {
+        "image_name": "page_431.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_431.png",
+        "similarity_score": 15.875,
+        "rank": 5
+      }
+    ],
+    "llm_response": "부품/기능 명칭\n- 비상 휠( Emergency wheel ) 및 보조 부품 저장 트레이/저장 요소들\n- 트렁크 바닥 플로어(보드), 툴 홀더, 로프형 래싱 스트랩(매듭/걸이), 보관 트레이\n\n핵심 설명\n- 비상 휠은 필요 시 제거해 트렁크 공간을 확장할 수 있는 구성 요소로 설계되어 있습니다. 비상 휠과 관련 구성품을 일시적으로 트렁크 밖으로 빼면 적재 공간이 확대됩니다. 다만 주의가 필요하며 운전 안전성에 영향을 줄 수 있습니다.\n- 비상 휠 제거 및 저장 요소의 위치는 보크 밑의 트림 하부(보닛 쪽이 아닌 바닥 아래의 저장 공간)에 배치되어 있습니다.\n- 비상 휠 제거 후 재장착 시에는 원래 위치로 되돌려 안전하게 고정해야 하며, 필요 시 트렁크 바닥을 원위치로 다시 조정합니다.\n\n사용 방법\n- 비상 휠 제거 시\n  1) 트렁크 바닥 플로어를 들어 올려 바닥 밑의 비상 휠 저장 공간에 접근합니다. (바닥을 들어 올리는 방법은 그림 4~5 참고)\n  2) 래싱 끈(람스터) 또는 래싱 스트랩을 열고, 툴 홀더를 제거합니다.\n  3) 비상 휠을 보관 트레이에서 들어 올려 트렁크 외부로 보관합니다.\n  4) 필요 시 트렁크 바닥을 다시 평평하게 놓아 공간을 확보합니다.\n- 비상 휠 재장착 시\n  1) 보관 트레이에 비상 휠을 위치시키고 툴 홀더를 다시 고정합니다.\n  2) 래싱 스트랩을 잘 묶고, 바닥 플로어를 원래 위치로 넣어 단단히 고정합니다.\n  3) 필요 시 트렁크 내 다른 저장 공간(트레이나 커버)을 재정렬합니다.\n\n주 의 사항\n- 비상 휠 제거는 트렁크 공간 확장을 위한 임시 조치이며, 주행 시 차량의 무게 균형과 핸들링에 영향을 줄 수 있습니다. 속도와 주행 거리에 주의해야 합니다.\n- 비상 휠 및 보조 부품 저장 공간은 분실 위험이 있으므로, 이탈되지 않도록 확실히 고정하고 원래 위치로 재장착해야 합니다.\n- 차량 제조사의 경고 및 안전 수칙을 준수하고, 필요 시 전문가의 점검을 받으세요.\n- 비상 휠 제거 및 재장착은 운전 중이 아니라 정차 상태에서만 수행해야 하며, 래싱 스트랩이 느슨해지지 않도록 주의해야 합니다.\n- 허용된 최대 적재 및 무게 한계를 초과하지 않도록 주의합니다.\n\n참조 정보\n- 비상 휠 확장을 위한 지침과 절차: With emergency wheel: expanding the boot / Removing emergency wheel / Inserting the emergency wheel 등 관련 섹션\n  - 페이지: page_394.png\n  - 페이지: page_449.png\n  - 페이지: page_393.png\n  - 페이지: page_395.png\n  - 페이지: page_431.png\n\n추가 참고\n- 안전 주의: 비상 휠은 임시 구성요소로, 정상 운전 시 필요 시에만 제거하고, 가능하면 원래 상태로 복구해야 합니다.\n- 필요 시 제조사 사용자 매뉴얼의 해당 페이지를 확인해 정확한 위치와 도구 사용 방법을 참고하시길 권장드립니다.",
+    "expected_answer": "비상 휠과 관련 부속품을 일시적으로 제거하여 트렁크 공간을 확장할 수 있습니다.",
+    "source_page": 335,
+    "processing_time": 9.176921367645264,
+    "success": true
+  },
+  {
+    "experiment_id": "q21_text_image",
+    "question_id": "21",
+    "input_type": "text_image",
+    "original_text": "리모컨으로 {트렁크}를 어떻게 여나요?",
+    "processed_text": "리모컨으로 여기를 어떻게 여나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 \"리모컨으로 여기를 어떻게 여나요?\"에 대한 BMW 차량 트렁크 개방 가이드입니다.\n\n- 부품/기능 명칭\n  - 트렁크 릴리스 버튼(키 포트의 트렁크 버튼)\n  - Comfort Access 트렁크 오픈 기능(키를 소지한 상태에서의 자동 개방)\n\n- 핵심 설명\n  - 리모컨(키 포)이나 Comfort Access 기능으로 트렁크를 원격으로 열 수 있습니다. 차량 모델에 따라 두 번 누르기 또는 특정 버튼 누름 방식이 적용됩니다. 또한 Comfort Access가 있으면 키를 가지고 트렁크 근처로 다가가면 자동으로 개방될 수 있습니다.\n\n- 사용 방법\n  - 방법 A: 키 포로 트렁크 버튼 사용\n    - 트렁크 버튼을 키 포에서 두 번 연속 눌러 트렁크를 엽니다. 단시간 내 두 번 클릭이 필요합니다.\n  - 방법 B: Comfort Access(키를 소지한 상태에서)\n    - 트렁크 근처에서 손잡이나 트렁크 리드에 손을 가까이 대면 트렁크가 자동으로 열리거나 간단한 제스처로 열립니다. 다만 모델 및 설정에 따라 동작 방식이 조금씩 다를 수 있습니다.\n  - 방법 C: 수동 보조 개방\n    - 트렁크가 원격에서 열리지 않는 경우 도어를 열고, 트렁크 내부 레버/스위치를 사용해 수동으로 여는 방법도 있습니다. 이 경우 차량 도난 예방을 위해 빠르게 재잠금이 가능하도록 주의합니다.\n\n- 주의사항\n  - 무단 개방 방지: 키를 소지한 상태에서만 트렁크가 열리도록 설정되어 있습니다. 이 기능이 비활성화되면 보안에 주의가 필요합니다.\n  - 트렁크를 열 때는 주변 사람과 물건이 안전한지 확인하고, 짐이 움직이지 않도록 고정하십시오.\n  - 눈비가 많은 날에는 스마트키의 배터리가 방전될 수 있으니 여유 있게 점검하십시오.\n  - 트렁크를 닫을 때는 내부 손잡이를 이용해 안전하게 닫습니다. 반려동물이나 아이가 트렁크에 들어가지 않도록 주의하십시오.\n\n- 참조 정보\n  - 관련 매뉴얼 페이지:\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n  - 위 페이지들에서 트렁크 원격 개방 및 Comfort Access 설정에 대한 구체적 절차를 확인할 수 있습니다.\n  - 차량 이미지 주의: 첨부된 차량 이미지는 BMW 5시리즈 세단의 리어 트렁크 근처를 보여주며, 트렁크 개방 위치 확인에 도움이 됩니다.\n\n참고로 사용자가 가리킨 차량 부품 이미지(사진 속 뒷부분)에서 보이는 부분은 트렁크 리드/리어 범퍼 근처의 트렁크 구성부입니다. 트렁크 개방과 관련된 위치를 확인하는 데 도움이 됩니다. 필요하시면 귀하의 차량 모델(BMW 5시리즈 구체 연식/트렁크 옵션 여부)에 맞춘 정확한 버튼 위치와 작업 순서를 매뉴얼의 해당 페이지에서 구체적으로 인용해 드리겠습니다.",
+    "expected_answer": "리모컨의 트렁크 버튼을 약 1초 동안 누르고 있으면 트렁크가 열립니다.",
+    "source_page": 194,
+    "processing_time": 11.814367532730103,
+    "success": true
+  },
+  {
+    "experiment_id": "q21_text_image",
+    "question_id": "21",
+    "input_type": "text_image",
+    "original_text": "외부에서 {트렁크}를 열려면 어디 버튼을 누르나요?",
+    "processed_text": "외부에서 여기를 열려면 어디 버튼을 누르나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음과 같이 안내드립니다.\n\n- 부품/기능 명칭\n  외부 트렁크 릴리스 버튼 (Exterior trunk release button) 또는 키 파트의 트렁크 열림 버튼\n\n- 핵심 설명\n  차체 외부에서 트렁크를 열 수 있게 해 주는 버튼입니다. 보통 테일게이트 트림의 외부나 차량 키 fob에 배치되어 있으며, 작동 시 트렁크가 자동으로 열리거나 반응합니다.\n\n- 사용 방법\n  1) 차량 키 fob의 트렁크 열림 버튼을 길게 누릅니다. (일부 모델은 두 번 누름 또는 특정 제스처가 필요할 수 있음)\n  2) 테일게이트에 있는 외부 버튼을 한 번 누릅니다. 버튼 반응음이 들리거나 트렁크가 열립니다.\n  3) 필요 시 트렁크를 당겨 열 수 있는 핸들이 자동으로 나오거나, 버튼 다시 한 번 눌러 잠금 해제합니다.\n\n- 주의사항\n  - 트렁크를 열 때 주변에 사람이나 물건이 없는지 확인하세요.\n  - 차가 움직이거나 잠겨 있는 상황에서 외부 버튼은 작동하지 않도록 설계되어 있습니다. 상황에 따라 안전 기능이 작동합니다.\n  - 무단으로 열지 마시고 보안에 주의하세요.\n  - 비나 눈 등 악천후 시 버튼이 오작동할 수 있으므로 필요 시 실내에서 트렁크를 열어 주세요.\n\n- 참조 정보\n  - BMW Owner’s Handbook 및 Controls/Safety 섹션의 외부 개방 기능 관련 설명\n  - 아래 매뉴얼 페이지를 참고해 같은 기능의 위치 및 작동 규칙을 확인하시기 바랍니다:\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n  - 이미지에서 확인된 차량은 BMW 5시리즈 세단 계열로 보이며 트렁크 영역 구성과 외부 버튼 위치가 일반 5시리즈 트렁크 릴리스와 일치합니다.\n\n참고로, 사용자가 가리킨 차량 부품 이미지를 확인해 보았으며 트렁크 외부 릴리스와 연결된 위치를 점검했습니다. 필요하시면 차량의 구체 모델(예: 520d/530d 등) 및 생산 연도에 따라 버튼 위치가 다를 수 있으니 차량의 설명서에서 exact 위치를 재확인해 드리겠습니다.",
+    "expected_answer": "트렁크 리드 바깥쪽(번호판 위) 외부 버튼을 누릅니다.",
+    "source_page": 194,
+    "processing_time": 5.03606390953064,
+    "success": true
+  },
+  {
+    "experiment_id": "q22_text_image",
+    "question_id": "22",
+    "input_type": "text_image",
+    "original_text": "Comfort Access가 없는 경우 {트렁크}를 외부에서 열기 전 무엇을 해야 하나요?",
+    "processed_text": "Comfort Access가 없는 경우 여기를 외부에서 열기 전 무엇을 해야 하나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 Comfort Access가 없을 때 차량의 외부에서 열기를 준비하기 위한 안전하고 정확한 절차입니다.\n\n- 부품/기능 명칭\n  - 외부 도어 핸들(메커니컬 키 슬롯 부착) 및 비상키\n  - 키 포브(리모트 키) 및 그 안의 긴급 키(에머전시 키 블레이드)\n  - 도어 잠금 해제/잠금 버튼(리모트에 포함)\n\n- 핵심 설명\n  - Comfort Access가 없으면 외부에서 손으로 도어를 살짝 만지거나 손잡이를 ‘터치하는 방식’으로 자동으로 열지 못합니다. 대신 리모트 키(또는 비상키)를 사용해 잠금을 해제하고 열 수 있습니다.\n  - 비상 상황 시에는 키 포브에서 긴급 키 블레이드를 꺼내 운전석 도어의 열림 슬롯에 꽂아 수동으로 도어를 열 수 있습니다.\n  - 열고 난 뒤 트렁크를 열거나 시동을 거는 절차 역시 리모트 키의 기능 또는 매뉴얼 키를 이용해 진행합니다.\n\n- 사용 방법\n  1) 일반적인 해제/개방\n     - 차량이 잠긴 상태에서 키 포브의 잠금 해제 버튼을 눌러 모든 도어의 잠금을 해제합니다.\n     - 필요에 따라 운전석 도어를 단독으로 열거나 모든 도어를 열도록 선택합니다(모델에 따라 다를 수 있음).\n  2) 도어가 열리지 않는 경우(배터리 방전 등)\n     - 키 포브 뒷면의 버튼을 이용해 긴급 키를 꺼냅니다.\n     - 운전석 도어의 실린더 커버를 열고 긴급 키를 도어 잠금 해제 슬롯에 삽입하여 도어를 수동으로 엽니다.\n  3) 트렁크/시동 준비\n     - 도어를 연 뒤, 트렁크를 열거나 시동을 걸려면 리모트 키의 다른 버튼(트렁크 열림, 시동 시동)을 활용하거나 매뉴얼에 따른 절차를 따릅니다.\n\n- 주의사항\n  - 리모트 키의 배터리가 부족하면 이 방식으로도 열리지 않을 수 있습니다. 배터리 점검 및 필요 시 교체하세요.\n  - 비상키를 사용한 수동 열림은 도어 잠금/해제 기능에 영향을 주지만, 이후에도Comfort Access가 없는 상태로 다시 잠금될 수 있으니 주행 전 정상 작동 여부를 확인하세요.\n  - 비상키로 열었다고 해서 차의 보안 시스템이 비활성화되진 않습니다. 열림 후 즉시 차문을 다시 잠그고 필요 시 재확인하세요.\n  - 비상키 사용 시 인테리어 센서나 경고 시스템에 의한 오작동이 없도록 주의하고, 필요 시 매뉴얼상의 절차를 다시 확인하세요.\n\n- 참조 정보\n  - 차량 설명 및 작동 원리: BMW 매뉴얼의 “Controls/Camera/Safety” 관련 섹션 및 외부 열림 절차\n  - 매뉴얼 페이지 예시:\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n  - 구성 요소 및 운용 맥락: 외부 도어 핸들에 달린 보조 열림 방법, 긴급 키 사용 방법, 리모트 키 작동 원리 등은 위 다섯 페이지에 해당하는 상세 설명에 기재되어 있습니다.\n\n참고: 사용자가 제공한 차량 이미지(후면 뷰 포함)에서 확인되는 부품은 외부 도어 핸들 및 트렁크 부근의 잠금 관련 구성으로 보이며, 비상키 슬롯/리모트 키 사용과 관련된 설명과 매뉴얼 위치가 일치합니다.\n\n필요하시면 특정 차량 모델(예: 5시리즈 Saloon, xDrive 트림)에 맞춘 정확한 페이지 번호와 절차를 더 구체적으로 찾아 드리겠습니다.",
+    "expected_answer": "먼저 차량 잠금 해제를 합니다.",
+    "source_page": 194,
+    "processing_time": 17.306211471557617,
+    "success": true
+  },
+  {
+    "experiment_id": "q23_text_image",
+    "question_id": "23",
+    "input_type": "text_image",
+    "original_text": "Comfort Access가 있는 경우 {트렁크}를 외부에서 열 수 있는 조건은?",
+    "processed_text": "Comfort Access가 있는 경우 여기를 외부에서 열 수 있는 조건은?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 Comfort Access(무선 접근)가 있는 경우 외부에서 차량의 문을 열 수 있는 조건에 대한 요약입니다.\n\n- 부품/기능 명칭\n  - Comfort Access(무선 접근) – Exterior door handle sensor 및 관련 제어 시스템\n  - 제어 모듈/스위치 상태 표시(개별 설정, ALL ON 등)\n\n- 핵심 설명\n  - 차량에 탑재된 Comfort Access가 활성화되어 있고, 키가 차주와 함께 근접해 있을 때 외부에서 도어를 열 수 있습니다. \n  - 문 손잡이나 도어 핸들에 있는 센서를 통해 열림 동작이 이루어지며, 키의 가까운 위치에 따라 도어가 자동으로 해제됩니다.\n  - 시스템의 작동 여부는 운전자의 개인 프로필(INDIVIDUAL) 또는 ALL ON 설정에 따라 달라질 수 있습니다. 일부 Intelligent Safety Systems은 설정상 개별 기능을 끄면 외부 열림이 제한될 수 있습니다.\n  - 키의 배터리 상태나 차량의 안전 설정(예: 트렁크/도어의 특정 안전 스위치 상태)도 영향을 줄 수 있습니다.\n\n- 사용 방법\n  - 키를 소지한 상태로 차량에 다가가면 도어 핸들에 손을 올리면 도어가 해제되어 열립니다. (또는 도어 핸들 표면의 해제 영역을 가볍게 만져 열 수 있습니다.)\n  - 트렁크 같은 별도의 외부 개방은 해당 기능이 활성화되어 있을 때에 한해 발동합니다. Kick/제스처 방식은 차량 설정에 따라 다를 수 있습니다.\n  - 키가 차량 밖에 없거나 Comfort Access가 비활성화되어 있다면 외부 열림은 작동하지 않습니다.\n\n- 주의사항\n  - Comfort Access가 비활성화되거나 특정 안전 설정이 적용된 경우, 외부 열림이 제한될 수 있습니다.\n  - 키가 차량 내부에 남아 있거나 배터리가 방전되면 외부 열림이 안 될 수 있습니다.\n  - 도어를 강제로 열거나 무단으로 열려는 시도는 차주의 보안 시스템에 의해 차단될 수 있습니다.\n  - 아이들 안전 등 기타 안전 기능에 의해 일부 상황에서 자동 열림이 제한될 수 있습니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 참조(유사도 기반 참고): page_125.png, page_306.png, page_333.png, page_493.png, page_490.png\n  - 각 페이지는 Controls/Driver Assistance/Safety 관련 섹션과 외부 열림/안전 시스템에 대한 설명을 포함합니다.\n  - 이미지에서 확인된 차량 부품: 5시리즈 세단(예: 550d/M550d 등)과 트렁크 주변 및 도어 핸들 영역의 외부 접근 제어 구성, Intelligent Safety Systems 관련 내용 참조 가능.\n\n추가 확인 요청\n- 사용자가 보낸 차량 부품 이미지(도어 핸들, 트렁크 영역 등)를 바탕으로 구체적으로 어떤 모델/연식에 해당하는지 확인해 드릴 수 있습니다. 해당 이미지는 외부 열림의 기능 구성(도어 핸들 센서 위치, 트렁크 센서 여부)을 직접 확인하는 데 도움이 됩니다. 필요하시면 이미지를 기반으로 구체적 모델/프로필 매핑을 진행하겠습니다.",
+    "expected_answer": "차량이 잠금 해제 상태이거나 리모컨을 몸에 지닌 상태입니다",
+    "source_page": 194,
+    "processing_time": 11.73599624633789,
+    "success": true
+  },
+  {
+    "experiment_id": "q24_text_image",
+    "question_id": "24",
+    "input_type": "text_image",
+    "original_text": "{트렁크}가 열리는 중 차량이 움직이면 어떻게 되나요?",
+    "processed_text": "여기가 열리는 중 차량이 움직이면 어떻게 되나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 차량의 부품이 “열리는 중” 운행 중에 발생할 수 있는 상황에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - 트렁크 리드(후문 트렁크/테일게이트) 및 트렁크 리드 동작 시스템\n- 핵심 설명\n  - 트렁크 리드가 열리는 중이거나 자동으로 열리려 할 때, 외부의 바람, 진동, 속도 등의 영향으로 보관 물품이 움직이거나 바깥으로 떨어질 위험이 있습니다. 또한 동작 중에는 차량의 공기 흐름에 의해 리드가 예기치 않게 더 크게 열리거나 닫히려 할 수 있어 탑승자나 보행자에게 손·발에 위험을 초래할 수 있습니다.\n- 사용 방법\n  - 안전한 작동을 위해:\n    - 트렁크 리드가 열리는 도중에는 가능한 한 빠르게 뒷좌석에서 안전하게 고정된 상태로 물건을 점검하거나 트렁크를 닫아 주세요.\n    - 트렁크를 수동으로 닫거나 열 수 있는 경우, 내부 버튼이나 외부 버튼으로 작동 중지/정지 버튼을 눌러 열림을 중지하고 다시 닫습니다.\n    - 무거운 물건이나 불안정한 물건은 반드시 고정 스트랩이나 로드 캐리어로 단단히 고정합니다.\n    - 자동 개폐 기능은 필요시 비활성화(설정 차단)하거나, 특정 상황에서 비활성화 상태로 운전합니다.\n- 주의사항\n  - 운행 중 트렁크가 열리는 것은 큰 위험을 야기할 수 있습니다. 반드시 속도를 줄이고, 주변에 사람이나 물체가 없을 때만 조작하세요.\n  - 도로 상태가 좋지 않거나 고속 주행 중에는 자동 개폐 기능을 사용하지 않는 것이 안전합니다.\n  - 트렁크 내부의 물건은 운전 중 흔들림으로 인해 움직이지 않도록 고정하고, 무겁거나 길이가 긴 물건은 특히 주의합니다.\n  - 트렁크 리드 열림 상태에서의 비상 정지/수동 닫기 동작은 차량 매뉴얼의 절차를 따라 안전하게 수행합니다.\n- 참조 정보\n  - 참고: BMW 매뉴얼의 트렁크/리드 관련 안전 조작 및 운전 보조 시스템 설명은 아래 페이지에서도 다룹니다.\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n  - 위 페이지들은 차량의 안전 시스템, 운전 보조 기능, 조작 방법에 대한 일반 안내를 제공합니다.\n  - 또한 아래 이미지는 차량 후면 부품(트렁크 리드 및 관련 안전 표시)에 대한 예시를 참고로 제공합니다. 사용 중인 구체 모델에 따라 버튼 위치나 동작 방식이 다를 수 있습니다.\n    - 차량 후면 및 트렁크 관련 도해가 포함된 참고 자료\n\n참고로, 사용자가 가리킨 차량 부품 이미지(후면 사진)에서 트렁크 리드의 열림 상황이나 안전 기능의 구체적 상태를 판단하려면 실제 이미지의 텍스트나 버튼 위치를 확인해야 합니다. 현재 이미지로는 트렁크 열림 상태를 직접 판별하기 어렵지만, 일반적인 안전 절차와 주의사항은 위와 같이 적용 가능합니다.\n\n필요하시면 해당 다섯 페이지의 구체 항목(트렁크 개폐 안전, 자동/수동 모드 설정, 운전자 보조 시스템의 작동 조건 등)을 더 자세히 요약해 드리겠습니다.",
+    "expected_answer": "개방 동작이 자동으로 중단됩니다.",
+    "source_page": 194,
+    "processing_time": 7.595937252044678,
+    "success": true
+  },
+  {
+    "experiment_id": "q25_text_image",
+    "question_id": "25",
+    "input_type": "text_image",
+    "original_text": "{트렁크} 라모컨버튼을 누르면 어떻게 되나요?",
+    "processed_text": "여기 라모컨버튼을 누르면 어떻게 되나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "- 부품/기능 명칭\n  - Intelligent Safety Systems 컨트롤 버튼 (일반적으로 차내의 안전 시스템 제어용 버튼)\n\n- 핵심 설명\n  - 이 버튼은 Intelligent Safety Systems의 작동 모드를 바꿉니다. 반복 누름으로 ALL ON(모두 켜짐)과 INDIVIDUAL(개별 시스템 설정) 간 전환이 가능하며, 일부 시스템은 개별적으로 끄는 것이 불가능하도록 설계되어 있습니다. 버튼의 상태 표시는 인디케이터로 확인할 수 있습니다(일부 설정은 녹색/주황 등으로 표시).\n\n- 사용 방법\n  - 버튼을 반복해서 누릅니다.\n  - 표시되는 모드에 따라: \n    - ALL ON: 모든 Intelligent Safety Systems가 켜진 상태\n    - INDIVIDUAL: 사용자가 개별 설정에 따라 시스템을 활성화/비활성화하는 모드\n  - 주의: 일부 시스템은 개별적으로 끌 수 없도록 되어 있을 수 있습니다. 상태 표시는 계기나 화면의 아이콘으로 확인합니다.\n\n- 주의사항\n  - 안전상의 이유로 모든 시스템을 임의로 끄는 것은 권장되지 않습니다. 필요에 따라 시스템을 관리하되, 운전 중 기본 안전 기능이 활성화되어 있는지 확인하십시오.\n  - 버튼의 설정 변경은 운전 환경에 따라 즉시 반영되며, 특정 상황에서 시스템 작동이 제한되거나 재활성화될 수 있습니다.\n  - 시스템 상태(켜짐/꺼짐, 일부 시스템 비활성화 등)는 차주 설명서의 상태 표기를 통해 확인해야 합니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지: \n    - page_306.png (Controls - Intelligent Safety Systems 설정 및 작동)\n    - page_333.png (Driver Assistance Systems 개요 및 Switching on/off 섹션)\n    - page_493.png (Front/Rear 시스템 및 운용 주의사항 관련 내용)\n    - page_490.png (Safety Systems 상태 표기 및 Switching off 방법)\n    - page_125.png (차량 매뉴얼의 일반 안내 및 시스템 개요)\n\n참고: 사용자가 가리킨 차량 부품 이미지는 트렁크 리드 주변 및 후방 구성 요소를 보여주는 이미지로 보이며, 본 안내의 초점은 Intelligent Safety Systems 컨트롤 버튼의 작동과 상태 표시 방법에 있습니다. 필요 시 이미지 속 부품과 매뉴얼 페이지의 구체 내용을 대조해 추가 설명을 드리겠습니다.",
+    "expected_answer": "개방이 중단되고, 다시 누르면 개방이 재개됩니다.",
+    "source_page": 194,
+    "processing_time": 8.88535451889038,
+    "success": true
+  },
+  {
+    "experiment_id": "q26_text_image",
+    "question_id": "26",
+    "input_type": "text_image",
+    "original_text": "리모컨으로 {트렁크}를 열었을 때 도어는 어떻게 되나요?",
+    "processed_text": "리모컨으로 여기를 열었을 때 도어는 어떻게 되나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 정보로 정리해 드립니다. 질문은 “리모컨으로 여기를 열었을 때 도어는 어떻게 되나요?”인데, 귀하의 사진은 BMW 5시리즈의 트렁크 리드(리어 컴파트먼트) 이미지를 가리키고 있습니다. 일반적으로 리모컨으로 여는 동작은 도어 락 해제와 트렁크/테일게이트 동작에 따라 다릅니다. 아래는 해당 기능의 명칭, 핵심 설명, 사용 방법, 주의사항, 참조 정보입니다.\n\n- 부품/기능 명칭\n  - 리모컨 기반 잠금해제 시스템(무선 열림 시스템)\n  - 도어락/도어 해제 제어\n  - 파워 트렁크(테일게이트) 여부에 따른 트렁크 리드 작동\n\n- 핵심 설명\n  - 리모컨으로 작동 시 기본적으로 모든 도어의 잠금이 해제됩니다. 일부 차량은 Comfort Access가 활성화되어 있으면 키를 소지한 상태에서 가까이 다가가면 자동으로 도어가 완전 잠금 해제되거나 센터 락이 해제됩니다.\n  - 트렁크(테일게이트)가 파워 방식인 경우, 리모컨의 해당 버튼으로 트렁크가 열리거나 들어 있는 설정에 따라 트렁크가 함께 열릴 수 있습니다.\n  - 도어 해제 동작은 차량의 설정에 따라 “ALL ON”(모든 시스템이 작동) 또는 개별 설정에 따라 달라질 수 있습니다. 이 설정은 메뉴에서 조정 가능합니다.\n\n- 사용 방법\n  - 일반 락 해제: 리모컨의 잠금 해제 버튼을 한 번 누르면 도어의 락이 해제되고 도어 손잡이가 열리는 상태가 됩니다.\n  - 트렁크 동작: 파워 트렁크가 있을 경우 트렁크 열림 버튼을 한 번 누르면 트렁크 리드가 열리거나 반응합니다(차량 설정에 따라 다릅니다). 트렁크가 필요 시 자동으로 열리게 설정될 수 있습니다.\n  - 만약 Comfort Access가 장착된 차량이라면, 키를 주머니에 지니고 차에 접근하면 도어가 자동으로 해제되거나 트렁크가 자동으로 열릴 수 있습니다.\n\n- 주의사항\n  - 리모컨 배터리 교체가 필요하면 작동 거리가 짧아지거나 반응이 느려질 수 있습니다.\n  - 무단 접근 방지를 위해 잠금 해제 후 차량 내부에 사람이 없도록 주의하십시오.\n  - 파워 트렁크를 사용할 때 벽/장애물에 주의하고, 트렁크가 완전히 열렸는지 확인한 후에 물건을 넣으십시오.\n  - 어린이나 애완동물이 차 안에 남아 있지 않도록 주의하십시오.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 유사도 기반 참조:\n    - page_125.png (유사도: 101.50)\n    - page_306.png (유사도: 95.50)\n    - page_333.png (유사도: 90.00)\n    - page_493.png (유사도: 87.50)\n    - page_490.png (유사도: 87.00)\n  - 이들 페이지에는 도어 락/언락, Intelligent Safety Systems, 트렁크 동작 및 관련 운전 보조 시스템의 구성과 작동 방법이 설명되어 있습니다.\n\n추가 안내\n- 현재 제시된 사진은 BMW 5시리즈의 리어 트렁크 부분을 나타내며, 리모컨으로 열리는 동작은 트렁크 포함 여부와 차량의 설정에 따라 달라집니다. 귀하의 차량에 적용되는 구체적인 동작은 차량의 빌트-인 메뉴에서 도어/트렁크 잠금 해제 설정을 확인하거나, 매뉴얼의 해당 섹션을 참조해 주세요.\n- 원하시면 차량의 정확한 모델(예: 530d, 540d 등), 트렁크 옵션(파워 트렁크 여부), 그리고 프로파일 설정 여부를 알려주시면 더 구체적인 동작 및 화면 안내를 정리해 드리겠습니다.",
+    "expected_answer": "차량 도어도 함께 잠금 해제될 수 있습니다.",
+    "source_page": 194,
+    "processing_time": 10.90014100074768,
+    "success": true
+  },
+  {
+    "experiment_id": "q27_text_image",
+    "question_id": "27",
+    "input_type": "text_image",
+    "original_text": "실내에서 {트렁크}를 열려면 어디 버튼을 사용하나요?",
+    "processed_text": "실내에서 여기를 열려면 어디 버튼을 사용하나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 실내에서 트렁트를 여는 버튼에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - 트렁트 릴리스 버튼(Rear/trunk lid release switch)\n\n- 핵심 설명\n  - 운전석 내부에서 전동 트렁트를 제어하는 버튼으로, 탑재된 트렁트 시스템이 작동하여 트렁트를 열 수 있습니다. 일부 트림이나 옵션에서는 키리스 엔트리 시스템이나 도어 패널의 컨트롤에서도 동일한 기능이 작동합니다.\n\n- 사용 방법\n  - 방법 1: 운전석 도어 주변 컨트롤 패널의 트렁트 릴리스 버튼을 한 번 눌러 트렁트를 여는 방식.\n  - 방법 2: 필요 시 버튼을 길게 누르거나, 차량의 잠금 해제 후 트렁트가 자동으로 열리도록 설정되어 있을 수 있습니다.\n  - 참고: 차량의 설정에 따라 “ALL ON / INDIVIDUAL” 같은 안전 설정이 트렁트 동작에도 영향을 줄 수 있습니다. 매뉴얼의 해당 설정 화면을 확인하세요.\n\n- 주의사항\n  - 트렁트가 열릴 때 주변에 사람이 없도록 확인하고, 열리는 공간에 아이나 반려동물이 들어가지 않도록 주의합니다.\n  - 외부 장애물이나 차량 주변 교통 상황을 확인한 뒤에 안전하게 여는지 확인합니다.\n  - 트렁트를 여는 동작 중에 차가 움직이지 않는지, 파손되거나 이물질이 없는지 점검합니다.\n  - 비상시 작동이 필요하면 제조사 안내에 따라 수동 열림 모드를 사용합니다.\n\n- 참조 정보\n  - 매뉴얼 페이지 참고:\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n  - 이미지 예시: 사용자가 보낸 차량 뒷면 사진에 보이는 트렁트 부위와 관련된 설명이 포함된 페이지들입니다. 트렁트 작동은 차종과 옵션에 따라 다를 수 있습니다.\n\n추가 도움\n- 특정 트림/연식의 트렁트 릴리스 버튼 위치를 확정하시려면 차량의 정확한 모델(예: 5 시리즈Saloon의 트림명), 연식, 그리고 사용 중인 운전자 화면의 설정 정보를 알려주시면 더 정확한 위치를 안내해 드리겠습니다.\n- 또한, 차량의 메뉴에서 트렁트 설정(예: 자동 열림/잠금 해제 동작 여부)을 확인하는 방법도 같이 안내해 드리겠습니다.",
+    "expected_answer": "운전석 도어 수납함의 트렁크 버튼을 누릅니다.",
+    "source_page": 194,
+    "processing_time": 9.777385473251343,
+    "success": true
+  },
+  {
+    "experiment_id": "q28_text_image",
+    "question_id": "28",
+    "input_type": "text_image",
+    "original_text": "{트렁크}를 닫고 차량까지 잠그려면 어떻게 하나요?",
+    "processed_text": "여기를 닫고 차량까지 잠그려면 어떻게 하나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음으로 안내드린 내용은 BMW 5시리즈의 일반적인 파워 트렁(trunk) 및 도어 잠금 동작의 구성 요소와 사용법입니다. 사용하시는 차종과 생산 연도에 따라 약간의 차이가 있을 수 있습니다.\n\n- 부품/기능 명칭\n  - 파워 트렁(트렁 커버) 및 트렁 리드 버튼\n  - 원격 키/컴포트 액세스(손잡이 인식 잠금 해제 포함)\n  - 트렁 닫기 버튼(인테리어 트렁 닫힘 스위치)\n\n- 핵심 설명\n  - 파워 트렁: 트렁이 뚜껑을 전동으로 닫거나 여는 기능. 차고에서 손으로 밀어 닫아도 전자적으로 잠김 처리되거나 자동으로 닫힐 수 있습니다.\n  - 컴포트 액세스: 차량의 도어 손잡이나 리모컨으로 가까이 다가가면 자동으로 잠금/해제가 가능하며, 트렁 닫힘과 함께 작동하는 경우가 많습니다.\n  - 트렁 닫힘 버튼: 트렁 뚜껑 내부 혹은 트렁 커버 근처의 닫힘 스위치를 통해 닫기를 실행합니다.\n\n- 사용 방법\n  - 트렁 닫기(인테리어 스위치 사용):\n    - 트렁 뚜껑 안쪽의 닫힘 스위치를 누르고 길게 유지합니다. 트렁이 닫히며 램프/경고음으로 닫힘 완료를 알립니다.\n  - 원격키/컴포트 액세스 사용:\n    - 원격 키의 잠금 버튼으로 차량을 잠근 상태에서 트렁 커버 근처에서 일정 거리 이내에 접근하면 트렁이 자동으로 닫히거나 잠길 수 있습니다.\n  - 수동 닫기:\n    - 트렁 뚜껑을 손으로 가볍게 눌러 자물쇠 위치와 잘 맞물리게 닫습니다. 경고음이나 램프가 표시되며 잠김 상태로 전환됩니다.\n  - 주의 시점:\n    - 닫을 때 트렁 주변에 사람이나 물건이 없는지 확인\n    - 트렁 닫히는 경로에 손가락이나 물체가 없는지 확인\n    - 무리하게 힘을 주지 말고 부드럽게 닫기\n    - 컴포트 액세스 시 배터리 소모를 주의\n\n- 주의사항\n  - 트렁 닫힘 도중 아이나 동물이 트렁에 가까이 있지 않도록 주의\n  - 트렁이 닫힘이 끝난 후 차가 완전히 잠겼는지 확인\n  - 핸들/도어 손잡이 근처의 소리나 표시등으로 잠김 여부 확인\n  - 비상 상황 시 수동으로 닫되, 비상 열쇠를 사용해야 할 수 있음\n  - 겨울철에는 트렁 뚜껑의 제동/닫힘이 느려질 수 있습니다\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 참고\n    - page_125.png (유사도: 101.50)\n    - page_306.png (유사도: 95.50)\n    - page_333.png (유사도: 90.00)\n    - page_493.png (유사도: 87.50)\n    - page_490.png (유사도: 87.00)\n  - 이미지에 포함된 차량 부품 예: 후면 트렁/리어 범퍼 및 트렁 도어 관련 도해 설명이 매뉴얼의 트렁/자물쇠 관련 섹션과 연결됩니다.\n  - 참고: 차량 이미지(예시)에서 보이는 뒷부분 실루엣은 5시리즈 세단 계열의 트렁/후면 구성과 일치합니다.\n\n추가로, 사용 중인 차량의 구체 모델(예: 520d/530e 등)과 연식에 따라 트렁 닫힘 방식이나 컴포트 액세스 설정이 다를 수 있습니다. 필요하시면 정확한 연식과 모델 정보를 알려주시면 해당 매뉴얼의 특정 페이지에 맞춰 더 상세한 절차를 맞춤 안내해 드리겠습니다.",
+    "expected_answer": "트렁크 내부의 버튼 2(자물쇠 아이콘) 을 누릅니다. 운전석 도어가 닫혀 있고 리모컨이 차량 밖(트렁크 근처)에 있어야 합니다.",
+    "source_page": 194,
+    "processing_time": 12.58858609199524,
+    "success": true
+  },
+  {
+    "experiment_id": "q29_text_image",
+    "question_id": "29",
+    "input_type": "text_image",
+    "original_text": "{트렁크}가 닫히는 중 내부 버튼을 누르면 어떻게 되나요?",
+    "processed_text": "여기가 닫히는 중 내부 버튼을 누르면 어떻게 되나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 \"여기가 닫히는 중 내부 버튼을 누르면 어떻게 되나요?\"에 대한 BMW 트렁크(테일게이트) 내부 버튼 작동 설명입니다.\n\n- 부품/기능 명칭\n  - 파워 테일게이트 내부 컨트롤 버튼 (트렁크 내부 버튼)\n  - 트렁크/테일게이트 제어 시스템\n\n- 핵심 설명\n  - 내부 버튼을 누르면 트렁크가 자동으로 닫히기 시작하고 잠금 상태로 마감됩니다. 트렁크가 완전히 닫히면 차체와 연결된 잠금 장치가 작동합니다. 센서(카메라 및 근접 센서)와 안전 시스템이 작동하며, 장애물이 감지되면 닫힘이 중단되거나 경고가 발생합니다.\n  - 일부 모델은 버튼을 한 번 누르면 닫기 시작하고, 버튼을 다시 누르거나 길게 누르면 작동을 중지/정지시킬 수 있는 안전 기능이 있습니다. 이 동작은 차종 및 옵션에 따라 다를 수 있습니다.\n\n- 사용 방법\n  - 트렁크가 열려 있는 상태에서 내부 버튼을 한 번 눌러 닫기를 시작합니다.\n  - 닫히는 과정에서 장애물이 감지되면 닫힘이 일시 중지되거나 멈추고, 장애물을 제거하면 다시 닫히길 계속합니다.\n  - 닫힘이 완료되면 자동으로 잠금이 작동합니다.\n  - 필요시 버튼을 다시 눌러 닫힘 동작을 중지할 수 있습니다(모델별로 다를 수 있으니 차량 매뉴얼의 해당 섹션 확인 권장).\n\n- 주의사항\n  - 닫히는 경로에 손이나 물건이 없도록 하고, 아이나 반려동물이 접근하지 못하도록 주의합니다.\n  - 센서가 먼지나 눈으로 가려지지 않도록 트렁크 리드 아래 및 주변을 깨끗하게 유지합니다.\n  - 트렁크가 닫히는 동안 경고음이나 경고등을 무시하지 말고, 필요 시 즉시 닫힘을 중지하고 점검합니다.\n  - 비나 눈 등 악천후 시에는 작동 시점과 속도에 주의하고, 자동 닫힘 기능이 기대대로 작동하는지 주기적으로 점검합니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지:\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n  - 참고 이미지: 차량 후면부(트렁크 영역) 사진 확인 가능\n  - 추가 관련 주제: 트렁크 카메라/센서 작동 및 Intelligent Safety Systems 관련 설명은 위 매뉴얼의 컨트롤/안전 섹션에서 확인 가능\n\n참고로 사용자가 가리킨 차량 부품 이미지(후면 트렁크 및 센서/카메라 영역)도 참조해 현행 시스템 구성과 일치하는지 확인했습니다. 필요 시 차량 모델별 정확한 작동 방식은 해당 페이지의 구체 설명을 함께 확인해 드리겠습니다.",
+    "expected_answer": "닫힘이 중단되고, 다시 누르면 트렁크가 다시 열립니다.",
+    "source_page": 194,
+    "processing_time": 9.92830514907837,
+    "success": true
+  },
+  {
+    "experiment_id": "q30_text_image",
+    "question_id": "30",
+    "input_type": "text_image",
+    "original_text": "트렁크 내부 버튼으로 {트렁크}를 닫을 수 있나요?",
+    "processed_text": "트렁크 내부 버튼으로 여기를 닫을 수 있나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 정보를 종합하여 답변드립니다.\n\n- 부품/기능 명칭\n  트렁크 리드(테일게이트) 내장 버튼(트렁크 립/리드 내부의 닫힘 버튼)\n\n- 핵심 설명\n  트렁크 리드의 내부에 닫힘 버튼이 있으면, 차를 멈춘 상태에서 이 버튼을 눌러 트렁크를 자동으로 닫을 수 있습니다. 일반적으로 버튼을 한 번 눌러 닫히도록 설정되어 있으며, 가까이에 사람이 없고 트렁크 주변이 안전한지 확인해야 합니다. 일부 트림이나 옵션에서 Intelligent Safety Systems가 연동되어 자동으로 닫히는 기능이 포함될 수 있습니다. 버튼을 계속 누르고 있을 필요는 없으며, 버튼을 떼면 닫힘이 시작됩니다.\n\n- 사용 방법\n  1) 차량이 안전하게 정차되어 있고 트렁크 주변에 사람이나 물체가 없음을 확인합니다.\n  2) 트렁크 리드 내부의 닫힘 버튼을 한 번 누릅니다.\n  3) 트렁크가 자동으로 닫히는 동안 손을 떼고, 닫힘이 끝나면 잠금됩니다.\n  4) 필요 시 외부 리모컨/키 또는 은근히 잡아당겨 닫히도록 선택할 수도 있습니다(차량 설정에 따라 다름).\n\n- 주의사항\n  - 닫히는 동안 트렁크 경로에 물체가 없도록 확인하십시오. 특히 어린이/반려동물이 다칠 수 있습니다.\n  - 닫히는 동작 중 간섭이 있으면 경고 및 차단이 작동할 수 있습니다. 손이나 물체가 닿지 않도록 주의하십시오.\n  - 자동 닫힘 기능은 일부 상황에서 비활성화되거나 수동으로만 닫히도록 설정될 수 있습니다. 차량 설정 메뉴에서 안전 시스템 상태를 확인하십시오.\n  - 트렁크를 닫을 때 비상시를 대비해 손으로 살짝 저항을 줄 수 있는 여유 공간을 남겨두지 마십시오.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 페이지_125.png\n  - BMW 매뉴얼 페이지 페이지_306.png\n  - BMW 매뉴얼 페이지 페이지_333.png\n  - BMW 매뉴얼 페이지 페이지_493.png\n  - BMW 매뉴얼 페이지 페이지_490.png\n  참고: 사용자께서 올려주신 차량 부품 이미지(트렁크 리드가 보이는 5시리즈 말단 사진)와 매뉴얼 이미지들을 대조하여, 해당 트렁크 내부 버튼이 실제로 존재하고 작동하는지 확인할 수 있습니다. 트렁크 리드 내부의 버튼 위치는 차종과 트림에 따라 다를 수 있습니다. 이미지를 통해 버튼 위치를 특정 확인한 후 사용 여부를 판단하시길 권합니다.",
+    "expected_answer": "네. 내부 버튼으로 닫을 수 있습니다. (Comfort Access 차량: 버튼 1=닫기)",
+    "source_page": 194,
+    "processing_time": 10.155035734176636,
+    "success": true
+  },
+  {
+    "experiment_id": "q31_text_image",
+    "question_id": "31",
+    "input_type": "text_image",
+    "original_text": "{트렁크}를 닫고 차량까지 잠그려면 어떻게 하나요?",
+    "processed_text": "여기를 닫고 차량까지 잠그려면 어떻게 하나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 트렁크(여기를 닫고 차량을 잠그는 방법)에 대한 가이드입니다. 이미지로 확인된 부품은 BMW 5시리즈의 트렁크 리드(트렁크 뚜껑) 및 트렁크 리드의 작동 시스템으로 보입니다.\n\n- 부품/기능 명칭\n  - 트렁크 리드 (Tailgate / 트렁크 뚜껑)\n  - 트렁크 리드 잠금/개폐 메커니즘\n  - Comfort Access(키리스 엔트리) 관련 트리거 버튼(선택적)\n\n- 핵심 설명\n  - 트렁크 리드는 수동으로 닫을 수 있으며, 전동형“파워 트렁크”인 경우 버튼으로 자동으로 닫힙니다. 닫힐 때 핸드나 손가락이 끼지 않도록 주의가 필요합니다.\n  - 차량은 도어가 모두 닫히고, 필요 시 키링(무선 키) 신호를 인식하면 잠금이 함께 작동합니다(Comfort Access 사용 시).\n  - 안전 기능으로 트렁크가 닫히는 동안 내부에 장애물이 감지되면 작동이 일시 중지될 수 있습니다.\n\n- 사용 방법\n  1) 닫기 옵션 중 하나 선택\n     - 수동 닫기: 트렁크 리드를 끝까지 가볍게 눌러 락이 걸릴 때까지 내립니다.\n     - 파워 트렁크: 트렁크 리드 하단의 닫힘 버튼이나 리드에 내장된 버튼을 눌러 자동으로 닫히게 합니다.\n  2) 닫히는 동안 주위를 확인하여 손이나 물건이 걸리지 않도록 합니다.\n  3) 잠금 방법\n     - 트렁크가 닫힌 뒤: 키를 소지하고 있으면 내부 도어 손잡이나 외부 도어 핸들에 있는 잠금 버튼을 눌러 잠금할 수 있습니다.\n     - Comfort Access가 활성화되어 있으면 키를 가지고 가면 차문이 자동으로 잠기도록 설정되어 있을 수 있습니다. 이 경우 트렁크 닫힘과 함께 잠금이 수행될 수 있습니다.\n  4) 원격/스마트 기능이 있는 경우\n     - 키리스 엔트리 원격 버튼으로 잠금을 실행한 뒤 트렁크를 닫습니다. 일부 트렁크 시스템은 닫힘 동작과 함께 잠금이 연동됩니다.\n\n- 주의사항\n  - 닫힐 때 핸드/손가락이나 이물질이 들어가지 않도록 주의하세요.\n  - 트렁크가 완전히 닫히고 잠겼는지 확인하기 위해 도어 경고등이나 차량의 경고음을 확인하세요.\n  - 트렁크를 닫은 뒤에도 주행 중에 문이 완전히 잠겼는지 확인하는 것이 안전합니다.\n  - Comfort Access 설정이 켜져 있을 경우 잘못된 신호로 잠금이 해제될 수 있으니 필요 시 설정을 확인하세요.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 참조:\n    - page_125.png (유사도: 101.50)\n    - page_306.png (유사도: 95.50)\n    - page_333.png (유사도: 90.00)\n    - page_493.png (유사도: 87.50)\n    - page_490.png (유사도: 87.00)\n  - 이미지로 확인되는 차량 부품: 트렁크 리드 및 관련 개폐/잠금 시스템(사진의 5시리즈 후면 트렁크 영역)\n\n추가로 필요하신 특정 트렁크 시스템(예: 파워 트렁크 여부, Comfort Access 설정 방법, 키리스 엔트리 사용법)이나 차량 모델/년식을 알려주시면 해당 매뉴얼의 구체 페이지를 더 정확히 매칭해 드리겠습니다.",
+    "expected_answer": "트렁크 내부의 버튼 2(자물쇠 아이콘) 을 누릅니다. 운전석 도어가 닫혀 있고 리모컨이 차량 외부에 있어야 합니다.",
+    "source_page": 194,
+    "processing_time": 15.881297588348389,
+    "success": true
+  },
+  {
+    "experiment_id": "q32_text_image",
+    "question_id": "32",
+    "input_type": "text_image",
+    "original_text": "{트렁크}가 닫히는 중 외부 버튼을 누르면 어떻게 되나요?",
+    "processed_text": "여기가 닫히는 중 외부 버튼을 누르면 어떻게 되나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "- 부품/기능 명칭\n  - Exterior tailgate button (트렁크 외부 버튼) – 트렁크 리드 하부 혹은 리드 측면에 있는 닫힘 버튼\n\n- 핵심 설명\n  - 트렁크가 파워 닫힘(Power tailgate) 상태일 때 외부 버튼을 누르면 닫힘 동작이 중단되거나 역방향으로 제어될 수 있습니다. 일반적으로 버튼을 한 차례 누르면 현재 닫힘을 중단하고 안전 거리 확보를 위해 트렁크가 멈추거나 뒤로 열리기 시작합니다. 일부 상황에서는 버튼 누름으로 닫힘이 완전히 중지되거나 약간의 반전 동작이 일어나 트렁크가 다시 열리는 경향이 있습니다.\n\n- 사용 방법\n  - 트렁크가 닫히는 도중 외부 버튼을 짧게 한 번 눌러 닫힘을 중단합니다.\n  - 버튼을 길게 누르면 시스템에 따라 닫힘이 중지되며 다시 열리거나 정지 상태가 됩니다. 차종과 소프트웨어 구성에 따라 반응이 다를 수 있습니다.\n  - 트렁크 주변에 사람이나 물체가 없도록 한 상태에서 버튼을 눌러 안전하게 작동 여부를 확인합니다.\n\n- 주의사항\n  - 버튼을 눌렀을 때 트렁크가 예기치 않게 움직일 수 있으니 손가락/손목 등 신체 부위를 절대 트렁크 경로에 두지 마세요.\n  - 반응이 느리거나 비정상적으로 작동하면 즉시 운전 중 트렁크 작동을 중지하고 매뉴얼에 따른 점검을 권장합니다.\n  - Intelligent Safety Systems가 개입될 수 있으며, 주변 환경(장애물, 사람, 차의 위치)에 따라 동작이 달라질 수 있습니다. 필요 시 안전 시스템 상태를 확인하세요.\n\n- 참조 정보\n  - BMW 매뉴얼의 Exterior/Controls 섹션 관련 설명\n  - 트렁크 닫힘과 안전 시스템 동작은 아래 페이지들에서 다루어집니다:\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n  - 관련 그림 예시 및 Safety 시스템 설명은 매뉴얼의 후반부 참조 페이지에서 확인할 수 있습니다.\n  - 차량 사진에서 보이는 부분: 차량 후면의 트렁크 외부 버튼 영역(트렁크 리드 하단 좌우 부근)\n\n참고: 사용자가 가리킨 차량 부품 이미지가 트렁크 외부 버튼임을 확인했습니다. 필요 시 매뉴얼의 해당 부분에서 정확한 조작 방법과 모델별 차이를 확인하실 수 있습니다.",
+    "expected_answer": "닫힘이 중단되고, 다시 누르면 트렁크가 다시 열립니다.",
+    "source_page": 194,
+    "processing_time": 7.412628889083862,
+    "success": true
+  },
+  {
+    "experiment_id": "q33_text_image",
+    "question_id": "33",
+    "input_type": "text_image",
+    "original_text": "{트렁크}를 핸즈프리(발 동작)로 열 수 있나요?",
+    "processed_text": "여기를 핸즈프리(발 동작)로 열 수 있나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "답변 요약\n- 부품/기능 명칭: 핸즈프리 트렁크 개방(Hands-free tailgate) 센서 및 제어 시스템\n- 핵심 설명: 차량의 트렁크 하단 범퍼에 위치한 근접/제스처 센서를 이용해 도어를 손 흔들기 동작으로 열 수 있는 기능입니다. 키를 소지한 상태에서 트렁크 쪽으로 발을 움직이면 트렁크가 자동으로 열립니다(단, 기능 활성화 및 차량 설정 필요).\n- 사용 방법\n  1) 키를 소지한 상태에서 차량 앞뒤 구분 없이 트렁크 주변 범퍼 아래쪽 중앙부 근처를 발로 한 번 흔들듯이 짧은 동작으로 스윙합니다. \n  2) 센서가 인식하면 트렁크가 자동으로 반응해 열립니다. 반응 시간은 차종과 설정에 따라 다를 수 있습니다.\n  3) 필요시 iDrive 또는 차량 설정에서 핸즈프리 트렁크 기능을 활성화해야 합니다(일부 트림에서 기본 활성화 여부가 다를 수 있음).\n- 주의사항\n  - 장애물이나 짧은 거리에서의 동작은 오작동을 유발할 수 있으니 주변 환경을 확보한 상태에서 사용합니다.\n  - 비나 눈 등 악천후 시 센서 오작동 가능성이 있으며, 과도한 무게의 짐이나 부적절한 물건은 개폐를 방해할 수 있습니다.\n  - 안전상 차가 움직이는 상태에서의 사용은 피하고, 주행 중에는 개방하지 않는 것이 좋습니다.\n  - 기능은 차종/트림에 따라 다르게 제공되므로 매뉴얼의 해당 섹션에서 활성화 방법을 확인하고 필요한 설정을 적용합니다.\n- 참조 정보\n  - BMW 매뉴얼 페이지(유사도 기준): page_125.png, page_306.png, page_333.png, page_493.png, page_490.png\n  - 참고 내용은 아래 이미지에 수록된 관련 섹션에서 확인 가능하며, 시각 자료에는 이미지에서 가리킨 트렁크 부분과 센서 위치가 포함되어 있습니다.\n  - 이미지에 포함된 차량 부품 예시: 트렁크 하단 범퍼 주변의 손짓 인식 영역 및 트렁크 도어 구성(요약 그림)\n\n참고 및 가이드 포맷 근거\n- 관련 매뉴얼의 Controls/Safety 및 Driver Assistance 관련 설명에 따라 핸즈프리 트렁크 작동 원리와 설정 방법이 제시됩니다. 사용 방법은 매뉴얼의 Switching on/off 및 시스템 활성화 절차와 일치합니다.\n  - 예시: 트렁크 관련 손짓 인식 구동 원리, 센서 위치, 활성화 방식, 사용 시 주의사항은 각각 매뉴얼의 해당 페이지에 구체적으로 기재되어 있습니다.\n- 차량 이미지에서 보이는 뒤쪽 트렁크 범퍼 부근과 차종(예: 5시리즈 세단 계열의 리어 트렁크 구성)을 확인했다면, 핸즈프리 열림 기능은 해당 범퍼 아래 센서부를 이용합니다.\n\n추가로 원하시면:\n- 귀하의 차량 모델(예: 5시리즈 Saloon, 연식, 트림)과 iDrive 버전에 맞춘 구체적인 활성화 경로(메뉴 이름과 단계)를 단계별로 안내해 드리겠습니다.\n- 핸즈프리 트렁크의 작동 예시를 매뉴얼의 해당 페이지 인용과 함께 자세한 체크리스트로 정리해 드립니다.",
+    "expected_answer": "네. 자동 테일게이트 장착 차량에서 차량 뒤 중앙에서 발을 넣었다가 바로 빼면 트렁크가 열립니다.",
+    "source_page": 192,
+    "processing_time": 10.675073146820068,
+    "success": true
+  },
+  {
+    "experiment_id": "q34_text_image",
+    "question_id": "34",
+    "input_type": "text_image",
+    "original_text": "{트렁크}를 핸즈프리로 닫을 수 있나요?",
+    "processed_text": "여기를 핸즈프리로 닫을 수 있나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "- 부품/기능 명칭\n  - 핸즈프리 트렁크(Hands-free tailgate) 시스템\n  - 트렁크 리드/뒷범퍼의 근접 센서(트렁크 근처 동작 인식용)\n  - 제어 설정 인터페이스(차량 내 iDrive 설정 또는 스위치)\n\n- 핵심 설명\n  - 핸즈프리 트렁크 기능은 발로 트렁크 아래쪽을 스윽 흔들듯 흔들면 트렁크 리드가 자동으로 열리거나 닫히도록 하는 기능입니다. 흔히 “손을 사용하지 않고도 트렁크를 여닫을 수 있는 편의 기능”으로 불립니다.\n  - 차종에 따라 트렁크 열림/닫힘 동작은 설정에서 활성화/비활성화할 수 있으며, 키가 근처에 있어야 작동합니다.\n  - 트렁크 닫힘은 뒷범퍼의 센서가 사람의 움직임을 인식하고 자동으로 작동합니다. 안전을 위해 주변에 물체나 사람의 공간이 충분해야 합니다.\n\n- 사용 방법\n  - 준비:\n    - 차량 설정에서 Hands-free tailgate 옵션이 활성화되어 있는지 확인하고 필요 시 활성화합니다.\n    - 키가 차 근처에 있고, 트렁크 공간에 물체가 없는지 확인합니다.\n  - 닫힘 동작(일반적인 절차):\n    - 트렁크를 연 상태에서 차의 뒷범퍼 중앙 아래쪽 근처에 발을 위치시킵니다.\n    - 발을 한 번 빠르게 아래로 흔들듯 움직이면 트렁크가 자동으로 닫히거나 가까운 위치에서 멈춥니다.\n  - 대체/보조 방법:\n    - 트렁크 리드 상단이나 트렁크 도어 옆에 있는 버튼으로 수동으로 닫을 수 있습니다.\n    - iDrive 설정에서 Hands-free tailgate를 비활성화했다면 이 제스처는 작동하지 않습니다.\n\n- 주의사항\n  - 주변에 사람이나 물건이 없는지 먼저 확인하세요. 자동 닫힘 시 망가질 수 있습니다.\n  - 눈에 보이는 눈부심, 비가 오거나 바람이 강한 환경에서도 반응이 달라질 수 있습니다.\n  - 시스템은 특정 속도 이하에서만 작동하도록 설계되어 있어 고속 주행 중에는 작동하지 않습니다.\n  - 무게가 많이 나가는 물건을 실었을 때는 자동으로 닫히지 않도록 주의하고 필요 시 수동으로 닫으세요.\n  - 키 배터리 상태나 센서가 오염되면 작동에 영향이 있을 수 있습니다. 트렁크 하부의 센서 부분이 더럽지 않은지 주기적으로 점검하세요.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지(핸즈프리 트렁크 및 뒷범퍼 센서 관련): page_125.png, page_306.png, page_333.png, page_493.png, page_490.png\n  - 해당 이미지들은 핸즈프리 작동 설정, 센서 위치, 작동 방식, 및 트렁크 제어 흐름에 대한 설명을 포함합니다.\n  - 부품 사진 예시: 차량 후부(트렁크/리어 범퍼)가 보이는 이미지로 핸즈프리 트렁크 동작의 가능성을 시사합니다.\n\n참고: 사용 중인 차종이 5시리즈(예: 530d, 540d 등)인지에 따라 핸즈프리 트렁크의 작동 범위나 설정 메뉴 위치가 다를 수 있습니다. 필요하시면 차대 번호나 정확한 트림 정보를 알려 주세요. 해당 매뉴얼의 구체 페이지에서 귀하의 차량에 맞는 절차를 더 자세히 안내해 드리겠습니다.",
+    "expected_answer": "네. 같은 발 동작으로 닫을 수 있으며, 닫히기 전 비상등이 점멸하고 경고음이 울립니다.",
+    "source_page": 192,
+    "processing_time": 11.904419898986816,
+    "success": true
+  },
+  {
+    "experiment_id": "q35_text_image",
+    "question_id": "35",
+    "input_type": "text_image",
+    "original_text": "{트렁크} 핸즈프리의 올바른 발 움직임은?",
+    "processed_text": "여기 핸즈프리의 올바른 발 움직임은?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 핸즈프리(Hands-Free) 트렁크 개폐 시 올바른 발 움직임에 대한 안내입니다.\n\n- 부품/기능 명칭\n  - Hands-Free Access (핸즈프리 액세스) 트렁크 개폐 센서\n  - 후방 범퍼 하단 센서 영역\n  - Comfort Access(키 수신 및 무선 인식) 시스템(핸즈프리 기능 동작 조건)\n\n- 핵심 설명\n  - 자동차의 후방 범퍼 아래에 위치한 센서를 이용해 발의 특정 움직임을 인식하여 트렁크를 열어주는 기능입니다.\n  - 센서는 트렁크를 열기 위한 “손을 대지 않고도 열림” 동작을 감지하도록 설계되어 있으며, 키가 근처에 있어야 작동합니다.\n  - 트렁크를 열기 위한 동작은 일반적으로 발을 센서 영역으로 자연스럽게 움직여 인식시키는 방식입니다.\n\n- 사용 방법(올바른 발 움직임)\n  - 준비:\n    - 차량의 Comfort Access/핸즈프리 기능이 활성화되어 있고, 키가 인식 범위 안에 있는지 확인합니다.\n  - 동작 순서:\n    - 트렁크 말단 아래의 센서 부분(후방 범퍼 하단 근처)을 향해 한쪽 다리를 가볍게 움직입니다.\n    - 보통 한 두 번의 짧은 “발 움직임”으로 센서가 트렁크 열림 신호를 받습니다. 예를 들어 발을 센서 부위에 가볍게 acerc, 뒤로 밀거나 측면으로 가볍게 움직이는 등 짧고 자연스러운 동작이 권장됩니다.\n  - 주의할 점:\n    - 발을 세게 차는 등 과격한 동작은 센서 오인식이나 작동 실패를 초래할 수 있습니다.\n    - 트렁크가 이미 열려 있지 않도록 주의하고, 센서 주변이 오염되었거나 물리적으로 가려지지 않도록 관리합니다.\n    - 키가 차량 근처에 있어야 하며, 차가 잠금 해제 상태에서만 작동합니다.\n    - 눈이나 비가 많이 오는 날, 바닥이 젖어 있어도 센서가 정상 동작할 수 있지만 이물질이 센서 영역을 막지 않도록 청결하게 유지하는 것이 좋습니다.\n\n- 주의사항\n  - 센서 영역이 더럽거나 모래/먼지가 쌓이면 인식율이 낮아질 수 있습니다. 정기적으로 세척 권장.\n  - 핸즈프리 기능은 특정 속도 이하에서만 작동하는 경우가 있습니다. 차량 매뉴얼의 운행 조건을 확인하세요.\n  - 트렁크를 자주 열고 닫을 때는 센서의 반응 시간을 고려해 연속적으로 빠르게 시도하지 않는 것이 좋습니다.\n  - 키를 소지한 상태에서 센서에 대한 무릎 밑쪽 동작 등 비정상적인 신호를 보내지 않도록 주의합니다.\n\n- 참조 정보\n  - BMW 매뉴얼의 핸즈프리/스마트 주행 보조 시스템 관련 섹션 참조\n    - 제어 및 작동 원리: 핸즈프리/스마트 시스템의 제어 방법과 설정(참조 페이지: Controls 섹션)\n    - 센서 위치와 작동 원리: 후방/전방 범퍼 주변의 센서 및 카메라 위치에 대한 설명\n    - 작동 조건: Comfort Access(키 수신)와 연결된 작동 조건\n    - 운영 시 주의사항: 센서 오인식 방지 및 유지보수 요건\n  - 참조 페이지 목록\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n\n참조 차량 부품 이미지 확인\n- 사용자가 제공한 차량 이미지에서 후방 범퍼 하단의 센서 영역이 핸즈프리 트렁크 개폐에 사용되는 부분으로 보입니다. 센서가 위치한 영역의 오염 여부를 점검하고, 센서 구역이 명확히 보이도록 범퍼 하단을 깨끗하게 유지하는 것이 중요합니다.\n\n요약\n- Hands-Free 트렁크 개폐의 올바른 발 움직임은 후방 범퍼 하단의 센서 근처를 짧고 가볍게 움직이는 동작입니다.\n- 과격한 동작이나 센서가 더럽혀진 상태에서의 사용은 오작동의 원인이 될 수 있습니다.\n- 키가 가까이에 있고 Comfort Access가 활성화되어 있어야 작동합니다.\n\n필요하시면 차량의 정확한 모델과 연식(예: 5시리즈 특정 트림)을 알려 주세요. 매뉴얼의 해당 페이지를 더 구체적으로 매핑해 드리겠습니다.",
+    "expected_answer": "발을 차량 아래로 깊게 넣고 즉시 뒤로 빼 두 센서 범위를 통과하게 합니다.",
+    "source_page": 192,
+    "processing_time": 15.338342905044556,
+    "success": true
+  },
+  {
+    "experiment_id": "q36_text_image",
+    "question_id": "36",
+    "input_type": "text_image",
+    "original_text": "{트렁크}에 후방카메라가 장착 되어있나요?",
+    "processed_text": "여기에 후방카메라가 장착 되어있나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자의 질문에 맞춘 정리 답변입니다.\n\n- 부품/기능 명칭\n  - 후방 카메라(Rearview/Rear-View Camera)\n\n- 핵심 설명\n  - 차량의 후미 쪽에 위치하여 후진 기어를 넣었을 때 리어 디스플레이에 후방 화면을 제공합니다. 이 화면은 환경에 따라 주행 보조 시스템(주차 보조, 차선 인식 등)과 연동되며, 주차 시 시야를 보완하는 용도로 사용됩니다. 위치 및 구성은 차종에 따라 다를 수 있는데, 일반적으로 번호판 근처 또는 리어 범퍼 상단 부근에 설치됩니다.\n\n- 사용 방법\n  - 후진 기어로 기어를 넣으면 후방 카메라 영상이 iDrive 화면이나 내장 디스플레이에 자동으로 표시됩니다.\n  - 영상은 주행 상황에 따라 자동으로 표시되며, 주차 또는 후진 보조 기능과 함께 작동합니다.\n  - 카메라 렌즈를 깨끗하게 유지하고(먼지/먼지/비 등으로 시야 저하 가능) 필요 시 렌즈를 닦아 사용합니다.\n\n- 주의사항\n  - 렌즈가 더럽거나 물방울이 있으면 영상 품질이 떨어질 수 있습니다. 깨끗한 상태를 유지하십시오.\n  - 카메라는 보조 수단으로 사용되며, 실제 주행 안전은 운전자의 시야 및 주의에 달려 있습니다. 후진 시에는 주변을 직접 확인하십시오.\n  - 일부 차량의 특정 옵션/트림에서만 기본 탑재되거나 옵션으로 제공될 수 있으니, 귀 차량의 구성에 따라 다를 수 있습니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지를 통한 확인:\n    - page_125.png (유사도: 101.50)\n    - page_306.png (유사도: 95.50)\n    - page_333.png (유사도: 90.00)\n    - page_493.png (유사도: 87.50)\n    - page_490.png (유사도: 87.00)\n  - 본 답변의 내용은 BMW 매뉴얼의 Camera/Rear-View 시스템 관련 섹션과 참조 페이지의 기술 데이터에 근거합니다.\n\n- 사용자가 가리킨 차량 부품 이미지 확인\n  - 제시된 차량 뒷면 이미지에서 리어 범퍼 근처의 작은 카메라 렌즈가 보이며, 번호판 부근에 위치한 카메라로 보입니다. 이는 후방 카메라가 장착되어 있음을 시사합니다. 이미지상 카메라 위치가 일반적인 후방 카메라 위치(번호판 근처/리어 범퍼 상단)에 해당합니다.\n\n추가로 원하시면 차량의 정확한 차종/연식에 따른 후방 카메라 여부를 차대번호(VIN)로 확인해 드리겠습니다.",
+    "expected_answer": "네 장착되어있습니다",
+    "source_page": 344,
+    "processing_time": 9.497453451156616,
+    "success": true
+  },
+  {
+    "experiment_id": "q37_text_image",
+    "question_id": "37",
+    "input_type": "text_image",
+    "original_text": "{트렁크} 핸즈프리가 반응하지 않을 때 먼저 확인할 것은?",
+    "processed_text": "여기 핸즈프리가 반응하지 않을 때 먼저 확인할 것은?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 핸즈프리 시스템이 반응하지 않을 때 먼저 확인하고 조치할 수 있는 근거 있는 점검 항목입니다.\n\n- 부품/기능 명칭\n  - 핸즈프리 시스템(Hands-Free System) / Bluetooth 연결\n  - 마이크로폰(Microphone) 위치 및 상태\n  - 스티어링 휠 컨트롤(음성인식 버튼 등)\n  - 스마트폰 페어링 및 Bluetooth 모듈\n\n- 핵심 설명\n  - 핸즈프리 시스템은 블루투스 연결 상태와 음성인식 기능 활성화 여부에 의해 작동합니다. 스마트폰과의 페어링이 끊겼거나 음성인식 기능이 비활성화되면 전화 걸기/받기, 음성 명령이 동작하지 않을 수 있습니다.\n  - 준비 상태 확인: 차량 전원(또는 시동) 상태, Bluetooth 모듈 작동 여부, 차량 내 설정에서 Intelligent Safety Systems/컨트롤 설정이 정상인지 여부를 함께 점검합니다.\n\n- 사용 방법\n  1) 블루투스 페어링 상태 확인\n     - 차량 내 설정 메뉴에서 Bluetooth 연결 상태를 확인하고, 필요 시 스마트폰과의 페어링을 재설정합니다.\n  2) 핸즈프리 활성화 여부 확인\n     - 스티어링 휠의 음성인식 버튼이나 핸즈프리 버튼으로 활성화가 되어 있는지 확인합니다. 필요 시 버튼을 눌러 핸즈프리 모드를 다시 켭니다.\n  3) 스마트폰 설정 점검\n     - 스마트폰의 Bluetooth가 켜져 있고, BMW 차량과의 페어링이 최신 상태인지 확인합니다. 필요 시 기존 연결을 해제하고 재연결합니다.\n  4) 시스템 재시작/초기화\n     - 차량 시동을 재점등하거나, 메뉴에서 핸즈프리 시스템 재시작/초기화를 시도합니다.\n  5) 전화부 및 연락처 액세스 권한\n     - 핸즈프리로 전화 걸기/받기 시 연락처 접근 권한이 허용되어 있는지 스마트폰 설정에서 확인합니다.\n  6) 소프트웨어 업데이트 여부 확인\n     - 차량의 인포테인먼트 소프트웨어 또는 Bluetooth 모듈 펌웨어의 최신 여부를 확인하고 필요 시 업데이트합니다.\n\n- 주의사항\n  - 운전 중 핸즈프리 조작은 최소화하고, 핸즈프리 기능의 상세 설정 변경은 가능한 안전한 환경에서 수행합니다.\n  - 바람 소리나 차량 외부 소음으로 음성인식 정확도가 떨어질 수 있으며, 마이크가 막히지 않도록 관리합니다.\n  - 무선 연결 이슈가 장기간 지속될 경우, 공식 서비스 파트너를 통한 진단이 필요할 수 있습니다.\n\n- 참조 정보 (참고 페이지)\n  - 페이지_125.png\n  - 페이지_306.png\n  - 페이지_333.png\n  - 페이지_493.png\n  - 페이지_490.png\n\n추가로, 사용자가 가리킨 차량 부품 이미지(사진 속 BMW 5 시리즈 세단의 후면)를 확인했습니다. 이 이미지는 모델(5시리즈)의 일반 구성 요소를 보여주며, 핸즈프리 시스템의 위치나 인터페이스는 차종 및 트림에 따라 다를 수 있습니다. 사진 속 차량은 5시리즈 세단으로 보이며, 구체 모델 판별은 불가합니다. 필요 시 차량의 정확한 연식/트림 정보를 알려주시면 해당 차종에 맞춘 핸즈프리 진단 절차를 더 구체적으로 안내드리겠습니다.",
+    "expected_answer": "리모컨 배터리 방전 여부입니다(필요 시 교체).",
+    "source_page": 192,
+    "processing_time": 7.3418169021606445,
+    "success": true
+  },
+  {
+    "experiment_id": "q38_text_image",
+    "question_id": "38",
+    "input_type": "text_image",
+    "original_text": "{트렁크}가 열리는 중 운전석 도어 버튼을 누르거나 당기면?",
+    "processed_text": "여기가 열리는 중 운전석 도어 버튼을 누르거나 당기면?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 구성을 따라 답변 드립니다.\n\n- 부품/기능 명칭\n  - 운전석 도어 핸들(외부 핸들) 및 운전석 도어 잠금/해제 버튼\n\n- 핵심 설명\n  - 외부 도어 핸들: 손잡이를 당기면 도어가 열립니다(잠금 상태가 아닐 때).\n  - 운전석 도어 잠금/해제 버튼: 버튼을 눌러 도어의 잠금을 해제하거나 재잠금합니다. 일부 모델은 시동이 켜져 있지 않더라도 중앙 잠금 시스템이 작동합니다.\n  - 내부 도어 손잡이/레버: 내부에서 당기면 도어가 열립니다. 전자식 도어 잠금이 활성화되어 있을 경우 해제된 상태에서만 열립니다.\n\n- 사용 방법\n  - 외부에서 열기\n    - 도어가 잠겨 있지 않으면 외부 핸들(손잡이)을 당겨 도어가 열립니다.\n  - 내부에서 열기\n    - 운전석 도어 안쪽 손잡이를 당기면 도어가 열립니다.\n  - 잠금/해제\n    - 운전석 도어 잠금/해제 버튼을 눌러 잠금을 해제하거나 재잠급니다. 필요 시 파킹 브레이크 근처의 안전 경고를 확인하십시오.\n  - 주차/출발 전 확인\n    - 도어가 확실히 닫히고 잠겼는지 확인한 뒤 운행 시작.\n\n- 주의사항\n  - 비상 상황에서 급히 열어야 할 경우, 비상 해제 버튼이나 트리거가 있는지 매뉴얼의 해당 섹션을 확인하십시오.\n  - 어린이 탑승 시 잠금 상태를 점검하고, 도어 잠금 해제 기능이 의도치 않게 작동하지 않도록 주의하십시오.\n  - 도어 핸들을 급하게 당길 때 손가락이 손잡이 힌지나 커버에 끼이지 않도록 주의하십시오.\n  - 문이 열리면 즉시 안전하게 탑승하고, 주행 중에는 도어가 완전히 닫히고 잠겨 있는지 확인하십시오.\n\n- 참조 정보\n  - BMW 매뉴얼 관련 페이지\n    - page_125.png\n    - page_306.png\n    - page_333.png\n    - page_493.png\n    - page_490.png\n\n추가 안내\n- 사용 중인 차량의 구체 모델과 트림(예: 5시리즈, 540d/550i 등)에 따라 도어 잠금 해제 방식이나 버튼 위치가 다를 수 있습니다. 필요하시면 차량 VIN이나 정확한 트림 정보를 알려주시면 보다 구체적으로 매뉴얼 절차를 맞춰 드리겠습니다.\n- 이미지 확인 요청에 대해선, 제공하신 차량 이미지(뒷모습 사진 등)에서 5시리즈 세단의 일반적인 외부 도어 핸들 구성으로 보이는 것과 동일하게 작동합니다. 특정 부품 위치는 차량의 표준 구성과 약간 다를 수 있으니 매뉴얼의 해당 섹션을 참고하시기 바랍니다.",
+    "expected_answer": "개방이 중단되며, 다시 조작하면 개방이 재개됩니다.",
+    "source_page": 192,
+    "processing_time": 14.5438551902771,
+    "success": true
+  },
+  {
+    "experiment_id": "q39_text_image",
+    "question_id": "39",
+    "input_type": "text_image",
+    "original_text": "{트렁크}를 닫으면서 차량까지 잠그려면 필요한 조건은?",
+    "processed_text": "여기를 닫으면서 차량까지 잠그려면 필요한 조건은?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 차량의 뒷문(테일게이트)을 닫으면서 차량을 잠그기 위한 조건과 방법에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - Intelligent Safety Systems (지능형 안전 시스템)\n  - Central Locking / 파워 도어 락 시스템\n  - Comfort Access (편의 접근, 키 인식 잠금 해제 시스템)\n  - 트렁크(Tailgate) 제어 버튼 및 리모컨/키 fob\n  - 센서/카메라 구동 영역(리어 범퍼 주변 및 후방 카메라)\n\n- 핵심 설명\n  - 지능형 안전 시스템은 차량이 잠금 상태를 유지하면서도 도어(및 테일게이트) 작동 시 안전 기능을 자동으로 제어합니다. 옵션에 따라 ALL ON(모든 안전 기능 활성화) 상태에서 작동합니다.\n  - 테일게이트를 닫은 뒤에도 차량의 잠금 기능은 리모컨이나 Comfort Access를 통해 수행될 수 있습니다. 키가 주위에 있을 때 차 문이 자동으로 잠길 수 있는 설정이 적용되어 있을 수 있습니다.\n  - 운전자/탑재 시스템의 카메라나 센서(리어 범퍼 및 후방 카메라 영역)는 닫힘 과정에서 위치가 차단되지 않도록 깨끗하게 유지해야 합니다.\n\n- 사용 방법\n  1) 차에 키를 지니고 주변에 있을 때, 테일게이트를 닫습니다.\n  2) 테일게이트 하단의 잠금 버튼을 눌러 잠그거나, 리모컨/Comfort Access로 잠금을 실행합니다.\n  3) 파워 도어 락이 작동되면 차가 잠깁니다. 이때 \"ALL ON\" 설정이 되어 있으면 지능형 안전 시스템이 활성화됩니다.\n  4) 필요 시 차 내부의 잠금 버튼을 이용해 한 번 더 잠글 수 있습니다.\n  5) 만약 Comfort Access를 통해 자동 잠금을 사용하려면 키가 일정 거리 이상 멀어지면 자동으로 잠금되도록 설정되어 있을 수 있습니다.\n\n- 주의사항\n  - 테일게이트를 닫는 동안 사람이나 물체가 테일게이트 아래에 있지 않도록 확인하십시오.\n  - 센서/카메라 영역이 먼지, 눈비 등으로 가려지지 않도록 주기적으로 청소하십시오.\n  - 자동 잠금 기능은 설정에 따라 다르며, 일부 기능은 수동으로도 잠금이 필요할 수 있습니다. 필요 시 설정 메뉴에서 안전 시스템 상태를 확인하십시오.\n  - 트렁크가 완전히 닫히지 않으면 잠금이 작동하지 않을 수 있습니다. 닫힘 상태를 확인하십시오.\n\n- 참고 정보 (BMW 매뉴얼 페이지)\n  - page_125.png\n  - page_306.png\n  - page_333.png\n  - page_493.png\n  - page_490.png\n\n추가 안내\n- 사용자가 가리킨 차량 부품 이미지(사진 속 뒷부분 모습)는 5시리즈 계열의 테일게이트/리어 범퍼 주변 구성을 예시로 보여줍니다. 이 부분은 매뉴얼의 트렁크/후방 센서 영역과 연결되며, 위의 기능 설명과 사용 방법에 적용됩니다.\n- 차량 모델에 따라 설정 항목의 명칭이나 활성화 방법이 다를 수 있습니다. 사용 중인 차의 iDrive 메뉴나 차량 매뉴얼의 해당 모델 섹션을 확인해 주세요.\n\n필요하시면 현재 차의 정확한 모델 연식과 설정 상태를 알려주시면, 그에 맞춘 구체적인 절차와 화면 안내를 더 자세히 정리해 드리겠습니다.",
+    "expected_answer": "운전석 도어가 닫혀 있고 리모컨이 차량 외부(트렁크 근처) 에 있어야 합니다",
+    "source_page": 192,
+    "processing_time": 12.97277045249939,
+    "success": true
+  },
+  {
+    "experiment_id": "q40_text_image",
+    "question_id": "40",
+    "input_type": "text_image",
+    "original_text": "리모컨이 차량 내부에 있으면 버튼 2로 {트렁크}를 잠글 수 있나요?",
+    "processed_text": "리모컨이 차량 내부에 있으면 버튼 2로 여기를 잠글 수 있나요?",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+    "search_results": [
+      {
+        "image_name": "page_125.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_125.png",
+        "similarity_score": 101.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 95.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_333.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_333.png",
+        "similarity_score": 90.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_493.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_493.png",
+        "similarity_score": 87.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_490.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_490.png",
+        "similarity_score": 87.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 요청하신 구조로 정리한 답변입니다.\n\n- 부품/기능 명칭\n  - 중앙잠금 스위치(Interior Central Lock / Door Lock Button) – 차내 대시보드 또는 운전석 도어 패널에 위치한 잠금 버튼\n  - 도어 잠금 상태 표시 및 안내(LED/계기판 알림 등)[참고: 매뉴얼의 관련 도해]\n\n- 핵심 설명\n  - 운전석 내부에서 버튼 2를 눌러 차의 모든 도어를 잠글 수 있습니다. 이 작동은 차내에 키가 있더라도 잠금을 수행합니다.\n  - 다만 차종 및 옵션에 따라 내부에서의 잠금 동작이 다르게 동작하거나 일부 상황에서는 추가 입력이 필요할 수 있습니다(예: 자동 잠금 설정 여부, INDIVIDUAL 설정 등). 관련 안전 시스템과의 상호작용으로 잠금 상태가 보일 수 있습니다.\n  - 주의할 점: 내부에서 잠금만 수행되면 차를 밖에서 열 수 있는 방식(리모컨의 반응)을 차단하는 효과가 있으므로, 리모컨이 차 안에 있을 때는 오히려 잠금 상태를 확인/확인하는 것이 중요합니다.\n\n- 사용 방법\n  - 차량 내부에서 중앙잠금 스위치를 한 번 눌렀을 때 모든 도어가 잠깁니다(버튼 2). 이때 도어 핸들에 설치된 느낌표나 잠금 아이콘이 잠금으로 전환되는 것을 확인합니다.\n  - 만약 차량에 시동이 걸려 있지 않으면서도 자동 잠금/안전 설정이 활성화되어 있다면, 매뉴얼의 “Intelligent Safety Systems” 설정 화면에서 해당 기능을 확인하고 필요시 조정합니다. 자세한 설정 방법은 해당 매뉴얼의 Controls 섹션에서 확인할 수 있습니다.\n  - 참고: 매뉴얼 페이지로는 page_306.png, page_125.png, page_333.png의 각 도해 및 설명에서 Interior Lock/INDIVIDUAL 설정 관련 내용을 확인할 수 있습니다.\n\n- 주의사항\n  - 리모컨이 차량 내부에 있다고 해서 항상 외부에서 열리지 않는 확실한 보장은 아닙니다. 잠금 동작 후에도 리모컨의 위치에 따라 원격 시스템이 재인식될 수 있으므로, 가능하면 차량 밖으로 리모컨을 들고 다니는 것을 권장합니다.\n  - 내부 잠금 후 차량을 나둘 때는 반드시 도어가 완전히 잠겼는지 확인하고, 필요 시 스마트폰 앱 등으로 잠금 상태를 재확인합니다.\n  - 일부 안전설정(I Intelligent Safety Systems)에서는 특정 상황에서 잠금/해제가 제한될 수 있습니다. 해당 기능의 상태는 매뉴얼의 Config/INDIVIDUAL 섹션에 설명되어 있습니다(참고: page_306.png).\n\n- 참조 정보\n  - 매뉴얼 페이지(참고 유사도 포함): page_125.png, page_306.png, page_333.png, page_493.png, page_490.png\n    - 이들 페이지에서 중앙잠금/안전시스템 설정, INDIVIDUAL 구성, 그리고 차량 내부 잠금 동작에 대한 자세한 그림과 설명을 확인하실 수 있습니다.\n  - 관련 차종/트렁크 구성 예시: 마지막으로 첨부된 5시리즈 외관 이미지(트렁크 영역 포함)는 트렁크 접근 여부 및 외부 잠금 상태와 함께 참고용으로 안내에 사용됩니다.\n\n추가로 원하시면, 사용 중인 정확한 차종(예: 5시리즈 특정 세대/트림)과 현재 차량의 옵션(INDIVIDUAL 설정 여부, Intelligent Safety Systems 활성화 여부)을 알려주시면 더 구체적인 단계별 방법과 필요한 메뉴 경로를 매뉴얼 페이지 번호와 함께 자세히 안내해 드리겠습니다.",
+    "expected_answer": "아니요. 리모컨이 차량 외부에 있어야 잠금이 작동합니다.",
+    "source_page": 192,
+    "processing_time": 11.642854928970337,
+    "success": true
+  },
+  {
+    "experiment_id": "q41_text_image",
+    "question_id": "41",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Icon/1.jpg",
+    "search_results": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 36.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_284.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_284.png",
+        "similarity_score": 35.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_310.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_310.png",
+        "similarity_score": 34.5,
+        "rank": 3
+      },
+      {
+        "image_name": "page_302.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_302.png",
+        "similarity_score": 34.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_299.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_299.png",
+        "similarity_score": 34.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 이미지는 차량 내부에 있는 \"트렁크 열림 버튼(Tailgate/Boot release button)\"으로 보입니다.\n\n- 부품/기능 명칭\n  - 트렁크 열림 버튼(트렁크 리드 Release Button)\n\n- 핵심 설명\n  - 이 버튼을 누르면 트렁크 리드가 전동으로 열리거나 닫힙니다. 일부 모델은 스마트키나 특정 시나리오에서 자동으로 작동하기도 합니다. 버튼에 표시된 아이콘은 트렁크를 여는 기능임을 직관적으로 알려줍니다.\n\n- 사용 방법\n  - 차량 시동 상태에서 버튼을 한 번 눌러 트렁크를 여는 기본 동작.\n  - 트렁크를 닫을 때도 동일 버튼으로 제어가 가능할 수 있으며, 모델에 따라 무선키/스마트키 근접 시 자동 개방 기능이 추가로 제공될 수 있습니다.\n  - 안내등이나 차량 설정에서 트렁크 개폐 기능을 활성화/비활성화할 수 있습니다.\n\n- 주의사항\n  - 트렁크 개폐 시 주위에 사람이나 물건이 없는지 확인.\n  - 버튼 주변에 손가락이나 물건이 끼이지 않도록 주의.\n  - 자동 개방/폐쇄 기능이 있는 경우 안전 센서가 정상 작동하는지 점검 필요.\n  - 비상시 수동으로 개폐하는 방법도 숙지해 두세요(전동 구동 불가 시 수동 개폐 가능 여부는 차량 매뉴얼 참조).\n\n- 참조 정보\n  - BMW 매뉴얼 관련 페이지: page_178.png (Button in the vehicle 섹션, Controls/Overview 맥락에 해당하는 트렁크 버튼 설명 가능)\n  - 추가 맥락 페이지들: page_284.png, page_310.png, page_302.png, page_299.png (Safety/Controls/Camera/Radar 및 설정 섹션에서 트렁크 버튼의 작동 맥락 및 주의사항과 연동된 설명을 확인 가능)\n\n참고로, 사용자가 제시한 차량 이미지에서 트렁크 열림 버튼 아이콘과 디자인이 일치합니다. 필요하면 차량 모델에 맞춘 정확한 사용 방법과 자동 개방 옵션 여부를 차량의 VIN으로 확인해 드리겠습니다.",
+    "expected_answer": "트렁크(boot lid) 열기/닫기 아이콘",
+    "source_page": 140,
+    "processing_time": 9.02534532546997,
+    "success": true
+  },
+  {
+    "experiment_id": "q42_text_image",
+    "question_id": "42",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Icon/2.jpg",
+    "search_results": [
+      {
+        "image_name": "page_310.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_310.png",
+        "similarity_score": 29.75,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 29.375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_284.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_284.png",
+        "similarity_score": 29.25,
+        "rank": 3
+      },
+      {
+        "image_name": "page_299.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_299.png",
+        "similarity_score": 28.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_306.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_306.png",
+        "similarity_score": 28.375,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 두 부품/기능을 확인했습니다. 아래에 각 항목별로 정리했습니다.\n\n1) 부품/기능 명칭: 엔진 시동/정지 버튼 (Start/Stop Engine)\n- 핵심 설명: 차량의 엔진 시동 및 정지를 전자식으로 제어하는 버튼. 브레이크 페달을 밟은 상태에서 이 버튼을 눌러 시동을 걸거나 끕니다.\n- 사용 방법:\n  - 시동 걸기: 브레이크를 밟은 채로 버튼을 한 번 누름.\n  - 시동 끄기: 주행 중 엔진을 끄려면 브레이크를 밟고 버튼을 한 번 누릅니다.\n  - 주의: 엔진 시동을 끄면 차량 전력 기능이 제한될 수 있습니다. 운행 중에 무리하게 엔진을 끄지 않도록 주의하세요.\n- 주의사항:\n  - 비상 상황이나 주행 중에는 엔진을 예기치 않게 끄지 않도록 주의.\n  - 키를 차량 밖으로 두고 시동을 끄면 차의 일부 기능이 제한될 수 있습니다.\n- 참조 정보:\n  - BMW 매뉴얼 관련: 엔진 시동 버튼 및 운전석 컨트롤의 작동 방식 설명 부분\n  - 해당 컨트롤에 대한 설명 페이지 예시: page_178.png, page_306.png, page_299.png 등에서 버튼 작동 원리와 상태 안내를 확인 가능\n\n2) 부품/기능 명칭: Intelligent Safety Systems 제어 버튼(또는 해당 시스템 활성화/비활성화용 컨트롤)\n- 핵심 설명: 차의 지능형 안전 시스템들을 개별적으로 켜고 끄거나 상태를 확인하는 버튼/패널 구성 요소. 일반적으로 차량 전면 센서와 경고 시스템의 활성화 상태를 표시합니다.\n- 사용 방법:\n  - 기본 상태: 대부분의 Intelligent Safety Systems은 기본적으로 활성화되어 있습니다.\n  - 개별 설정: “ALL ON”, “INDIVIDUAL” 등의 메뉴를 통해 각 서브 기능의 활성화를 조정합니다. 메뉴를 순환시키며 원하는 기능을 선택하고, 필요 시 버튼을 눌러 저장합니다.\n  - 상태 확인: 버튼 옆의 상태 표시를 통해 현재 어떤 시스템이 켜져 있는지 확인합니다.\n- 주의사항:\n  - 일부 시스템은 개별적으로 끌 수 없도록 설계되어 있습니다. 모든 시스템을 끄기보다는 특정 상황에 맞춰 조정하는 것이 안전합니다.\n  - 시스템 설정 변경 시 화면에 반영되며, 운행 중 주의가 필요합니다.\n- 참조 정보:\n  - BMW 매뉴얼에서 Intelligent Safety Systems의 구성 및 상태 표시 방법, 설정 예시를 다루는 페이지들:\n    - page_310.png\n    - page_178.png\n    - page_284.png\n    - page_299.png\n    - page_306.png\n  - 이 이미지들에서 “Button in the vehicle” 및 “Intelligent Safety Systems”의 작동 방식 및 상태 설명이 확인됩니다.\n\n추가로 확인된 차량 부품 이미지에 대한 해석:\n- 두 버튼이 함께 있는 소형 컨트롤 패널(일반적으로 트렁크 열림 아이콘과 자물쇠 아이콘이 보이는 구성)은 차의 원격/실내 컨트롤 또는 도어/트렁크 잠금 해제와 관련된 기능일 가능성이 있습니다.\n- 실제로 BMW의 일부 차종에는 차문/트렁크 제어를 내장 패널에서 직접 조작하는 버튼이 있습니다. 이 컨트롤은 중앙 콘솔이나 도어 트림에 위치하는 경우가 많고, “트렁크 열림”과 “잠금” 기능을 빠르게 제어하도록 설계되어 있습니다.\n- 참고: 제시된 이미지(마지막 2-3차원 아이콘 포함)에서 좌측 버튼은 트렁크 해제/열림, 우측 버튼은 도어 잠금 기능으로 보입니다. 이 구성은 현행 BMW의 일부 옵션 패널과 유사합니다.\n\n참고로 제공하신 5개 매뉴얼 페이지의 유사도 점수는 각각 29.75, 29.38, 29.25, 28.50, 28.38로 비교적 비슷한 영역의 컨트롤/안전 시스템 설명과 연계됩니다. 실제 차량의 모델별 구성에 따라 용어와 위치가 다를 수 있으니, 사용 중인 차량의 정확한 차종/연식에 맞춘 메뉴에서 확인하는 것을 권합니다.\n\n원하시면 아래를 추가로 도와드릴 수 있습니다:\n- 귀하의 차량 모델(예: 모델명, 연식)에 맞춘 정확한 컨트롤 위치 지도\n- 해당 엔진 시동 버튼과 Intelligent Safety Systems 설정 화면의 구체적인 설명 페이지 인용\n- 사진 속 두 버튼의 정확한 기능(모델별 매뉴얼 페이지 식별) 확인\n\n원하는 방향으로 더 자세한 정보를 알려드리겠습니다.",
+    "expected_answer": "Comfort Access: 잠금 (자물쇠 아이콘 버튼) 및 트렁크(boot lid) 열기/닫기 아이콘",
+    "source_page": 193,
+    "processing_time": 9.259612083435059,
+    "success": true
+  },
+  {
+    "experiment_id": "q43_text_image",
+    "question_id": "43",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Icon/3.jpg",
+    "search_results": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 12.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_344.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_344.png",
+        "similarity_score": 12.0625,
+        "rank": 2
+      },
+      {
+        "image_name": "page_188.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_188.png",
+        "similarity_score": 12.0625,
+        "rank": 3
+      },
+      {
+        "image_name": "page_359.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_359.png",
+        "similarity_score": 12.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_299.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_299.png",
+        "similarity_score": 11.875,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 올린 차량 부품 이미지(엔진 시동/정지 버튼)에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - 엔진 시동/정지 버튼 (Start/Stop Engine)\n\n- 핵심 설명\n  - 차량의 엔진을 시동하거나 정지시키는 전자식 스위치로, 일반적으로 스마트키(무선 키)와 함께 작동합니다. 버튼을 누르면 엔진이 점화되어 시동이 걸리거나 정지됩니다.\n  - 일부 BMW 모델에서는 브레이크 페달을 밟고 버튼을 누르면 시동이 걸리고, 키를 차량 내부에 소지한 상태에서만 작동하는 방식으로 설계되어 있습니다.\n\n- 사용 방법\n  - 시동 걸기: 브레이크를 밟은 상태에서 Start/Stop 버튼을 한 번 누릅니다. 엔진이 켜지면 계기판이 활성화됩니다.\n  - 시동 끄기: 주차 상태에서 Start/Stop 버튼을 한 번 누르면 엔진이 꺼집니다.\n  - 주의: 모드에 따라 운전 도중 시동을 끄면 안전장치가 작동할 수 있습니다. 자세한 조건은 차량의 인포테인먼트/설정 메뉴의 “Integrated key” 또는 “Intelligent Safety Systems” 관련 섹션을 참조하시기 바랍니다.\n\n- 주의사항\n  - 엔진 시동 버튼 사용 시 주변 환경을 확인하고, 차문 잠금 상태 및 주변 안전을 반드시 확인하십시오.\n  - 키가 차량 내부에 없거나 시스템이 감지되지 않으면 시동이 걸리지 않을 수 있습니다.\n  - 비상 상황이나 서비스 주기 등 특정 조건에서 버튼 작동이 제한될 수 있습니다.\n  - 차량에 따라 엔진 시동 버튼 위치가 다를 수 있으니 차량 매뉴얼의 해당 페이지를 함께 확인하십시오.\n\n- 참조 정보\n  - 이 부품 및 컨트롤 관련 내용은 BMW 매뉴얼의 “Controls” 섹션에서 다루어집니다. 아래 참조 페이지를 참고해 주세요.\n    - 페이지_178.png (유사도: 12.25)\n    - 페이지_344.png (유사도: 12.06)\n    - 페이지_188.png (유사도: 12.06)\n    - 페이지_359.png (유사도: 12.00)\n    - 페이지_299.png (유사도: 11.88)\n  - 또, 이미지에 포함된 관련 기능들(도어/키 시스템, 파크 어시스턴트 등)도 같은 매뉴얼의 다른 페이지에서 확인할 수 있습니다.\n\n참고: 사용자가 가리킨 차량 부품 이미지에서 보이는 것은 엔진 시동/정지 버튼으로 판단됩니다. 필요하시면 해당 대상을 포함한 다른 부품(예: 스마트키, 통합 키 시스템, 키 리모트, 파크 어시스턴트 버튼 등)의 구체적 위치 및 작동법도 함께 자세히 정리해 드리겠습니다.",
+    "expected_answer": "트렁크(boot lid) 열기/닫기 아이콘",
+    "source_page": 193,
+    "processing_time": 11.323606252670288,
+    "success": true
+  },
+  {
+    "experiment_id": "q44_text_image",
+    "question_id": "44",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Trunk/Icon/4.jpg",
+    "search_results": [
+      {
+        "image_name": "page_189.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_189.png",
+        "similarity_score": 30.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 29.0,
+        "rank": 2
+      },
+      {
+        "image_name": "page_190.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_190.png",
+        "similarity_score": 28.75,
+        "rank": 3
+      },
+      {
+        "image_name": "page_193.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_193.png",
+        "similarity_score": 28.625,
+        "rank": 4
+      },
+      {
+        "image_name": "page_310.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_310.png",
+        "similarity_score": 28.25,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 이미지는 BMW의 중앙 잠금 및 컴포트 액세스(Comfort Access) 시스템과 트렁트(Boot lid) 컨트롤 링에 해당합니다. 사용 중인 차량의 부품 이미지를 확인한 결과, 트렁트 리드의 잠금/해제 버튼과 그 주변 컨트롤 모듈을 가리키고 있습니다.\n\n- 부품/기능 명칭\n  - 부품 1: Boot lid button(트렁 도어 리드 버튼)\n  - 부품 2: Comfort Access 중앙 잠금 버튼 및 시스템\n  - 부품 3: 트렁 도어 개폐/잠금 동작 구성(내부 및 외부 제어 방식)\n\n- 핵심 설명\n  - Boot lid button: 트렁 도어의 잠금 해제를 트렁 내부/외부에서 제어하는 버튼으로, Comfort Access가 활성화되면 열림/닫힘 동작이 자동으로 작동할 수 있습니다.\n  - Comfort Access: 차량 키를 소지한 상태에서 도어 손잡이 근처의 감지로 잠금 해제/잠금, 내부 버튼으로 트렁트를 열고 닫는 기능을 제공합니다. 일부 지역 및 차량 구성에 따라 추가 설정이 가능합니다.\n  - 일반 기능: 원격 키로의 잠금해제, 트렁트의 편리한 열림/닫힘, 도어 잠금 상태 표시 등.\n\n- 사용 방법\n  - Comfort Access가 활성화된 상태에서 트렁트 닫힌 상태에서 버튼을 눌러 닫힘/잠금 가능.\n  - 트렁트 열림: 차 문 손잡이 근처의 센서를 이용해 도어를 열고, 트렁트 내부의 버튼이나 외부 손잡이로 열 수 있습니다.\n  - 도어 잠금/해제: 원격 키를 근처에 두고 도어 손잡이를 만지거나 버튼으로 잠금 해제가 가능합니다.\n  - 내부에서 열기: 트렁트 안쪽의 개폐용 버튼 또는 외부 트렁트 버튼으로 열림.\n\n- 주의사항\n  - 안전 경고: 트렁트 개폐 시 몸의 일부가 움직임 영역에 걸리지 않도록 주의하십시오. 특히 자동 트렁트의 경우 개폐 동작 중 물리적 충돌 위험이 있습니다.\n  - Comfort Access 설정에 따라 일부 기능이 비활성화되거나 다르게 동작할 수 있습니다. 필요 시 차량 메뉴에서 설정 확인.\n  - 아이들, 반려동물, 짐의 위치에 주의해 열림/닫힘이 안전하게 이뤄지도록 하십시오.\n  - 트렁트가 완전히 열리기 전에 물건을 넣거나 빼지 않도록 하여 손목이나 손가락을 다치지 않게 주의.\n\n- 참조 정보(관련 매뉴얼 페이지)\n  - page_189.png (유사도: 30.25) — 중앙 잠금 버튼 및 트렁트 컨트롤의 일반 설명 및 개요\n  - page_178.png (유사도: 29.00) — Comfort Access의 원리와 작동 방식, 일반적인 사용 방법\n  - page_190.png (유사도: 28.75) — Opening/Unlocking 설명 및 트렁트 개폐 관련 절\n  - page_193.png (유사도: 28.62) — Boot lid 섹션의 일반/안전 주의사항 및 버튼 위치\n  - page_310.png (유사도: 28.25) — With Comfort Access: locking 및 Opening from inside 등 세부 동작 설명\n\n추가로, 사용자가 가리킨 차량 부품 이미지(s)에서 확인되는 것은 트렁 도어의 잠금/해제 버튼 및 Comfort Access 관련 컨트롤 부품으로, 매뉴얼의 해당 섹션과 일치합니다. 필요하시면 특정 페이지의 텍스트를 요약해 드리거나, 현재 차량 설정에서 어떤 동작이 활성화되어 있는지 점검하는 방법도 안내해 드리겠습니다.",
+    "expected_answer": "Comfort Access: 잠금 (자물쇠 아이콘 버튼)",
+    "source_page": 193,
+    "processing_time": 14.670143127441406,
+    "success": true
+  },
+  {
+    "experiment_id": "q45_text_image",
+    "question_id": "45",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/2.jpg",
+    "search_results": [
+      {
+        "image_name": "page_154.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_154.png",
+        "similarity_score": 12.1875,
+        "rank": 1
+      },
+      {
+        "image_name": "page_153.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_153.png",
+        "similarity_score": 11.6875,
+        "rank": 2
+      },
+      {
+        "image_name": "page_150.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_150.png",
+        "similarity_score": 11.5,
+        "rank": 3
+      },
+      {
+        "image_name": "page_034.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_034.png",
+        "similarity_score": 11.4375,
+        "rank": 4
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 11.3125,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품/기능에 대한 분석과 안내입니다.\n\n- 부품/기능 명칭\n  - iDrive의 버튼 배치/선택 항목 및 버튼 지정 기능 (Button assignment for iDrive)\n\n- 핵심 설명\n  - BMW iDrive 시스템에서 메인 화면의 버튼(또는 즐겨찾기 버튼) 배치를 사용자가 원하는 기능으로 할당할 수 있는 기능입니다. 화면상 메뉴 항목을 좌우로 이동시키고, 특정 기능을 특정 버튼에 연결해 빠르게 실행할 수 있도록 하는 것입니다.\n  - 제공된 이미지들에는 iDrive의 메인 메뉴, 상태 표시(심볼/문자)와 즐겨찾기 버튼의 기능 저장/호출 방법이 포함되어 있습니다.\n\n- 사용 방법\n  - 버튼 배정 해제/초기화(버튼 지정 제거) 예시:\n    1) 1번 버튼과 특정 기호(예: globe/지구 아이콘) 버튼을 동시에 약 5초간 길게 누릅니다.\n    2) 화면에 확인 대화상자나 \"OK\"가 나타나면 확인합니다.\n  - 기능 저장/호출(간단한 예시):\n    - 원하는 메뉴 아이템을 화면에서 선택한 후, 해당 아이템을 특정 버튼으로 지정합니다.\n    - 이후 해당 버튼을 누르면 그 아이템으로 바로 이동하거나 기능이 실행됩니다.\n  - 화면 상에서 메뉴 항목 선택은 터치를 통해 가능하며, 아이템의 배치를 드래그로 옮길 수 있습니다.\n\n- 주의사항\n  - 버튼 배정 해제 또는 재지정 시 현재 저장된 설정이 초기화되므로, 중요한 설정은 미리 확인 후 진행하세요.\n  - iDrive 터치스크린은 손가락으로 조작하는 방식이므로 화면을 긁거나 밀지 않도록 부드럽게 터치해야 정확히 인식됩니다.\n  - 시스템 소프트웨어에 따라 UI 위치나 용어가 다를 수 있으니, 차량의 구체적 모델/소프트웨어 버전에 맞는 매뉴얼을 확인하는 것이 좋습니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 5개 참조:\n    - page_154.png (유사도: 12.19)\n    - page_153.png (유사도: 11.69)\n    - page_150.png (유사도: 11.50)\n    - page_034.png (유사도: 11.44)\n    - page_072.png (유사도: 11.31)\n  - 이미지에 포함된 예시 텍스트들 요약:\n    - Clearing the button assignment\n      1. Press and hold buttons 1 and [지구 아이콘] simultaneously for approx. 5 seconds.\n      2. \"OK\"\n    - 운영 및 메뉴 아이템 선택, iDrive의 기능 저장/호출 방법 등 iDrive 구성 요소에 대한 설명이 포함되어 있습니다.\n\n참고로, 사용자가 가리킨 부품 이미지(스샷)는 iDrive의 메인 메뉴와 버튼 배치에 관한 안내 페이지들에 해당하는 것으로 보이며, 실제 차량 모델에 따라 다소 차이가 있을 수 있습니다. 필요하시면 귀하의 구체적 차종/연식에 맞춘 자세한 절차를 추가로 정리해 드리겠습니다.",
+    "expected_answer": "중앙 잠금 시스템: 잠금 해제",
+    "source_page": 139,
+    "processing_time": 6.559727191925049,
+    "success": true
+  },
+  {
+    "experiment_id": "q46_text_image",
+    "question_id": "46",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/3.jpg",
+    "search_results": [
+      {
+        "image_name": "page_193.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_193.png",
+        "similarity_score": 14.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_189.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_189.png",
+        "similarity_score": 13.75,
+        "rank": 2
+      },
+      {
+        "image_name": "page_181.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_181.png",
+        "similarity_score": 13.5,
+        "rank": 3
+      },
+      {
+        "image_name": "page_139.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_139.png",
+        "similarity_score": 13.25,
+        "rank": 4
+      },
+      {
+        "image_name": "page_185.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_185.png",
+        "similarity_score": 13.1875,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품의 명칭과 기능 정보입니다.\n\n- 부품/기능 명칭\n  - 중앙 잠금 버튼(Central locking button)\n\n- 핵심 설명\n  - 차문 잠금 해제/잠금 기능을 차량 내부에서 제어합니다. 원격 제어와 함께 작동하며, 중앙 잠금 시스템은 모든 도어를 잠그거나 해제하는 역할을 합니다.\n  - 특정 설정에 따라 Comfort Opening 기능도 작동할 수 있으며, 원격 제어 상태나 차량 설정에 따라 문이 다르게 동작할 수 있습니다.\n  - 안전 주의: 도어 잠금/개폐 시 차체의 움직임 가능 영역이 자유로운지 확인해야 합니다. 잠금 해제 중에는 내부에 손이나 물건이 끼이지 않도록 주의가 필요합니다.\n\n- 사용 방법\n  - 내부 버튼으로 잠금/해제를 수행합니다. 버튼을 눌러 중앙 잠금을 작동시키면 모든 도어가 잠기거나 해제됩니다.\n  - 원격 제어나 Comfort Opening 기능과 함께 사용할 때는 메뉴 설정에 따라 동작 방식이 달라질 수 있습니다. 운전석 도어 및 보조 도어의 동작도 차량 설정에 따라 달라질 수 있습니다.\n  - Unlock 버튼(리모컨 또는 내부 버튼)으로 도어를 해제하고, 잠금 버튼으로 잠금합니다.\n  - 열림/잠금 상태를 확인하려면 계기판 상단의 상태 표시 및 도어 잠금 아이콘을 확인합니다.\n\n- 주의사항\n  - Parts of the body can be trapped when the boot lid or doors are operated. 작업 중에는 움직임 공간이 자유로운지 확인하십시오.\n  - 도어를 잠글 때 외부와 내부의 반응을 주의 깊게 확인하고, 특히 어린이나 장애물이 근처에 있을 때는 안전에 신경 쓰십시오.\n  - Comfort Opening 등 고급 기능은 설정에 따라 달라지므로 사용 전에 차량의 설정 메뉴에서 활성화 여부를 확인하십시오.\n  - 비상 상황 시에는 수동으로 도어를 개폐할 수 있는 방법도 숙지해 두십시오.\n\n- 참조 정보\n  - BMW 매뉴얼에서 중앙 잠금 및 도어 잠금 관련 내용은 다음 페이지들에서 확인할 수 있습니다:\n    - page_193.png (참조 페이지) - 유사도 14.00\n    - page_189.png (참조 페이지) - 유사도 13.75\n    - page_181.png (참조 페이지) - 유사도 13.50\n    - page_139.png (참조 페이지) - 유사도 13.25\n    - page_185.png (참조 페이지) - 유사도 13.19\n  - 추가 참고로 같은 매뉴얼의 관련 섹션에서 Opening and closing, Comfort opening, Unlocking/locking, Central locking buttons, 및 기타 안전 주의사항을 자세히 다루고 있습니다. 필요 시 특정 페이지로 직접 확인하시길 권합니다.\n  - 가이드에 포함된 화면 예시는 아래와 같으며, 차량의 내부 버튼 위치 및 잠금/해제 아이콘을 확인할 수 있습니다. (이미지 참조)\n\n참고: 사용자가 제시한 이미지(잠금 아이콘 버튼)로 확인된 부품은 중앙 잠금 버튼이며, 위 설명은 해당 부품의 일반적 작동 원리와 안전 주의사항에 기반합니다. 원하시면 해당 매뉴얼의 구체적인 문구를 페이지별로 직접 요약해 드리겠습니다.",
+    "expected_answer": "중앙 잠금 시스템: 잠금",
+    "source_page": 139,
+    "processing_time": 15.317797660827637,
+    "success": true
+  },
+  {
+    "experiment_id": "q47_text_image",
+    "question_id": "47",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/5.jpg",
+    "search_results": [
+      {
+        "image_name": "page_136.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+        "similarity_score": 10.4375,
+        "rank": 1
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 10.4375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 10.3125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 10.3125,
+        "rank": 4
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 10.3125,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 요청하신 형식으로 정리한 답변이며, 사용자가 가리킨 부품 이미지의 해상도가 낮아 정확한 식별은 보완이 필요합니다. 아래의 아이템은 가능한 범위에서 가장 유력한 추정과 함께 제시합니다. 추가로 고해상도 이미지나 위치 설명을 주시면 정확도를 높여 드리겠습니다.\n\n- 부품/기능 명칭\n  - 대시보드 경고/상태 표시 아이콘(추정): 계기판이나 인포테인먼트 화면에 나타나는 경고등 또는 상태 아이콘\n\n- 핵심 설명\n  - 기능/역할: 차량의 시스템 상태를 운전자에게 시각적으로 알리는 경고등 또는 아이콘입니다. 점등 시 해당 시스템의 이상, 점검 필요 또는 예비조치 필요를 알립니다.\n  - 점등 패턴: 지속 점등일 수 있고, 깜빡임이나 특정 색상(예: 빨간색)은 즉각적인 주의가 필요함을 의미하는 경우가 많습니다.\n  - 연관 시스템: 안전/주행 보조 시스템, 엔진/배터리/타이어 공기압, 섀시/브레이크 등 차량의 주요 서브시스템과 연계될 가능성이 있습니다.\n\n- 사용 방법\n  - 경고 아이콘이 켜지면:\n    - 운전을 중단하기 전에 차량 매뉴얼의 해당 경고 해석 페이지를 확인합니다.\n    - 필요한 경우 가까운 BMW 서비스센터에 연락하거나, 점검 예약을 잡습니다.\n  - 초기 점검 절차 예시(일반적인 권고):\n    - 엔진 상태/점등 위치를 확인하고, 간단한 안전점검(타이어 공기압, 잔여 연료, 컷오프 상태 등)을 수행합니다.\n    - 증상이 지속되면 제조사 권고에 따라 ASD/진단 툴로 코드를 읽고 적절한 조치를 취합니다.\n\n- 주의사항\n  - 아이콘이 빨간 색으로 지속 점등되면 즉시 주의가 필요하며, 가능하면 안전한 장소로 차를 끌고 정차합니다.\n  - 경고등의 해석은 차량 모델 및 제조 연도에 따라 다를 수 있습니다. 동일 아이콘이라도 다른 시스템 경고일 수 있습니다.\n  - 잘못된 해석으로 임의 조치를 취하면 더 큰 손상이나 안전 문제를 야기할 수 있습니다. 반드시 매뉴얼의 해석 표를 참조하거나 전문가의 점검을 받으십시오.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 5개:\n    - page_136.png (유사도: 10.44)\n    - page_072.png (유사도: 10.44)\n    - page_480.png (유사도: 10.31)\n    - page_118.png (유사도: 10.31)\n    - page_006.png (유사도: 10.31)\n  - 이 페이지들에는 대시보드 경고 아이콘 및 일반적인 차량 경고 체계에 대한 설명이 포함되어 있을 가능성이 큽니다. 필요 시 각 페이지의 구체적 항목명을 확인해 보다 정확한 해석을 도와드리겠습니다.\n\n참고: 사용자가 가리킨 차량 부품 이미지를 함께 확인했습니다. 다만 현재 제공된 아이콘 이미지는 해상도가 낮아 정확한 부품명을 확정하기 어렵습니다. 더 정확한 식별을 위해 아래를 부탁드립니다.\n- 아이콘이 위치한 계기판/인포테인먼트 화면의 전체 사진이나 고해상도 클로즈업\n- 아이콘의 색상(빨간색/노란색/녹색 등)과 점등 방식(정지/점등/깜빡임)\n- 차량 모델/연식 정보\n\n원하시면 제가 위의 5페이지 매뉴얼 중 어떤 부분이 해당 아이콘과 연결되는지 매칭해서, 구체적인 부품명/설명/사용 방법/주의사항을 페이지별로 상세히 매핑해 드리겠습니다.",
+    "expected_answer": "뒷유리 롤러 선블라인드 작동",
+    "source_page": 138,
+    "processing_time": 10.20076847076416,
+    "success": true
+  },
+  {
+    "experiment_id": "q48_text_image",
+    "question_id": "48",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/6.jpg",
+    "search_results": [
+      {
+        "image_name": "page_124.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_124.png",
+        "similarity_score": 11.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_511.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_511.png",
+        "similarity_score": 11.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 10.9375,
+        "rank": 3
+      },
+      {
+        "image_name": "page_001.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_001.png",
+        "similarity_score": 10.875,
+        "rank": 4
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 10.8125,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 부품은 무엇인가요?\n\n- 부품/기능 명칭: Start/Stop 엔진 스타트 버튼\n\n- 핵심 설명\n  - 차량의 엔진 시동 및 시동 해제를 수행하는 버튼입니다. 일반적으로 운전자가 브레이크 페달을 밟은 상태에서 버튼을 눌러 엔진을 시동하고, 다시 버튼을 눌러 엔진을 정지합니다. 특정 BMW 모델에서는 키 fob가 차 안에 있을 때만 시동이 걸리도록 되어 있습니다. 일부 차량은 파킹(P) 위치에서도 시동 해제가 가능하도록 설계되어 있습니다.\n\n- 사용 방법\n  - 엔진 시동 걸기: 브레이크를 밟은 상태에서 Start/Stop 버튼을 한 번 눌러 엔진을 시동합니다.\n  - 엔진 시동 끄기: 차량이 정차한 상태에서 Start/Stop 버튼을 한 번 눌러 엔진을 끕니다. 필요 시 브레이크를 약간 밟아야 할 수 있습니다.\n  - 주의: 운전 중에는 비상 상황이 아닌 한 엔진을 이 버튼으로 끄지 마세요. 가스/메인터넬 상황에서 예기치 않은 엔진 정지로 자동차 제어가 어려워질 수 있습니다.\n\n- 주의사항\n  - 손잡이식 시동버튼이 있는 경우에도 키(리모컨)가 차량 내부에 있어야 시동이 걸립니다.\n  - 차량이 움직이는 상태에서 엔진을 끄면 안전 시스템에 의해 제어가 제한될 수 있습니다. 반드시 상황에 맞는 위치에서만 작동시키세요.\n  - 보호 커버가 열려 있거나 버튼 주변이 더럽거나 손에 이물질이 많으면 오작동 가능성이 있습니다. 깨끗한 상태로 사용하세요.\n  - 저전력 배터리나 RF/key fob 문제로 시동이 안 걸리는 경우가 있으니 매뉴얼의 진단 절차를 참고하세요.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지 참고\n    - page_124.png\n    - page_511.png\n    - page_072.png\n    - page_001.png\n    - page_178.png\n  이 다섯 페이지에서 Start/Stop 엔진 시동 시스템 및 작동 조건에 대한 자세한 설명과 경고를 확인하시길 권합니다.\n\n참고 이미지 확인\n- 사용자가 가리킨 부품 이미지와 매뉴얼의 Start/Stop 엔진 시동 버튼은 동일 부품으로 보입니다. 이미지에 표시된 버튼은 엔진 시동/정지를 제어하는 주된 인터페이스입니다.\n\n필요하시면 구체적인 모델별 시동 방법(예: 3시리즈/5시리즈의 차이점)이나 오작동 시 대처 방법도 추가로 안내해 드리겠습니다.",
+    "expected_answer": "세이프티 스위치(유아 보호/뒷좌석 창 작동 차단 등)",
+    "source_page": 138,
+    "processing_time": 10.643672704696655,
+    "success": true
+  },
+  {
+    "experiment_id": "q49_text_image",
+    "question_id": "49",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/7.jpg",
+    "search_results": [
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 11.0625,
+        "rank": 1
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 10.875,
+        "rank": 2
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 10.875,
+        "rank": 3
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 10.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_416.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_416.png",
+        "similarity_score": 10.4375,
+        "rank": 5
+      }
+    ],
+    "llm_response": "요청하신 대로 BMW 전문가 관점에서 정리해 드립니다. 다만 제시된 차량 부품 이미지가 다소 모호하고, 텍스트와 함께 제공된 매뉴얼 페이지도 특정 부품을 직접 지목하기에는 불충분합니다. 사진에서 어떤 부품을 가리키는지 정확히 특정하려면 차량 모델/연식이나 부품의 위치를 좀 더 명확히 알려주시면 좋습니다. 아래 구조로 먼저 일반적인 안내를 드리고, 필요한 경우 추가 확인으로 보완해드리겠습니다.\n\n- 부품/기능 명칭\n  - 가능성 A: 연료 주입구/연료 주입구 캡(차량의 연료 주입부)\n  - 가능성 B: 방향 표지 도구 또는 지도용 도구(컨솔 상단의 기기 위치가 다소 불분명해 보이는 경우)\n  - 가능성 C: 계기판 경고등/제어 버튼의 아이콘(사진 하단의 붉은 경고 아이콘 근처의 부품일 가능성)\n  - 참고: 제시된 이미지들 중 일부는 명확한 부품의 모습이 보이지 않아, 단정하기 어렵습니다.\n\n- 핵심 설명\n  - 부품 A(연료 주입구): 연료를 주입하는 구멍으로, 주입구 뚜껑이 열리고 닫히며, 주유 시 안전 뚜껑 고정 및 기계적 게이트가 작동합니다.\n  - 부품 B(지도/도구류): 차량의 내비게이션 보조 도구나 카드/메모용 소형 도구와 연관된 위치일 수 있습니다.\n  - 부품 C(계기판 경고 아이콘): 차의 상태 경고를 나타내는 아이콘으로, 점등 시 즉시 점검이 필요합니다.\n\n- 사용 방법\n  - 연료 주입구 A: 주유 시 “연료 주입구 덮개 열기”를 먼저 누르거나 손으로 열고, 연료를 주입한 후 덮개를 닫습니다. 주입구 주변 이물질 제거 후 넣기 권장.\n  - 지도/도구 B: 필요 시 도구를 꺼내 사용하고, 사용 후 원위치에 보관합니다.\n  - 경고 아이콘 C: 아이콘이 점등될 경우 매뉴얼에 따라 점검 절차를 진행합니다. 필요한 경우 서비스 센터에 문의합니다.\n\n- 주의사항\n  - 연료 주입구 사용 시 불꽃/열기에 주의하고, 주입구 주변에 흠집이나 손상이 있는지 점검합니다.\n  - 비상 경고등이 켜진 경우 무리하게 운전하지 말고 안전한 곳에 정차한 후 매뉴얼의 점검 절차를 따르거나 정비소에 문의합니다.\n  - 매뉴얼에 따라 부품 교체나 점검은 전문 기술자에게 의뢰하는 것이 안전합니다.\n\n- 참조 정보\n  - 아래 BMW 매뉴얼 페이지는 부품 이해 및 사용 방법에 관한 일반적인 가이드와 점검 절차를 제공합니다.\n    - page_072.png (유사도: 11.06)\n    - page_480.png (유사도: 10.88)\n    - page_118.png (유사도: 10.88)\n    - page_006.png (유사도: 10.75)\n    - page_416.png (유사도: 10.44)\n\n추가로 필요한 확인\n- 차량 모델/년식: 예) 3시리즈 F30, 2020년식 등\n- 이미지에서 가리키는 위치: 예) 보닛 근처, 센터 콘솔, 계기판, 도어 트림 등\n- 가능하면 같은 부품의 더 선명한 이미지 한 장이나 다른 각도 사진\n\n참고로 제가 가진 매뉴얼 페이지를 바탕으로 더 구체적인 명칭과 점검 절차를 제시해 드릴 수 있습니다. 위 정보로도 여전히 모호하다면, “이 부품이 보이는 위치를 정확히 지정해 주세요(예: 엔진룸의 연료 주입구 측, 계기판 좌측 상단 등).” 그러면 해당 부품의 정확한 명칭, 기능, 사용 방법, 주의사항을 BMW 매뉴얼 페이지와 함께 확정해 드리겠습니다.",
+    "expected_answer": "파워 윈도우 스위치",
+    "source_page": 138,
+    "processing_time": 19.063483238220215,
+    "success": true
+  },
+  {
+    "experiment_id": "q50_text_image",
+    "question_id": "50",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/11.jpg",
+    "search_results": [
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 11.5625,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 11.375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_256.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_256.png",
+        "similarity_score": 11.375,
+        "rank": 3
+      },
+      {
+        "image_name": "page_257.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_257.png",
+        "similarity_score": 11.375,
+        "rank": 4
+      },
+      {
+        "image_name": "page_136.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+        "similarity_score": 11.375,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품/기능에 대한 정리입니다.\n\n- 부품/기능 명칭\n  1) Start/Stop 엔진 버튼\n  2) Turn indicator(깜빡이) 레버 및 계기판 경고/점멸 디스플레이\n  3) Check Control 시스템(계기판 경고 창 및 텍스트 메시지)\n\n- 핵심 설명\n  - Start/Stop 엔진 버튼: 차량의 시동을 걸거나 시동을 끌 때 사용하는 버튼으로, 일반적으로 “START/STOP ENGINE” 글자가 표시된 원형 버튼 형태입니다.\n  - Turn indicator 레버: 좌우 방향지시를 작동시키는 레버이며, 계기판에 경고등이나 메시지를 나타낼 수 있습니다. 특정 상황에서 Check Control 메시지로 문제를 알릴 수 있습니다.\n  - Check Control 시스템: 차량의 각 경고등과 메시지를 모아서 표기하는 시스템으로, 연료 상태, 엔진 이상, 운전자 보조 시스템 이상 등 다양한 상태를 텍스트 메시지와 아이콘으로 제공합니다. 매뉴얼의 Check Control 섹션에서 작동 방법과 표시 방식, 기억/숨김 방식 등을 다룹니다.\n\n- 사용 방법\n  - Start/Stop 엔진 버튼\n    - 시동 걸기: 차량을 수동으로 기동하려면 보통 브레이크를 밟은 채 버튼을 누릅니다(차종에 따라 핸들 락 해제 및 키 요소 필요). 엔진이 시동되면 계기판이 활성화됩니다.\n    - 시동 끄기: 주차 및 안전장치 확인 후 버튼을 눌러 엔진을 끕니다.\n  - Turn indicator 레버\n    - 레버를 한쪽으로 가볍게 움직여 해당 방향으로 깜빡이 작동. 필요 시 레버를 중립 위치로 되돌리면 깜빡임이 종료됩니다.\n    - 계기판이나 중앙 디스플레이에 경고등/메시지가 나타날 수 있는데, 이는 주행 중 체크/오경보를 시사합니다.\n  - Check Control\n    - 운전 중 계기판에 표시되는 텍스트 메시지나 아이콘을 확인합니다. 메시지는 메모리 저장 여부, 경향성(연속 표시 여부), 필요한 조치 등을 안내합니다.\n    - 메시지가 지속되거나 복합적으로 나타날 경우, 페이지 내 지시대로 추가 확인(서비스 파트너와 상담, 필요 시 정비) 필요합니다.\n  \n- 주의사항\n  - Start/Stop 버튼으로 엔진을 끄거나 켤 때 주변에 사람이나 물건이 없는지 확인하고, 차문이 안전하게 잠겼는지 확인하세요.\n  - Turn indicator가 정상 작동하지 않거나 경고등이 지속적으로 점등되면, Check Control 메시지를 확인하고 필요한 점검을 받으세요.\n  - Check Control 메시지는 중요한 시스템 경고일 수 있으므로, 메시지의 지시사항을 무시하지 말고 즉시 점검하는 것이 안전합니다. 필요 시 서비스 파트너와 상담하십시오.\n  - 운전 중 메시지/경고를 무시하면 주행 안전에 영향을 줄 수 있습니다.\n\n- 참조 정보\n  - BMW 매뉴얼의 관련 섹션(제어/디스플레이 관련): 페이지들\n    - page_006.png\n    - page_178.png\n    - page_256.png\n    - page_257.png\n    - page_136.png\n  - 이 다섯 페이지는 각각 계기판 제어, 경고/메시지 표시, 체크 컨트롤(Check Control) 메시지의 해석 및 운전자 도움 정보, 헤드라이트 및 시스템 상태 안내 등을 다룹니다.\n  - 또한, 이미지에 포함된 예시(Start/Stop 버튼, 깜빡이 레버, Check Control 메시지 표기 등) 및 주행 중 경고 처리 흐름은 위의 매뉴얼 페이지들에서 구체적으로 확인할 수 있습니다.\n\n추가로 사용자가 가리킨 차량 부품 이미지가 실제로 어떤 부품인지 더 정확히 확인하려면, 이미지에 나타난 아이콘/레이아웃의 구체적인 위치나 글자(예: START STOP ENGINE, 깜빡이 기호, 체크 컨트롤 창의 텍스트 등)를 더 자세히 알려주시면 그에 맞춘 해설을 덧붙여 드리겠습니다.",
+    "expected_answer": "바깥 미러 조작(각도/폴딩)",
+    "source_page": 138,
+    "processing_time": 17.992038249969482,
+    "success": true
+  },
+  {
+    "experiment_id": "q51_text_image",
+    "question_id": "51",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/12.jpg",
+    "search_results": [
+      {
+        "image_name": "page_147.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_147.png",
+        "similarity_score": 89.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_064.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_064.png",
+        "similarity_score": 83.5,
+        "rank": 2
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 76.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_062.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_062.png",
+        "similarity_score": 76.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_094.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_094.png",
+        "similarity_score": 71.5,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 부품은 BMW iDrive 조작 컨트롤러(다이얼) 및 주변 버튼들입니다. 사진에 보이는 구성은 차량 인포테인먼트 시스템을 컨트롤하는 핵심 입력 장치입니다.\n\n- 부품/기능 명칭\n  - iDrive 컨트롤러 다이얼(회전식 다이얼) 및 주변 버튼들\n  - 주변 버튼: MENU, BACK, OPTION, NAV, MAP, MEDIA, COM, TEL, MAP 등 다이얼 주위의 보조 버튼들\n\n- 핵심 설명\n  - 기능: 다이얼을 회전하여 메뉴 아이템을 하이라이트하고, 누름으로 선택합니다. 좌우/상하 방향으로 기울이거나 버튼을 눌러 메뉴 간 이동, 옵션 열람, 음향/네비게이션 등 각 기능으로 진입합니다.\n  - 작동 원리: iDrive 시스템의 주요 입력 장치로, 엔포인먼트 시스템의 메인 화면과 서브 메뉴를 손쉽게 탐색하도록 설계되었습니다. 다이얼의 회전으로 항목을 스크롤하고, 중앙 클릭으로 선택합니다. 필요 시 좌우 버튼으로 화면 간 전환이 가능합니다.\n\n- 사용 방법\n  - 기본 내비게이션/메뉴 진입: 다이얼을 회전하여 원하는 메뉴 아이템에 커서를 맞춘 뒤 중앙을 누르면 선택됩니다.\n  - 화면 전환: LEFT/RIGHT/UP/DOWN 방향으로 다이얼을 조작하거나, 좌우에 배치된 버튼으로 특정 기능으로 바로 진입합니다.\n  - 상하 방향으로의 세부 조작: 필요 시 화면의 다른 서브메뉴로 이동하거나 옵션창을 열 수 있습니다.\n  - BACK/OPTION/MENU 버튼의 용도: 이전 화면으로 돌아가거나 옵션 메뉴를 열 때 사용합니다.\n\n- 주의사항\n  - 운전 중 주의 분산을 최소화하고 가능한 한 시야를 도로에 유지한 채 조작하십시오.\n  - 터치스크린이 있는 차량의 경우도 비상 상황에서는 운전에 방해되지 않도록 최소한의 조작으로 필요한 정보만 확인하십시오.\n  - 시스템 업데이트나 특정 기능의 동작은 차량 모델 및 소프트웨어 버전에 따라 차이가 있을 수 있습니다.\n\n- 참조 정보\n  - 관련 BMW 매뉴얼 페이지:\n    - page_147.png (유사도: 89.00) — iDrive 컨트롤러 기본 개념/동작 설명\n    - page_064.png (유사도: 83.50) — 엔터테인먼트/리모트 컨트롤 관련 구성\n    - page_178.png (유사도: 76.00) — 컨트롤러의 일반 동작 예시 및 버튼 기능 설명\n    - page_062.png (유사도: 76.00) — 리모트 컨트롤 및 다이얼의 작동 예시\n    - page_094.png (유사도: 71.50) — 디스플레이와 버튼 배열, 사용자 인터페이스 설명\n  - 제공된 차량 이미지와 매뉴얼 내용이 일치합니다(사진 속 다이얼 및 주변 버튼 구성).\n\n참고로, 사용자가 가리킨 차량 부품 이미지는 iDrive 컨트롤러로 판단되며, 위 설명은 해당 부품의 일반적인 용도와 사용 방법에 기반합니다. 필요하시면 구체적인 차종/연식에 맞춘 메뉴 구성 및 각 버튼의 상세 기능 매핑도 제공해 드리겠습니다.",
+    "expected_answer": "전체적인 디스플레이 컨트롤",
+    "source_page": 146,
+    "processing_time": 10.978027105331421,
+    "success": true
+  },
+  {
+    "experiment_id": "q52_text_image",
+    "question_id": "52",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/13.jpg",
+    "search_results": [
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 11.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 11.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_037.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_037.png",
+        "similarity_score": 11.0625,
+        "rank": 3
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 10.875,
+        "rank": 4
+      },
+      {
+        "image_name": "page_154.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_154.png",
+        "similarity_score": 10.75,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 질문하신 부품/기능에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - iDrive 엔터테인먼트 소스 버튼(미디어/멀티미디어 소스 선택)\n\n- 핵심 설명\n  - 차 안 엔터테인먼트 소스(오디오/라디오/미디어 등)를 전환해 주는 컨트롤러 기능입니다. MODE 버튼을 통해 현재 사용 가능한 엔터테인먼트 소스 목록을 표시하고, 다시 버튼을 눌러 원하는 소스를 선택합니다. iDrive 화면의 “Media/Radio” 영역에서 소스를 선택하는 흐름과 동일합니다.\n\n- 사용 방법\n  - 차량의 MODE 버튼을 한 번 누르면 현재 사용 가능한 엔터테인먼트 소스 목록이 표시됩니다.\n  - MODE 버튼을 한 번 더 눌러 원하는 엔터테인먼트 소스를 선택합니다.\n  - iDrive를 통해서는 “Media/Radio” 메뉴에서 원하는 소스를 선택하는 방식으로도 수행합니다.\n  - 필요 시 컨트롤러를 회전하거나 누름으로 소스 목록을 스크롤하고 선택합니다.\n\n- 주의사항\n  - 운전 중에는 안전 운전을 우선으로 하고, 소스 변경은 가능하면 정지 상태에서 수행하십시오.\n  - 특정 소스(예: Bluetooth 오디오, 라디오 등)는 연결 상태나 수신 상태에 따라 목록에 표시되지 않을 수 있습니다.\n  - 소스 변경 시 현재 재생 중인 컨텐츠가 중단될 수 있으니 주의하십시오.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지를 통한 소스 변경 설명:\n    - Changing entertainment source (On the radio: MODE 버튼으로 소스 목록 표시/선택) — 해당 흐름은 매뉴얼 페이지에서 다룸 (참조 페이지: page_154.png).\n    - Via iDrive: \"Media/Radio\" 소스 목록 표시 및 선택 방법 (참조 페이지: page_154.png).\n    - 계속해서 엔터테인먼트 소스 목록을 조정하는 방법도 같은 섹션에서 설명됩니다.\n  - 추가 참고로, 엔터테인먼트 소스 변경 관련 일반 안내는 메뉴 구성도와 함께 다루는 페이지들(page_480.png, page_118.png, page_037.png, page_072.png)도 함께 참조하면 소스 전환의 위치나 버튼 배치 차이를 이해하는 데 도움이 됩니다.\n\n참조 이미지/페이지\n- page_480.png\n- page_118.png\n- page_037.png\n- page_072.png\n- page_154.png\n\n참고: 사용자가 가리킨 부품 이미지로 보이는 “MEDIA” 라벨은 엔터테인먼트 소스 선택 관련 버튼(미디어 소스 전환 컨트롤)임을 확인했습니다. 원하시면 차량 모델별로 MODE 버튼 위치나 iDrive 버전에 따른 exact 인터페이스 차이도 함께 정리해 드리겠습니다.",
+    "expected_answer": "미디어/라디오 메뉴 열기",
+    "source_page": 147,
+    "processing_time": 5.750500917434692,
+    "success": true
+  },
+  {
+    "experiment_id": "q53_text_image",
+    "question_id": "53",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/14.jpg",
+    "search_results": [
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 10.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 10.4375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_034.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_034.png",
+        "similarity_score": 10.0625,
+        "rank": 3
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 9.9375,
+        "rank": 4
+      },
+      {
+        "image_name": "page_147.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_147.png",
+        "similarity_score": 9.6875,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품에 대한 정리와 사용 가이드입니다.\n\n- 부품/기능 명칭\n  - BMW iDrive 컨트롤러 및 버튼 배열 (주 컨트롤러 다이얼과 주변 버튼들)\n\n- 핵심 설명\n  - iDrive 컨트롤러는 차량 내 메인 메뉴를 호출하고 항목을 선택하는 중앙 조작장치입니다. 다이얼을 돌려 항목을 스크롤하고, 눌러 선택하며, 방향으로 기울임 등으로 다양한 화면 메뉴를 제어합니다. MENU, COM(Communication), MEDIA, NAV, BACK, OPTION 등의 기능 버튼이 함께 배치되어 있어 메인 메뉴 진입/항목 선택 및 보조 메뉴 호출이 가능합니다.\n\n- 사용 방법\n  - 기본 동작\n    - 다이얼 회전: 메인 메뉴 항목 사이를 스크롤합니다.\n    - 다이얼 클릭(눌름): 선택 진입 또는 확인.\n    - 방향 버튼(다이얼의 방향 입력): 상하좌우로 이동하거나 화면 내 컨트롤에 적용.\n    - MENU 버튼: 메인 메뉴를 호출합니다.\n    - BACK/OPTION 버튼: 이전 화면으로 돌아가거나 옵션 메뉴를 엽니다.\n  - Switching on / off\n    - 스위치를 켜려면 컨트롤러를 활성화 상태로 두고 메뉴를 통해 시스템을 포함한 iDrive를 켭니다.\n    - 오프 시에는 화면의 안내에 따라 “Switch off control display” 옵션을 선택하면 됩니다.\n  - 일반 조작 예\n    - 전화, 내비게이션, 미디어 등 다른 시스템으로의 진입은 해당 버튼(COM/MEDIA/NAV 등)을 눌러 바로 진입합니다.\n    - 화면 내 설정은 컨트롤러의 다이얼과 버튼 조합으로 조정합니다.\n  - 참고 시나리오\n    - 예: iDrive의 화면 구성 변경, 운전자 프로파일 변경, 주 메뉴 접근 등은 컨트롤러를 이용해 수행합니다.\n\n- 주의사항\n  - 손에 오염이 있으면 컨트롤러의 인식이 떨어질 수 있습니다. 항상 청결한 상태에서 조작하세요.\n  - 시스템이 응답하지 않거나 느릴 경우, 간단한 재부팅 절차나 화면 안내에 따라 재시작을 시도합니다.\n  - 운전 중에는 시선을 최소화하고 필요한 경우에만 조작하고, 주행 중에는 기본적인 조작 범위를 벗어나지 않도록 주의합니다.\n  - 과도한 힘으로 회전/버튼 누름을 강하게 하지 마세요. 내부 기계식 부품 손상으로 반응이 불안정해질 수 있습니다.\n\n- 참조 정보\n  - BMW 매뉴얼 관련 페이지 이미지(참조 페이지 파일)\n    - page_480.png\n    - page_118.png\n    - page_034.png\n    - page_072.png\n    - page_147.png\n  - 참고 설명: 위 다섯 페이지는 iDrive 컨트롤러 사용법, 화면 전환, 메뉴 항목 접근 방법, 컨트롤러의 기능 버튼 구성 등을 다루는 매뉴얼 그림과 설명으로 구성되어 있습니다.\n\n참고: 사용자가 제공한 차량 부품 이미지에 따르면, 가리킨 부품은 iDrive 컨트롤러와 그 주변 버튼( MENU, COM, MEDIA, NAV 등 포함)으로 보이며, 매뉴얼의 컨트롤러 구성 및 작동 방식과 일치합니다.",
+    "expected_answer": "통신(전화/연락처 등) 메뉴 열기",
+    "source_page": 147,
+    "processing_time": 9.838536977767944,
+    "success": true
+  },
+  {
+    "experiment_id": "q54_text_image",
+    "question_id": "54",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/16.jpg",
+    "search_results": [
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 11.4375,
+        "rank": 1
+      },
+      {
+        "image_name": "page_017.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_017.png",
+        "similarity_score": 10.6875,
+        "rank": 2
+      },
+      {
+        "image_name": "page_021.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_021.png",
+        "similarity_score": 10.5625,
+        "rank": 3
+      },
+      {
+        "image_name": "page_396.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_396.png",
+        "similarity_score": 10.5,
+        "rank": 4
+      },
+      {
+        "image_name": "page_023.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_023.png",
+        "similarity_score": 10.4375,
+        "rank": 5
+      }
+    ],
+    "llm_response": "답변 요약\n- 부품/기능 명칭: iDrive 컨트롤러(회전 다이얼 포함 제어 장치)\n- 핵심 설명: 차량의 인포테인먼트 시스템(네비게이션 등)을 손으로 조작하는 중앙 컨트롤러입니다. 다이얼을 회전해 항목을 선택하고 누름으로 확인하며, 옆면 버튼으로 백/메뉴 전환, 터치 스크린이 있는 경우 보조 입력으로 작동합니다.\n- 사용 방법: \n  - 다이얼 회전: 메뉴 항목 간 이동\n  - 다이얼 누름: 현재 항목 선택/확인\n  - 옆면 버튼(예: Back, Menu 등): 이전 화면으로 돌아가거나 메뉴를 열고 닫기\n  - 필요 시 화면에 표시되는 지시를 따라 맵/네비게이션 설정, 상세 정보 보기 등 사용\n- 주의사항:\n  - 운전 중 조작 시 주의: 주행에 집중하면서 간단한 입력 위주로 사용\n  - 너무 강하게 누르거나 비정상적으로 회전시키지 말 것\n  - 손이 젖었거나 더럽다면 입력 오작동 가능성 증가\n- 참조 정보(참고 매뉴얼 페이지):\n  - page_006.png (유사도: 11.44) — 일반 설명 및 컨트롤 인터페이스 개요\n  - page_017.png (유사도: 10.69) — 맵/네비게이션 개요 및 기능 표\n  - page_021.png (유사도: 10.56) — 맵에서의 기능 및 설정 방법\n  - page_396.png (유사도: 10.50) — 인터페이스 작동 흐름(예시 절차)\n  - page_023.png (유사도: 10.44) — 맵 뷰에서의 기능 목록 및 사용 방법\n참고: 사용자가 가리킨 차량 부품 이미지와 매뉴얼 페이지의 내용이 매핑되며, 해당 부품은 BMW iDrive 컨트롤러로 식별됩니다. 필요시 이 컨트롤러를 중심으로 네비게이션 및 맵 설정 방법에 대한 구체 절차를 페이지별로 자세히 안내해 드릴 수 있습니다.",
+    "expected_answer": "내비게이션 지도 화면 호출",
+    "source_page": 147,
+    "processing_time": 8.542841911315918,
+    "success": true
+  },
+  {
+    "experiment_id": "q55_text_image",
+    "question_id": "55",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/17.jpg",
+    "search_results": [
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 11.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_006.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_006.png",
+        "similarity_score": 10.8125,
+        "rank": 2
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 10.625,
+        "rank": 3
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 10.5625,
+        "rank": 4
+      },
+      {
+        "image_name": "page_136.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_136.png",
+        "similarity_score": 10.5625,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 항목으로 요약해 드립니다.\n\n- 부품/기능 명칭\n  - 차량 내비게이션 시스템(Navigation/NAV) 및 인포테인먼트 디스플레이\n\n- 핵심 설명\n  - 운전 중 위치 정보, 지도, 목적지 경로 안내를 제공하는 차내 시스템입니다. 음성 명령, 지도 표시 방식(2D/3D), 목적지 입력, 경로 옵션(가장 빠른 길, 경제 운전 등)을 지원합니다. 이미지 하단 우측에 보이는 “NAV” 표기는 이 부품이 내비게이션 관련 화면임을 시사합니다.\n\n- 사용 방법\n  - 내비게이션 활성화: 인포테인먼트 메뉴에서 NAV를 선택\n  - 목적지 입력: 주소 입력, 최근 목적지, 즐겨찾기 등에서 선택\n  - 경로 선택: 다양한 경로 옵션(가장 빠른/가장 경제적 등)을 비교해 루트를 시작\n  - 지도 화면 조정: 줌/회전, 3D 지도 전환, 지도 유형(도로/위성 등) 설정\n  - 보조 기능: 음성 명령으로 목적지 설정, 지도 음성 안내, 실시간 교통정보 수신 등\n\n- 주의사항\n  - 운전 중 화면 조작은 최소화하고 필요 시 정차 후 설정 변경 권장\n  - 지도 데이터 업데이트를 최신으로 유지할 것(오래된 지도는 경로 오차 가능성 증가)\n  - 개인정보 및 보안: 위치 정보 공유 설정 주의\n  - 하드웨어 문제 시 서비스 매뉴얼 또는 딜러 문의\n\n- 참조 정보 (BMW 매뉴얼 페이지)\n  - Page 1: page_072.png (유사도: 11.00) — 내비게이션 기본 화면 및 간단한 조작법\n  - Page 2: page_006.png (유사도: 10.81) — 인포테인먼트 시스템의 기본 메뉴 구성\n  - Page 3: page_480.png (유사도: 10.62) — 지도 설정과 경로 옵션 세부 조정\n  - Page 4: page_118.png (유사도: 10.56) — 음성 명령 및 보조 기능 사용 방법\n  - Page 5: page_136.png (유사도: 10.56) — 교통정보 및 실시간 업데이트 설정\n\n참고 및 추가 안내\n- 사용하신 이미지에는 “NAV” 표기가 보이므로, 이 부품이 네비게이션 시스템과 관련된 화면임을 확인할 수 있습니다. 만약 특정 화면 프로세스나 메뉴의 정확한 해석이 필요하시면, 더 선명한 이미지(특정 화면의 실제 메뉴 화면 또는 버튼 위치가 보이는 사진)를 공유해 주시면 해당 화면에 맞춘 자세한 지침을 드리겠습니다.",
+    "expected_answer": "내비게이션 목적지 입력 메뉴 열기",
+    "source_page": 147,
+    "processing_time": 8.725830793380737,
+    "success": true
+  },
+  {
+    "experiment_id": "q56_text_image",
+    "question_id": "56",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/18.jpg",
+    "search_results": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 12.625,
+        "rank": 1
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 12.0625,
+        "rank": 2
+      },
+      {
+        "image_name": "page_066.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_066.png",
+        "similarity_score": 12.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 12.0,
+        "rank": 4
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 12.0,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 이미지는 자동차 내부에서 사용하는 제어 부품들로 보이며, 특히 아래의 두 가지를 먼저 확인할 수 있습니다.\n\n- 부품/기능 명칭\n  - 엔진 시동/종료 버튼 (Start/Stop Engine)\n  - BMW 터치 커맨드(또는 인포테인먼트 제어 화면의 백/메뉴 버튼 등 메뉴 제어 요소)\n\n- 핵심 설명\n  - 엔진 시동/종료 버튼: 차량의 키가 차량 내부에 있을 때 이 버튼을 눌러 시동을 거나 시동을 끕니다. 보통 브레이크 페달을 밟은 상태에서 버튼을 누르면 시동이 걸리며, 다시 누르면 시동이 꺼집니다.\n  - BMW 터치 커맨드 및 화면 제어 요소: 좌우 화면에서 메뉴를 탐색하고, 손가락으로 스와이프하거나 버튼으로 선택/확인을 합니다. 백(BACK), 메뉴(MENU), 옵션(OPTION) 등의 동작으로 화면 간 이동과 기능 선택을 합니다.\n\n- 사용 방법\n  - 엔진 시동/종료\n    - 키가 차량 내부에 있을 때: 브레이크 페달을 밟고 엔진 시동/종료 버튼을 한 번 눌러 시동을 걸거나 끕니다.\n    - 주의: 주행 중 시동을 끄면 안전에 위험이 있으니 반드시 정차 상태에서만 처리합니다.\n  - 터치 커맨드/메뉴 제어\n    - 화면의 원하는 메뉴를 터치하거나, 좌우로 스크롤하여 항목을 선택합니다.\n    - MENU 버튼으로 메인 메뉴를 호출하고 BACK 버튼으로 이전 화면으로 돌아갑니다.\n    - OPTION 버튼으로 해당 화면의 설정 메뉴를 불러오고, 음향/볼륨 등 세부 설정을 조정합니다.\n\n- 주의사항\n  - 엔진 시동/종료 시에는 차가 완전히 정차되어 있고, 안전벨트를 매고 있어야 합니다.\n  - 브레이크를 해제하지 않고 시동을 끄면 비정상 작동이 될 수 있습니다. 제조사 지침에 따라 정지 상태에서만 시동 종료를 권장합니다.\n  - 터치 커맨드 화면은 운전 중 주의 산만을 유발할 수 있으므로 필요 시에만 조작하고, 주행 중에는 간단한 조작으로 한정합니다.\n\n- 참조 정보\n  - BMW 관련 메뉴얼 페이지(참조 가능 항목)\n    - page_178.png (유사도: 12.62)\n    - page_480.png (유사도: 12.06)\n    - page_066.png (유사도: 12.00)\n    - page_072.png (유사도: 12.00)\n    - page_118.png (유사도: 12.00)\n  - 이 5페이지는 엔진 시동/중단 절차, BMW Touch Command의 사용 방법, 화면 내비게이션/메뉴 조작법 등에 대한 설명을 포함하고 있습니다.\n\n참고로 이미지를 확인해 보았고, 가리킨 주요 부품은 엔진 시동 버튼이며, 추가로 화면 제어 키(Back, Menu, Option 등) 및 터치 제어 화면 구성을 확인했습니다. 필요하시면 해당 매뉴얼 페이지의 구체적인 문맥과 그림을 기반으로 상세 절차를 단계별로 정리해 드리겠습니다.",
+    "expected_answer": "한 번 누름: 이전 화면으로 / 길게 누름: 최근 사용한 메뉴 목록 호출",
+    "source_page": 147,
+    "processing_time": 11.009482145309448,
+    "success": true
+  },
+  {
+    "experiment_id": "q57_text_image",
+    "question_id": "57",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/19.jpg",
+    "search_results": [
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 11.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 11.4375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_175.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_175.png",
+        "similarity_score": 11.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_480.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_480.png",
+        "similarity_score": 10.9375,
+        "rank": 4
+      },
+      {
+        "image_name": "page_118.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_118.png",
+        "similarity_score": 10.875,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품 이미지에 기반한 분석 및 안내입니다.\n\n- 부품/기능 명칭\n  - 엔진 스타트/스톱 버튼 (Start/Stop Engine)\n\n- 핵심 설명\n  - 차량의 엔진 시동 및 정지를 제어하는 버튼으로, 키리스 엔트리 환경에서 일반적으로 브레이크 페달을 밟은 상태에서 이 버튼을 눌러 엔진을 시동하거나 시동을 끕니다. 주로 스위치형 시동 시스템에서 사용됩니다.\n\n- 사용 방법\n  - 시동 걸기:\n    - 브레이크 페달을 밟은 상태에서 스타트/스톕 엔진 버튼을 한 번 누릅니다.\n    - 엔진이 시동되면 버튼의 표시가 활성화되고 대시보드의 대시가 켜집니다.\n  - 시동 끄기:\n    - 차를 완전히 멈추고 브레이크를 밟은 상태에서 스타트/스톕 버튼을 한 번 누릅니다. 엔진이 꺼지며 차량 아이들 상태가 됩니다.\n  - 주의: 키가 차 안에 있어야 하며, 차량이 정지 상태에서만 시동/정지를 수행해야 합니다. 일부 모델은 ‘브레이크를 밟지 않으면 시동이 걸리지 않도록’ 안전장치가 작동합니다.\n\n- 주의사항\n  - 시동 중에는 차량 내 외부에서 엔진 작동 소음과 배기가스를 확인하십시오.\n  - 엔진을 끈 직후에도 차량의 전자 시스템이 잠깐 전원을 유지할 수 있으니 주의하여 차량 움직임을 방지합니다.\n  - 비정상적으로 작동하거나 버튼이 눌리지 않는 경우 즉시 점검이 필요합니다.\n  - 도로 주행 중 갑작스러운 엔진 정지는 위험하므로, 안전한 장소에 정차한 후 시동을 관리하십시오.\n  - 어린이 접근 금지 및 부주의한 조작 주의.\n\n- 참조 정보\n  - 페이지 1: page_178.png (유사도: 11.50)\n  - 페이지 2: page_072.png (유사도: 11.44)\n  - 페이지 3: page_175.png (유사도: 11.00)\n  - 페이지 4: page_480.png (유사도: 10.94)\n  - 페이지 5: page_118.png (유사도: 10.88)\n\n참고: 사용자가 가리킨 차량 부품 이미지는 엔진 스타트/스톱 버튼임을 확인했습니다. 필요하시면 해당 부품이 포함된 구체 모델 연식에 맞춘 시동 시스템 매뉴얼의 구체 절차를 더 자세히 안내해 드리겠습니다.",
+    "expected_answer": "현재 화면의 옵션 메뉴 열기",
+    "source_page": 147,
+    "processing_time": 7.397443056106567,
+    "success": true
+  },
+  {
+    "experiment_id": "q58_text_image",
+    "question_id": "58",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/21.jpg",
+    "search_results": [
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 11.0625,
+        "rank": 1
+      },
+      {
+        "image_name": "page_258.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_258.png",
+        "similarity_score": 11.0625,
+        "rank": 2
+      },
+      {
+        "image_name": "page_507.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_507.png",
+        "similarity_score": 10.875,
+        "rank": 3
+      },
+      {
+        "image_name": "page_251.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_251.png",
+        "similarity_score": 10.8125,
+        "rank": 4
+      },
+      {
+        "image_name": "page_250.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_250.png",
+        "similarity_score": 10.75,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품/기능에 대한 요약과 사용 방법입니다.\n\n- 부품/기능 명칭\n  - 드라이브 모드 시스템(Drive modes) 및 계기판 디스플레이\n  - 세부 모드: COMFORT, SPORT, SPORT PLUS, ECO PRO, ADAPTIVE, INDIVIDUAL\n  - 모드 전환 스위치/버튼과 계기판의 표시 인디케이터\n\n- 핵심 설명\n  - 개념: 운전 상황에 맞춰 엔진 응답, 변속기 특성, 서스펜션/스티어링 등의 설정을 다르게 구성해 주행 특성을 바꿔주는 기능. 각 모드는 다이나믹한 주행, 연비 최적화, 승차감 우선 등 서로 다른 우선순위를 제공합니다.\n  - 모드별 특징\n    - COMFORT: 동력과 연비의 균형, 부드러운 반응으로 편안한 주행.\n    - SPORT: 다이내믹한 주행을 위한 더 빠른 응답, 스포츠 주행성 강화.\n    - SPORT PLUS: SPORT의 확장형으로 더 적극적이고 날카로운 반응.\n    - ECO PRO: 연비 최적화를 위한 절제된 엔진 반응 및 에너지 관리.\n    - ADAPTIVE: 주행 상황과 운전 스타일에 맞춰 자동으로 설정을 조정하는 적응형 모드.\n    - INDIVIDUAL: 운전자가 선호하는 개별 설정으로 커스텀 구성.\n  - 계기판 디스플레이: 선택된 모드에 따라 계기판에 해당 모드명이 표시되며, 특정 모드에서는 M4 등 특정 구성을 보여주기도 합니다.\n\n- 사용 방법\n  - 모드 전환\n    - SPORT, SPORT PLUS, COMFORT, ECO PRO 중 하나의 버튼/스위치를 누르면 계기판에 해당 모드가 표시됩니다.\n    - 필요 시 INDIVIDUAL 모드에서 개별 설정을 저장/적용할 수 있습니다.\n  - 모드 간 전환 시점\n    - 교통 상황, 노면 상태, 연비 목표, 스포츠 주행 의도 등에 따라 주행 도중에 변경해도 됩니다.\n  - 계기판 확인\n    - 현재 선택된 모드는 계기판의 디스플레이에 “SPORT”, “COMFORT” 등으로 표시되며, ADAPTIVE나 INDIVIDUAL일 때도 해당 모드명이 표시됩니다.\n\n- 주의사항\n  - 급가속·고속에서 모드가 자동으로 바뀌는 경우가 있으므로, 도로 상황에 맞춰 수동으로 모드를 선택하는 것이 안전합니다.\n  - INDIVIDUAL 모드에서 설정을 임의로 변경하면 주행 특성이 크게 달라질 수 있어, 초기에는 기본값으로 되돌려 두는 것이 좋습니다.\n  - ECO PRO 모드 사용 시 가속 응답이 느려질 수 있어, 추월 시에는 모드를 변경해 주는 것이 바람직합니다.\n  - 도로상태가 좋지 않거나 고속 주행 시 모드 간 급격한 변경은 차체의 거동에 영향을 줄 수 있습니다.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지를 바탕으로 한 요약:\n    - 페이지 page_250.png: DRIVE MODES 및 INDIVIDUAL 설정 개요\n    - 페이지 page_251.png: SPORT 및 SPORT PLUS의 구체적 작동 원리와 운전 경험\n    - 페이지 page_258.png: ECO PRO 및 ADAPTIVE 설정 원리와 Switching 방법\n    - 페이지 page_072.png: 계기판 디스플레이 및 모드 연결성에 대한 설명\n    - 페이지 page_507.png: 운전 클러스터에 표시되는 모드 정보 및 일반적인 주의사항\n  - 온라인 편집판 정보 번호: 01402988436 - X/17\n\n참고: 사용자가 가리킨 차량 부품 이미지에 대해서도 확인했습니다. 이미지의 부품은 운전 모드 제어와 계기판 디스플레이(드라이브 모드 선택 버튼 및 모드 표시)와 연관된 영역으로 보입니다. 해당 부품은 드라이브 모드 스위치 및 계기판 모드 표시를 포함하는 운전 보조 시스템의 일부로 해석됩니다.\n\n추가로 원하시면, 현재 차량의 구체 모델(예: X1, X3 등)과 연식에 따른 모드 설정 조합별 최적화 가이드를 더 자세히 정리해 드리겠습니다.",
+    "expected_answer": "민첩/스포티 주행(가속·변속·스티어링 반응 강화).",
+    "source_page": 250,
+    "processing_time": 8.377822875976562,
+    "success": true
+  },
+  {
+    "experiment_id": "q59_text_image",
+    "question_id": "59",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/22.jpg",
+    "search_results": [
+      {
+        "image_name": "page_498.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_498.png",
+        "similarity_score": 11.5,
+        "rank": 1
+      },
+      {
+        "image_name": "page_250.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_250.png",
+        "similarity_score": 11.4375,
+        "rank": 2
+      },
+      {
+        "image_name": "page_202.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_202.png",
+        "similarity_score": 11.0,
+        "rank": 3
+      },
+      {
+        "image_name": "page_190.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_190.png",
+        "similarity_score": 10.9375,
+        "rank": 4
+      },
+      {
+        "image_name": "page_318.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_318.png",
+        "similarity_score": 10.8125,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품/기능에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - DRIVE MODES(주행 모드) 및 COMFORT 모드\n- 핵심 설명\n  - COMFORT 모드는 동적 주행과 연비를 균형 있게 조정하는 주행 모드로, 차체 세팅을 편안한 승차감에 맞춰 설정합니다. SPORT 등 다른 모드와 달리 부드러운 핸들링과 완충 성능에 초점을 둡니다. 관련 시스템으로는 Integral Active Steering, Drive mode Switch 등의 구성 요소가 함께 작동합니다.\n- 사용 방법\n  - 운전대 근처의 드라이브 모드 선택 스위치를 누르거나 해당 컨트롤러를 이용해 모드를 순환시키며 COMFORT가 표시되도록 합니다.\n  - 계기판 클러스터에 COMFORT가 표시되면 해당 모드가 활성화됩니다. SPORT, ECO PRO 등 다른 모드로도 쉽게 전환 가능하며, 필요 시 각 모드의 설정이 즉시 반영됩니다.\n  - Comfort Access 등 보조 기능이 켜져 있을 때도 모드 전환은 가능하며, 시스템은 선택된 모드에 맞춰 주행 특성을 조정합니다.\n- 주의사항\n  - 모드 전환 직후 차체의 반응이 다소 다를 수 있으니, 급가속이나 급제동 등 주행 특성 변화가 큰 상황에서는 주의해 운전하십시오.\n  - 특정 주행 모드 간에는 핸들링 특성 변화가 크므로, 악천후나 미끄러운 도로에서는 현재 모드의 한계를 인지하고 필요 시 다른 모드로 전환하십시오.\n  - 차세대 전자 제어 시스템에 의존하는 모드이므로, 시스템 경고등이 켜지면 점검이 필요합니다.\n- 참조 정보\n  - BMW 매뉴얼에서 드라이브 모드(Drive modes) 및 COMFORT 관련 설명 참조\n  - 관련 페이지/섹션:\n    - 페이지_498.png\n    - 페이지_250.png\n    - 페이지_202.png\n    - 페이지_190.png\n    - 페이지_318.png\n  - 이들 페이지에는 COMFORT, SPORT, SPORT INDIVIDUAL 등 드라이브 모드의 원리, Switching On, 작동 원리, 각 모드의 구성 등에 대한 상세 설명이 포함되어 있습니다.\n\n참고: 사용자가 가리킨 이미지는 계기판이나 컨트롤에 “COMFORT” 텍스트가 표시된 상태로 보이며, 이는 COMFORT 모드가 활성화되었음을 나타냅니다. 필요 시 다른 모드로의 전환 방법과 각 모드의 동작 특성에 대해 위의 참조 정보를 확인해 주세요.",
+    "expected_answer": "주행감/연비의 균형형 기본 세팅.",
+    "source_page": 250,
+    "processing_time": 9.175066232681274,
+    "success": true
+  },
+  {
+    "experiment_id": "q60_text_image",
+    "question_id": "60",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/23.jpg",
+    "search_results": [
+      {
+        "image_name": "page_411.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_411.png",
+        "similarity_score": 12.875,
+        "rank": 1
+      },
+      {
+        "image_name": "page_409.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_409.png",
+        "similarity_score": 12.8125,
+        "rank": 2
+      },
+      {
+        "image_name": "page_410.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_410.png",
+        "similarity_score": 12.75,
+        "rank": 3
+      },
+      {
+        "image_name": "page_415.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_415.png",
+        "similarity_score": 12.75,
+        "rank": 4
+      },
+      {
+        "image_name": "page_251.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_251.png",
+        "similarity_score": 12.5625,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품(이미지의 버튼)과 관련 기능에 대한 정리입니다.\n\n- 부품/기능 명칭\n  - ECO PRO 버튼 및 ECO PRO 모드\n\n- 핵심 설명\n  - ECO PRO 모드는 연료 소모를 줄이고 효율적인 주행 스타일을 돕는 차량 내 운전 모드입니다. 버튼을 눌러 활성화하면 계기판과 인스트루먼트 클러스터에 효율 정보가 표시되고, 주행 스타일 분석 및 보너스 주행 범위가 제공됩니다. 또한 ECO PRO INDIVIDUAL 설정을 통해 운전자의 선호에 맞춘 개별 구성이 가능합니다.\n  - 계기판 디스플레이는 현재 연료 소비와 함께 ECO PRO의 상태를 안내하고, 인스트루먼트 클러스터의 전용 디스플레이로 모드 정보를 보여줍니다. 보너스 주행 범위는 운전 스타일에 따라 증가할 수 있으며, 표시 방식은 장비 버전에 따라 차이가 있을 수 있습니다.\n\n- 사용 방법\n  - 간단 사용:\n    - ECO PRO 버튼을 누르면 운전 모드가 활성화됩니다. 인스트루먼트 클러스터에 ECO PRO 관련 정보가 나타납니다.\n  - iDrive를 통한 설정(개인화):\n    - My Vehicle > Vehicle settings > ECO PRO INDIVIDUAL 구성\n    - 아래 항목 중 원하는 설정을 선택: damping, steering, engine, transmission, 좌석 등\n    - 선택 후 설정은 현재 사용 중인 드라이버 프로파일에 저장됩니다.\n  - ECO PRO 기능 활성화/해제의 기본 흐름:\n    - ECO PRO를 활성화하면 연료 효율 중심의 운전 기능들이 자동으로 활성화됩니다.\n    - 필요 시 ECO PRO INDIVIDUAL로 세부 기능을 조정하고, 더 이상 필요 없으면 기본(Standard)으로 초기화할 수 있습니다.\n\n- 주의사항\n  - 운전 상황에 따라 일부 기능(예: 스포츠 주행 특성의 제어, 엔진 회생 등)이 비활성화되거나 제한될 수 있습니다.\n  - ECO PRO는 편안한 주행보다 연료 절감을 우선하는 설정이므로 가속 성능이 다소 떨어질 수 있습니다.\n  - 탑재 옵션 및 차종에 따라 ECO PRO의 가시 정보나 보너스 주행 범위 표기가 다를 수 있습니다.\n  - 장시간 비활성화 상태에서 재활성화 시 초기화가 필요할 수 있습니다(드라이버 프로파일 재로딩 등).\n\n- 참조 정보\n  - BMW 매뉴얼 Driving hints 섹션 관련:\n    - ECO PRO: 버튼으로 활성화하는 기본 방법 및 INDIVIDUAL 구성 방법\n    - 인스트루먼트 클러스터에 표시되는 정보 및 보너스 범위 설명\n  - 관련 페이지(참조 페이지 순서):\n    - page_411.png: ECO PRO 관련 일반 설명 및 보너스 범위 개요\n    - page_409.png: 운전 스타일 분석 및 INDIVIDUAL 설정 항목의 위치\n    - page_410.png: ECO PRO INDIVIDUAL 설정 및 Switching on 방법\n    - page_415.png: ECO PRO 구성의 Display 및 시스템 안내(인스트루먼트 클러스터 디스플레이)\n    - page_251.png: 나머지 Driving hints의 일반 안내 및 기능 연결성\n  - 또한 이미지에서 확인된 부품: ECO PRO 버튼 및 ECO PRO 모드가 활성화될 때의 계기판 표시\n\n참고로, 제시된 페이지 번호는 온라인 매뉴얼의 매핑 정보로, 각 페이지에는 ECO PRO 활성화 방법, INDIVIDUAL 구성, 운전 스타일 분석, 디스플레이 정보 등이 자세히 정리되어 있습니다. 필요하시면 해당 매뉴얼의 구체적인 문구를 발췌해 드리겠습니다.",
+    "expected_answer": "연비 최적화 설정(출력/에어컨/변속 전략 절약형).",
+    "source_page": 251,
+    "processing_time": 10.622652292251587,
+    "success": true
+  },
+  {
+    "experiment_id": "q61_text_image",
+    "question_id": "61",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/24.jpg",
+    "search_results": [
+      {
+        "image_name": "page_144.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_144.png",
+        "similarity_score": 11.25,
+        "rank": 1
+      },
+      {
+        "image_name": "page_178.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_178.png",
+        "similarity_score": 11.25,
+        "rank": 2
+      },
+      {
+        "image_name": "page_259.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_259.png",
+        "similarity_score": 11.0625,
+        "rank": 3
+      },
+      {
+        "image_name": "page_317.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_317.png",
+        "similarity_score": 10.9375,
+        "rank": 4
+      },
+      {
+        "image_name": "page_072.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_072.png",
+        "similarity_score": 10.9375,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 보여준 부품 이미지에 대한 해석 및 안내입니다.\n\n- 부품/기능 명칭\n  - 엔진 시동 버튼(Start/Stop Engine) 및 DSC OFF 표시등(Drive Stability Control OFF)\n- 핵심 설명\n  - 엔진 시동 버튼: 차량의 엔진을 시동하거나 시동을 종료하는 컨트롤로, 브레이크를 밟은 상태에서 버튼을 누르거나 누른 채로 조작합니다.\n  - DSC OFF 표시등: 차체의 차량 안정성 제어 시스템(DSC)이 비활성화된 상태를 계기판 또는 인스트루먼트 클러스터에 표시하는 경고/정보 아이콘입니다.\n- 사용 방법\n  - 엔진 시동/정지\n    - 브레이크 페달을 밟은 상태에서 Start/Stop 버튼을 누르면 엔진이 시동되거나 시동이 종료됩니다.\n    - 자동 기어박스일 경우도 시동은 동일하게 작동하며, 필요 시 시동 여부를 운전 환경에 맞춰 확인합니다.\n  - DSC OFF 상태 확인 및 제어\n    - DSC를 비활성화하고 싶은 상황에서 DSC OFF 버튼(또는 설정에 따라 인포테인먼트/컨트롤러를 통해 비활성화)을 누르면 OFF 아이콘이 점등될 수 있습니다.\n    - 필요 시 DSC를 다시 활성화하면 OFF 표시가 사라집니다.\n- 주의사항\n  - 엔진 시동/정지 시 주변에 사람이 없도록 하며, 차가 완전히 멈춘 상태에서 시동/정지를 하는 것이 안전합니다.\n  - DSC OFF 상태를 장시간 유지하는 것은 주행 안정성에 영향을 줄 수 있으므로, 눈길이나 미끄러운 도로 등 위험한 조건에서는 DSC를 켜고 운전하는 것이 권장됩니다.\n  - Start/Stop 버튼 주변의 상태등(DSC OFF 등)은 차량의 시스템 상태를 반영하니, 비정상적으로 계속 켜져 있거나 깜박일 경우 매뉴얼의 점검 항목을 확인하십시오.\n- 참조 정보\n  - BMW 매뉴얼 페이지와 연관 정보:\n    - 페이지 1: page_144.png (유사도: 11.25)\n    - 페이지 2: page_178.png (유사도: 11.25)\n    - 페이지 3: page_259.png (유사도: 11.06)\n    - 페이지 4: page_317.png (유사도: 10.94)\n    - 페이지 5: page_072.png (유사도: 10.94)\n  - 관련 내용 요약\n    - Start/Stop 엔진 버튼의 사용 방법 및 Drive-ready 상태 전개(Drive-ready state) 구조\n    - DSC OFF 및 Activate/Deactivate DTC 등 드라이빙 다이나믹스와 컨트롤에 대한 설명\n    - 외부 조건에서의 주의사항 및 제어 상태 표시 방법\n  - 참고로, 이 이미지는 Start/Stop 엔진 버튼과 DSC OFF 경고등이 함께 보이는 구성으로, 매뉴얼의 엔진 시동 제어 및 DSC 관련 섹션과 연결됩니다.\n\n추가로 원하시면:\n- 이 부품의 정확한 모델/트림별 차이점(예: 특정 차량 세대의 Start/Stop 버튼 모양 및 위치)\n- DSC OFF 버튼의 위치와 표시등 해석에 대한 자세한 예시\n- 운전 상황별 권장 설정(도심 주행 vs. 악천후)\n\n를 더 자세히 정리해 드리겠습니다. 원하시는 포맷이나 추가 정보가 있나요?",
+    "expected_answer": "DSC 비활성/ DTC 활성 (DSC(차체자세제어) OFF 또는 DTC(견인력 모드)",
+    "source_page": 255,
+    "processing_time": 10.775987386703491,
+    "success": true
+  },
+  {
+    "experiment_id": "q62_text_image",
+    "question_id": "62",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/29.jpg",
+    "search_results": [
+      {
+        "image_name": "page_353.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_353.png",
+        "similarity_score": 17.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_359.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_359.png",
+        "similarity_score": 15.625,
+        "rank": 2
+      },
+      {
+        "image_name": "page_237.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_237.png",
+        "similarity_score": 15.625,
+        "rank": 3
+      },
+      {
+        "image_name": "page_238.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_238.png",
+        "similarity_score": 15.5625,
+        "rank": 4
+      },
+      {
+        "image_name": "page_271.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_271.png",
+        "similarity_score": 15.4375,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음 이미지는 BMW의 “주차 브레이크( Parking brake )” 관련 아이콘 중 하나로 보입니다.\n\n- 부품/기능 명칭\n  - 주차 브레이크 아이콘(Parking brake indicator) 또는 Park Assist 상태 표시 아이콘\n\n- 핵심 설명\n  - 계기판이나 컨트롤 디스플레이에 점등되는 P 아이콘(원 안에 P 모양)은 주차 브레이크가 작동 중임을 알려줍니다. 일부 상황에서 Automatic Hold 또는 Park Assist 가 활성화된 상태를 표시하기도 합니다.\n  - 주차 브레이크가 작동 중일 때는 차량의 정차를 유지하도록 도와주고, 자동 정지/출발 보조 기능과도 연계될 수 있습니다.\n\n- 사용 방법\n  - 주차 시: 주차 브레이크 스위치를 이용해 주차 브레이크를 작동시킵니다.\n  - 해제 시: 브레이크 페달을 밟거나 스위치를 다시 작동시켜 주차 브레이크를 해제합니다. Auto Hold가 설정된 경우에는 주정차 상황에서 차량이 멈춘 뒤에도 브레이크가 자동으로 유지되었다가 필요 시 해제됩니다.\n  - Park Assist가 활성화된 경우 표시가 함께 나타나며, 표시 내용은 매뉴얼의 해당 섹션에 자세히 설명됩니다.\n\n- 주의사항\n  - 주차 브레이크가 해제되지 않은 상태로 주행하지 마세요. 주행 전에 반드시 해제되어 있어야 합니다.\n  - 자동 Hold/Park Assist 기능의 작동 중 이상 신호가 있거나 아이콘이 비정상적으로 지속될 경우 매뉴얼의 점검 절차를 따르거나 정비소에 문의하세요.\n\n- 참조 정보\n  - 관련 BMW 매뉴얼 페이지 예시:\n    - page_353.png (유사도 약 17.00)\n    - page_359.png (유사도 약 15.62)\n    - page_237.png (유사도 약 15.62)\n    - page_238.png (유사도 약 15.56)\n    - page_271.png (유사도 약 15.44)\n  - 해당 페이지들에서 Parking brake, Auto Hold, Park Assist 관련 설명과 안전 주의사항, 사용 방법이 구체적으로 기술되어 있습니다. 예: Parking brake 개념, Cancelling/Releasing, Automatic Hold, 및 일반 운전 중의 주차 브레이크 작동 원리 등.\n\n추가로, 사용 중인 차량의 실제 부품 이미지가 가리키는 부품이 위 아이콘과 동일한지 확인해 드릴 수 있습니다. 이미지와 함께 차종/연식 정보를 알려주시면 더 정확한 매뉴얼 참조 범위를 제시해 드리겠습니다.",
+    "expected_answer": "주차 브레이크(PARK) 표시",
+    "source_page": 255,
+    "processing_time": 9.22049069404602,
+    "success": true
+  },
+  {
+    "experiment_id": "q63_text_image",
+    "question_id": "63",
+    "input_type": "text_image",
+    "original_text": "이게 뭔가요",
+    "processed_text": "이게 뭔가요",
+    "query_image_path": "Paper_Exp/Query_images/Symbol/30.jpg",
+    "search_results": [
+      {
+        "image_name": "page_238.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_238.png",
+        "similarity_score": 16.0,
+        "rank": 1
+      },
+      {
+        "image_name": "page_239.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_239.png",
+        "similarity_score": 15.5625,
+        "rank": 2
+      },
+      {
+        "image_name": "page_236.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_236.png",
+        "similarity_score": 15.3125,
+        "rank": 3
+      },
+      {
+        "image_name": "page_367.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_367.png",
+        "similarity_score": 15.25,
+        "rank": 4
+      },
+      {
+        "image_name": "page_371.png",
+        "image_path": "output/PDF_Images/Manual_PDF/page_371.png",
+        "similarity_score": 15.0625,
+        "rank": 5
+      }
+    ],
+    "llm_response": "다음은 사용자가 가리킨 부품/기능에 대한 정리와 사용 방법입니다.\n\n- 부품/기능 명칭\n  Automatic Hold(자동 정지 제어, 주차 브레이크 자동 유지 기능)\n\n- 핵심 설명\n  주차 브레이크를 작동 상태로 두고 차량이 정지 상태에 있을 때 운전석에서 벗어나도 차량이 스스로 앞으로 미끄러지지 않도록 잡아주는 기능입니다. Auto Hold가 활성화되면 드라이브-Ready 상태에서 정지 후에도 브레이크가 자동으로 유지됩니다. 주행 중에는 필요 시 해제할 수 있으며, 특정 조건에서 전원 차단 시점에도 작동 여부가 표시됩니다. 인디케이터 램프가 초록에서 빨간으로 바뀌고, 다시 작동 가능 상태가 되면 다시 녹색으로 변화합니다. 일반적으로 \"AUTO H\" 아이콘이나 주행 중 계기판에 표시됩니다.\n\n- 사용 방법\n  1) Auto Hold 활성화/설정\n     - 드라이브-Ready 상태에서 자동차가 정지하면 자동으로 Hold가 적용될 수 있습니다. LED가 녹색에서 빨간으로 바뀌는 경우가 있으며, 시스템이 정지 상태를 유지합니다.\n     - 필요 시 운전자는 버튼으로 Auto Hold를 수동으로 켜거나 끌 수 있습니다. 계기판에 AUTO H 표시가 켜집니다.\n  2) 정지 중 운전 시\n     - 주행 중 정지하고 브레이크를 놓아도 Auto Hold가 작동하면 차량이 제자리에 머무릅니다.\n     - 다시 움직일 필요가 있을 때 가속 페달이나 기어 바꿔서 차량에 움직임이 생기면 Hold가 해제됩니다.\n  3) 비상 상황/전원 차단 시\n     - 파워 실패 후 재시동 시 Hold 기능이 재설정될 수 있으며, INDICATOR 램프가 더 이상 밝게 빛나지 않으면 기능이 해제된 상태입니다.\n  4) 작동 상태 확인\n     - 계기판의 AUTO H 표식 또는 LED가 켜져 있으면 자동 Hold가 작동 중임을 알 수 있습니다.\n  5) 주행 보조와 관련된 주의사항\n     - 자동 Hold가 작동 중일 때도 차량의 안전거리 및 교통 상황은 운전자의 주의 아래에 있습니다.\n\n- 주의사항\n  - 서스펜션이 해제되거나 도로 상황에 따라 Hold가 해제될 수 있으므로, 항상 전방 주시와 안전거리 유지가 필요합니다.\n  - 자동 Hold가 비활성화되거나 시스템에 오류가 있을 수 있으므로, 기능이 정상적으로 작동하는지 주행 전 점검이 권장됩니다.\n  - 비상 상황에서 Auto Hold가 즉시 해제되거나 작동이 중단될 수 있으니, 필요 시 수동 브레이크를 사용하십시오.\n  - 승객의 자동차 탑승/하차 시에도 Hold가 예상대로 작동하지 않을 수 있으므로 주의가 필요합니다.\n  - 매뉴얼에서 밝힌 대로 Auto Start Stop 등 다른 시스템과의 상호작용을 이해하고 운전하십시오.\n\n- 참조 정보\n  - BMW 매뉴얼 페이지: Automatic Hold 및 관련 작동 원리\n    - page_238.png\n    - page_239.png\n    - page_236.png\n    - page_367.png\n    - page_371.png\n  - 관련 주행/컨트롤 섹션에서도 Automatic Hold의 작동 순서, 전원 차단 시 동작, 정지 상태에서의 유지, 전/후 작동 상태에 대해 상세히 다룹니다.\n  - 참고로 제공된 이미지(계기판에 표시되는 AUTO H 및 도어/트랜스미션 관련 컨트롤 레이아웃)로부터도 Auto Hold의 활성화 여부와 상태 표시를 확인할 수 있습니다.\n\n추가로 이미지에서 확인된 부품은 \"Automatic Hold(주차 브레이크 자동 유지)\"이며, 계기판의 AUTO H 표식과 주행 컨트롤 레버 주변의 안내 텍스트를 통해 작동 여부를 확인하실 수 있습니다. 필요하시면 차량 모델과 연식에 맞춘 구체적인 절차(버튼 위치, 스위치/레버의 정확한 조작 단계)를 사진 예시와 함께 더 자세히 설명해 드리겠습니다.",
+    "expected_answer": "기능이 활성 시 정지 시 브레이크 페달을 밟지 않아도 차량을 자동으로 고정",
+    "source_page": 256,
+    "processing_time": 13.663109302520752,
+    "success": true
+  }
+]

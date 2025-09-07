@@ -1,0 +1,154 @@
+[
+  {
+    "id": 2.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/2.jpg",
+    "expected_answer": "중앙 잠금 시스템: 잠금 해제",
+    "source_page": 139.0
+  },
+  {
+    "id": 3.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/3.jpg",
+    "expected_answer": "중앙 잠금 시스템: 잠금",
+    "source_page": 139.0
+  },
+  {
+    "id": 5.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/5.jpg",
+    "expected_answer": "뒷유리 롤러 선블라인드 작동",
+    "source_page": 138.0
+  },
+  {
+    "id": 6.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/6.jpg",
+    "expected_answer": "세이프티 스위치(유아 보호/뒷좌석 창 작동 차단 등)",
+    "source_page": 138.0
+  },
+  {
+    "id": 7.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/7.jpg",
+    "expected_answer": "파워 윈도우 스위치",
+    "source_page": 138.0
+  },
+  {
+    "id": 11.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/11.jpg",
+    "expected_answer": "바깥 미러 조작(각도/폴딩)",
+    "source_page": 138.0
+  },
+  {
+    "id": 12.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/12.jpg",
+    "expected_answer": "전체적인 디스플레이 컨트롤",
+    "source_page": 146.0
+  },
+  {
+    "id": 13.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/13.jpg",
+    "expected_answer": "미디어/라디오 메뉴 열기",
+    "source_page": 147.0
+  },
+  {
+    "id": 14.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/14.jpg",
+    "expected_answer": "통신(전화/연락처 등) 메뉴 열기",
+    "source_page": 147.0
+  },
+  {
+    "id": 16.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/16.jpg",
+    "expected_answer": "내비게이션 지도 화면 호출",
+    "source_page": 147.0
+  },
+  {
+    "id": 17.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/17.jpg",
+    "expected_answer": "내비게이션 목적지 입력 메뉴 열기",
+    "source_page": 147.0
+  },
+  {
+    "id": 18.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/18.jpg",
+    "expected_answer": "한 번 누름: 이전 화면으로 / 길게 누름: 최근 사용한 메뉴 목록 호출",
+    "source_page": 147.0
+  },
+  {
+    "id": 19.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/19.jpg",
+    "expected_answer": "현재 화면의 옵션 메뉴 열기",
+    "source_page": 147.0
+  },
+  {
+    "id": 21.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/21.jpg",
+    "expected_answer": "민첩/스포티 주행(가속·변속·스티어링 반응 강화).",
+    "source_page": 250.0
+  },
+  {
+    "id": 22.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/22.jpg",
+    "expected_answer": "주행감/연비의 균형형 기본 세팅.",
+    "source_page": 250.0
+  },
+  {
+    "id": 23.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/23.jpg",
+    "expected_answer": "연비 최적화 설정(출력/에어컨/변속 전략 절약형).",
+    "source_page": 251.0
+  },
+  {
+    "id": 24.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/24.jpg",
+    "expected_answer": "DSC 비활성/ DTC 활성 (DSC(차체자세제어) OFF 또는 DTC(견인력 모드)",
+    "source_page": 255.0
+  },
+  {
+    "id": 29.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/29.jpg",
+    "expected_answer": "주차 브레이크(PARK) 표시",
+    "source_page": 255.0
+  },
+  {
+    "id": 30.0,
+    "input_type": "icon",
+    "query_text": "이게 뭔가요",
+    "image_path": "Paper_Exp/Query_images/Symbol/30.jpg",
+    "expected_answer": "기능이 활성 시 정지 시 브레이크 페달을 밟지 않아도 차량을 자동으로 고정",
+    "source_page": 256.0
+  }
+]

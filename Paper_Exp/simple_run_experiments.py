@@ -2,6 +2,7 @@ import os
 import sys
 import argparse
 from pathlib import Path
+import json
 
 # 프로젝트 루트 경로 설정
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

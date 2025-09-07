@@ -4,14 +4,9 @@ import sys
 from typing import Dict, List, Any
 from pathlib import Path
 
-# 상위 디렉토리의 processors import
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../'))
-from processors.llm_processor import LLMProcessor
-
 class RAGCheckerConverter:
     def __init__(self):
         """RAGChecker 변환기 초기화"""
-        self.llm_processor = LLMProcessor()
         print("RAGChecker 변환기 초기화 완료")
     
     def convert_experiment_results(self, experiment_results_file: str, output_file: str) -> str:
@@ -77,7 +72,7 @@ class RAGCheckerConverter:
             # response (LLM 생성 답변)
             response = result.get('llm_response', '')
             
-            # retrieved_context 생성
+            # retrieved_context 생성 (단순하게)
             retrieved_context = self._convert_search_results_to_context(
                 result.get('search_results', [])
             )
@@ -98,7 +93,7 @@ class RAGCheckerConverter:
     
     def _convert_search_results_to_context(self, search_results: List[Dict[str, Any]]) -> List[Dict[str, str]]:
         """
-        ColPali 검색 결과를 RAGChecker retrieved_context로 변환
+        ColPali 검색 결과를 RAGChecker retrieved_context로 변환 (단순화)
         
         Args:
             search_results: ColPali 검색 결과 리스트
@@ -115,10 +110,10 @@ class RAGCheckerConverter:
                 if doc_id.endswith('.png') or doc_id.endswith('.jpg'):
                     doc_id = os.path.splitext(doc_id)[0]  # 확장자 제거
                 
-                # text는 이미지에서 텍스트 추출
-                text_content = self._extract_text_from_manual_image(
-                    result.get('image_path', '')
-                )
+                # text는 단순히 페이지 정보만 포함 (LLM 호출 없음)
+                similarity_score = result.get('similarity_score', 0.0)
+                rank = result.get('rank', i+1)
+                text_content = f"BMW Manual Page: {doc_id} (Similarity: {similarity_score:.3f}, Rank: {rank})"
                 
                 context_item = {
                     "doc_id": doc_id,
@@ -132,50 +127,6 @@ class RAGCheckerConverter:
                 continue
         
         return retrieved_context
-    
-    def _extract_text_from_manual_image(self, image_path: str) -> str:
-        """
-        매뉴얼 이미지에서 텍스트 추출
-        
-        Args:
-            image_path: 이미지 경로
-            
-        Returns:
-            str: 추출된 텍스트
-        """
-        if not image_path or not os.path.exists(image_path):
-            return f"이미지 경로 없음: {image_path}"
-        
-        try:
-            # LLM을 사용해서 이미지에서 텍스트 추출
-            extraction_prompt = """
-            이 BMW 매뉴얼 이미지에서 모든 텍스트를 추출해주세요.
-            다음 형식으로 정리해주세요:
-            - 제목이나 헤더가 있으면 먼저 작성
-            - 본문 내용을 순서대로 작성
-            - 버튼명, 메뉴명 등도 포함
-            - 한글과 영어 모두 포함
-            
-            텍스트만 추출하고 설명은 추가하지 마세요.
-            """
-            
-            result = self.llm_processor.generate_bmw_manual_response(
-                user_prompt=extraction_prompt,
-                manual_pages=[],  # 빈 리스트
-                segmented_part=image_path
-            )
-            
-            extracted_text = result.get('response', '')
-            
-            # 텍스트가 너무 길면 요약
-            if len(extracted_text) > 500:
-                extracted_text = extracted_text[:500] + "..."
-            
-            return extracted_text
-            
-        except Exception as e:
-            print(f"텍스트 추출 실패 {image_path}: {e}")
-            return f"텍스트 추출 실패: {str(e)}"
     
     def convert_by_pipeline(self, experiment_dir: str, output_dir: str) -> Dict[str, str]:
         """
@@ -239,20 +190,25 @@ def test_ragchecker_converter():
     # 테스트용 실험 결과 생성
     test_results = [
         {
-            "experiment_id": "q1_none_text",
-            "question_id": 1,
-            "pipeline": "원본",
+            "experiment_id": "q1_text",
+            "question_id": "1",
             "input_type": "text",
-            "original_text": "{분할 스크린}에서 설정하고...",
-            "processed_text": "분할 스크린에서 설정하고...",
-            "llm_response": "분할 스크린에서는 지도, 교통상황 등을 설정할 수 있습니다.",
-            "expected_answer": "분할 스크린에서는 지도, 교통상황, 교통사건 등을 표시할 수 있습니다.",
+            "original_text": "리모컨으로 {트렁크}를 어떻게 여나요?",
+            "processed_text": "리모컨으로 트렁크를 어떻게 여나요?",
+            "llm_response": "리모컨의 트렁크 버튼을 약 1초 동안 누르고 있으면 트렁크가 열립니다.",
+            "expected_answer": "리모컨의 트렁크 버튼을 약 1초 동안 누르고 있으면 트렁크가 열립니다.",
             "search_results": [
                 {
-                    "image_name": "manual_page_25.png",
-                    "image_path": "../Query_images/3.png",
-                    "similarity_score": 0.85,
+                    "image_name": "page_193.png",
+                    "image_path": "output/PDF_Images/Manual_PDF/page_193.png",
+                    "similarity_score": 17.375,
                     "rank": 1
+                },
+                {
+                    "image_name": "page_194.png", 
+                    "image_path": "output/PDF_Images/Manual_PDF/page_194.png",
+                    "similarity_score": 16.375,
+                    "rank": 2
                 }
             ],
             "success": True
@@ -287,4 +243,24 @@ def test_ragchecker_converter():
             os.remove(test_file)
 
 if __name__ == "__main__":
-    test_ragchecker_converter()
+    import sys
+    
+    if len(sys.argv) == 1:
+        # 인자 없으면 테스트 실행
+        test_ragchecker_converter()
+    elif len(sys.argv) == 3:
+        # 실제 변환 실행
+        input_file = sys.argv[1]
+        output_file = sys.argv[2]
+        
+        converter = RAGCheckerConverter()
+        result_file = converter.convert_experiment_results(input_file, output_file)
+        print(f"변환 완료: {result_file}")
+    else:
+        print("사용법:")
+        print("  테스트: python ragchecker_converter.py")
+        print("  변환: python ragchecker_converter.py <입력파일> <출력파일>")
+        print("")
+        print("예시:")
+        print("  python ragchecker_converter.py all_results.json ragchecker_results.json")
+        sys.exit(1)

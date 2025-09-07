@@ -1,0 +1,452 @@
+{
+  "questions":[
+    {
+      "id": "1",
+      "query_text": "리모컨으로 {트렁크}를 어떻게 여나요?",
+      "image_path": "",
+      "expected_answer": "리모컨의 트렁크 버튼을 약 1초 동안 누르고 있으면 트렁크가 열립니다.",
+      "source_page": 160
+    },
+    {
+    "id": "2",
+    "query_text": "리모컨으로 {트렁크}를 닫는 방법은 무엇인가요?",
+    "image_path": "",
+    "expected_answer": "리모컨의 버튼을 누르고 계시면 트렁크가 자동으로 닫히며, 버튼에서 손을 떼면 닫힘이 중단됩니다.",
+    "source_page": 160
+    },
+    {
+      "id": "3",
+      "query_text": "손을 대지 않고 {트렁크}를 여는 기능이 있나요?",
+      "image_path": "",
+      "expected_answer": "센서가 차량 후방 중앙에서 발동작을 감지하면 손을 대지 않고 트렁크를 열 수 있는 기능이 있습니다.",
+      "source_page": 158
+    },
+    {
+      "id": "4",
+      "query_text": "트렁크를 열 때 주변을 살펴야 하는 이유는 무엇인가요?",
+      "image_path": "",
+      "expected_answer": "트렁크를 열 때 주변을 살펴야 하는 이유는 트렁크 리드가 열릴 때 뒤쪽이나 위쪽으로 젖혀지면서 신체가 끼이거나 물질적 피해가 발생할 수 있기 때문입니다.",
+      "source_page": 158
+    },
+    {
+      "id": "5",
+      "query_text": "트렁크가 열리다가 멈추는 경우는 어떤 때인가요?",
+      "image_path": "",
+      "expected_answer": "트렁크가 열리다가 멈추는 경우는 차량이 움직이거나, 트렁크 바깥쪽/내부 버튼 또는 리모컨 버튼을 다시 누르거나, 전기 고장 등 기능 장애가 있을 때입니다.",
+      "source_page": 161
+    },
+    {
+      "id": "6",
+      "query_text": "운전석 도어 버튼으로 트렁크 열림을 멈출 수 있나요?",
+      "image_path": "",
+      "expected_answer": "운전석 도어 버튼을 다시 누르면 트렁크 열림이 중단되고, 다시 누르면 열림이 재개됩니다.",
+      "source_page": 160
+    },
+    {
+      "id": "7",
+      "query_text": "트렁크가 닫히는 도중에 멈추는 경우는 어떤 때인가요?",
+      "image_path": "",
+      "expected_answer": "트렁크가 닫히는 도중 멈추는 경우는 차량이 갑자기 출발하거나, 트렁크 바깥측 또는 내부 버튼을 누르거나, 리모컨 버튼에서 손을 뗄 때, 운전자 도어 버튼에서 손을 뗄 때, 또는 전기 고장 등 기능 장애가 있을 때입니다.",
+      "source_page": 161
+    },
+    {
+      "id": "8",
+      "query_text": "트렁크 외부 버튼으로 닫힘을 중단시킬 수 있나요?",
+      "image_path": "",
+      "expected_answer": "트렁크 외부 버튼을 누르면 닫힘을 중단시킬 수 있으며, 다시 누르면 트렁크가 다시 열립니다.",
+      "source_page": 160
+    },
+    {
+      "id": "9",
+      "query_text": "전기 고장 시 트렁크를 수동으로 조작할 수 있나요?",
+      "image_path": "",
+      "expected_answer": "전기 고장 시에는 트렁크 손잡이를 당겨 수동으로 잠금 해제하고 천천히 수동으로 조작할 수 있습니다.",
+      "source_page": 161
+    },
+    {
+      "id": "10",
+      "query_text": "트렁크 비상 잠금해제는 어떻게 하나요?",
+      "image_path": "",
+      "expected_answer": "트렁크 비상 잠금해제는 트렁크의 손잡이를 당기면 됩니다.",
+      "source_page": 161
+    },
+    {
+      "id": "11",
+      "query_text": "트렁크에 리모컨을 보관할 때 주의할 점은 무엇인가요?",
+      "image_path": "",
+      "expected_answer": "트렁크에 리모컨을 보관할 때는 유폐되지 않도록 주의하고, 센서 영역에 두면 실수로 트렁크가 열리거나 닫힐 수 있으니 주의해야 합니다.",
+      "source_page": 158
+    },
+    {
+      "id": "12",
+      "query_text": "트렁크에 액체를 보관할 때 무엇을 주의해야 하나요?",
+      "image_path": "",
+      "expected_answer": "트렁크에 액체를 보관할 때는 유출되지 않도록 주의하고, 물질적 피해를 방지하기 위해 액체가 새지 않게 안전하게 고정해야 합니다.",
+      "source_page": 332
+    },
+    {
+      "id": "13",
+      "query_text": "트렁크에 있는 고정 고리의 용도는 무엇인가요?",
+      "image_path": "",
+      "expected_answer": "트렁크에 있는 고정 고리는 적재물을 고정하기 위한 용도로 사용됩니다.",
+      "source_page": 332
+    },
+    {
+      "id": "14",
+      "query_text": "트렁크 왼쪽에 있는 가방 홀더는 어디에 있나요?",
+      "image_path": "",
+      "expected_answer": "트렁크 왼쪽에 가방 홀더가 있으며, 주머니 홀더 위를 눌러서 돌리면 사용할 수 있습니다.",
+      "source_page": 333
+    },
+    {
+      "id": "15",
+      "query_text": "트렁크 오른쪽에 수납함이 있나요?",
+      "image_path": "",
+      "expected_answer": "트렁크 오른쪽에 수납함이 있습니다.",
+      "source_page": 333
+    },
+    {
+      "id": "16",
+      "query_text": "트렁크 왼쪽에 수납함이 있나요?",
+      "image_path": "",
+      "expected_answer": "트렁크 왼쪽에는 수납함이 있습니다.",
+      "source_page": 333
+    },
+    {
+      "id": "17",
+      "query_text": "비상 휠은 어디에 보관되어 있나요?",
+      "image_path": "",
+      "expected_answer": "비상 휠은 트렁크 바닥 아래 스토리지 팬에 보관되어 있으며, 트렁크 바닥을 들어내고 조임벨트를 푼 후 꺼낼 수 있습니다.",
+      "source_page": 336
+    },
+    {
+      "id": "18",
+      "query_text": "스키나 스노보드 가방은 어디에 보관하나요?",
+      "image_path": "",
+      "expected_answer": "스키 및 스노보드 가방은 트렁크 내 보호 커버 안에 보관합니다.",
+      "source_page": 336
+    },
+    {
+      "id": "19",
+      "query_text": "트렁크 공간을 어떻게 더 넓게 사용할 수 있나요?",
+      "image_path": "",
+      "expected_answer": "트렁크 바닥을 빼내거나 트렁크 내 수납함을 이용하고, 뒷좌석 등받이를 앞으로 접거나 젖혀서 트렁크 공간을 더 넓게 사용할 수 있습니다.",
+      "source_page": 335
+    },
+    {
+      "id": "20",
+      "query_text": "비상 휠을 제거하여 트렁크 공간을 확장할 수 있나요?",
+      "image_path": "",
+      "expected_answer": "비상 휠과 관련 부속품을 일시적으로 제거하여 트렁크 공간을 확장할 수 있습니다.",
+      "source_page": 335
+    },
+    {
+      "id": "21",
+      "query_text": "리모컨으로 {트렁크}를 어떻게 여나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "리모컨의 트렁크 버튼을 약 1초 동안 누르고 있으면 트렁크가 열립니다.",
+      "source_page": 194
+    },
+    {
+      "id": "21",
+      "query_text": "외부에서 {트렁크}를 열려면 어디 버튼을 누르나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "트렁크 리드 바깥쪽(번호판 위) 외부 버튼을 누릅니다.",
+      "source_page": 194
+    },
+    {
+      "id": "22",
+      "query_text": "Comfort Access가 없는 경우 {트렁크}를 외부에서 열기 전 무엇을 해야 하나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "먼저 차량 잠금 해제를 합니다.",
+      "source_page": 194
+    },
+    {
+      "id": "23",
+      "query_text": "Comfort Access가 있는 경우 {트렁크}를 외부에서 열 수 있는 조건은?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "차량이 잠금 해제 상태이거나 리모컨을 몸에 지닌 상태입니다",
+      "source_page": 194
+    },
+    {
+      "id": "24",
+      "query_text": "{트렁크}가 열리는 중 차량이 움직이면 어떻게 되나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "개방 동작이 자동으로 중단됩니다.",
+      "source_page": 194
+    },
+    {
+      "id": "25",
+      "query_text": "{트렁크} 라모컨버튼을 누르면 어떻게 되나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "개방이 중단되고, 다시 누르면 개방이 재개됩니다.",
+      "source_page": 194
+    },
+    {
+      "id": "26",
+      "query_text": "리모컨으로 {트렁크}를 열었을 때 도어는 어떻게 되나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "차량 도어도 함께 잠금 해제될 수 있습니다.",
+      "source_page": 194
+    },
+    {
+      "id": "27",
+      "query_text": "실내에서 {트렁크}를 열려면 어디 버튼을 사용하나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "운전석 도어 수납함의 트렁크 버튼을 누릅니다.",
+      "source_page": 194
+    },
+    {
+      "id": "28",
+      "query_text": "{트렁크}를 닫고 차량까지 잠그려면 어떻게 하나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "트렁크 내부의 버튼 2(자물쇠 아이콘) 을 누릅니다. 운전석 도어가 닫혀 있고 리모컨이 차량 밖(트렁크 근처)에 있어야 합니다.",
+      "source_page": 194
+    },
+    {
+      "id": "29",
+      "query_text": "{트렁크}가 닫히는 중 내부 버튼을 누르면 어떻게 되나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "닫힘이 중단되고, 다시 누르면 트렁크가 다시 열립니다.",
+      "source_page": 194
+    },
+    {
+      "id": "30",
+      "query_text": "트렁크 내부 버튼으로 {트렁크}를 닫을 수 있나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "네. 내부 버튼으로 닫을 수 있습니다. (Comfort Access 차량: 버튼 1=닫기)",
+      "source_page": 194
+    },
+    {
+      "id": "31",
+      "query_text": "{트렁크}를 닫고 차량까지 잠그려면 어떻게 하나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "트렁크 내부의 버튼 2(자물쇠 아이콘) 을 누릅니다. 운전석 도어가 닫혀 있고 리모컨이 차량 외부에 있어야 합니다.",
+      "source_page": 194
+    },
+    {
+      "id": "32",
+      "query_text": "{트렁크}가 닫히는 중 외부 버튼을 누르면 어떻게 되나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "닫힘이 중단되고, 다시 누르면 트렁크가 다시 열립니다.",
+      "source_page": 194
+    },
+    {
+      "id": "33",
+      "query_text": "{트렁크}를 핸즈프리(발 동작)로 열 수 있나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "네. 자동 테일게이트 장착 차량에서 차량 뒤 중앙에서 발을 넣었다가 바로 빼면 트렁크가 열립니다.",
+      "source_page": 192
+    },
+    {
+      "id": "34",
+      "query_text": "{트렁크}를 핸즈프리로 닫을 수 있나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "네. 같은 발 동작으로 닫을 수 있으며, 닫히기 전 비상등이 점멸하고 경고음이 울립니다.",
+      "source_page": 192
+    },
+    {
+      "id": "35",
+      "query_text": "{트렁크} 핸즈프리의 올바른 발 움직임은?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "발을 차량 아래로 깊게 넣고 즉시 뒤로 빼 두 센서 범위를 통과하게 합니다.",
+      "source_page": 192
+    },
+    {
+      "id": "36",
+      "query_text": "{트렁크}에 후방카메라가 장착 되어있나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "네 장착되어있습니다",
+      "source_page": 344
+    },
+    {
+      "id": "37",
+      "query_text": "{트렁크} 핸즈프리가 반응하지 않을 때 먼저 확인할 것은?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "리모컨 배터리 방전 여부입니다(필요 시 교체).",
+      "source_page": 192
+    },
+    {
+      "id": "38",
+      "query_text": "{트렁크}가 열리는 중 운전석 도어 버튼을 누르거나 당기면?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "개방이 중단되며, 다시 조작하면 개방이 재개됩니다.",
+      "source_page": 192
+    },
+    {
+      "id": "39",
+      "query_text": "{트렁크}를 닫으면서 차량까지 잠그려면 필요한 조건은?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "운전석 도어가 닫혀 있고 리모컨이 차량 외부(트렁크 근처) 에 있어야 합니다",
+      "source_page": 192
+    },
+    {
+      "id": "40",
+      "query_text": "리모컨이 차량 내부에 있으면 버튼 2로 {트렁크}를 잠글 수 있나요?",
+      "image_path": "Paper_Exp/Query_images/Trunk/Trunk01.jpg",
+      "expected_answer": "아니요. 리모컨이 차량 외부에 있어야 잠금이 작동합니다.",
+      "source_page": 192
+    },
+    {
+      "id": "41",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Trunk/Icon/1.jpg",
+      "expected_answer": "트렁크(boot lid) 열기/닫기 아이콘",
+      "source_page": 140
+    },
+    {
+      "id": "42",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Trunk/Icon/2.jpg",
+      "expected_answer": "Comfort Access: 잠금 (자물쇠 아이콘 버튼) 및 트렁크(boot lid) 열기/닫기 아이콘",
+      "source_page": 193
+    },
+    {
+      "id": "43",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Trunk/Icon/3.jpg",
+      "expected_answer": "트렁크(boot lid) 열기/닫기 아이콘",
+      "source_page": 193
+    },
+    {
+      "id": "44",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Trunk/Icon/4.jpg",
+      "expected_answer": "Comfort Access: 잠금 (자물쇠 아이콘 버튼)",
+      "source_page": 193
+    },
+    {
+      "id": "45",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/2.jpg",
+      "expected_answer": "중앙 잠금 시스템: 잠금 해제",
+      "source_page": 139
+    },
+    {
+      "id": "46",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/3.jpg",
+      "expected_answer": "중앙 잠금 시스템: 잠금",
+      "source_page": 139
+    },
+    {
+      "id": "47",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/5.jpg",
+      "expected_answer": "뒷유리 롤러 선블라인드 작동",
+      "source_page": 138
+    },
+    {
+      "id": "48",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/6.jpg",
+      "expected_answer": "세이프티 스위치(유아 보호/뒷좌석 창 작동 차단 등)",
+      "source_page": 138
+    },
+    {
+      "id": "49",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/7.jpg",
+      "expected_answer": "파워 윈도우 스위치",
+      "source_page": 138
+    },
+    {
+      "id": "50",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/11.jpg",
+      "expected_answer": "바깥 미러 조작(각도/폴딩)",
+      "source_page": 138
+    },
+    {
+      "id": "51",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/12.jpg",
+      "expected_answer": "전체적인 디스플레이 컨트롤",
+      "source_page": 146
+    },
+    {
+      "id": "52",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/13.jpg",
+      "expected_answer": "미디어/라디오 메뉴 열기",
+      "source_page": 147
+    },
+    {
+      "id": "53",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/14.jpg",
+      "expected_answer": "통신(전화/연락처 등) 메뉴 열기",
+      "source_page": 147
+    },
+    {
+      "id": "54",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/16.jpg",
+      "expected_answer": "내비게이션 지도 화면 호출",
+      "source_page": 147
+    },
+    {
+      "id": "55",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/17.jpg",
+      "expected_answer": "내비게이션 목적지 입력 메뉴 열기",
+      "source_page": 147
+    },
+    {
+      "id": "56",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/18.jpg",
+      "expected_answer": "한 번 누름: 이전 화면으로 / 길게 누름: 최근 사용한 메뉴 목록 호출",
+      "source_page": 147
+    },
+    {
+      "id": "57",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/19.jpg",
+      "expected_answer": "현재 화면의 옵션 메뉴 열기",
+      "source_page": 147
+    },
+    {
+      "id": "58",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/21.jpg",
+      "expected_answer": "민첩/스포티 주행(가속·변속·스티어링 반응 강화).",
+      "source_page": 250
+    },
+    {
+      "id": "59",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/22.jpg",
+      "expected_answer": "주행감/연비의 균형형 기본 세팅.",
+      "source_page": 250
+    },
+    {
+      "id": "60",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/23.jpg",
+      "expected_answer": "연비 최적화 설정(출력/에어컨/변속 전략 절약형).",
+      "source_page": 251
+    },
+    {
+      "id": "61",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/24.jpg",
+      "expected_answer": "DSC 비활성/ DTC 활성 (DSC(차체자세제어) OFF 또는 DTC(견인력 모드)",
+      "source_page": 255
+    },
+    {
+      "id": "62",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/29.jpg",
+      "expected_answer": "주차 브레이크(PARK) 표시",
+      "source_page": 255
+    },
+    {
+      "id": "63",
+      "query_text": "이게 뭔가요",
+      "image_path": "Paper_Exp/Query_images/Symbol/30.jpg",
+      "expected_answer": "기능이 활성 시 정지 시 브레이크 페달을 밟지 않아도 차량을 자동으로 고정",
+      "source_page": 256
+    }
+  ]
+}

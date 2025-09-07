@@ -126,7 +126,8 @@ class ExperimentPipeline:
                 pipeline_config, 
                 input_type,
                 output_dir,
-                experiment_id
+                experiment_id,
+                question
             )
             
             # 3. ColPali 검색
@@ -175,7 +176,8 @@ class ExperimentPipeline:
         return self.placeholder_processor.process_text(text, input_type)
     
     def _process_image(self, image_path: str, pipeline_config: Dict[str, Any], 
-                      input_type: str, output_dir: str, experiment_id: str) -> Optional[str]:
+                        input_type: str, output_dir: str, experiment_id: str,
+                        question: Dict[str, Any]) -> Optional[str]:
         """이미지 처리"""
         if input_type == "text":
             return None
@@ -214,11 +216,46 @@ class ExperimentPipeline:
         
         # SAM2 처리
         if pipeline_config.get('use_sam2', False):
-            sam2_result = self.sam2_processor.process_image(current_image, mode=0)
+            # question에서 SAM2 파라미터 가져오기
+            sam2_mode = question.get('sam2_mode', 1)
+            sam2_bbox = question.get('sam2_bbox', [474, 138, 808, 324])
+            
+            print(f"SAM2 처리 시작 - 모드: {sam2_mode}, bbox: {sam2_bbox}")
+            
+            # 이미지 크기에 따른 bbox 스케일링
+            from PIL import Image
+            with Image.open(current_image) as img:
+                current_size = img.size
+                print(f"현재 이미지 크기: {current_size}")
+            
+            # 원본 크기와 다르면 bbox 스케일링
+            original_size = (1280, 720)  # JSON bbox 기준 크기
+            if current_size != original_size:
+                scale_x = current_size[0] / original_size[0]
+                scale_y = current_size[1] / original_size[1]
+                
+                scaled_bbox = [
+                    int(sam2_bbox[0] * scale_x),
+                    int(sam2_bbox[1] * scale_y),
+                    int(sam2_bbox[2] * scale_x),
+                    int(sam2_bbox[3] * scale_y)
+                ]
+                
+                print(f"bbox 스케일링: {sam2_bbox} -> {scaled_bbox}")
+                sam2_bbox = scaled_bbox
+            
+            # SAM2 처리 실행
+            sam2_result = self.sam2_processor.process_image(
+                current_image, 
+                mode=sam2_mode,
+                bbox=sam2_bbox
+            )
+            
             sam2_path = os.path.join(output_dir, experiment_id, f"sam2_{experiment_id}.png")
             os.makedirs(os.path.dirname(sam2_path), exist_ok=True)
             self.sam2_processor.save_result(sam2_result, sam2_path)
             current_image = sam2_path
+            
             print(f"SAM2 처리 완료: {sam2_path}")
         
         return current_image
@@ -270,12 +307,30 @@ class ExperimentPipeline:
         else:
             pipelines = all_pipelines
         
-        # 실험 디렉토리 생성
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        exp_dir = os.path.join(output_dir, f"experiment_{timestamp}")
+        # *** 실험 디렉토리 생성 - 의미있는 이름으로 변경 ***
+        # 기존: experiment_20250905_172850
+        # 변경: 파이프라인과 입력타입 기반 폴더명
+        pipeline_names = "_".join([p['id'] for p in pipelines])
+        input_types_str = "_".join(input_types)
+        
+        # 의미있는 폴더명 생성
+        exp_name = f"exp_{pipeline_names}_{input_types_str}"
+        exp_dir = os.path.join(output_dir, exp_name)
+        
+        # 기존 폴더가 있으면 덮어쓰기 확인
+        if os.path.exists(exp_dir):
+            timestamp = datetime.now().strftime("%H%M%S")
+            print(f"⚠️  기존 실험 폴더 존재: {exp_dir}")
+            print(f"   새 결과로 업데이트됩니다 (백업: {exp_name}_{timestamp})")
+            
+            # 기존 폴더 백업
+            backup_dir = f"{exp_dir}_{timestamp}"
+            os.rename(exp_dir, backup_dir)
+        
         os.makedirs(exp_dir, exist_ok=True)
         
         print(f"\n=== 실험 시작 ===")
+        print(f"실험명: {exp_name}")
         print(f"질문 수: {len(questions)}")
         print(f"파이프라인: {[p['name'] for p in pipelines]}")
         print(f"입력 타입: {input_types}")
@@ -313,6 +368,7 @@ class ExperimentPipeline:
         self._final_cleanup()
         
         print(f"\n=== 실험 완료 ===")
+        print(f"실험 폴더: {exp_dir}")
         print(f"결과 저장: {results_file}")
         print(f"요약 저장: {summary_file}")
         print(f"성공률: {summary['success_rate']:.1f}%")

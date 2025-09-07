@@ -1,0 +1,55 @@
+{
+  "total_experiments": 360,
+  "successful_experiments": 360,
+  "success_rate": 100.0,
+  "pipeline_stats": {
+    "원본": {
+      "total": 60,
+      "success": 60,
+      "success_rate": 100.0
+    },
+    "Schrodingerㅇ만": {
+      "total": 60,
+      "success": 60,
+      "success_rate": 100.0
+    },
+    "SAM2만": {
+      "total": 60,
+      "success": 60,
+      "success_rate": 100.0
+    },
+    "Bilateral만": {
+      "total": 60,
+      "success": 60,
+      "success_rate": 100.0
+    },
+    "Schrodinger+SAM2": {
+      "total": 60,
+      "success": 60,
+      "success_rate": 100.0
+    },
+    "Bilateral+SAM2": {
+      "total": 60,
+      "success": 60,
+      "success_rate": 100.0
+    }
+  },
+  "input_type_stats": {
+    "text": {
+      "total": 120,
+      "success": 120,
+      "success_rate": 100.0
+    },
+    "image": {
+      "total": 120,
+      "success": 120,
+      "success_rate": 100.0
+    },
+    "text_image": {
+      "total": 120,
+      "success": 120,
+      "success_rate": 100.0
+    }
+  },
+  "timestamp": "2025-09-05T19:35:13.899520"
+}
